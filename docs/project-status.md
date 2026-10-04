@@ -37,6 +37,10 @@ The 12 named characters have 58 portraits: five founder neutral designs and 25 m
 
 ## Validation and next work
 
+The reference-inspired HUD redesign uses the existing hall and founder artwork in a full-width Lantern Hall scene, with parchment navigation and story panels, a live rank/resources bar, calendar, segmented chapter progress, and five companion cards. Shared HUD components live in `app/dojo-hud.tsx`; the material, typography, dialog, and laptop layout styling is in `app/hud.css` (loaded after the existing styles). Training, weekly plans, techniques, companions, journey, projects, and story reading share the new theme. Narrative IDs, saves, authentication, rewards, schema, and dependency versions are unchanged. The hall layout grows with its text; keyboard focus, a skip link, and reduced-motion handling are included.
+
+HUD validation: type checking, the complete curriculum/story/art test suite, and production build passed. Local browser checks covered companion selection, all six navigation tabs, drill details, saved-practice opening, and story replay. All visible hall artwork loaded and no browser errors were reported. Laptop layouts were the target; phone QA was not performed.
+
 The release passed type checking, production build, all 256 main branch combinations, practice/reward checks, local API concurrency checks, and a 67-image reference audit. Laptop layouts are the current priority. Local test fixtures were restored before release.
 
 The GitHub project preserves the app and now includes portable checks and local setup. The standalone checkout passed type checking, all story/curriculum/art checks, a production build, fresh local migrations, repeat migration setup, and the API concurrency suite with fixtures restored. Use `npm run typecheck`, `npm test`, and `npm run build`; use `npm run db:local` before the first preview. Run API checks against the local preview when persistence behavior changes.

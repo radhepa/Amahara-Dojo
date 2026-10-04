@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./members.css";
 import "./story.css";
+import "./hud.css";
 
 export const metadata: Metadata = {
   title: "Dojo",

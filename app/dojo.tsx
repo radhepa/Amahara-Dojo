@@ -1,7 +1,7 @@
 "use client";
 import {useState,useEffect,useRef,useCallback} from "react";
-import {Flame,Leaf,CalendarDays,BookOpen,Target,Play,Pause,Clock3,ShieldCheck,Sparkles,Dumbbell,Footprints,Check,ChevronRight,Heart,Info,CheckCircle2,Users} from "lucide-react";
-import {Tabs,TabsList,TabsTrigger,TabsContent} from "@/components/ui/tabs";
+import {Flame,Leaf,BookOpen,Target,Play,Pause,Clock3,ShieldCheck,Sparkles,Dumbbell,Footprints,Check,ChevronRight,Heart,Info,CheckCircle2} from "lucide-react";
+import {Tabs,TabsContent} from "@/components/ui/tabs";
 import {Dialog,DialogContent,DialogTitle,DialogDescription} from "@/components/ui/dialog";
 import {Select,SelectTrigger,SelectValue,SelectContent,SelectItem} from "@/components/ui/select";
 import {Checkbox} from "@/components/ui/checkbox";
@@ -10,6 +10,7 @@ import {Toaster} from "@/components/ui/sonner";
 import {toast} from "sonner";
 import BeginnerJourney from "./beginner-journey";
 import DojoHub from "./dojo-hub";
+import {DojoRail,DojoTopbar,HUD_TITLES} from "./dojo-hud";
 import DojoRoadmap from "./dojo-roadmap";
 import {useDojoGame} from "./use-dojo-game";
 import {GuidedPractice} from "./guided-practice";
@@ -57,12 +58,12 @@ export default function Dojo(){
  async function saveRest(){if(await persist({type:"record",date:today,day:current,kind:"rest",minutes:0,readiness,note})){setRestOpen(false);}}
  const host=nowDay?DOJO_MEMBERS.find(m=>m.id===companion)!:memberForDay(day);
  const cta=nowDay?(isDone?"View your progress":day===2?"Honor today’s rest":readiness==="pain"?"Choose recovery today":"Begin today’s practice"):`Preview ${DAYS[day]} practice`;
- return <><Toaster theme="dark" position="bottom-right"/><Tabs value={tab} onValueChange={setTab} orientation="vertical" className="dojo-shell">
- <aside className="rail"><div className="brand"><span className="brand-mark"><Leaf size={23}/></span><div>DOJO<small>THE POWER OF PRACTICE</small></div></div><div className="rail-label">YOUR TRAINING GROUND</div><TabsList className="rail-tabs"><TabsTrigger value="hall"><Users/> Lantern Hall</TabsTrigger><TabsTrigger value="today"><Flame/> Today’s mission</TabsTrigger><TabsTrigger value="week"><CalendarDays/> Weekly rhythm</TabsTrigger><TabsTrigger value="members"><Users/> Meet the dojo</TabsTrigger><TabsTrigger value="library"><BookOpen/> Technique library</TabsTrigger><TabsTrigger value="journey"><Target/> Your journey</TabsTrigger></TabsList><div className="rail-bottom"><div className="mini-leaf"><Leaf/></div><strong>Hard work is a skill.</strong><p>One small promise.<br/>Kept every day.</p><span>YOUR DOJO. YOUR PACE.</span></div></aside>
- <main className="main"><header className="topbar"><span>PERSONAL TRAINING DOJO</span><div><ShieldCheck size={16}/>{rank}<span className="avatar">R</span></div></header><div className="workspace">
- <div className="heading"><div><span className="eyebrow">{tab==="hall"?"YOUR PLACE IN AMAHARA":"THE FIRST STEP IS SHOWING UP"}</span><h1>{tab==="hall"?<>Your <em>Dojo.</em></>:<>Welcome to <em>Dojo.</em></>}</h1>{tab!=="hall"&&<p>Your starting point is just that. A starting point.</p>}</div><span className="date-tag"><CalendarDays size={16}/>{today?new Date(today+"T12:00:00Z").toLocaleDateString("en-US",{month:"short",day:"numeric",timeZone:"UTC"}):"Today"}</span></div>
+ return <><a className="hud-skip" href="#dojo-content">Skip to current screen</a><Toaster theme="dark" position="bottom-right"/><Tabs value={tab} onValueChange={setTab} orientation="vertical" className={`dojo-shell ${tab==="hall"?"is-hall":"is-training"}`}>
+ <DojoRail/>
+ <main className="main" id="dojo-content" tabIndex={-1}><DojoTopbar tab={tab} week={beginner.week} practices={loaded?sessions:null} supplies={gameApi.game?.supplies??null} today={today}/><div className="workspace">
+ {tab!=="hall"&&<div className="heading"><div><span className="eyebrow">{HUD_TITLES[tab]?.subtitle}</span><h1>{HUD_TITLES[tab]?.title}</h1></div><span className="heading-seal" aria-hidden="true"><Leaf/></span></div>}
  {error&&<div className="error-banner" role="alert"><Info size={18}/><span>{error}</span><button onClick={()=>void load()}>Retry loading</button></div>}
- <TabsContent value="hall"><DojoHub api={gameApi} companion={companion} setCompanion={setCompanion} isRest={current===2} isDone={isDone} onPractice={()=>{setDay(current);setTab("today");}} onResume={()=>setDurableOpen(true)}/></TabsContent>
+ <TabsContent value="hall"><DojoHub api={gameApi} companion={companion} setCompanion={setCompanion} today={today} isRest={current===2} isDone={isDone} onPractice={()=>{setDay(current);setTab("today");}} onResume={()=>setDurableOpen(true)}/></TabsContent>
  <TabsContent value="today">
  <div className="mission member-mission" style={memberStyle(host)}><div className="mission-content"><span className="pill">{nowDay?`BEGINNER · WEEK ${beginner.week} OF 8`:`${DAYS[day].toUpperCase()} · PLAN PREVIEW`}</span><h2>{readiness==="pain"?"Recovery is training, too.":plan.title}</h2><p>{readiness==="pain"?"Skip practice when you have joint or sharp pain. Rest today; seek professional advice if it persists or limits movement.":readiness==="tired"?"A gentler version of your session, with more seated movement and recovery breaks. Keep it easy.":plan.reason}</p><div className="mission-meta"><span><Clock3/>{plan.minutes} minutes</span><span><Leaf/>{day===2?"Full rest day":"Beginner friendly"}</span></div><button className="primary" onClick={start} disabled={!today||(nowDay&&!loaded)}>{isDone&&nowDay?<CheckCircle2/>:day===2||readiness==="pain"?<Leaf/>:<Play size={17} fill="currentColor"/>}{cta}</button></div><button className="mission-member-art" onClick={()=>setSelectedMember(host)} aria-label={`Meet ${host.name}, your ${DAYS[day]} training companion`}><img src={host.portrait} alt={`${host.name}, ${host.role.toLowerCase()}`}/><span><small>YOUR TRAINING COMPANION</small><strong>{host.name}</strong><span>{host.role}</span></span></button></div>
  {nowDay&&isDone&&<div className="success-banner"><CheckCircle2 size={18}/>Today’s promise is kept. There is no bonus for doing more.</div>}
