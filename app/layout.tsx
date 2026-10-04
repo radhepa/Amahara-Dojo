@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import "./members.css";
+import "./story.css";
 
 export const metadata: Metadata = {
   title: "Dojo",
-  description: "Your personal martial arts dojo. Meet five original training companions and build fundamentals, mobility, and discipline around your schedule.",
+  description: "Build your practice and a place to belong. A martial arts training RPG with five original companions, an eight-week story, and 30–45 minute beginner sessions around your schedule.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

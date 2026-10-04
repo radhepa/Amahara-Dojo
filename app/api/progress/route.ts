@@ -1,6 +1,6 @@
 import { getChatGPTUser } from "@/app/chatgpt-auth";
 import { database } from "@/lib/store";
-import { dateKey, dayIndex, DEFAULT_ASSESSMENT, makePlan } from "@/lib/training";
+import { dateKey, dayIndex, DEFAULT_ASSESSMENT } from "@/lib/training";
 import {beginnerProgress,type WeekCheck} from "@/lib/beginner";
 import type {RecordEntry} from "@/lib/training";
 export const dynamic="force-dynamic";
@@ -14,7 +14,7 @@ export async function POST(request:Request){
  const user=await getChatGPTUser();if(!user)return response({error:"Sign in to save your progress."},401);
  if(request.headers.get("Origin")&&request.headers.get("Origin")!==new URL(request.url).origin)return response({error:"Invalid request origin."},403);
  try {
-  const b=await request.json() as Record<string,unknown>;const db=database();
+  const input=await request.json();if(!input||typeof input!=="object"||Array.isArray(input))return response({error:"Invalid entry."},400);const b=input as Record<string,unknown>;const db=database();
   if(b.type==="weekcheck"){
    const rs=await db.prepare("SELECT date,kind,minutes,day,readiness,note FROM training_records WHERE user_id=?").bind(user.userId).all<RecordEntry>();
    const rows=await db.prepare("SELECT week,goals FROM beginner_week_checks WHERE user_id=?").bind(user.userId).all<{week:number;goals:string}>();const checks:WeekCheck[]=rows.results.map(c=>({week:c.week,goals:JSON.parse(c.goals)}));
@@ -26,9 +26,8 @@ export async function POST(request:Request){
    await db.prepare("INSERT INTO training_profiles (user_id,squat,reach,comfort) VALUES (?,?,?,?) ON CONFLICT(user_id) DO UPDATE SET squat=excluded.squat,reach=excluded.reach,comfort=excluded.comfort").bind(user.userId,b.squat,b.reach,b.comfort?1:0).run();return response({ok:true});
   }
   if(b.type!=="record"||b.date!==dateKey()||b.day!==dayIndex()||!["training","rest","partial"].includes(String(b.kind))||!["ready","tired","pain"].includes(String(b.readiness))||typeof b.minutes!=="number"||!Number.isFinite(b.minutes)||b.minutes<0||b.minutes>60||typeof b.note!=="string"||b.note.length>1000)return response({error:"This entry is invalid. You can only record today’s practice."},400);
-  if((b.day===2||b.readiness==="pain")&&b.kind!=="rest")return response({error:"Today calls for rest."},400);
+  if(b.kind!=="rest")return response({error:"Complete the saved guided session to record practice."},400);
   if(b.kind==="rest"&&b.minutes!==0)return response({error:"Rest entries have zero practice minutes."},400);
-  if(b.kind!=="rest"&&(b.minutes<=0||b.minutes>makePlan(Number(b.day),String(b.readiness)).minutes))return response({error:"Practice time must match today’s plan."},400);
-  await db.prepare("INSERT INTO training_records (user_id,date,kind,minutes,day,readiness,note) VALUES (?,?,?,?,?,?,?) ON CONFLICT(user_id,date) DO UPDATE SET kind=excluded.kind,minutes=excluded.minutes,readiness=excluded.readiness,note=excluded.note WHERE training_records.kind='partial' AND excluded.kind!='partial'").bind(user.userId,b.date,b.kind,b.minutes,b.day,b.readiness,b.note).run();return response({ok:true});
+  await db.prepare("INSERT INTO training_records (user_id,date,kind,minutes,day,readiness,note) VALUES (?,?,?,?,?,?,?) ON CONFLICT(user_id,date) DO UPDATE SET readiness=excluded.readiness,note=excluded.note WHERE training_records.kind='rest'").bind(user.userId,b.date,b.kind,b.minutes,b.day,b.readiness,b.note).run();return response({ok:true});
  }catch(e){if(e instanceof SyntaxError)return response({error:"Invalid entry."},400);console.error("Save progress",e);return response({error:"Could not save. Your entry is still here; please retry."},503);}
 }
