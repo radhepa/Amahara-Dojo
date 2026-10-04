@@ -4,7 +4,7 @@ Updated 4 October 2026. Owner: Radhe Patel.
 
 ## Current release
 
-Dojo Chapter 1 is deployed at `https://lee-dojo.radherpatel7.chatgpt.site` with private access. Site project ID: `appgprj_6ac181fe519c8191a7ef71c643c2aa40`. The deployed implementation came from source commit `3891b8a53739c4cee5a3033c72e397778f6a7e59`; this repository includes that complete implementation plus its development materials.
+Dojo Chapter 1 is deployed at `https://lee-dojo.radherpatel7.chatgpt.site` with private access. Site project ID: `appgprj_6ac181fe519c8191a7ef71c643c2aa40`. The current HUD release was deployed successfully from source commit `1fbeef96f6dbdc408cfe8198a3eb887b8830c5e1` on 4 October 2026. This repository includes that complete implementation plus its development materials.
 
 The eight-week beginner curriculum is implemented. Normal practice durations by Monday–Sunday are **30, 30, 0, 45, 40, 30, 30 minutes**. Wednesday is full rest. Gentle recovery preserves the day's duration and reward. Plans account for the owner's upper/lower lifting, runs, and Sunday sprints. Later curriculum and levels are planned rather than falsely unlocked.
 
@@ -38,6 +38,8 @@ The 12 named characters have 58 portraits: five founder neutral designs and 25 m
 ## Validation and next work
 
 The reference-inspired HUD redesign uses the existing hall and founder artwork in a full-width Lantern Hall scene, with parchment navigation and story panels, a live rank/resources bar, calendar, segmented chapter progress, and five companion cards. Shared HUD components live in `app/dojo-hud.tsx`; the material, typography, dialog, and laptop layout styling is in `app/hud.css` (loaded after the existing styles). Training, weekly plans, techniques, companions, journey, projects, and story reading share the new theme. Narrative IDs, saves, authentication, rewards, schema, and dependency versions are unchanged. The hall layout grows with its text; keyboard focus, a skip link, and reduced-motion handling are included.
+
+Windows publishing: the Sites packaging helper uses Bash and GNU tar. Add `C:\Program Files\Git\bin` to the publishing process PATH and set `TAR_OPTIONS=--force-local` for drive-letter archive paths. Keep those settings process-local.
 
 HUD validation: type checking, the complete curriculum/story/art test suite, and production build passed. Local browser checks covered companion selection, all six navigation tabs, drill details, saved-practice opening, and story replay. All visible hall artwork loaded and no browser errors were reported. Laptop layouts were the target; phone QA was not performed.
 
