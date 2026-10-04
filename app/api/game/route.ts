@@ -1,0 +1,7 @@
+import {getChatGPTUser} from "@/app/chatgpt-auth";
+import {readGame,mutateGame,GameError} from "@/lib/game-store";
+import {gameAction} from "@/lib/game-actions";
+export const dynamic="force-dynamic";
+const response=(body:unknown,status=200)=>Response.json(body,{status,headers:{"Cache-Control":"no-store"}});
+export async function GET(){const user=await getChatGPTUser();if(!user)return response({error:"Sign in to visit your dojo."},401);try{return response({...await readGame(user.userId),serverTime:Date.now()});}catch(e){console.error("Load dojo",e);return response({error:"Your dojo could not be loaded. Please retry."},503);}}
+export async function POST(request:Request){const user=await getChatGPTUser();if(!user)return response({error:"Sign in to save your dojo."},401);if(request.headers.get("Origin")&&request.headers.get("Origin")!==new URL(request.url).origin)return response({error:"Invalid request origin."},403);try{const b=await request.json();if(!b||typeof b!=="object"||Array.isArray(b))return response({error:"Invalid action."},400);return response(await mutateGame(user.userId,(g,now)=>gameAction(g,b as Record<string,unknown>,now)));}catch(e){if(e instanceof GameError)return response({error:e.message},e.status);if(e instanceof SyntaxError)return response({error:"Invalid action."},400);console.error("Save dojo",e);return response({error:"Could not save this action. It is safe to retry."},503);}}
