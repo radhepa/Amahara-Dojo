@@ -4,7 +4,7 @@ Updated 4 October 2026. Owner: Radhe Patel.
 
 ## Current release
 
-Dojo Chapter 1 is deployed at `https://lee-dojo.radherpatel7.chatgpt.site` with private access. Site project ID: `appgprj_6ac181fe519c8191a7ef71c643c2aa40`. The current HUD release was deployed successfully from source commit `1fbeef96f6dbdc408cfe8198a3eb887b8830c5e1` on 4 October 2026. This repository includes that complete implementation plus its development materials.
+Dojo Chapter 1 is deployed at `https://lee-dojo.radherpatel7.chatgpt.site` with private access. Site project ID: `appgprj_6ac181fe519c8191a7ef71c643c2aa40`. The current typography, palette, and dialogue-motion release was deployed successfully from source commit `94e032afa3708e01f8f436e900ed59347d74bc0b` on 4 October 2026 (local time). Deployment: `appgdep_6ac307e099e8819198c122382d05b716`. This repository includes that complete implementation plus its development materials.
 
 The eight-week beginner curriculum is implemented. Normal practice durations by Monday–Sunday are **30, 30, 0, 45, 40, 30, 30 minutes**. Wednesday is full rest. Gentle recovery preserves the day's duration and reward. Plans account for the owner's upper/lower lifting, runs, and Sunday sprints. Later curriculum and levels are planned rather than falsely unlocked.
 
