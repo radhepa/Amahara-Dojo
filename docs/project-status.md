@@ -18,7 +18,8 @@ The 12 named characters have 58 portraits: five founder neutral designs and 25 m
 |---|---|
 | Main app, training tabs | `app/dojo.tsx`, `lib/training.ts`, `lib/beginner.ts`, `lib/levels.ts` |
 | Hall, visits, projects, jobs | `app/dojo-hub.tsx`, `lib/game.ts` |
-| Story reader | `app/story-reader.tsx`, `app/story.css` |
+| Story reader and dialogue timing | `app/story-reader.tsx`, `app/use-dialogue-reveal.ts`, `lib/dialogue.ts`, `app/story.css` |
+| HUD, typography, and motion | `app/dojo-hud.tsx`, `app/hud.css`, `app/game-feel.css`, `public/fonts` |
 | Narrative and performance cues | `lib/story/episode-*.ts`, `personal.ts`, `quests.ts`, `season-depth.ts`, `index.ts`, `cast.ts` |
 | Saved guided practice | `app/guided-practice.tsx`, `lib/session-actions.ts` |
 | Account mutations and rewards | `lib/game-actions.ts`, `lib/game-store.ts`, `app/use-dojo-game.ts` |
@@ -36,6 +37,12 @@ The 12 named characters have 58 portraits: five founder neutral designs and 25 m
 - The red beam scarf stays in earlier hall art; after Episode 6 beat 3, the repaired brace replaces it. Yuzu is absent from the review exchange and returns for the season meal.
 
 ## Validation and next work
+
+The game-feel revision replaces the green interface with midnight ink, vermilion, and ivory. Locally hosted Kalam headings and Bricolage Grotesque interface text have their OFL licenses in `public/fonts`. `app/game-feel.css` loads last and supplies the shared palette, tactile controls, drifting hall dust, light changes, staggered cards, portrait entrances, and reading-stage treatment. Existing character designs and paintings remain unchanged.
+
+Story dialogue now writes by Unicode grapheme with punctuation pauses. Click the text, use Reveal line, or press Space/Enter to reveal without advancing; a subsequent action continues. Three text speeds include instant, and optional quiet dialogue sounds start only when enabled. Choices wait for the line to finish. Hidden text reserves the paragraph layout, screen readers receive complete lines, and reduced-motion preference makes dialogue instant and disables motion. Saved paragraph positions, original replay choices, scene IDs, rewards, and account APIs are unchanged.
+
+This revision passed type checking, the complete story/curriculum/art suite, the new `tests/verify-dialogue.mjs` checks, and the production build. Local laptop browser checks covered progressive text, reveal without advancing, keyboard reveal, all three speeds, sound toggle, contrast and transcript controls, plus the hall, practice, techniques, and journey screens. No browser errors were reported. API persistence code did not change; phone QA was not performed.
 
 The reference-inspired HUD redesign uses the existing hall and founder artwork in a full-width Lantern Hall scene, with parchment navigation and story panels, a live rank/resources bar, calendar, segmented chapter progress, and five companion cards. Shared HUD components live in `app/dojo-hud.tsx`; the material, typography, dialog, and laptop layout styling is in `app/hud.css` (loaded after the existing styles). Training, weekly plans, techniques, companions, journey, projects, and story reading share the new theme. Narrative IDs, saves, authentication, rewards, schema, and dependency versions are unchanged. The hall layout grows with its text; keyboard focus, a skip link, and reduced-motion handling are included.
 

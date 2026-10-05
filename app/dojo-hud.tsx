@@ -35,7 +35,7 @@ export function DojoTopbar({tab, week, practices, supplies, today}: {tab: string
   const date = today ? new Date(`${today}T12:00:00Z`) : null;
   return <header className="topbar">
     <div className="hud-rank"><span className="rank-emblem"><ShieldCheck size={21}/></span><span><small>YOUR TRAINING RANK</small><strong>Level 1 <span>·</span> Beginner</strong></span></div>
-    <div className="hud-resources"><span title="Completed training practices"><Flame size={17}/><strong>{practices ?? "—"}</strong><span>practices</span></span><span title="Supplies for optional hall projects"><Package size={17}/><strong>{supplies ?? "—"}</strong><span>supplies</span></span><span className="hud-season">Week {week} <span>/ 8</span></span></div>
+    <div className="hud-resources"><span title="Completed training practices"><Flame size={17}/><strong key={`practices-${practices}`}>{practices ?? "—"}</strong><span>practices</span></span><span title="Supplies for optional hall projects"><Package size={17}/><strong key={`supplies-${supplies}`}>{supplies ?? "—"}</strong><span>supplies</span></span><span className="hud-season">Week {week} <span>/ 8</span></span></div>
     {tab !== "hall" && <time className="hud-date" dateTime={today || undefined}>{date?.toLocaleDateString("en-US", {month: "short", day: "numeric", timeZone: "UTC"}) ?? "Today"}</time>}
   </header>;
 }

@@ -3,6 +3,7 @@ import "./globals.css";
 import "./members.css";
 import "./story.css";
 import "./hud.css";
+import "./game-feel.css";
 
 export const metadata: Metadata = {
   title: "Dojo",

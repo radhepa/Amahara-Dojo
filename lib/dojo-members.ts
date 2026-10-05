@@ -21,7 +21,7 @@ export const DOJO_MEMBERS: DojoMember[] = [
     biography: "Akari notices the small things: a rushed step, tense shoulders, a promise kept. She brings order to the dojo and believes progress begins with care for the basics. Her serious expression hides a dry sense of humor.",
     introduction: "Start where you are. We can work with that.",
     practiceCue: "Give one simple movement your full attention. Keep your stance tall and relaxed.",
-    accent: "#b4e278", portrait: "/members/akari.png",
+    accent: "#efba8c", portrait: "/members/akari.png",
   },
   {
     id: "ren", name: "Ren", role: "The spark", focus: "Striking & confidence",

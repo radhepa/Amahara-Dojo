@@ -13,7 +13,7 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "typecheck": "tsc --noEmit",
-    "test": "node tests/verify-beginner.mjs && node tests/verify-game.mjs && node tests/verify-art.mjs",
+    "test": "node tests/verify-beginner.mjs && node tests/verify-game.mjs && node tests/verify-art.mjs && node tests/verify-dialogue.mjs",
     "test:api": "node tests/verify-game-api.mjs",
     "art:prepare": "node scripts/prepare-story-art.mjs",
     "db:local": "node scripts/migrate-local.mjs"
