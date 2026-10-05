@@ -4,9 +4,9 @@ Updated 4 October 2026. Owner: Radhe Patel.
 
 ## Current release
 
-Dojo Chapter 1 is deployed at `https://lee-dojo.radherpatel7.chatgpt.site` with private access. Site project ID: `appgprj_6ac181fe519c8191a7ef71c643c2aa40`. The current typography, palette, and dialogue-motion release was deployed successfully from source commit `94e032afa3708e01f8f436e900ed59347d74bc0b` on 4 October 2026 (local time). Deployment: `appgdep_6ac307e099e8819198c122382d05b716`. This repository includes that complete implementation plus its development materials.
+Dojo Chapter 1 is hosted at `https://lee-dojo.radherpatel7.chatgpt.site` with private access. Site project ID: `appgprj_6ac181fe519c8191a7ef71c643c2aa40`. The preceding typography, palette, and dialogue-motion release was deployed from source commit `94e032afa3708e01f8f436e900ed59347d74bc0b` on 4 October 2026 (local time), deployment `appgdep_6ac307e099e8819198c122382d05b716`. This revision adds the general martial arts first week and picture guides described below; its publishing result is recorded in the associated chat.
 
-The eight-week beginner curriculum is implemented. Normal practice durations by Monday–Sunday are **30, 30, 0, 45, 40, 30, 30 minutes**. Wednesday is full rest. Gentle recovery preserves the day's duration and reward. Plans account for the owner's upper/lower lifting, runs, and Sunday sprints. Later curriculum and levels are planned rather than falsely unlocked.
+Chapter 1 has an eight-week introductory movement curriculum. Week one is now a general martial arts introduction: **30, 30, 0, 30, 30, 30, 30 minutes** Monday–Sunday, including preparation and rest. Wednesday is full rest. Stance and guard lead into balance, forward/backward steps, side steps, and a slow review. Standing, supported, and seated preparation earn equal rewards. Dojo does not account for any individual's other workouts. Weeks 2–8 retain their existing drill blocks and durations (**30, 30, 0, 45, 40, 30, 30 minutes**) while awaiting the owner's review; their labels and descriptions no longer assume a personal exercise schedule. The chapter introduces foundations and cannot establish broader beginner martial arts competence without an appropriate curriculum, instruction, and observed assessment. See `docs/curriculum-review.md` for the eight-week audit.
 
 Chapter 1 has **80 authored scenes**: prologue 1, main 48, personal 20, relationships 5, supporting visits 6. Eight main branching decisions have callbacks. The scene collection contains about 21,720 authored words. Major future canon is in the writer bible, which is contributor material and must not ship into the player's UI.
 
@@ -16,7 +16,8 @@ The 12 named characters have 58 portraits: five founder neutral designs and 25 m
 
 | Area | Files |
 |---|---|
-| Main app, training tabs | `app/dojo.tsx`, `lib/training.ts`, `lib/beginner.ts`, `lib/levels.ts` |
+| Main app, training tabs | `app/dojo.tsx`, `lib/training.ts`, `lib/week-one.ts`, `lib/beginner.ts`, `lib/levels.ts` |
+| Week-one picture guides and timed rounds | `app/drill-guide.tsx`, `app/training.css`, `lib/week-one.ts` |
 | Hall, visits, projects, jobs | `app/dojo-hub.tsx`, `lib/game.ts` |
 | Story reader and dialogue timing | `app/story-reader.tsx`, `app/use-dialogue-reveal.ts`, `lib/dialogue.ts`, `app/story.css` |
 | HUD, typography, and motion | `app/dojo-hud.tsx`, `app/hud.css`, `app/game-feel.css`, `public/fonts` |
@@ -37,6 +38,12 @@ The 12 named characters have 58 portraits: five founder neutral designs and 25 m
 - The red beam scarf stays in earlier hall art; after Episode 6 beat 3, the repaired brace replaces it. Yuzu is absent from the review exchange and returns for the season meal.
 
 ## Validation and next work
+
+Week-one workout revision: every assigned drill has an original position diagram with manual steps and optional slow playback. The guides show foot order from above, guard position, and supported/seated preparation. Each 5-minute block uses 1 minute setup, 3 × (30 seconds practice / 30 seconds rest), and 1 minute review; 10-minute blocks use 8 rounds. Live round prompts derive from the existing saved block timer and pause with it. New `w1-*` IDs keep previously saved session instructions and durations intact. The library shows week-one lessons during week one. Project guidance in this checkout and the canonical checkout now specifies a general martial arts program. One existing story paragraph drops its assumption about other workouts without changing its ID, paragraph order, choices, or flags.
+
+The eight-week audit found missing striking/defense instruction for a broader martial arts outcome, a mismatch between week-four guard goals and drill dose, and a week-six coordination goal that precedes the combined drill. These are recorded for the next approved revision. Do not redesign weeks 2–8 until the owner has reviewed week one.
+
+Validation for the first-week revision: type checking, the complete curriculum/story/art/dialogue suite, production build, and local API concurrency tests passed. API fixtures were restored. Browser checks covered the technique library, standing/support/seated guides, manual frame changes and playback, weekly progression, 5- and 10-minute round counts, and practice-preview start/pause. Laptop layouts were the target; phone checks were skipped. Saved plans, elapsed-time checks, account isolation, and exactly-once journal/rewards remain covered by the existing API suite.
 
 The game-feel revision replaces the green interface with midnight ink, vermilion, and ivory. Locally hosted Kalam headings and Bricolage Grotesque interface text have their OFL licenses in `public/fonts`. `app/game-feel.css` loads last and supplies the shared palette, tactile controls, drifting hall dust, light changes, staggered cards, portrait entrances, and reading-stage treatment. Existing character designs and paintings remain unchanged.
 

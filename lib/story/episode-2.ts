@@ -15,7 +15,7 @@ akari|Good. Show me the point where you knew.
 
 He does. What follows is so small that you would once have thought it trivial. It changes the next exchange completely.
 
-Daichi asks whether your gentle plan is fitting around the lifting and running. He accepts a simple yes, a no, or a preference for privacy with the same attention. He is interested in making the plan usable, not collecting an impressive confession.
+Daichi asks whether the martial arts practice feels manageable and the movements feel repeatable. He accepts a simple yes, a no, or a preference for privacy with the same attention. He is interested in making the plan usable, not collecting an impressive confession.
 
 daichi|There is an ordinary version of progress. It involves washing the towel and returning to something you haven't solved yet.
 

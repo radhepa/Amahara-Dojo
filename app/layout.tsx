@@ -4,10 +4,11 @@ import "./members.css";
 import "./story.css";
 import "./hud.css";
 import "./game-feel.css";
+import "./training.css";
 
 export const metadata: Metadata = {
   title: "Dojo",
-  description: "Build your practice and a place to belong. A martial arts training RPG with five original companions, an eight-week story, and 30–45 minute beginner sessions around your schedule.",
+  description: "Build your practice and a place to belong. A martial arts training RPG with five original companions, an eight-week story, and visual martial arts lessons and beginner practice with built-in rests.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
