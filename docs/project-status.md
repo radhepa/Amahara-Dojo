@@ -1,6 +1,20 @@
 # Project status
 
-Updated 4 October 2026. Owner: Radhe Patel.
+Updated 5 October 2026. Owner: Radhe Patel.
+
+## Week-one pilot — source ready for review
+
+The new `week-one-v2` campaign contains six visual novel episodes of roughly 2,000–2,100 base words each, aimed at 15–20 minutes of reading. Two openings of roughly 660 words precede practices one and four. **These openings are required**: the author chooses the days with openings, rather than offering the player a skip. Only future filler explicitly marked optional may be skipped. Workout backlog can wait, but the first three episodes must be read to reach the fourth opening before practice four. Wednesday remains full rest.
+
+Fresh saves have no unlocked founders. Solo practice is available after the first opening. Explicit introductions unlock Akari/Ren in episode one, Sora in two, Yuzu in three, and Daichi in four. The hall, roster, training presentation, and job/practice APIs all enforce the locks. Solo earns supplies and an episode unlock without awarding nonexistent companion bond.
+
+`lib/story/pilot.ts` holds the pilot. The reader supports stable passage IDs, embedded expressive choices, immediate authored replies, location changes, scene headings, whole-pose performances, and subtle remembered-choice cues. Episode six recalls Ren's episode-two exchange and the existing floor/welcome repair priority. The end of a saved full workout offers the next unlocked episode or a return to the hall. Saved entry context and original decisions persist through resume and replay.
+
+Legacy accounts retain the 80-scene catalog and original paragraphs. Fresh accounts substitute the pilot prologue and first six main scenes, add two openings, and then return to the existing week-two sequence. Published legacy scene IDs were not renamed or reordered. A legacy account's “Begin the week-one pilot” action atomically clears its entire game, reward ledger, journal, mobility assessment, and beginner checks; repeat requests with the same token are safe and other accounts remain unchanged. **The hosted owner's save has not been reset, and this pilot has not been published.** Review and activation are the next steps.
+
+Pilot validation: type checking, existing 256 legacy branch playthroughs, 60 pilot paths covering every embedded option and remembered-choice combination, all-passage reload checks, existing curriculum/art/dialogue suites, production build, and local API concurrency/reset-isolation checks passed. API fixtures were restored. Laptop browser QA at 1366×768 checked the fresh locked hall, required opening flow, embedded choices, immediate reply and memory cue, saved-place reopening, and solo practice setup. No browser errors were reported. Phone checks were skipped. Reading duration is a writing target, pending owner playthrough feedback.
+
+Source map additions: `lib/story/pilot.ts`, `app/pilot.css`, and `tests/verify-pilot.mjs`. No schema, hosting identity, authentication, dependency version, or lockfile changes.
 
 ## Current release
 

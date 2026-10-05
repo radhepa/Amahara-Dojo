@@ -7,15 +7,15 @@ import { DOJO_MEMBERS, type DojoMember } from "@/lib/dojo-members";
 
 export const memberStyle = (member: DojoMember) => ({ "--member-accent": member.accent } as CSSProperties);
 
-export function DojoRoster({ onSelect, compact = false }: { onSelect: (member: DojoMember) => void; compact?: boolean }) {
+export function DojoRoster({ onSelect, compact = false, unlocked = DOJO_MEMBERS }: { onSelect: (member: DojoMember) => void; compact?: boolean; unlocked?: DojoMember[] }) {
   return <section className={compact ? "dojo-roster compact-roster" : "dojo-roster"} aria-label="Dojo members">
     {!compact && <div className="members-intro"><span className="eyebrow"><Users size={16}/> FIVE DIFFERENT PATHS</span><h2>Meet your dojo.</h2><p>Different personalities. A shared place to practice.</p></div>}
     <div className="member-grid">
-      {DOJO_MEMBERS.map(member => <button className="member-card" key={member.id} style={memberStyle(member)} onClick={() => onSelect(member)} aria-label={`Meet ${member.name}, ${member.role.toLowerCase()}`}>
+      {unlocked.map(member => <button className="member-card" key={member.id} style={memberStyle(member)} onClick={() => onSelect(member)} aria-label={`Meet ${member.name}, ${member.role.toLowerCase()}`}>
         <div className="member-art"><img src={member.portrait} alt={`Anime portrait of ${member.name}`} loading="lazy"/></div>
         <div className="member-card-copy"><h3>{member.name}</h3><p>{member.role}</p>{!compact && <><span className="member-focus">{member.focus}</span><span className="member-profile-link">Meet {member.name}</span></>}</div>
       </button>)}
-    </div>
+    </div>{unlocked.length<5&&<p className="panel">{5-unlocked.length} companions are still waiting to be introduced in the story.</p>}
   </section>;
 }
 

@@ -1,5 +1,17 @@
 # Dojo season authoring
 
+## Week-one pilot (5 October 2026)
+
+Fresh saves use `week-one-v2`: six post-practice visual novel episodes and two **required** pre-practice openings, before practice opportunities one and four. The author decides which days have openings; these two are story-bearing and cannot be skipped. Future scenes explicitly marked `optional` may be filler. Complete the welcome and first opening before the first practice. If workouts are banked, read the preceding episodes to reach the fourth opening before starting practice four. Wednesday still requires nothing.
+
+`lib/story/pilot.ts` owns the revised writing. Stable passage IDs, inline decisions, locations, introductions, and authored whole-pose expression cues drive the existing reader. Choosing advances immediately into the chosen reply. Entry flags are frozen; a scene's own saved decisions overlay only their own flags. Replays retain that route. Never change published passage IDs or reorder their meaning without a content revision and migration.
+
+Fresh saves begin with **solo** practice. Consume explicit introductions to unlock Akari and Ren in episode one, Sora in episode two, Yuzu in episode three, and Daichi in episode four. Openings do not unlock companions. Practice and job APIs enforce the same locks as the roster and picker. Solo practice awards supplies and the main unlock; it has no companion bond recipient.
+
+Legacy saves retain the original prologue, week-one paragraphs, scene IDs, and companion availability. The fresh campaign substitutes six pilot episodes and then rejoins the existing week-two story; the `repair` flag keeps its existing callbacks. Required openings have no rewards. The Ren decision in episode two and repair priority in episode five have memory cues and episode-six callbacks.
+
+The authenticated `reset-pilot` action activates the revised campaign for a legacy account and clears that account's entire game, reward ledger, journal, mobility profile, and beginner checks atomically. It accepts a stable retry token and cannot reset an already activated pilot again. Other users are unaffected. Publication and the owner's hosted reset await local pilot review.
+
 Chapter 1 has 48 main scenes in eight episodes, a prologue, 20 founder conversations, five optional adult relationship invitations, and six supporting-cast visits. A full, current-day guided practice opens one main scene. Gentle recovery follows the same 30–45 minute duration and earns the same rewards. Wednesday has no assigned practice. Optional visits and jobs never require daily attendance.
 
 ## Content

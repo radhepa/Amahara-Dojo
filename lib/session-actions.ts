@@ -1,7 +1,7 @@
 import {GameError} from "./game-error";
-import {REFLECTIONS,award,type GameState,type SavedSession} from "./game";
+import {REFLECTIONS,award,companionAvailable,requiredOpening,type GameState,type SavedSession,type PracticeCompanion} from "./game";
 import {dateKey,dayIndex,makePlan,type RecordEntry} from "./training";
-import {DOJO_MEMBERS,type DojoMemberId} from "./dojo-members";
+import {DOJO_MEMBERS} from "./dojo-members";
 export function activeSession(g:GameState){return Object.values(g.sessions).find(s=>s.status==="active"||s.status==="summary");}
 export function sessionRemaining(s:SavedSession,now:number){const max=s.plan[s.index]?.seconds??0;return Math.max(0,max-s.elapsed-(s.runningSince===null?0:Math.floor(Math.max(0,now-s.runningSince)/1000)));}
 function settle(s:SavedSession,now:number){const max=s.plan[s.index]?.seconds??0;s.elapsed=max-sessionRemaining(s,now);s.runningSince=null;}
@@ -9,9 +9,11 @@ export function sessionAction(g:GameState,b:Record<string,unknown>,now:number,we
  if(b.action==="start"){
   const active=activeSession(g);if(active)return {result:{sessionId:active.id}};
   const date=dateKey(new Date(now)),day=dayIndex(new Date(now));if(day===2||b.readiness==="pain")throw new GameError("Today calls for rest. No practice is assigned.");
+  if(requiredOpening(g))throw new GameError("Read the story opening before starting this practice. Your waiting episodes lead to the next opening.");
   if(completedDates.has(date)||g.rewards[`practice:${date}`])throw new GameError("Today's completed practice is already recorded.");
-  if(!["ready","tired"].includes(String(b.readiness))||!DOJO_MEMBERS.some(m=>m.id===b.companion))throw new GameError("Choose a valid practice and companion.");
-  const plan=makePlan(day,String(b.readiness),week);const id=crypto.randomUUID();g.sessions[id]={id,date,day,readiness:String(b.readiness),companion:b.companion as DojoMemberId,week,plan:plan.blocks,index:0,elapsed:0,runningSince:now,checks:plan.blocks.map(()=>false),skipped:false,status:"active",note:""};return {result:{sessionId:id}};
+  if(!["ready","tired"].includes(String(b.readiness))||(b.companion!=="solo"&&!DOJO_MEMBERS.some(m=>m.id===b.companion)))throw new GameError("Choose a valid practice and companion.");
+  if(!companionAvailable(g,String(b.companion)))throw new GameError("Meet this companion in the story before practising together.");
+  const plan=makePlan(day,String(b.readiness),week);const id=crypto.randomUUID();g.sessions[id]={id,date,day,readiness:String(b.readiness),companion:b.companion as PracticeCompanion,week,plan:plan.blocks,index:0,elapsed:0,runningSince:now,checks:plan.blocks.map(()=>false),skipped:false,status:"active",note:""};return {result:{sessionId:id}};
  }
  const s=g.sessions[String(b.id)];if(!s)throw new GameError("This practice could not be found. Reload your dojo.",404);
  if(s.status==="training"||s.status==="partial")return {result:{sessionId:s.id}};
@@ -34,7 +36,7 @@ export function sessionAction(g:GameState,b:Record<string,unknown>,now:number,we
   if(b.reflection!==undefined&&!REFLECTIONS.some(r=>r.id===b.reflection))throw new GameError("Choose a valid reflection or skip it.");
   const full=!s.skipped&&s.checks.every(Boolean);const seconds=s.plan.reduce((total,p,i)=>total+(s.checks[i]?p.seconds:i===s.index?s.elapsed:0),0);
   s.note=b.note;s.reflection=typeof b.reflection==="string"?b.reflection:undefined;s.status=full?"training":"partial";s.runningSince=null;
-  if(full)award(g,`practice:${s.date}`,()=>{g.practices++;g.supplies+=20;g.bonds[s.companion]+=10;if(s.reflection)g.bonds[s.companion]+=2;});
+  if(full)award(g,`practice:${s.date}`,()=>{g.practices++;g.supplies+=20;if(s.companion!=="solo"){g.bonds[s.companion]+=10;if(s.reflection)g.bonds[s.companion]+=2;}});
   const record:RecordEntry={date:s.date,day:s.day,kind:full?"training":"partial",minutes:Math.round(seconds/60*100)/100,readiness:s.readiness,note:s.note};
   return seconds>0?{record,result:{sessionId:s.id}}:{result:{sessionId:s.id}};
  }
