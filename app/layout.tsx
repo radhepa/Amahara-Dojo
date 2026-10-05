@@ -8,7 +8,7 @@ import "./training.css";
 
 export const metadata: Metadata = {
   title: "Dojo",
-  description: "Build your practice and a place to belong. A martial arts training RPG with five original companions, an eight-week story, and visual martial arts lessons and beginner practice with built-in rests.",
+  description: "Build your practice and a place to belong. A martial arts training RPG with five original companions, an eight-week story, and guided martial arts lessons and beginner practice with built-in rests.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",

@@ -1,5 +1,5 @@
 import {WEEK_ONE_DRILLS,WEEK_ONE_SCHEDULE} from "./week-one";
-export type Drill = {name:string;category:string;cue:string;steps:string[];easier:string;avoid:string;dose:string;visual?:string;checkpoints?:string[]};
+export type Drill = {name:string;category:string;cue:string;steps:string[];easier:string;avoid:string;dose:string;timedRounds?:boolean;checkpoints?:string[]};
 export const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 export const SCHEDULE = [
  {load:"Stance",title:"Find your footing",focus:"Stance & mobility",minutes:30,reason:"Keep movement easy. Build a comfortable base before increasing speed.",blocks:[["warm",5],["ankle",6],["stance",7],["step",7],["cool",5]]},

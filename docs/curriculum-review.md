@@ -12,7 +12,7 @@ Boxing Canada's beginner reference manual teaches stance, four-direction footwor
 
 | Week | Existing focus | Finding / next revision |
 |---|---|---|
-| 1 | Mobility, stance, supported shifts | Revised now: stance and guard, then tiny forward/backward and side steps, then controlled review. Visuals and explicit rounds accompany every assigned drill. |
+| 1 | Mobility, stance, supported shifts | Revised now: stance and guard, then tiny forward/backward and side steps, then controlled review. Written instructions and explicit rounds accompany every assigned drill. |
 | 2 | Supported shifts and 3 × 30-second guard | Mostly repeats the old first week. After approval, build from the revised base instead of removing its new footwork. |
 | 3 | Linear steps | Forward/backward order is useful. Needs side movement, actual progression, and clear form criteria. |
 | 4 | Repeat stance and steps | The goal mentions guard for up to 60 seconds, but the drill still specifies 20–30 seconds. Match doses to goals before extending endurance. |
@@ -25,9 +25,9 @@ Boxing Canada's beginner reference manual teaches stance, four-direction footwor
 
 Six 30-minute practices; Wednesday is full rest with no required check-in. Each practice includes preparation, technique, and a gentle finish. Skill progression is Monday stance/guard; Tuesday balance; Thursday forward/backward; Friday lateral movement; Saturday connect movement and guard; Sunday review. No strikes, partner contact, or extra conditioning are assigned in this first revision.
 
-Every block has a first minute to inspect the guide and prepare, then 30-second practice / 30-second rest rounds, then a final minute to relax and review. A 5-minute block has 3 rounds; a 10-minute block has 8. Timers include all of these phases, can pause, and permit extra rest. Users can repeat a week or save partial work. Nothing asks them to make up missed practice.
+Every block has a first minute to read the instructions and prepare, then 30-second practice / 30-second rest rounds, then a final minute to relax and review. A 5-minute block has 3 rounds; a 10-minute block has 8. Timers include all of these phases, can pause, and permit extra rest. Users can repeat a week or save partial work. Nothing asks them to make up missed practice.
 
-Guides use original position diagrams, labeled foot order, manual step selection, and optional slow playback. Standing, stable-support, and seated preparation are available. Seated preparation rehearses posture and movement order; it does not claim to establish standing balance or equivalent martial arts competence. Gentle sessions retain identical agreed durations and game rewards.
+Picture guides and playback were removed at the owner’s request. Written steps, form checks, and easier alternatives remain. Standing, stable-support, and seated preparation are available. Seated preparation rehearses posture and movement order; it does not claim to establish standing balance or equivalent martial arts competence. Gentle sessions retain identical agreed durations and game rewards.
 
 New `w1-*` drill IDs preserve the plan and instructions of existing saved sessions. Server time, completion confirmations, atomic rewards, journal writes, and account authentication are unchanged. Later weeks keep their existing exercise blocks and durations until approved; personal exercise assumptions have been removed from their descriptions and project guidance.
 

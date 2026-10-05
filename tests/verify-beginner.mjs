@@ -7,7 +7,7 @@ const {roundTiming,practicePhase}=await import('../lib/week-one.ts');
 for(let w=1;w<=8;w++)for(let d=0;d<7;d++){const p=makePlan(d,'ready',w);assert.equal(p.minutes,(w===1?[30,30,0,30,30,30,30]:[30,30,0,45,40,30,30])[d]);assert.equal(p.blocks.reduce((n,b)=>n+b.seconds,0),p.minutes*60);for(const b of p.blocks)assert.ok(DRILLS[b.id]);assert.equal(makePlan(d,'pain',w).minutes,0);assert.equal(makePlan(d,'tired',w).minutes,p.minutes);assert.doesNotMatch(JSON.stringify(p),/lifting|sprints|upper day|lower day|your run/i);}
 const firstWeekIds=new Set();
 for(let d=0;d<7;d++)for(const b of makePlan(d,'ready',1).blocks){
- firstWeekIds.add(b.id);assert.ok(DRILLS[b.id].visual,`Missing guide for ${b.id}`);assert.equal(DRILLS[b.id].checkpoints.length,2);
+ firstWeekIds.add(b.id);assert.ok(DRILLS[b.id].timedRounds,`Missing timed rounds for ${b.id}`);assert.equal(DRILLS[b.id].checkpoints.length,2);
  const t=roundTiming(b.seconds);assert.ok(t.rounds>=3);assert.equal(t.work,t.rest);assert.equal(t.setup+t.rounds*(t.work+t.rest)+t.review,b.seconds);assert.equal(t.review,60);
 }
 for(const id of ['w1-stance','w1-guard','w1-shift','w1-forward','w1-side','w1-flow'])assert.ok(firstWeekIds.has(id));
