@@ -4,12 +4,14 @@ const {dateKey,dayIndex,makePlan}=await import('../lib/training.ts');
 const root=fileURLToPath(new URL('../',import.meta.url)),testUrl=new URL(process.env.DOJO_TEST_ORIGIN??'http://127.0.0.1:5173');
 assert(['127.0.0.1','localhost','[::1]'].includes(testUrl.hostname)&&testUrl.protocol==='http:','API checks only accept a local loopback preview.');
 const origin=testUrl.origin,databaseDirectory=path.join(root,'.wrangler/state/v3/d1/miniflare-D1DatabaseObject');
-const databases=fs.readdirSync(databaseDirectory).filter(file=>file.endsWith('.sqlite')).filter(file=>{
+const desktopDatabase=process.env.DOJO_TEST_DESKTOP_DB;
+const databases=desktopDatabase?[path.resolve(desktopDatabase)]:fs.readdirSync(databaseDirectory).filter(file=>file.endsWith('.sqlite')).filter(file=>{
  const candidate=new DatabaseSync(path.join(databaseDirectory,file),{readOnly:true});
  try{return !!candidate.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='dojo_accounts'").get();}finally{candidate.close();}
 });assert.equal(databases.length,1,'Expected one local Dojo database. Run npm run db:local first.');
-const db=new DatabaseSync(path.join(databaseDirectory,databases[0]));db.exec('PRAGMA busy_timeout=5000');
-const jar=new Map();let url=origin+'/';for(let n=0;n<8;n++){const r=await fetch(url,{redirect:'manual',headers:{Cookie:[...jar].map(([k,v])=>k+'='+v).join('; ')}});for(const item of r.headers.getSetCookie()){const part=item.split(';')[0],i=part.indexOf('=');jar.set(part.slice(0,i),part.slice(i+1));}if(r.status<300||r.status>=400){assert.equal(r.status,200);break;}url=new URL(r.headers.get('location'),origin).href;}
+const db=new DatabaseSync(desktopDatabase?databases[0]:path.join(databaseDirectory,databases[0]));db.exec('PRAGMA busy_timeout=5000');
+const jar=new Map();if(desktopDatabase&&process.env.DOJO_TEST_DESKTOP_COOKIE)jar.set('dojo_session',process.env.DOJO_TEST_DESKTOP_COOKIE);
+let url=origin+'/';for(let n=0;n<8;n++){const r=await fetch(url,{redirect:'manual',headers:{Cookie:[...jar].map(([k,v])=>k+'='+v).join('; ')}});for(const item of r.headers.getSetCookie()){const part=item.split(';')[0],i=part.indexOf('=');jar.set(part.slice(0,i),part.slice(i+1));}if(r.status<300||r.status>=400){assert.equal(r.status,200);break;}url=new URL(r.headers.get('location'),origin).href;}
 const cookie=[...jar].map(([k,v])=>k+'='+v).join('; ');
 async function api(route,body,extra={}){const r=await fetch(origin+route,{method:body?'POST':'GET',headers:{Cookie:cookie,...(body?{'Content-Type':'application/json',Origin:origin}:{}),...extra},body:body?JSON.stringify(body):undefined});const text=await r.text();let parsed;try{parsed=JSON.parse(text);}catch{parsed={error:text.slice(0,100)};}return {status:r.status,body:parsed};}
 assert.equal((await fetch(origin+'/api/game',{redirect:'manual'})).status,401);assert.equal((await fetch(origin+'/api/sessions',{method:'POST',body:'{}',headers:{'Content-Type':'application/json'}})).status,401);

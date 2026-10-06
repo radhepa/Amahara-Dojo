@@ -1,6 +1,18 @@
 # Project status
 
-Updated 5 October 2026. Owner: Radhe Patel.
+Updated 6 October 2026. Owner: Radhe Patel.
+
+## Local Windows desktop app — primary release
+
+The owner requested an actual desktop app that runs entirely locally, without ChatGPT, and updates when local source changes. The new Electron runtime uses the existing Dojo interface and game/session/progress routes, with build-only aliases for a Windows-local identity and SQLite storage. The original hosted authentication, D1 schema, Sites project identity, root dependency versions and root lockfile are preserved.
+
+The Windows package contains its own runtime, all delivery artwork/fonts and bundled game APIs. The installed **Dojo** desktop/Start menu shortcuts point to `%LOCALAPPDATA%\Programs\Dojo\Dojo.exe`. It watches the canonical `C:\Users\minal\Amahara-Dojo` checkout: interface, story, artwork and API changes refresh automatically, and native desktop module/config changes restart the window. A separate worktree must synchronize source into that canonical folder to affect the installed app. The self-contained fallback runs without source, Node.js or npm; `--offline` explicitly selects it. Neither mode contacts ChatGPT or a hosted database.
+
+Each Windows user's save is `%LOCALAPPDATA%\Dojo\progress.sqlite`; journal/private notes, game state and exactly-once rewards retain the existing compare-and-swap transaction. Migrations apply once. Reader preferences persist through a remembered loopback origin. The native menu includes a consistent SQLite backup and a save-folder command. Desktop requests require a private HttpOnly session cookie, matching host and origin, and have a body limit. The renderer has Node access disabled, isolation and sandboxing enabled, a content security policy, denied permissions and outbound network requests blocked. Native window size and initial zoom respect laptop work area and Windows display scaling.
+
+Hosted progress has not been imported or reset; the local save begins fresh. The previous `.url` shortcut is retained as **Dojo (hosted archive)**. Development, packaging, installation and restore instructions are in `docs/desktop.md`. Desktop tools are locked separately in `desktop/package-lock.json`; generated packages, caches and local saves are excluded from Git.
+
+Validation in progress: type checking and all existing story/curriculum/art/dialogue/Settings checks passed. The new desktop suite passed the full existing API concurrency checks against both live and bundled runtimes, atomic rollback, repeat migrations, foreign host/origin rejection, request limits, local art, restart persistence and a backup integrity check. Native startup and display-scale sizing were corrected during laptop QA. Final automatic-update and installed-executable checks follow before handoff.
 
 ## Settings — published
 

@@ -1,0 +1,14 @@
+{
+  "name": "dojo-desktop",
+  "productName": "Dojo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "boot.mjs",
+  "author": "Radhe Patel",
+  "description": "Dojo — a local martial arts practice and story app",
+  "devDependencies": {
+    "@electron/packager": "20.3.0",
+    "electron": "44.5.1"
+  }
+}

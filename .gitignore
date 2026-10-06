@@ -47,3 +47,14 @@ next-env.d.ts
 
 # Local compiler cache
 *.tsbuildinfo
+
+# Desktop toolchain and generated local application
+/desktop/node_modules/
+/desktop/bundle/
+/desktop/migrations/
+/desktop/release/
+/desktop/icon.png
+/desktop/icon.ico
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

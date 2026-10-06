@@ -16,7 +16,12 @@
     "test": "node tests/verify-beginner.mjs && node tests/verify-game.mjs && node tests/verify-art.mjs && node tests/verify-dialogue.mjs && node tests/verify-pilot.mjs && node tests/verify-month.mjs && node tests/verify-settings.mjs",
     "test:api": "node tests/verify-game-api.mjs",
     "art:prepare": "node scripts/prepare-story-art.mjs",
-    "db:local": "node scripts/migrate-local.mjs"
+    "db:local": "node scripts/migrate-local.mjs",
+    "desktop:build": "node scripts/build-desktop.mjs",
+    "desktop:setup": "npm --prefix desktop ci && node desktop/node_modules/electron/install.js",
+    "desktop:dev": "node scripts/run-desktop.mjs",
+    "desktop:package": "npm run desktop:build && node scripts/package-desktop.mjs",
+    "test:desktop": "node tests/verify-desktop.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

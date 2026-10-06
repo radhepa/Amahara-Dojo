@@ -4,7 +4,7 @@ Created by **Radhe Patel**.
 
 Dojo combines a personal beginner martial arts practice with an authored anime story in Amahara. Completed 30–45 minute practices open the next scene at Lantern Hall. Five founders have their own personalities, relationships, obligations, and personal arcs.
 
-[Open Dojo](https://lee-dojo.radherpatel7.chatgpt.site)
+The primary release is now the **local Windows desktop app**. Open **Dojo** from the desktop or Start menu. It runs without ChatGPT or internet and updates automatically from the local project folder. [Desktop setup, saves and backups](docs/desktop.md).
 
 ![Lantern Hall story scene](docs/screenshots/meal-preview.png)
 
@@ -13,6 +13,8 @@ Chapter 1 includes eight episodes and 48 main story beats, a prologue, 20 person
 Training rank remains **Level 1 Beginner**. Finishing the story or collecting rewards does not establish martial arts competence. The ten-stage roadmap requires new curriculum and coached assessments for later levels.
 
 ## Local setup
+
+For the native app, see [the desktop guide](docs/desktop.md). The commands below run the original hosted-stack preview.
 
 Use Node.js 24 or later and npm. Run these commands from the project folder:
 
