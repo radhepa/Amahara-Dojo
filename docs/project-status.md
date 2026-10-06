@@ -2,6 +2,16 @@
 
 Updated 6 October 2026. Owner: Radhe Patel.
 
+## Ten-chapter saga — private narrative development
+
+The owner authorized ambitious, complex, emotional development of the entire ten-chapter story on 6 October and delegated the narrative decisions. **Keep the chat spoiler-free. Do not disclose future plot, titles, cast, turning points, or the ending unless the owner explicitly changes that instruction.**
+
+The complete contributor blueprint starts at `docs/saga/README.md`: world and final canon, independent character arcs and relationships, ten chapter treatments, 80 episode units, all 480 main beat positions, 180 future founder conversations, 54 future supporting visits, and 27 future decisions with immediate, delayed, and ending consequences. Chapter 1 maps the released campaign; Chapters 2–10 specify future writing. The private consequence register preserves existing decisions and defines reveal timing, continuity, and production requirements.
+
+This is narrative development, not a playable ten-chapter release. No scene IDs, paragraph order, saves, rewards, curriculum, art, chapter unlocks, app code, hosting, or desktop package changed. The player roadmap remains spoiler-light and unchanged. Future scripts and original pose art must be completed and validated chapter by chapter, with actual curriculum and assessment developed separately. Read the private package before continuing later story work; never import it into the client or put it in public assets.
+
+Validation: the private authoring audit verified ten substantive treatments, eight episode units and 48 main positions per chapter, all 27 decision references matched to their consequence register, all five optional founder arcs and six supporting visits in every future chapter, and contributor-only changed paths. A runtime-reference search found no imports of the saga package. `npm run typecheck` and `npm test` passed using the canonical checkout's existing dependencies; its application code matched this worktree. No desktop build or installation was needed for contributor documents.
+
 ## Local Windows desktop app — primary release
 
 The owner requested an actual desktop app that runs entirely locally, without ChatGPT, and updates when local source changes. The new Electron runtime uses the existing Dojo interface and game/session/progress routes, with build-only aliases for a Windows-local identity and SQLite storage. The original hosted authentication, D1 schema, Sites project identity, root dependency versions and root lockfile are preserved.
@@ -120,4 +130,4 @@ The release passed type checking, production build, all 256 main branch combinat
 
 The GitHub project preserves the app and now includes portable checks and local setup. The standalone checkout passed type checking, all story/curriculum/art checks, a production build, fresh local migrations, repeat migration setup, and the API concurrency suite with fixtures restored. Use `npm run typecheck`, `npm test`, and `npm run build`; use `npm run db:local` before the first preview. Run API checks against the local preview when persistence behavior changes.
 
-Future work should follow playthrough feedback: refine story pacing and scene-specific performances, then add later writing, curriculum, recruit arcs, instructor review, and deeper projects. Consult `docs/roadmap.md` and relevant writer-bible sections before extending the campaign. Chapters 2–10 are plans, not completed features.
+Future playable work should follow playthrough feedback and the owner-authorized saga blueprint: refine story pacing and scene-specific performances, then script later chapters, curriculum, recruit arcs, instructor review, and deeper projects. Consult `docs/roadmap.md`, the writer bible, and `docs/saga/README.md` before extending the campaign. Chapters 2–10 have complete private treatments, not playable implementations. Keep all future details out of owner-facing chat.

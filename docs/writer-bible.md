@@ -1,6 +1,14 @@
 # Dojo — writer bible
 
-This contributor document contains future spoilers. Keep outside the player-facing Site bundle. Revision 1, 4 October 2026.
+This contributor document contains future spoilers. Keep outside player-facing desktop and Site bundles. Revision 2, 6 October 2026.
+
+## Complete ten-chapter saga
+
+The owner authorized full ten-chapter story development on 6 October 2026, delegated future narrative decisions, and explicitly requested no spoilers in chat. The complete private development package begins at `docs/saga/README.md`. It contains the expanded world and ending, character trajectories, ten chapter treatments, 480 main beat outlines, 180 future founder conversations, 54 future supporting visits, and 27 future major decisions with local, delayed, and final consequences.
+
+This bible's published Chapter 1 history, voices, relationship boundaries, and resonance limits remain binding. `docs/saga/saga-bible.md` and `docs/saga/chapter-02.md` through `chapter-10.md` expand the reveal ladder below into full future canon. `docs/saga/choices-and-continuity.md` records reveal timing, evidence, carry-forward promises, persistent losses, and implementation requirements. Published scenes and saves take precedence over a planning detail. Later treatments are not integrated scripts or implemented chapter unlocks.
+
+Do not summarize the future plot, chapter titles, new speakers, alignments, set pieces, or ending to the owner unless they explicitly reverse the spoiler-free request. Do not open these documents in a player preview. The player roadmap remains unchanged.
 
 ## Dramatic contract
 
@@ -69,7 +77,7 @@ Player romance is optional and adult-only. Late season offers a private, unpress
 
 ## Campaign reveal ladder (private)
 
-2: Sora's courier connection; multiple copies of the report. New apprentices expose hall values through actual disagreements. 3: Natsume's signed omission; Haru's school protects responders but teaches unquestioning deference. 4: Kanna establishes physical route causation and Iori's independent account. 5: Shigure's relief depends on undisclosed redirected burdens; early public promises complicate alliances. 6: travel to affected settlements, whose residents are neither victims waiting for saviors nor secretly hostile. 7: new independent network proposed, with real accountability tradeoffs; player now has coached experience but must defer beyond competence. 8: an emergency forces revelation of the original route design; institutions and friends sustain lasting losses. 9: deliberate confrontation over route authority; optional permanent losses only follow legible costs, not random affection punishment. No mandatory founder death planned solely to manufacture tears. 10: build a functioning shared system, accept unresolved relationships and limits; legacy is who can practice safely and belong, not possession of the strongest attack.
+2: Sora's courier connection and patron conflict; independently witnessed copies. New apprentices expose hall values through actual disagreements. 3: Natsume admits the signed omission; White Ash's useful responder structure is tested by a flawed order and a valid refusal. 4: Kanna establishes physical route causation and Iori's independent account; local consent governs repair. 5: Shigure's relief depends on undisclosed redirected burdens; foreign halls bring different records, sporting rivalry, and political obligations. 6: travel to Ordan and Veyr reveals supplier responsibility, legitimate downstream claims, and Maela's coercive repair proposal. 7: a limited distributed pilot works after correcting its own liability gap; Shigure's lawful interim lease grants the Directorate strategic access. 8: a real storm and emergency override become regional occupation; Natsume dies at the known manual gate, Mika and Ren are injured, and the evacuated academy is destroyed. Neither player attendance nor affection controls these losses. 9: deliberate coordinated action, civilian refusal, and authenticated operating logs defeat unilateral route authority; a legible asset-preservation decision determines a permanent historic loss, while people and essential evidence survive both paths. No founder death is manufactured to supply the climax. 10: trials, restitution, recovery, a funded Common Routes Compact, and a hall that functions beyond its founders complete the saga. Legacy is safe belonging and accountable maintenance, not possession of the strongest attack. Fictional experience never upgrades the player's actual curriculum or certifies martial ability.
 
 ## Continuity register
 

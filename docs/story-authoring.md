@@ -1,5 +1,11 @@
 # Dojo season authoring
 
+## Private full-saga development (6 October 2026)
+
+The owner authorized the complete ten-chapter saga with broad creative discretion and requested no spoilers in chat. The private authoring package is `docs/saga/README.md`; it specifies future world canon, chapter treatments, character trajectories, ending, decisions, and callbacks. Read it with the writer bible before scripting later chapters. Keep every future plot detail in contributor material and out of the player roadmap, client modules, public assets, and owner-facing responses.
+
+The package is a narrative blueprint. Current playable chapters and curriculum gates remain as released. A chapter becomes playable only after final scripts, required curriculum and assessment, original performance art, save compatibility, and relevant checks exist. Follow the desktop workflow in `AGENTS.md` and `docs/desktop.md` for implementation; the archived hosted app is updated only when explicitly requested.
+
 ## First-month campaign (5 October 2026)
 
 Fresh saves use the compatible `week-one-v2` revision with **24 post-practice episodes through week four** and eight required pre-practice openings. Openings precede practice opportunities 1, 4, 7, 10, 13, 16, 19 and 22. The author chooses those days; the player cannot skip these story-bearing scenes. Future filler may explicitly be optional. Complete the welcome and first opening before practice. Read preceding episodes to reach later openings when workouts are banked. Wednesday requires nothing.
@@ -40,6 +46,6 @@ Story progress and game rewards do not certify martial arts skill. Keep curricul
 2. Specify each decision's later callbacks and each character's practice/story gates.
 3. Generate original characters and emotionally matched pose art from the existing design references.
 4. Migrate durable state when changing IDs, published paragraph order, or schema.
-5. Check all branch combinations, retry idempotence, resumed sessions, Wednesday, and phone/desktop layouts. Keep local QA fixtures out of production.
+5. Check relevant branch combinations, interacting flags, retry idempotence, resumed sessions, Wednesday, and laptop layouts. Skip phone checks unless requested. Keep local QA fixtures out of production. For the full saga, use the coverage strategy in `docs/saga/choices-and-continuity.md`; all 2^27 combinations are not necessary to establish the specified invariants.
 
-Build with `node scripts/run-framework.mjs build`; type-check with `node node_modules/typescript/bin/tsc --noEmit`. Follow the existing Sites workflow to synchronize source and deploy the private Site.
+Type-check with `npm run typecheck` and run `npm test` for relevant writing changes. Desktop integration also requires `npm run desktop:build` and `npm run test:desktop`, synchronization into the canonical checkout, and an updated fallback package after meaningful runtime changes. Build the hosted app and follow the existing Sites workflow only for an explicitly requested archived Site update.
