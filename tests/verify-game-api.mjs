@@ -74,6 +74,28 @@ try{
  const racedChoices=await Promise.all([api('/api/game',{...choiceBody,option:'public'}),api('/api/game',{...choiceBody,option:'direct'})]);assert(racedChoices.every(r=>r.status===200));
  const selected=(await api('/api/game')).body.game,choice=selected.scenes[hinge.id].choices.mistake;assert(['public','direct'].includes(choice));assert.equal(selected.flags.mistake,choice);assert(selected.scenes[hinge.id].passageId.includes('-reply-'+choice));
  await api('/api/game',{...choiceBody,option:choice==='public'?'direct':'public'});assert.deepEqual({...((await api('/api/game')).body.game),lastVisit:0},{...selected,lastVisit:0});
+ // Settings can restart an active campaign repeatedly. Retries cannot erase new progress.
+ db.prepare("INSERT INTO training_records(user_id,date,kind,minutes,day,readiness,note) VALUES(?,?,'partial',7,?,'tired','private reset fixture') ON CONFLICT(user_id,date) DO UPDATE SET kind='partial',minutes=7,note=excluded.note").run(user,today,todayDay);
+ db.prepare("INSERT INTO training_profiles(user_id,squat,reach,comfort) VALUES(?,'half','toes',1) ON CONFLICT(user_id) DO UPDATE SET squat='half',reach='toes',comfort=1").run(user);
+ db.prepare("INSERT INTO beginner_week_checks(user_id,week,goals) VALUES(?,1,'[true,true,true]') ON CONFLICT(user_id,week) DO UPDATE SET goals=excluded.goals").run(user);
+ const settingsReset={action:'reset-progress',token:crypto.randomUUID(),previousResetToken:selected.resetToken??'',confirmation:'RESTART'};
+ assert.equal((await api('/api/game',{...settingsReset,confirmation:''})).status,400);
+ assert.equal((await api('/api/game',settingsReset,{Origin:'https://different.test'})).status,403);
+ assert.equal((await api('/api/game',{...settingsReset,previousResetToken:'stale-settings-token'})).status,409);
+ assert.equal((await api('/api/progress')).body.records.length>0,true,'Rejected restarts preserve the journal.');
+ const restarted=await Promise.all([api('/api/game',settingsReset),api('/api/game',settingsReset)]);assert(restarted.every(r=>r.status===200));
+ const clean=(await api('/api/game')).body.game;assert.deepEqual(clean,{...freshGame(clean.lastVisit),resetToken:settingsReset.token});
+ for(const table of ['training_records','training_profiles','beginner_week_checks','dojo_reward_events'])assert.equal(db.prepare('SELECT COUNT(*) AS n FROM '+table+' WHERE user_id=?').get(user).n,0);
+ const {DEFAULT_ASSESSMENT}=await import('../lib/training.ts');assert.deepEqual((await api('/api/progress')).body,{records:[],checks:[],assessment:DEFAULT_ASSESSMENT});
+ const firstLine=pilotLines(PILOT_PROLOGUE,clean.flags,{})[0];assert.equal((await api('/api/game',{action:'scene',id:PILOT_PROLOGUE.id,operation:'advance',passageId:firstLine.id})).status,200);
+ assert.equal((await api('/api/progress',{type:'assessment',squat:'half',reach:'toes',comfort:true})).status,200);
+ const beforeRetry=(await api('/api/game')).body.game;assert.equal((await api('/api/game',settingsReset)).status,200);
+ assert.deepEqual({...((await api('/api/game')).body.game),lastVisit:0},{...beforeRetry,lastVisit:0});assert.equal((await api('/api/progress')).body.assessment.comfort,true);
+ const nextReset={...settingsReset,token:crypto.randomUUID(),previousResetToken:settingsReset.token};assert.equal((await api('/api/game',nextReset)).status,200);
+ assert.equal((await api('/api/game',settingsReset)).status,409,'An old retry must not erase a later campaign.');
+ const competing=await Promise.all([api('/api/game',{...settingsReset,token:crypto.randomUUID(),previousResetToken:nextReset.token}),api('/api/game',{...settingsReset,token:crypto.randomUUID(),previousResetToken:nextReset.token})]);assert.deepEqual(competing.map(r=>r.status).sort(),[200,409]);
+ assert.equal(db.prepare('SELECT state FROM dojo_accounts WHERE user_id=?').get(otherUser).state,JSON.stringify(old));assert.equal(db.prepare('SELECT COUNT(*) AS n FROM training_records WHERE user_id=?').get(otherUser).n,1);
+ console.log('PASS: confirmed settings restart, all progress tables cleared atomically, retry preservation, repeat restart, competing resets and other-account isolation.');
  console.log('PASS: week-four choice races, one remembered route, stable immediate reply and stale-choice retry.');
  console.log('PASS: pilot reset races, stale sessions, companion locks, required opening reads, solo start, and other-account isolation.');
  console.log('PASS: authentication and origin guards, invalid body rejection, legacy completion rejection, partial journal preservation, saved locked practice, elapsed-time rejection, two-tab scene CAS, concurrent finalization, one reward event, concurrent rest-to-practice consistency, late-date journal preservation.');
