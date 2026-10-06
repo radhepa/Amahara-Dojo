@@ -17,6 +17,27 @@ for(const s of stories.ALL_SCENES){assert(s.lines.length>0);for(const l of s.lin
 function read(g,s,option=0){assert(game.sceneAvailable(g,s),s.id+' unavailable');let bound=0;while(!g.scenes[s.id]?.done){assert(bound++<200);const save=g.scenes[s.id];const count=stories.visibleLines(s,save?.flags??g.flags).length;if(s.choice&&!save?.choice&&(save?.position??0)===count-1)gameAction(g,{action:'scene',id:s.id,operation:'choose',option:s.choice.options[option].id},monday);else gameAction(g,{action:'scene',id:s.id,operation:'advance',position:save?.position??0},monday);}}
 function fullPractice(g,now,readiness='ready',companion='akari',reflection='comfortable'){sessionAction(g,{action:'start',readiness,companion},now,1,new Set());let s=activeSession(g);const minutes=s.plan.reduce((n,b)=>n+b.seconds,0)/60;assert.throws(()=>sessionAction(g,{action:'next',id:s.id,index:0,confirm:true},now,1,new Set()));for(let i=0;i<s.plan.length;i++){now+=s.plan[i].seconds*1000;assert.equal(sessionRemaining(s,now),0);sessionAction(g,{action:'next',id:s.id,index:i,confirm:true},now,1,new Set());}const out=sessionAction(g,{action:'finalize',id:s.id,note:'test private note',reflection},now,1,new Set());const snapshot=JSON.stringify(g);sessionAction(g,{action:'finalize',id:s.id,note:'retry',reflection},now,1,new Set());assert.equal(JSON.stringify(g),snapshot);assert.equal(out.record.minutes,minutes);return out;}
 const normal=legacyGame(monday),recovery=legacyGame(monday);fullPractice(normal,monday);fullPractice(recovery,monday,'tired');assert.equal(normal.practices,1);assert.equal(normal.supplies,20);assert.equal(normal.bonds.akari,12);assert.deepEqual(normal.bonds,recovery.bonds);assert.equal(normal.supplies,recovery.supplies);
+// The new 45-minute ceiling includes pauses and survives reload/retry.
+for(const paused of [false,true]){
+ const capped=legacyGame(monday);sessionAction(capped,{action:'start',readiness:'ready',companion:'solo'},monday,5,new Set());
+ let s=activeSession(capped);assert.equal(s.deadline,monday+45*60_000);
+ if(paused)sessionAction(capped,{action:'pause',id:s.id},monday+30_000,5,new Set());
+ const reloaded=JSON.parse(JSON.stringify(capped));s=activeSession(reloaded);
+ sessionAction(reloaded,{action:'resume',id:s.id},s.deadline,5,new Set());
+ assert.equal(s.status,'summary');assert.equal(s.runningSince,null);assert.equal(s.skipped,true);assert.equal(s.elapsed,paused?30:300);
+ const result=sessionAction(reloaded,{action:'finalize',id:s.id,note:''},s.deadline+60_000,5,new Set());
+ assert.equal(result.record.kind,'partial');assert.equal(result.record.minutes,paused?0.5:5);assert.equal(reloaded.supplies,0);
+ const snapshot=JSON.stringify(reloaded);sessionAction(reloaded,{action:'finalize',id:s.id,note:''},s.deadline+120_000,5,new Set());assert.equal(JSON.stringify(reloaded),snapshot);
+}
+// Time after the deadline cannot finish a later block; old saved sessions keep their plan.
+{
+ const g=legacyGame(monday);sessionAction(g,{action:'start',readiness:'ready',companion:'solo'},monday,1,new Set());const s=activeSession(g);
+ sessionAction(g,{action:'next',id:s.id,index:0,confirm:true},monday+44*60_000,1,new Set());
+ assert.equal(sessionRemaining(s,monday+60*60_000),240);
+ sessionAction(g,{action:'next',id:s.id,index:1,confirm:true},monday+60*60_000,1,new Set());assert.equal(s.status,'summary');assert.equal(s.checks[1],false);
+ const old=legacyGame(monday);sessionAction(old,{action:'start',readiness:'ready',companion:'solo'},monday,1,new Set());const legacy=activeSession(old);delete legacy.deadline;legacy.plan=[{id:'w1-stance',seconds:600}];legacy.checks=[false];
+ sessionAction(old,{action:'next',id:legacy.id,index:0,confirm:true},monday+60*60_000,1,new Set());assert.equal(legacy.status,'summary');assert.equal(legacy.skipped,false);assert.equal(legacy.elapsed,600);
+}
 for(const reflection of game.REFLECTIONS){const g=legacyGame(monday);fullPractice(g,monday,'ready','akari',reflection.id);assert.equal(g.bonds.akari,12);}
 const p=legacyGame(monday);sessionAction(p,{action:'start',readiness:'ready',companion:'ren'},monday,1,new Set());const sid=activeSession(p).id;sessionAction(p,{action:'pause',id:sid},monday+30000,1,new Set());assert.equal(sessionRemaining(activeSession(p),monday+600000),270);sessionAction(p,{action:'stop',id:sid},monday+600000,1,new Set());const part=sessionAction(p,{action:'finalize',id:sid,note:''},monday+600000,1,new Set());assert.equal(part.record.kind,'partial');assert.equal(p.practices,0);assert.equal(p.supplies,0);assert.equal(p.bonds.ren,0);
 assert.throws(()=>sessionAction(legacyGame(monday),{action:'start',readiness:'ready',companion:'ren'},Date.parse('2026-10-07T12:00:00-04:00'),1,new Set()),/rest/);

@@ -1,5 +1,6 @@
-import {WEEK_ONE_DRILLS,WEEK_ONE_SCHEDULE} from "./week-one";
-export type Drill = {name:string;category:string;cue:string;steps:string[];easier:string;avoid:string;dose:string;timedRounds?:boolean;checkpoints?:string[]};
+import {WEEK_ONE_DRILLS} from "./week-one";
+import {FOUNDATION_DRILLS,foundationSchedule,MAX_PRACTICE_MINUTES} from "./foundations";
+export type Drill = {name:string;category:string;cue:string;steps:string[];easier:string;avoid:string;dose:string;timedRounds?:boolean;timing?:"warmup"|"cooldown";checkpoints?:string[]};
 export const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 export const SCHEDULE = [
  {load:"Stance",title:"Find your footing",focus:"Stance & mobility",minutes:30,reason:"Keep movement easy. Build a comfortable base before increasing speed.",blocks:[["warm",5],["ankle",6],["stance",7],["step",7],["cool",5]]},
@@ -27,16 +28,15 @@ Object.assign(DRILLS,{
 });
 export const DEFAULT_ASSESSMENT:Assessment = {squat:"shallow",reach:"shins",comfort:false};
 Object.assign(DRILLS,WEEK_ONE_DRILLS);
-export function scheduleForWeek(week:number){return week===1?WEEK_ONE_SCHEDULE:SCHEDULE;}
+Object.assign(DRILLS,FOUNDATION_DRILLS);
+export function scheduleForWeek(week:number){return foundationSchedule(week);}
 export function dateKey(date=new Date()){return new Intl.DateTimeFormat("en-CA",{timeZone:"America/Indianapolis",year:"numeric",month:"2-digit",day:"2-digit"}).format(date);}
 export function dayIndex(date=new Date()){return DAYS.indexOf(new Intl.DateTimeFormat("en-US",{timeZone:"America/Indianapolis",weekday:"long"}).format(date));}
 export function weekDates(key:string){const d=new Date(key+"T12:00:00Z");d.setUTCDate(d.getUTCDate()-(d.getUTCDay()+6)%7);return DAYS.map((_,i)=>{const x=new Date(d);x.setUTCDate(x.getUTCDate()+i);return x.toISOString().slice(0,10);});}
 export function makePlan(day:number,readiness:string,week=1){
  const p=scheduleForWeek(week)[day];const light=readiness==="tired";
  let blocks:{id:string;seconds:number}[]=readiness==="pain"?[]:p.blocks.map(([id,min])=>({id,seconds:min*60}));
- if(week!==1){
-  if(day===0||day===3||day===4)blocks=blocks.map(b=>({...b,id:b.id==="step"&&week<=2?"shift":b.id==="step"&&week>=7?"sequence":b.id==="stance"&&week>=5?"guard":b.id}));
-  if(light)blocks=blocks.map(b=>({...b,id:b.id==="step"||b.id==="sequence"?"shift":b.id==="guard"?"stance":b.id}));
- }
- return {...p,blocks,minutes:Math.ceil(blocks.reduce((n,b)=>n+b.seconds,0)/60)};
+ const minutes=blocks.reduce((n,b)=>n+b.seconds,0)/60;
+ if(minutes>MAX_PRACTICE_MINUTES)throw new Error("Practice cannot exceed 45 minutes, including preparation and rests.");
+ return {...p,blocks,minutes,reason:light?"Use each drill's supported or seated preparation. Rest for any practice interval you need; keep the same timer and rewards. No extra work is required.":p.reason};
 }
