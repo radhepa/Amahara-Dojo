@@ -1,5 +1,5 @@
 import {DOJO_MEMBERS,type DojoMemberId} from "./dojo-members";
-import {ALL_SCENES,MAIN,PERSONAL,PROLOGUE,PILOT_MAIN,PILOT_PROLOGUE,PILOT_OPENINGS,PILOT_REVISION} from "./story";
+import {ALL_SCENES,MAIN,PERSONAL,PROLOGUE,MONTH_MAIN,PILOT_PROLOGUE,MONTH_OPENINGS,PILOT_REVISION} from "./story";
 import type {StoryScene} from "./story/types";
 export type SceneSave={position:number;choice?:string;done:boolean;flags?:Record<string,string>;revision?:string;passageId?:string;choices?:Record<string,string>};
 export type PracticeCompanion=DojoMemberId|"solo";
@@ -15,11 +15,26 @@ export const PROJECTS=[
 ];
 export const JOBS=[{id:"stock",name:"Sort donated supplies",requires:null},{id:"mats",name:"Care for the practice space",requires:"floor"},{id:"meals",name:"Prepare community meals",requires:"kitchen"},{id:"maps",name:"Copy records and maps",requires:"reading"},{id:"grounds",name:"Maintain the welcome route",requires:"courtyard"},{id:"guests",name:"Prepare for overnight visitors",requires:"guest"}];
 export function freshGame(now:number):GameState{return {version:1,storyRevision:PILOT_REVISION,practices:0,supplies:0,bonds:Object.fromEntries(DOJO_MEMBERS.map(m=>[m.id,0])),flags:{romance:"none","npc-akari-ren":"yes","npc-daichi-mika":"yes"},scenes:{},facilities:[],assignments:[],sessions:{},rewards:{},lastVisit:now};}
-export function campaignMain(g:GameState){return g.storyRevision===PILOT_REVISION?[...PILOT_MAIN,...MAIN.slice(6)]:MAIN;}
+export function campaignMain(g:GameState){
+ if(g.storyRevision!==PILOT_REVISION)return MAIN;
+ // Pin a previously started short week to its original content. Its saved
+ // paragraph positions, decisions and replays remain meaningful after expansion.
+ return MAIN.map((original,index)=>{
+  if(index>=24)return original;
+  const startedLegacyWeek=index>=6&&MAIN.some(s=>s.episode===original.episode&&!!g.scenes[s.id]);
+  return startedLegacyWeek?original:MONTH_MAIN[index];
+ });
+}
+export function openingIndex(s:StoryScene){return (s.episode-1)*6+s.beat-1;}
+export function campaignOpenings(g:GameState){
+ if(g.storyRevision!==PILOT_REVISION)return [];
+ const main=campaignMain(g);
+ return MONTH_OPENINGS.filter(s=>!!main[openingIndex(s)]?.revision);
+}
 export function campaignPrologue(g:GameState){return g.storyRevision===PILOT_REVISION?PILOT_PROLOGUE:PROLOGUE;}
 export function companionsUnlocked(g:GameState){return DOJO_MEMBERS.filter(m=>g.storyRevision===PILOT_REVISION?g.flags[`introduced:${m.id}`]==="yes":true);}
 export function companionAvailable(g:GameState,id:string){return id==="solo"||companionsUnlocked(g).some(m=>m.id===id);}
-export function requiredOpening(g:GameState){return g.storyRevision===PILOT_REVISION?PILOT_OPENINGS.find(s=>!s.optional&&g.practices>=s.beat-1&&!g.scenes[s.id]?.done):undefined;}
+export function requiredOpening(g:GameState){return campaignOpenings(g).find(s=>!s.optional&&g.practices>=openingIndex(s)&&!g.scenes[s.id]?.done);}
 export function mainCompleted(g:GameState){let n=0;for(const s of campaignMain(g)){if(!g.scenes[s.id]?.done)break;n++;}return n;}
 export function earnedEpisodes(g:GameState){return Math.floor(mainCompleted(g)/6);}
 export function bondLabel(g:GameState,id:string){const value=g.bonds[id]??0;const personal=PERSONAL.filter(s=>s.member===id&&g.scenes[s.id]?.done).length;return value>=300&&personal>=4?"Close":value>=160&&personal>=3?"Trusted":value>=60?"Familiar":"New acquaintance";}
@@ -30,15 +45,15 @@ export function sceneAvailable(g:GameState,s:StoryScene){
  if(g.scenes[s.id]?.done)return true;
  if(s.kind==="prologue")return true;
  if(!g.scenes[campaignPrologue(g).id]?.done)return false;
- if(s.kind==="opening"){const index=s.beat-1;return mainCompleted(g)===index;}
- if(s.kind==="main"){const index=campaignMain(g).findIndex(m=>m.id===s.id);const opening=pilot?PILOT_OPENINGS.find(o=>!o.optional&&o.beat===index+1):undefined;return index===mainCompleted(g)&&index<Math.min(48,g.practices)&&(!opening||!!g.scenes[opening.id]?.done);}
+ if(s.kind==="opening"){const index=openingIndex(s);return campaignOpenings(g).some(o=>o.id===s.id)&&mainCompleted(g)===index;}
+ if(s.kind==="main"){const index=campaignMain(g).findIndex(m=>m.id===s.id);const opening=campaignOpenings(g).find(o=>!o.optional&&openingIndex(o)===index);return index===mainCompleted(g)&&index<Math.min(48,g.practices)&&(!opening||!!g.scenes[opening.id]?.done);}
  if(s.member&&DOJO_MEMBERS.some(m=>m.id===s.member)&&!companionAvailable(g,s.member))return false;
  if(mainCompleted(g)<(s.practiceGate??0)||g.practices<(s.practiceGate??0)||(s.member&&(g.bonds[s.member]??0)<(s.threshold??0)))return false;
  if(s.kind==="personal"){const preceding=PERSONAL.filter(p=>p.member===s.member&&p.beat<s.beat);return preceding.every(p=>g.scenes[p.id]?.done);}
  if(s.kind==="relationship")return PERSONAL.filter(p=>p.member===s.member).every(p=>g.scenes[p.id]?.done);
  return true;
 }
-export function availableScenes(g:GameState){const scenes=g.storyRevision===PILOT_REVISION?[campaignPrologue(g),...campaignMain(g),...PILOT_OPENINGS,...ALL_SCENES.filter(s=>!["main","prologue"].includes(s.kind))]:ALL_SCENES;return scenes.filter(s=>sceneAvailable(g,s)&&!g.scenes[s.id]?.done);}
+export function availableScenes(g:GameState){const scenes=g.storyRevision===PILOT_REVISION?[campaignPrologue(g),...campaignMain(g),...campaignOpenings(g),...ALL_SCENES.filter(s=>!["main","prologue"].includes(s.kind))]:ALL_SCENES;return scenes.filter(s=>sceneAvailable(g,s)&&!g.scenes[s.id]?.done);}
 export function award(g:GameState,key:string,apply:()=>void){if(g.rewards[key])return false;apply();g.rewards[key]=true;return true;}
 export function completeScene(g:GameState,s:StoryScene){award(g,`scene:${s.id}`,()=>{if(s.kind==="main")for(const id of Object.keys(g.bonds))g.bonds[id]+=2;if(s.kind==="personal"&&s.member)g.bonds[s.member]+=5;});}
 export function claimable(a:Assignment,now:number){const cycle=a.hours*3600000;const total=Math.floor(Math.max(0,now-a.started)/cycle);const pending=Math.max(0,total-a.claimed);return Math.min(Math.floor(48/a.hours),pending)*(a.hours===12?8:16);}

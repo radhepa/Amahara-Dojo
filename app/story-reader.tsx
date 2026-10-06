@@ -78,17 +78,19 @@ export function StoryReader({sceneId,api,onClose}:{sceneId:string|null;api:DojoG
   const locationId=line?.location??scene?.location;
   const location = locationId ? LOCATIONS[locationId] : null;
   const illustration=line?.illustration??scene?.illustration;
-  const performer=line?.performance?.speaker??line?.speaker,expression=line?.performance?.expression??line?.expression;
-  const portrait = performer && !illustration ? characterPortrait(performer,expression) : null;
+  const speakingCharacter=!!line&&!!characterPortrait(line.speaker);
+  const performer=speakingCharacter?line.speaker:line?.performance?.speaker;
+  const expression=speakingCharacter?line.expression:line?.performance?.expression;
+  const portrait = performer ? characterPortrait(performer,expression) : null;
   const backdrop = illustration??(locationId==="hall"&&g?hallImage(scene?.kind==="main"?(scene.episode>6||(scene.episode===6&&scene.beat>=4)?33:scene.episode>=3?12:0):mainCompleted(g),scene?.kind!=="main"&&g.facilities.includes("floor")):location?.image);
   return <Dialog open={!!sceneId} onOpenChange={value=>{if(!value)onClose();}}>
-    <DialogContent ref={reader} tabIndex={-1} onOpenAutoFocus={event=>{event.preventDefault();reader.current?.focus();}} showCloseButton={false} className={`story-reader ${!illustration?"portrait-layout":""} ${readingMode?"reading-mode":""} ${reveal.complete?"line-ready":"line-speaking"}`}>
+    <DialogContent ref={reader} tabIndex={-1} onOpenAutoFocus={event=>{event.preventDefault();reader.current?.focus();}} showCloseButton={false} className={`story-reader dialogue-panel-layout ${readingMode?"reading-mode":""} ${reveal.complete?"line-ready":"line-speaking"}`}>
       <DialogTitle className="sr-only">{scene?.title??"Story"}</DialogTitle>
       <DialogDescription className="sr-only">Space or Enter reveals the current line, then continues. Progress saves when you continue. {replay?"Replay preserves your original decisions.":""}</DialogDescription>
       {scene&&g&&location&&<>
         <div key={backdrop} className={`story-backdrop ${illustration?"story-event":""}`} style={{backgroundImage:`url(${backdrop})`}}/>
         <div className="story-shade"/><div className="story-vignette" aria-hidden="true"/>
-        <header className="story-header"><div><small>{scene.revision?scene.kind==="main"?`WEEK ONE · EPISODE ${scene.beat} / 6`:scene.kind==="opening"?scene.optional?"FILLER · OPTIONAL":"BEFORE PRACTICE":"WELCOME":scene.kind==="main"?g.storyRevision?`STORY WEEK ${scene.episode} · SCENE ${scene.beat} / 6`:`EPISODE ${scene.episode} · ${EPISODE_TITLES[scene.episode-1]}`:scene.kind.toUpperCase()}</small><strong>{scene.title}</strong><span>{location.name}{scene.readingMinutes?` · ${scene.readingMinutes} min`:""}{replay?" · Replay":""}</span></div>
+        <header className="story-header"><div><small>{scene.revision?scene.kind==="main"?`WEEK ${scene.episode} · EPISODE ${scene.beat} / 6`:scene.kind==="opening"?scene.optional?"FILLER · OPTIONAL":`WEEK ${scene.episode} · BEFORE PRACTICE`:"WELCOME":scene.kind==="main"?g.storyRevision?`STORY WEEK ${scene.episode} · SCENE ${scene.beat} / 6`:`EPISODE ${scene.episode} · ${EPISODE_TITLES[scene.episode-1]}`:scene.kind.toUpperCase()}</small><strong>{scene.title}</strong><span>{location.name}{scene.readingMinutes?` · ${scene.readingMinutes} min`:""}{replay?" · Replay":""}</span></div>
           <div className="story-tools">
             <button className="story-speed" aria-label={`Text speed: ${speed}. Change text speed`} title="Cycle text speed" onClick={changeSpeed}><Gauge/><span>{speed}</span></button>
             <button aria-label={sound.enabled?"Mute dialogue sounds":"Enable dialogue sounds"} aria-pressed={sound.enabled} onClick={sound.toggle}>{sound.enabled?<Volume2/>:<VolumeX/>}</button>
@@ -99,9 +101,9 @@ export function StoryReader({sceneId,api,onClose}:{sceneId:string|null;api:DojoG
         </header>
         {memory&&<div className="story-memory" role="status">{memory}</div>}
         {line?.heading&&!history&&<div className="story-scene-heading" key={line.id}>{line.heading}</div>}
-        {portrait&&!history&&<div key={portrait} className="story-performer"><img className="story-character" src={portrait} alt={`${CAST[performer!]?.name??performer}${expression?`, ${expression}`:""}`} onError={event=>{const fallback=CAST[performer!]?.portrait;if(fallback&&event.currentTarget.src!==new URL(fallback,window.location.origin).href)event.currentTarget.src=fallback;}}/></div>}
         {history?<section className="story-transcript"><span className="eyebrow">YOUR READING JOURNAL</span><h2>Scene so far</h2>{all.slice(0,(replay?all.length:savedPosition)+1).map((item,i)=><p key={item.id??i}><strong>{CAST[item.speaker]?.name}</strong>{item.text}</p>)}<button className="secondary" onClick={()=>setHistory(false)}>Return to scene</button></section>:
-          <section className="story-dialogue" style={styles(line?.speaker??"narrator")}>
+          <section className={`story-dialogue ${portrait?"has-speaker-portrait":""}`} style={styles(line?.speaker??"narrator")}>
+            {portrait&&<div key={portrait} className="story-speaker-portrait"><img src={portrait} alt={`${CAST[performer!]?.name??performer}, ${expression??"neutral"}`} onError={event=>{const fallback=CAST[performer!]?.portrait;if(fallback&&event.currentTarget.src!==new URL(fallback,window.location.origin).href)event.currentTarget.src=fallback;}}/></div>}
             <div className="story-dialogue-top"><span className="story-speaker"><Sparkles size={16}/>{CAST[line?.speaker??""]?.name||"Lantern Hall"}</span><small>{String(position+1).padStart(2,"0")} / {String(all.length).padStart(2,"0")}{back!==null?" · Looking back":""}</small></div>
             <p className={`story-line ${line?.speaker==="narrator"?"narration":""} ${reveal.complete?"is-written":"is-writing"}`} onClick={()=>{if(!reveal.complete)reveal.finish();}}>
               <span className="sr-only" aria-live="polite" aria-atomic="true" key={`${scene.id}-${position}`}>{line?.text}</span>

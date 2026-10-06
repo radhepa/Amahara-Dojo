@@ -61,6 +61,20 @@ try{
  async function readPilot(scene){let guard=0;while(!pilot.scenes[scene.id]?.done){assert(guard++<150);const save=pilot.scenes[scene.id],list=pilotLines(scene,save?.flags??pilot.flags,save?.choices),line=list.find(l=>l.id===save?.passageId)??list[0];const input={action:'scene',id:scene.id,passageId:line.id,operation:'advance'};if(line.decision&&!save?.choices?.[line.decision.flag])Object.assign(input,{operation:'choose',decision:line.decision.flag,option:line.decision.options[0].id});const result=await api('/api/game',input);assert.equal(result.status,200);pilot=result.body.game;}}
  await readPilot(PILOT_PROLOGUE);await readPilot(PILOT_OPENINGS[0]);
  if(todayDay!==2){assert.equal((await api('/api/sessions',{action:'start',readiness:'ready',companion:'ren'})).status,400);const solo=await api('/api/sessions',{action:'start',readiness:'ready',companion:'solo'});assert.equal(solo.status,200);assert.equal(Object.values(solo.body.game.sessions)[0].companion,'solo');}
+ // A later inline choice uses the same atomic CAS and stable reply IDs.
+ const {freshGame,openingIndex}=await import('../lib/game.ts');
+ const {MONTH_MAIN,MONTH_OPENINGS}=await import('../lib/story/index.ts');
+ const {gameAction}=await import('../lib/game-actions.ts');
+ const month=freshGame(initial.body.serverTime);
+ function localRead(scene,stopFlag){let guard=0;while(!month.scenes[scene.id]?.done){assert(guard++<300);const save=month.scenes[scene.id],list=pilotLines(scene,save?.flags??month.flags,save?.choices),line=list.find(l=>l.id===save?.passageId)??list[0];if(stopFlag&&line.decision?.flag===stopFlag)return line;const input={action:'scene',id:scene.id,passageId:line.id,operation:'advance'};if(line.decision&&!save?.choices?.[line.decision.flag])Object.assign(input,{operation:'choose',decision:line.decision.flag,option:line.decision.options[0].id});gameAction(month,input,initial.body.serverTime);}}
+ localRead(PILOT_PROLOGUE);
+ for(let i=0;i<22;i++){const opening=MONTH_OPENINGS.find(o=>openingIndex(o)===i);if(opening)localRead(opening);month.practices=i+1;localRead(MONTH_MAIN[i]);}
+ month.practices=23;const hinge=MONTH_MAIN[22],decision=localRead(hinge,'mistake');seed(month);
+ const choiceBody={action:'scene',id:hinge.id,passageId:decision.id,operation:'choose',decision:'mistake'};
+ const racedChoices=await Promise.all([api('/api/game',{...choiceBody,option:'public'}),api('/api/game',{...choiceBody,option:'direct'})]);assert(racedChoices.every(r=>r.status===200));
+ const selected=(await api('/api/game')).body.game,choice=selected.scenes[hinge.id].choices.mistake;assert(['public','direct'].includes(choice));assert.equal(selected.flags.mistake,choice);assert(selected.scenes[hinge.id].passageId.includes('-reply-'+choice));
+ await api('/api/game',{...choiceBody,option:choice==='public'?'direct':'public'});assert.deepEqual({...((await api('/api/game')).body.game),lastVisit:0},{...selected,lastVisit:0});
+ console.log('PASS: week-four choice races, one remembered route, stable immediate reply and stale-choice retry.');
  console.log('PASS: pilot reset races, stale sessions, companion locks, required opening reads, solo start, and other-account isolation.');
  console.log('PASS: authentication and origin guards, invalid body rejection, legacy completion rejection, partial journal preservation, saved locked practice, elapsed-time rejection, two-tab scene CAS, concurrent finalization, one reward event, concurrent rest-to-practice consistency, late-date journal preservation.');
 }finally{

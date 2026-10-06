@@ -7,7 +7,7 @@ export function gameAction(g:GameState,b:Record<string,unknown>,now:number){
  if(action==="reset-pilot"){
   if(typeof b.token!=="string"||!/^[-a-zA-Z0-9]{16,80}$/.test(b.token))throw new GameError("Invalid reset request.");
   if(g.resetToken===b.token)return;
-  if(g.storyRevision===PILOT_REVISION)throw new GameError("Your week-one pilot has already begun.");
+  if(g.storyRevision===PILOT_REVISION)throw new GameError("Your first-month story has already begun.");
   const fresh=freshGame(now);for(const key of Object.keys(g))delete (g as unknown as Record<string,unknown>)[key];Object.assign(g,fresh,{resetToken:b.token});return {reset:true};
  }
  if(action==="scene"){

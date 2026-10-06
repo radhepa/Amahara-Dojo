@@ -1,6 +1,6 @@
 # Dojo development roadmap
 
-The first season follows eight story weeks in Lantern Hall, an independent training space in the mountain town of Amahara. Completed 30–45 minute practices open the next story installment. The revised week-one pilot has six longer post-practice episodes and story openings before the first and fourth practices. Wednesday remains a full rest day. Unread episodes can wait; read the preceding episodes to reach a required opening before its next practice. Taking a break does not harm relationships. Later weeks retain their current shorter scenes until the pilot has been reviewed.
+The first season follows eight story weeks in Lantern Hall, an independent training space in the mountain town of Amahara. Completed 30–45 minute practices open the next story installment. The revised first month has 24 post-practice episodes through week four, with required story openings before the first and fourth practice of each story week. Wednesday remains a full rest day. Unread episodes can wait; read the preceding episodes to reach a required opening before its next practice. Taking a break does not harm relationships. Weeks five through eight retain their current shorter scenes pending review of the expanded month.
 
 Chapter 1 focuses on belonging, rebuilding, the five founders' personal lives, and decisions with consequences. The player contributes as a beginner; trained characters handle advanced action. Completing a story is separate from real martial arts competence.
 

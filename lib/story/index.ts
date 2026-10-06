@@ -10,7 +10,7 @@ import {EPISODE_8} from "./episode-8";
 import {PERSONAL,RELATIONSHIPS} from "./personal";
 import {QUESTS} from "./quests";
 import {deepenSeason} from "./season-depth";
-import {PILOT_SCENES} from "./pilot";
+import {buildMonth} from "./month";
 export {PILOT_MAIN,PILOT_PROLOGUE,PILOT_OPENINGS,PILOT_REVISION,PILOT_SCENES,pilotLines} from "./pilot";
 export {PERSONAL} from "./personal";
 export const EPISODE_TITLES=["A Place on the Mats","The Things We Keep","Footprints Outside the Gate","An Ordinary Day, Almost","Promises Have Weight","The Shape of a Family","Before the Lanterns Rise","A Door Worth Keeping Open"];
@@ -96,5 +96,7 @@ for(const [id,cues] of Object.entries(performanceCues))for(const [speaker,anchor
 for(const s of PERSONAL)for(const l of s.lines)if(l.speaker===s.member)l.expression=s.beat===1?"amused":s.beat===2?"concerned":s.beat===3?"determined":"soft";
 export const PROLOGUE:StoryScene={id:"c1-prologue",title:"Lantern Hall",episode:1,beat:0,location:"courtyard",kind:"prologue",lines:lines(`Amahara is a town of steep streets, river routes, and training halls whose signs promise more than a visitor can always understand.\n\nLantern Hall's sign promises very little. Its paint has faded. Someone has tied a paper moth to the gate. Beyond it, five voices are discussing a door.\n\nYou have come as yourself: a beginner with a demanding training week, limited flexibility, and a wish to learn to move well. Nobody here knows whether you will become an excellent martial artist. That will take time, qualified instruction, and practice someone can actually assess.\n\nToday, the first question is smaller. Is there a place where you can begin honestly?\n\nCompleted normal or gentle recovery practices open one new story beat. A partial practice waits for another day; it does not harm the people here. Wednesday has no assigned practice. Unread stories and optional visits can wait.\n\nThe gate is open. The door appears to require negotiation.`)};
 export const ALL_SCENES=[PROLOGUE,...MAIN,...PERSONAL,...RELATIONSHIPS,...QUESTS];
-export const SCENE_BY_ID=Object.fromEntries([...ALL_SCENES,...PILOT_SCENES].map(s=>[s.id,s]));
+const month=buildMonth(MAIN);
+export const MONTH_MAIN=month.main,MONTH_OPENINGS=month.openings,MONTH_SCENES=month.scenes;
+export const SCENE_BY_ID=Object.fromEntries([...ALL_SCENES,...MONTH_SCENES].map(s=>[s.id,s]));
 export function visibleLines(s:StoryScene,flags:Record<string,string>){return s.lines.filter(l=>!l.when||flags[l.when.flag]===l.when.value);}

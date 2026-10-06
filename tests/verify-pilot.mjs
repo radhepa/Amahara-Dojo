@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 const {freshGame,campaignMain,mainCompleted,companionsUnlocked,sceneAvailable,availableScenes,requiredOpening}=await import('../lib/game.ts');
 const {gameAction}=await import('../lib/game-actions.ts');
 const {sessionAction,activeSession}=await import('../lib/session-actions.ts');
-const {PILOT_MAIN,PILOT_OPENINGS,PILOT_PROLOGUE,pilotLines,SCENE_BY_ID}=await import('../lib/story/index.ts');
+const {PILOT_MAIN,PILOT_OPENINGS,PILOT_PROLOGUE,MONTH_OPENINGS,pilotLines,SCENE_BY_ID}=await import('../lib/story/index.ts');
 const {CAST,LOCATIONS,characterPortrait}=await import('../lib/story/cast.ts');
 import fs from 'node:fs';
 const now=Date.parse('2026-10-05T12:00:00-04:00');
@@ -35,7 +35,7 @@ for(const picks of paths){const g=freshGame(now);read(g,PILOT_PROLOGUE);read(g,P
  g.practices=i+1;read(g,PILOT_MAIN[i],picks);
  if(i===1)assert.deepEqual(companionsUnlocked(g).map(m=>m.id),['akari','ren','sora']);if(i===2)assert.equal(companionsUnlocked(g).length,4);
  }
- assert.equal(mainCompleted(g),6);assert.equal(companionsUnlocked(g).length,5);g.practices=7;assert(sceneAvailable(g,campaignMain(g)[6]));
+ assert.equal(mainCompleted(g),6);assert.equal(companionsUnlocked(g).length,5);g.practices=7;assert(!sceneAvailable(g,campaignMain(g)[6]));read(g,MONTH_OPENINGS.find(o=>o.episode===2&&o.beat===1));assert(sceneAvailable(g,campaignMain(g)[6]));
  const saved=JSON.stringify(g);read(g,PILOT_MAIN[0],{'pilot:arrival':'reserved'});assert.equal(JSON.stringify(g),saved);
  const ep6=g.scenes[PILOT_MAIN[5].id],replay=pilotLines(PILOT_MAIN[5],ep6.flags,ep6.choices);
  assert.equal(replay.filter(l=>l.when?.flag==='pilot:ren-stop').length,1);assert.equal(replay.filter(l=>l.when?.flag==='repair').length,1);
