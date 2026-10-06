@@ -4,10 +4,12 @@ import {SCENE_BY_ID,visibleLines,pilotLines,PILOT_REVISION} from "./story";
 import {DOJO_MEMBERS,type DojoMemberId} from "./dojo-members";
 export function gameAction(g:GameState,b:Record<string,unknown>,now:number){
  const action=b.action;
- if(action==="reset-pilot"){
+ if(action==="reset-pilot"||action==="reset-progress"){
   if(typeof b.token!=="string"||!/^[-a-zA-Z0-9]{16,80}$/.test(b.token))throw new GameError("Invalid reset request.");
+  if(action==="reset-progress"&&(b.confirmation!=="RESTART"||typeof b.previousResetToken!=="string"))throw new GameError("Confirm the restart before deleting progress.");
   if(g.resetToken===b.token)return;
-  if(g.storyRevision===PILOT_REVISION)throw new GameError("Your first-month story has already begun.");
+  if(action==="reset-progress"&&b.previousResetToken!==(g.resetToken??""))throw new GameError("Another restart changed your progress. Close this confirmation and open it again.",409);
+  if(action==="reset-pilot"&&g.storyRevision===PILOT_REVISION)throw new GameError("Your first-month story has already begun.");
   const fresh=freshGame(now);for(const key of Object.keys(g))delete (g as unknown as Record<string,unknown>)[key];Object.assign(g,fresh,{resetToken:b.token});return {reset:true};
  }
  if(action==="scene"){

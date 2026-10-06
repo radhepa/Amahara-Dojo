@@ -6,6 +6,7 @@ import "./hud.css";
 import "./game-feel.css";
 import "./training.css";
 import "./pilot.css";
+import "./settings.css";
 
 export const metadata: Metadata = {
   title: "Dojo",

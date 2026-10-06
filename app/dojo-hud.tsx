@@ -1,6 +1,6 @@
 "use client";
 
-import {BookOpen, CalendarDays, Flame, Home, Leaf, Package, ShieldCheck, Target, Users} from "lucide-react";
+import {BookOpen, CalendarDays, Flame, Home, Leaf, Package, Settings2, ShieldCheck, Target, Users} from "lucide-react";
 import {TabsList, TabsTrigger} from "@/components/ui/tabs";
 
 const destinations = [
@@ -10,6 +10,7 @@ const destinations = [
   {value: "members", label: "Companions", icon: Users},
   {value: "library", label: "Techniques", icon: BookOpen},
   {value: "journey", label: "Your journey", icon: Target},
+  {value: "settings", label: "Settings", icon: Settings2},
 ];
 
 export const HUD_TITLES: Record<string, {title: string; subtitle: string}> = {
@@ -18,6 +19,7 @@ export const HUD_TITLES: Record<string, {title: string; subtitle: string}> = {
   members: {title: "A place among friends.", subtitle: "THE PEOPLE OF LANTERN HALL"},
   library: {title: "Begin with the basics.", subtitle: "THE TECHNIQUE LIBRARY"},
   journey: {title: "Every small step counts.", subtitle: "YOUR BEGINNER JOURNEY"},
+  settings: {title: "Your story, your pace.", subtitle: "SETTINGS"},
 };
 
 export function DojoRail() {
