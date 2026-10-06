@@ -13,7 +13,7 @@ export default function DojoSettings({api,records,loaded,progressSaving,onReplay
  const game=api.game;
  if(!game)return <section className="panel" aria-live="polite"><h2>Loading your settings…</h2>{api.error&&<><p role="alert">{api.error}</p><button className="secondary" onClick={()=>void api.load()}>Retry</button></>}</section>;
  const stats=progressStats(game,records),replays=completedReplays(game),busy=api.saving||progressSaving||restarting;
- const cards=[{label:"Practices completed",value:loaded?stats.practices:"—",icon:Flame},{label:"Minutes of practice",value:loaded?stats.minutes:"—",icon:Clock3},{label:"Story episodes read",value:`${stats.episodes} / 48`,icon:BookOpen},{label:"Companions met",value:`${stats.companions} / 5`,icon:Users},{label:"Supplies available",value:stats.supplies,icon:Package},{label:"Hall projects built",value:`${stats.projects} / 5`,icon:Hammer}];
+ const cards=[{label:"Practices completed",value:loaded?stats.practices:"—",icon:Flame},{label:"Minutes of practice",value:loaded?stats.minutes:"—",icon:Clock3},{label:"Story episodes read",value:`${stats.episodes} / 48`,icon:BookOpen},{label:"Companions available",value:`${stats.companions} / 5`,icon:Users},{label:"Supplies available",value:stats.supplies,icon:Package},{label:"Hall projects built",value:`${stats.projects} / 5`,icon:Hammer}];
  function openConfirmation(){request.current={token:crypto.randomUUID(),previousResetToken:game!.resetToken??""};setConfirmation("");setResetError("");setConfirmOpen(true);}
  async function restart(){
   if(confirmation!=="RESTART"||busy||inFlight.current||!request.current)return;
