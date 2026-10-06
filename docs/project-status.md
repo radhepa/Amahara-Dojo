@@ -12,7 +12,9 @@ New saved workouts have a server-issued **45-minute maximum including pauses and
 
 Both timers ring at phase changes and twice at block completion/the workout limit, with Test bell and a device-local mute preference. Audio starts from a user gesture and uses scheduled audio-clock cues. Closing the saved-practice dialog keeps timing active; browser/device suspension can still prevent audible delivery. Visual instructions remain available without sound.
 
-Implementation: `lib/foundations.ts`, `lib/practice-timing.ts`, `app/use-practice-bell.ts`, `app/practice-bell-controls.tsx`, plus training, guided/preview practice, beginner goals, and the existing session action. Legacy drill IDs, story IDs, account authentication, D1 schema, dependency versions, lockfile, and private hosting identity are preserved. Validation passed typecheck, complete automated suites, production build, and local API isolation/concurrency tests with fixtures restored. The owner requested no further browser checks on 6 October; live browser/audio verification was skipped. Publication is the remaining step.
+Implementation: `lib/foundations.ts`, `lib/practice-timing.ts`, `app/use-practice-bell.ts`, `app/practice-bell-controls.tsx`, plus training, guided/preview practice, beginner goals, and the existing session action. Legacy drill IDs, story IDs, account authentication, D1 schema, dependency versions, lockfile, and private hosting identity are preserved. The newer Settings release was merged before publication. Final validation passed typecheck, all curriculum/story/art/dialogue/Settings suites, production build, and local API isolation/concurrency/restart tests with fixtures restored. The owner requested no further browser checks on 6 October; live browser/audio verification was skipped.
+
+Published privately on 6 October 2026 from source commit `c9005f7de6b20ecebe9f2393a5759de191cd77a8`, deployment `appgdep_6ac4fc209bc48191a65d906ce20d57b1`. Native publication returned `succeeded` at `https://lee-dojo.radherpatel7.chatgpt.site`. GitHub main contains the combined Settings and curriculum update. The owner's hosted save was not reset.
 
 ## Settings — published
 
