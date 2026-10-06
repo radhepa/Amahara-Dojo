@@ -12,7 +12,7 @@ Read `docs/project-status.md` first. Read only the relevant implementation files
 - Product name is **Dojo**. The setting is Amahara and Lantern Hall, with five original adult founders: Akari, Ren, Sora, Daichi, and Yuzu.
 - Chapter 1 is the eight-week beginner season: 48 main beats, 20 personal conversations, five optional adult relationship invitations, six supporting visits, and a prologue.
 - Practice lasts **30–45 minutes**, including rests. Wednesday is full rest with no required check-in. Normal and gentle recovery earn equal rewards. No absence penalties.
-- Dojo is a general beginner martial arts program. Do not personalize it around the owner’s other exercise routines. Teach stance, guard, balance, and footwork with standing, supported, and seated preparation options. Revise week one first; later workout revisions wait for the owner’s review.
+- Dojo is a general beginner martial arts program. Do not personalize it around the owner’s other exercise routines. Teach stance, guard, balance, and footwork with standing, supported, and seated preparation options. The owner authorized the full eight-week revision on 5 October 2026. New plans run 30–40 minutes including rests, with a 45-minute workout ceiling including pauses.
 - Story rewards never certify martial arts ability. This release stays Level 1 Beginner. Later levels need actual curriculum, instruction, and demonstrated competence.
 - Reflections are optional and equally rewarded. Private notes are never interpreted by characters.
 - Focus on **laptop layouts**. Skip phone layout checks unless requested.

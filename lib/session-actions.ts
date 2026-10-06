@@ -2,8 +2,10 @@ import {GameError} from "./game-error";
 import {REFLECTIONS,award,companionAvailable,requiredOpening,type GameState,type SavedSession,type PracticeCompanion} from "./game";
 import {dateKey,dayIndex,makePlan,type RecordEntry} from "./training";
 import {DOJO_MEMBERS} from "./dojo-members";
+import {MAX_PRACTICE_MINUTES} from "./foundations";
 export function activeSession(g:GameState){return Object.values(g.sessions).find(s=>s.status==="active"||s.status==="summary");}
-export function sessionRemaining(s:SavedSession,now:number){const max=s.plan[s.index]?.seconds??0;return Math.max(0,max-s.elapsed-(s.runningSince===null?0:Math.floor(Math.max(0,now-s.runningSince)/1000)));}
+export function sessionRemaining(s:SavedSession,now:number){const max=s.plan[s.index]?.seconds??0;return Math.max(0,max-s.elapsed-(s.runningSince===null?0:Math.floor(Math.max(0,Math.min(now,s.deadline??Infinity)-s.runningSince)/1000)));}
+export function sessionLimitRemaining(s:SavedSession,now:number){return s.deadline===undefined?null:Math.max(0,Math.ceil((s.deadline-now)/1000));}
 function settle(s:SavedSession,now:number){const max=s.plan[s.index]?.seconds??0;s.elapsed=max-sessionRemaining(s,now);s.runningSince=null;}
 export function sessionAction(g:GameState,b:Record<string,unknown>,now:number,week:number,completedDates:Set<string>){
  if(b.action==="start"){
@@ -13,10 +15,16 @@ export function sessionAction(g:GameState,b:Record<string,unknown>,now:number,we
   if(completedDates.has(date)||g.rewards[`practice:${date}`])throw new GameError("Today's completed practice is already recorded.");
   if(!["ready","tired"].includes(String(b.readiness))||(b.companion!=="solo"&&!DOJO_MEMBERS.some(m=>m.id===b.companion)))throw new GameError("Choose a valid practice and companion.");
   if(!companionAvailable(g,String(b.companion)))throw new GameError("Meet this companion in the story before practising together.");
-  const plan=makePlan(day,String(b.readiness),week);const id=crypto.randomUUID();g.sessions[id]={id,date,day,readiness:String(b.readiness),companion:b.companion as PracticeCompanion,week,plan:plan.blocks,index:0,elapsed:0,runningSince:now,checks:plan.blocks.map(()=>false),skipped:false,status:"active",note:""};return {result:{sessionId:id}};
+  const plan=makePlan(day,String(b.readiness),week);const id=crypto.randomUUID();g.sessions[id]={id,date,day,readiness:String(b.readiness),companion:b.companion as PracticeCompanion,week,plan:plan.blocks,index:0,elapsed:0,runningSince:now,checks:plan.blocks.map(()=>false),skipped:false,status:"active",note:"",deadline:now+MAX_PRACTICE_MINUTES*60_000};return {result:{sessionId:id}};
  }
  const s=g.sessions[String(b.id)];if(!s)throw new GameError("This practice could not be found. Reload your dojo.",404);
  if(s.status==="training"||s.status==="partial")return {result:{sessionId:s.id}};
+ // A new workout has a wall-clock ceiling, including pauses and block transitions.
+ // Legacy saved sessions have no deadline and retain their original behavior.
+ if(s.status==="active"&&sessionLimitRemaining(s,now)===0){
+  settle(s,now);s.skipped=true;s.status="summary";
+  if(b.action!=="finalize"&&b.action!=="draft")return {result:{sessionId:s.id}};
+ }
  if(b.action==="pause"){settle(s,now);return;}
  if(b.action==="resume"){if(s.status!=="active")return;if(dayIndex(new Date(now))===2)throw new GameError("Wednesday is full rest. Resume this saved practice on your next training day.");if(s.runningSince===null&&sessionRemaining(s,now)>0)s.runningSince=now;return;}
  if(b.action==="next"){

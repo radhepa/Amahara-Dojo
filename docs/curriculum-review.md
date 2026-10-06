@@ -1,44 +1,46 @@
 # Chapter 1 curriculum review
 
-Reviewed 4 October 2026. Scope: audit all eight weeks, implement only week one, then wait for the owner's review. Dojo is a general martial arts introduction; it has no dependency on an individual's other workouts.
+Reviewed 5 October 2026. The owner requested review and revision of all eight weeks, clearer directions, an audible timer, and a maximum workout length of 45 minutes. This supersedes the earlier hold on weeks 2–8.
 
-## Finding
+## Outcome and limits
 
-The previous chapter was a mobility and balance preparation plan, not a complete beginner martial arts curriculum. Repeated calf mobility, hip hinges, a tall stance, and linear steps can support movement preparation. They do not teach the offensive and defensive skills of a named martial art. Eight elapsed weeks and 48 completed practices cannot establish competence by themselves.
+Dojo teaches introductory solo movement foundations: a repeatable stance, relaxed guard, balance, four-direction footwork, distance, and coordination. Its intended benefit is deliberate practice of those specific tasks with form checks and corrections. It is not a complete martial art, a cardiovascular or strength prescription, or evidence of fighting competence. This exact plan has not been clinically validated or observed by a qualified instructor. Strikes, kicks, falling, contact, and higher levels need appropriate instruction and assessment.
 
-Boxing Canada's beginner reference manual teaches stance, four-direction footwork, straight punches, defenses, and combinations. It also describes observation and correction as part of instruction. This is a useful example of what a real beginner syllabus covers, not a claim that Dojo teaches boxing or that one syllabus applies to every martial art. AAOS emphasizes preparation, supervision of new techniques, and practicing new movements slowly. Our conclusion: the current chapter can introduce movement foundations, but broader beginner skill needs a defined art, appropriate instruction, and observed technique.
+The audit found repetitive mobility work, late guard introduction, little lateral progression, and goals for coordination/60-second holds that the assigned blocks did not teach. The revision connects every weekly goal to assigned lessons. Warm-up is now 30 seconds of setup plus 4½ minutes of gradually increasing easy movement, replacing only 90 seconds of movement inside a five-minute interval block.
 
-## Audit of the existing progression
+## Progression
 
-| Week | Existing focus | Finding / next revision |
-|---|---|---|
-| 1 | Mobility, stance, supported shifts | Revised now: stance and guard, then tiny forward/backward and side steps, then controlled review. Written instructions and explicit rounds accompany every assigned drill. |
-| 2 | Supported shifts and 3 × 30-second guard | Mostly repeats the old first week. After approval, build from the revised base instead of removing its new footwork. |
-| 3 | Linear steps | Forward/backward order is useful. Needs side movement, actual progression, and clear form criteria. |
-| 4 | Repeat stance and steps | The goal mentions guard for up to 60 seconds, but the drill still specifies 20–30 seconds. Match doses to goals before extending endurance. |
-| 5 | Guard reset | Guard arrives too late in the old progression. It now starts in week one. Later weeks should develop coordination rather than introduce hand position again. |
-| 6 | Step and guard together | The goal says coordinate them, but the plan assigns separate guard and step drills. The combined sequence starts in week seven. |
-| 7 | Guard/forward/backward sequence | Useful review, but only linear movement and no explicit form demonstration or feedback. |
-| 8 | Mobility reassessment and instructor review | Honest limit on rank, but no actual instructor assessment mechanism. Attendance and self-checks remain introductory practice records. |
+| Week | Objective | Concrete self-check | Minutes Monday–Sunday |
+|---|---|---|---|
+| 1 | Stance, guard, shifts, first steps | Rebuild stance/guard; explain first-foot order | 30, 30, 0, 30, 30, 30, 30 |
+| 2 | Spacing and controlled stops | Pause for two counts without an extra balancing step | 30, 30, 0, 30, 30, 30, 30 |
+| 3 | Four-direction footwork | Name the first foot and restore spacing | 30, 30, 0, 35, 30, 35, 30 |
+| 4 | Guard while moving | Comfortable hands through a small step | 30, 30, 0, 35, 30, 35, 30 |
+| 5 | Distance and return | Move the base without leaning | 30, 30, 0, 40, 30, 35, 30 |
+| 6 | Backward then lateral sequences | Stop between directions; preserve lead | 30, 30, 0, 40, 30, 35, 30 |
+| 7 | Choose and coordinate | Recall foot order; correct one form point | 30, 30, 0, 40, 30, 35, 30 |
+| 8 | Review actual skills and support needs | Name one improvement and one instructor question | 30, 30, 0, 30, 30, 30, 30 |
 
-## Implemented first week
+All 48 practices include five minutes of preparation, four to six five-minute technique blocks, and five minutes of cool-down/review. Wednesday is full rest without a check-in. Tuesday and Sunday emphasize easy familiar practice. Complexity increases; speed, power, depth, and hold length do not. Repeat lessons/weeks or rest as needed. Never double up missed practices.
 
-Six 30-minute practices; Wednesday is full rest with no required check-in. Each practice includes preparation, technique, and a gentle finish. Skill progression is Monday stance/guard; Tuesday balance; Thursday forward/backward; Friday lateral movement; Saturday connect movement and guard; Sunday review. No strikes, partner contact, or extra conditioning are assigned in this first revision.
+Technique blocks: one minute to read/set up, three rounds of 30 seconds practice / 30 seconds rest, then one minute to review. Repetitions are modest examples, not quotas. Directions define lead/rear foot and step pair, movement order, small step size, facing, pauses, mistakes, and a regression. Each drill includes two form checks and supported/seated preparation. Seated rehearsal teaches posture and order, not standing balance. Gentle practice earns the same rewards; any practice interval can be used for extra rest.
 
-Every block has a first minute to read the instructions and prepare, then 30-second practice / 30-second rest rounds, then a final minute to relax and review. A 5-minute block has 3 rounds; a 10-minute block has 8. Timers include all of these phases, can pause, and permit extra rest. Users can repeat a week or save partial work. Nothing asks them to make up missed practice.
+## Maximum duration and timer
 
-Picture guides and playback were removed at the owner’s request. Written steps, form checks, and easier alternatives remain. Standing, stable-support, and seated preparation are available. Seated preparation rehearses posture and movement order; it does not claim to establish standing balance or equivalent martial arts competence. Gentle sessions retain identical agreed durations and game rewards.
+New saved sessions have a server-issued deadline 45 minutes after starting, including pauses and block transitions. Preview uses the same ceiling. On expiry, movement ends at partial-practice review. Pausing, resuming, reloads, and retries cannot reset the allowance; elapsed time after the deadline cannot complete another block. The normal plan tops out at 40 minutes to allow transitions. Story reading and optional reflection are outside workout time.
 
-New `w1-*` drill IDs preserve the plan and instructions of existing saved sessions. Server time, completion confirmations, atomic rewards, journal writes, and account authentication are unchanged. Later weeks keep their existing exercise blocks and durations until approved; personal exercise assumptions have been removed from their descriptions and project guidance.
+Both timers have a locally synthesized bell: one ring for phase changes, two for block completion or the workout limit. Start, Resume, or Test bell unlocks browser audio. Sound defaults on with a device-local mute preference. Scheduling against the audio clock avoids ordinary background-tab UI throttling. Pause cancels movement cues while the maximum still runs. Visual phase labels remain usable with sound off. Closing the saved-practice dialog leaves timing active; closing the page or sleeping the device cannot guarantee audible delivery.
 
-## Before revising weeks 2–8
+## Compatibility and checks
 
-Agree on the intended outcome: introductory solo movement foundations, or the beginner syllabus of a named martial art with qualified instruction. For the former, progress stance, guard, four-direction footwork, coordination, and repeatable control with concrete demonstrations. For the latter, add the relevant coached offensive/defensive curriculum and observed assessment; do not promise that eight weeks alone confers skill. Avoid approving progression solely from time, repetitions, or game rewards.
+New drills use `f2-*` IDs. Existing legacy and `w1-*` plans retain their instructions, durations, and original pause/resume behavior; deadlines are not imposed retroactively. Existing self-checks remain self-reported history, not newly certified skills. No story IDs/paragraphs, schema, authentication, hosting identity, dependency versions, or lockfile changes. Journal and exactly-once rewards retain the existing atomic transaction.
+
+Automated coverage: all 56 week/day combinations, 48 practices, readiness modes, exact time budgets, preparation/cool-down placement, lesson progression, phase/bell boundaries, legacy plan support, and deadline behavior across pauses, reload, late completion, and retries. Standard story/art/dialogue checks and local API account-isolation/reward checks also apply. See project status for final validation and publication results.
 
 ## Sources
 
-- [Boxing Canada · Instruction Beginners reference manual](https://boxingcanada.org/wp-content/uploads/2025/01/Instruction-Beginners-Reference-Manual-EN.pdf), sections 4–5: teaching, stance, four-direction footwork, punches and defenses.
-- [AAOS · Martial Arts Injury Prevention](https://www.orthoinfo.org/staying-healthy/martial-arts-injury-prevention): preparation, technique, and supervision.
-- [NHS · Flexibility exercises](https://www.nhs.uk/live-well/exercise/flexibility-exercises/): gentle ranges and gradual repetition for preparation options.
+- [Boxing Canada · Instruction Beginners reference manual](https://boxingcanada.org/wp-content/uploads/2025/01/Instruction-Beginners-Reference-Manual-EN.pdf), sections 4–5: beginner teaching, stance, four-direction footwork, specific feedback, and observed coaching. It is a sport syllabus example, not evidence that Dojo teaches boxing or a universal martial arts stance.
+- [AAOS · Martial Arts Injury Prevention](https://www.orthoinfo.org/staying-healthy/martial-arts-injury-prevention): preparation, warm-up, and suitable instruction for new techniques. Dojo uses easy walking instead of jumping.
+- [NHS · Balance exercises](https://www.nhs.uk/live-well/exercise/balance-exercises/): gradual practice, comfortable movement, and stable support nearby.
 
-These sources inform the review; the first-week doses are a conservative product choice, not a clinically validated or rank-certifying eight-week program.
+The sequence, 30/30-second intervals, repetition examples, 30–40-minute plans, and 45-minute ceiling are conservative product choices. These sources do not validate the exact doses or guarantee individual results.

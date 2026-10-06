@@ -4,7 +4,7 @@ import type {StoryScene} from "./story/types";
 export type SceneSave={position:number;choice?:string;done:boolean;flags?:Record<string,string>;revision?:string;passageId?:string;choices?:Record<string,string>};
 export type PracticeCompanion=DojoMemberId|"solo";
 export type Assignment={id:string;member:DojoMemberId;job:string;started:number;hours:12|24;claimed:number};
-export type SavedSession={id:string;date:string;day:number;readiness:string;companion:PracticeCompanion;week:number;plan:{id:string;seconds:number}[];index:number;elapsed:number;runningSince:number|null;checks:boolean[];skipped:boolean;status:"active"|"summary"|"training"|"partial";note:string;reflection?:string};
+export type SavedSession={id:string;date:string;day:number;readiness:string;companion:PracticeCompanion;week:number;plan:{id:string;seconds:number}[];index:number;elapsed:number;runningSince:number|null;checks:boolean[];skipped:boolean;status:"active"|"summary"|"training"|"partial";note:string;reflection?:string;deadline?:number};
 export type GameState={version:1;storyRevision?:string;resetToken?:string;practices:number;supplies:number;bonds:Record<string,number>;flags:Record<string,string>;scenes:Record<string,SceneSave>;facilities:string[];assignments:Assignment[];sessions:Record<string,SavedSession>;rewards:Record<string,true>;lastVisit:number};
 export const PROJECTS=[
  {id:"floor",name:"Practice stations",cost:100,episode:1,description:"Add mats, marked stations, and equipment storage to the practice space. Opens mat-care jobs."},
