@@ -24,7 +24,7 @@
   <img src="docs/readme/founders.webp" alt="Founder cards for Akari, Ren, Sora, Daichi and Yuzu" width="100%">
 </p>
 
-Five adult founders, each with their own personality, training focus and life beyond the hall. Practise with any founder you have met, and their bond grows with every session you complete together.
+Five adult founders, each with their own personality, training focus and life beyond the hall. Practice with any founder you have met, and their bond grows with every session you complete together.
 
 | | Founder | Focus | First words |
 |:-:|---|---|---|
@@ -41,7 +41,7 @@ Five adult founders, each with their own personality, training focus and life be
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>1 · Practise</h3>
+      <h3>1 · Practice</h3>
       Pick how your body feels today, then follow a guided session: preparation, timed technique blocks with a ringing bell, and a cool-down. Every drill has <b>standing, chair-supported and seated</b> versions, and all three earn the same rewards.
     </td>
     <td width="33%" valign="top">
