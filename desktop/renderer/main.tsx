@@ -2,13 +2,7 @@ import { Component, type ReactNode } from "react";
 import { createRoot } from "react-dom/client";
 import Dojo from "../../app/dojo";
 import "../../app/globals.css";
-import "../../app/members.css";
-import "../../app/story.css";
-import "../../app/hud.css";
-import "../../app/game-feel.css";
-import "../../app/training.css";
-import "../../app/pilot.css";
-import "../../app/settings.css";
+import "../../app/dojo.css";
 
 class LocalErrorBoundary extends Component<{children: ReactNode}, {failed: boolean}> {
   state = {failed: false};

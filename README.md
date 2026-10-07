@@ -46,7 +46,6 @@ With the local preview running, `npm run test:api` checks authentication, saved-
 - [Future roadmap](docs/roadmap.md)
 - [Writer bible — future spoilers](docs/writer-bible.md)
 - [Art direction and source files](artwork/README.md)
-- [Contributor instructions](AGENTS.md)
 
 The repository includes the complete app, migration history, delivery artwork, all 67 selected source illustrations, and reusable checks. Credentials, live account data, caches, and dependencies are kept outside version control.
 

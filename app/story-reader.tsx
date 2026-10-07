@@ -9,9 +9,9 @@ import {mainCompleted} from "@/lib/game";
 import {DIALOGUE_SPEEDS, type DialogueSpeed} from "@/lib/dialogue";
 import {useDialogueReveal, useDialogueSound} from "./use-dialogue-reveal";
 import type {DojoGameApi} from "./use-dojo-game";
+import {MEMBER_INK} from "./dojo-hud";
 
-const speakerInk: Record<string, string> = {akari:"#efba8c",ren:"#fa9276",sora:"#bbc7fa",daichi:"#e9c690",yuzu:"#e4b8ef"};
-const styles = (id:string) => ({"--speaker-accent":speakerInk[id]??"#efd6a3"}) as React.CSSProperties;
+const styles = (id:string) => ({"--speaker-accent":MEMBER_INK[id]??"#e8b865"}) as React.CSSProperties;
 
 export function StoryReader({sceneId,api,onClose}:{sceneId:string|null;api:DojoGameApi;onClose:()=>void}) {
   const [replayPosition,setReplayPosition] = useState(0), [back,setBack] = useState<number|null>(null);

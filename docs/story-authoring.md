@@ -4,7 +4,7 @@
 
 The owner authorized the complete ten-chapter saga with broad creative discretion and requested no spoilers in chat. The private authoring package is `docs/saga/README.md`; it specifies future world canon, chapter treatments, character trajectories, ending, decisions, and callbacks. Read it with the writer bible before scripting later chapters. Keep every future plot detail in contributor material and out of the player roadmap, client modules, public assets, and owner-facing responses.
 
-The package is a narrative blueprint. Current playable chapters and curriculum gates remain as released. A chapter becomes playable only after final scripts, required curriculum and assessment, original performance art, save compatibility, and relevant checks exist. Follow the desktop workflow in `AGENTS.md` and `docs/desktop.md` for implementation; the archived hosted app is updated only when explicitly requested.
+The package is a narrative blueprint. Current playable chapters and curriculum gates remain as released. A chapter becomes playable only after final scripts, required curriculum and assessment, original performance art, save compatibility, and relevant checks exist. Follow the desktop workflow in `docs/desktop.md` for implementation; the archived hosted app is updated only when explicitly requested.
 
 ## First-month campaign (5 October 2026)
 

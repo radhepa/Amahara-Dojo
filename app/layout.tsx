@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import "./members.css";
-import "./story.css";
-import "./hud.css";
-import "./game-feel.css";
-import "./training.css";
-import "./pilot.css";
-import "./settings.css";
+import "./dojo.css";
 
 export const metadata: Metadata = {
   title: "Dojo",

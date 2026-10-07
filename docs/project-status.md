@@ -1,6 +1,20 @@
 # Project status
 
-Updated 6 October 2026. Owner: Radhe Patel.
+Updated 7 October 2026. Owner: Radhe Patel.
+
+## Game HUD interface revamp — "Lantern Hall at dusk"
+
+On 7 October the owner approved a redesign (a canvas of Hall, Train, guided practice, story reader, Companions and a visual system) and asked for it to be implemented. The interface now reads as a game HUD: dark night-ink chrome, the existing paintings and portraits carrying the mood, one vermilion action per screen, gold for progress and rewards, sage for rest, and each founder's outfit colour (`MEMBER_INK` in `app/dojo-hud.tsx`) for names, rings and bond.
+
+- **Navigation:** a top bar with five places (Hall, Train, Story, Companions, Journey), resource chips and a Settings icon replaces the parchment side rail and its seven tabs. Today's practice, Weekly rhythm and Techniques are now the Train tab's Today / This week / Techniques views.
+- **Hall:** a full-bleed hall painting with the selected companion standing in it, a nameplate, a Today checklist (opening → practice → episode, one primary action) and chapter progress, followed by This week, Waiting at the hall and Hall projects cards. The full projects and jobs panel opens from the projects card. The companion picker moved to Companions.
+- **Train:** a readiness choice (ready / sore or tired / pain) as three buttons, a proportional session bar, the drill list and one start button, with the companion, a single "Before you start" safety card and practice stats beside it. Safety and certification wording is unchanged in substance; the Techniques view keeps the full coaching note and sources.
+- **Guided practice:** saved sessions and plan previews open a full-screen focus mode with a phase ring (set up / practice / rest / review), a round strip, a block track and the 45-minute limit, beside the drill steps (`app/practice-focus.tsx`). Session actions, confirmations, bells and rewards are unchanged.
+- **Story:** a new Story tab shows the next readable scene (or what unlocks it), chapter progress, all waiting visits and the episode replays that used to be in Settings (same `completedReplays` logic). The reader is full-screen with a large standing portrait behind a dark dialogue box and speaker nameplate, replacing the framed in-panel portrait. Reveal, keyboard, contrast, transcript, choices and saved places are unchanged.
+- **Companions:** portrait cards with role, personality, bond tier and pips, a practise-with button and the profile dialog; companions not yet introduced appear as unnamed locked cards.
+- **Type and styles:** Shippori Mincho B1 (display) and Zen Kaku Gothic New (interface) replace Kalam and Bricolage Grotesque. Latin subsets and OFL licences are in `public/fonts`. All app styling is in `app/dojo.css`; `globals.css` keeps only Tailwind/shadcn imports and tokens. The seven older stylesheets were removed. `dojo.css` also defines dialog, checkbox, progress, select and tab basics directly, because the installed app's working folder (`%LOCALAPPDATA%\Programs\Dojo`) leaves some Tailwind utilities (for example `top-[50%]`) ungenerated in live mode.
+
+No scene IDs, story text, saves, rewards, curriculum, API, schema, authentication or dependency versions changed. Validation: `npm run typecheck`, `npm test`, `npm run desktop:build` and `npm run test:desktop` passed. Laptop browser checks against a disposable save (bundled and live-source modes, including the installed app's working folder) covered the hall with and without a companion, Train today / week / rest day / plan preview, the focus-mode timer through setup and timed rounds, Story with ready and locked states, replays, the reader with choices and portrait placement, Companions locked and unlocked, Journey, Settings, dialogs and the mobility select. The live Electron window and a saved (non-preview) guided session were not opened. The installed app shows the new interface from live source; its offline fallback package was not rebuilt because the desktop packaging tools are not installed in `desktop/node_modules` and PowerShell 7 (`pwsh`) is not available. Run `npm run desktop:setup`, `npm run desktop:package` and the installer when that fallback should be refreshed.
 
 ## Ten-chapter saga — private narrative development
 
@@ -82,14 +96,16 @@ The 12 named characters have 58 portraits: five founder neutral designs and 25 m
 
 | Area | Files |
 |---|---|
-| Main app, training tabs | `app/dojo.tsx`, `lib/training.ts`, `lib/week-one.ts`, `lib/beginner.ts`, `lib/levels.ts` |
+| Main app, Train/Journey/Settings tabs | `app/dojo.tsx`, `lib/training.ts`, `lib/week-one.ts`, `lib/beginner.ts`, `lib/levels.ts` |
 | Week-one instructions and timed rounds | `app/drill-instructions.tsx`, `app/training.css`, `lib/week-one.ts` |
 | Hall, visits, projects, jobs | `app/dojo-hub.tsx`, `lib/game.ts` |
-| Story reader and dialogue timing | `app/story-reader.tsx`, `app/use-dialogue-reveal.ts`, `lib/dialogue.ts`, `app/story.css` |
-| HUD, typography, and motion | `app/dojo-hud.tsx`, `app/hud.css`, `app/game-feel.css`, `public/fonts` |
-| Settings, stats, replays and confirmed restart | `app/dojo-settings.tsx`, `app/settings.css`, `lib/settings.ts`, `lib/game-actions.ts` |
+| Story tab and replays | `app/dojo-story.tsx`, `lib/settings.ts` |
+| Companions roster and profiles | `app/dojo-members.tsx`, `lib/dojo-members.ts` |
+| Story reader and dialogue timing | `app/story-reader.tsx`, `app/use-dialogue-reveal.ts`, `lib/dialogue.ts`, `app/dojo.css` |
+| HUD, typography, and motion | `app/dojo-hud.tsx`, `app/dojo.css`, `public/fonts` |
+| Settings, stats and confirmed restart | `app/dojo-settings.tsx`, `lib/settings.ts`, `lib/game-actions.ts` |
 | Narrative and performance cues | `lib/story/episode-*.ts`, `personal.ts`, `quests.ts`, `season-depth.ts`, `index.ts`, `cast.ts` |
-| Saved guided practice | `app/guided-practice.tsx`, `lib/session-actions.ts` |
+| Saved guided practice and focus mode | `app/guided-practice.tsx`, `app/practice-focus.tsx`, `lib/session-actions.ts` |
 | Account mutations and rewards | `lib/game-actions.ts`, `lib/game-store.ts`, `app/use-dojo-game.ts` |
 | API | `app/api/game`, `app/api/sessions`, `app/api/progress` |
 | Persistence | `db/schema.ts`, `drizzle/0000…0002*.sql` |
