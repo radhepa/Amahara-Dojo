@@ -6,7 +6,7 @@ import {progressStats} from "@/lib/settings";
 import type {RecordEntry} from "@/lib/training";
 import type {DojoGameApi} from "./use-dojo-game";
 
-export default function DojoSettings({api,records,loaded,progressSaving,onRestart}:{api:DojoGameApi;records:RecordEntry[];loaded:boolean;progressSaving:boolean;onRestart:()=>void}){
+export default function DojoSettings({api,records,loaded,progressSaving,onRestart,stage}:{api:DojoGameApi;records:RecordEntry[];loaded:boolean;progressSaving:boolean;onRestart:()=>void;stage:string}){
  const [confirmOpen,setConfirmOpen]=useState(false),[confirmation,setConfirmation]=useState(""),[restarting,setRestarting]=useState(false),[resetError,setResetError]=useState("");
  const request=useRef<{token:string;previousResetToken:string}|null>(null),cancel=useRef<HTMLButtonElement>(null),inFlight=useRef(false);
  const game=api.game;
@@ -24,7 +24,7 @@ export default function DojoSettings({api,records,loaded,progressSaving,onRestar
   }finally{inFlight.current=false;setRestarting(false);}
  }
  return <div className="settings-screen">
-  <section className="card" aria-labelledby="settings-stats-title"><div className="card-head"><h2 id="settings-stats-title">Your progress</h2><span>Level 1 · Beginner</span></div><div className="settings-stats">{cards.map(({label,value,icon:Icon})=><div className="settings-stat" key={label}><Icon size={21} aria-hidden="true"/><strong>{value}</strong><span>{label}</span></div>)}</div><p className="card-note">Practice time includes saved partial sessions and rests within practice. Story progress is separate from martial arts skill. Episode replays are in the Story tab.</p></section>
+  <section className="card" aria-labelledby="settings-stats-title"><div className="card-head"><h2 id="settings-stats-title">Your progress</h2><span>{stage}</span></div><div className="settings-stats">{cards.map(({label,value,icon:Icon})=><div className="settings-stat" key={label}><Icon size={21} aria-hidden="true"/><strong>{value}</strong><span>{label}</span></div>)}</div><p className="card-note">Practice time includes saved partial sessions and rests within practice. Story progress is separate from martial arts skill. Episode replays are in the Story tab.</p></section>
   <section className="card settings-restart" aria-labelledby="settings-restart-title"><div><span className="eyebrow">A FRESH BEGINNING</span><h2 id="settings-restart-title">Restart from scratch</h2><p>Delete all story and training progress for this account and return to the welcome prologue. This cannot be undone.</p></div><button className="secondary settings-danger" disabled={busy} onClick={openConfirmation}><RotateCcw size={17}/>Restart from scratch</button></section>
   {api.error&&!confirmOpen&&<div className="game-error" role="alert">{api.error}<button className="text-button" onClick={()=>void api.load()}>Reload settings</button></div>}
   <Dialog open={confirmOpen} onOpenChange={open=>{if(!inFlight.current&&!restarting)setConfirmOpen(open);}}><DialogContent className="dojo-dialog restart-dialog" showCloseButton={false} onOpenAutoFocus={e=>{e.preventDefault();cancel.current?.focus();}} onEscapeKeyDown={e=>{if(inFlight.current)e.preventDefault();}} onInteractOutside={e=>{if(inFlight.current)e.preventDefault();}}>

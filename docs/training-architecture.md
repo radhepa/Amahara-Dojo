@@ -4,6 +4,8 @@
 
 It contains no story details. Story-facing notes are limited to how workouts and episodes are paired.
 
+**Status (7 October 2026): the workout pass is done.** Every drill, all 408 practice days, the new block formats, the cue scheduler, the steady count mode and the solo milestones are implemented; see `curriculum-review.md`. Chapters 2–10 stay hidden in the app until each chapter's story is ready (`STORY_READY_CHAPTERS` in `lib/curriculum/index.ts`). Chapter 10's own-session weeks use "your choice" blocks inside an app-built 30–40 minute template rather than a free-form session builder.
+
 ## Non-negotiables
 
 - **Solo only.** No partner, instructor, sparring, contact, pads held by someone else, or "find a training buddy" steps. Everything is done alone in your own space.

@@ -10,7 +10,7 @@ import {activeSession,sessionRemaining,sessionLimitRemaining} from "@/lib/sessio
 import type {DojoGameApi} from "./use-dojo-game";
 import {characterPortrait} from "@/lib/story/cast";
 import {DrillInstructions} from "./drill-instructions";
-import {usePracticeBell} from "./use-practice-bell";
+import {usePracticeBell,useCountOffset,countFor} from "./use-practice-bell";
 import {PracticeBellControls} from "./practice-bell-controls";
 import {PhaseRing,BlockTrack,clock} from "./practice-focus";
 import {inkStyle} from "./dojo-hud";
@@ -27,7 +27,9 @@ export function GuidedPractice({open,onClose,api,companion,readiness,week,onSave
  const limitRemaining=s?.status==="active"?sessionLimitRemaining(s,api.now()):null;
  const limitStop=useRef<string|null>(null);
  useEffect(()=>{if(limitRemaining===0&&s?.status==="active"&&limitStop.current!==s.id){limitStop.current=s.id;void api.act({action:"stop",id:s.id},"/api/sessions");}},[limitRemaining,s?.id,s?.status,api.act]);
- const bell=usePracticeBell({blockKey:s?`${s.id}:${s.index}:${s.runningSince}`:"",drill:drill??undefined,seconds:block?.seconds??0,elapsed:s&&block?Math.min(block.seconds,s.elapsed+(s.runningSince===null?0:Math.max(0,(api.now()-s.runningSince)/1000))):0,running:s?.status==="active"&&s.runningSince!==null&&remaining>0&&limitRemaining!==0,limitRemaining:s?.status==="active"&&s.deadline!==undefined?Math.max(0,(s.deadline-api.now())/1000):null});
+ const tempo=useCountOffset(),bpm=countFor(drill??undefined,tempo.offset),seed=s?`${s.id}:${s.index}`:"";
+ const exact=s&&block?Math.min(block.seconds,s.elapsed+(s.runningSince===null?0:Math.max(0,(api.now()-s.runningSince)/1000))):0;
+ const bell=usePracticeBell({blockKey:s?`${s.id}:${s.index}:${s.runningSince}`:"",drill:drill??undefined,seconds:block?.seconds??0,elapsed:exact,seed,bpm,running:s?.status==="active"&&s.runningSince!==null&&remaining>0&&limitRemaining!==0,limitRemaining:s?.status==="active"&&s.deadline!==undefined?Math.max(0,(s.deadline-api.now())/1000):null});
  function draft(value:string|undefined){setReflection(value);if(s)void api.act({action:"draft",id:s.id,note,reflection:value??null},"/api/sessions");}
  async function finish(){if(!s)return;const ok=await api.act({action:"finalize",id:s.id,note,...(reflection?{reflection}:{})},"/api/sessions");if(ok){setOutcome({member:s.companion,full,reflection});onSaved();}}
  const focus=!outcome&&s?.status==="active"&&!!drill&&!!block;
@@ -39,14 +41,14 @@ export function GuidedPractice({open,onClose,api,companion,readiness,week,onSave
   {api.error&&<div className="game-error" role="alert">{api.error} Retry the action when you’re ready.</div>}
   <div className="focus-stage">
    <section className="focus-timer" aria-label="Timer">
-    <div role="timer" aria-label={`${Math.floor(remaining/60)} minutes ${remaining%60} seconds remaining in this block`}><PhaseRing drill={drill} seconds={block.seconds} elapsed={block.seconds-remaining} running={!paused&&remaining>0} limitReached={limitRemaining===0}/></div>
+    <div role="timer" aria-label={`${Math.floor(remaining/60)} minutes ${remaining%60} seconds remaining in this block`}><PhaseRing drill={drill} seconds={block.seconds} elapsed={block.seconds-remaining} exact={exact} seed={seed} bpm={bpm} running={!paused&&remaining>0} limitReached={limitRemaining===0}/></div>
     {remaining===0&&<label className="checkbox-line focus-confirm"><Checkbox checked={confirmed} onCheckedChange={v=>setConfirmed(v===true)}/>I completed this gentle block, including its rest breaks, using the easier option when needed.</label>}
     <div className="focus-controls">
      <button className="text-button" disabled={api.saving} onClick={()=>void api.act({action:"stop",id:s.id},"/api/sessions")}>Stop &amp; save partial</button>
      <button className="round-button" aria-label={paused?"Resume":"Pause"} disabled={limitRemaining===0||remaining===0||api.saving||(day===2&&paused)} onClick={()=>{if(paused)void bell.arm();void api.act({action:paused?"resume":"pause",id:s.id},"/api/sessions");}}>{paused?<Play/>:<Pause/>}</button>
      <button className="primary" disabled={limitRemaining===0||!confirmed||remaining>0||api.saving} onClick={()=>void api.act({action:"next",id:s.id,index:s.index,confirm:true},"/api/sessions")}>{s.index===s.plan.length-1?"Finish blocks":"Next block"}<ChevronRight/></button>
     </div>
-    <PracticeBellControls bell={bell}/>
+    <PracticeBellControls bell={bell} count={drill.tempo?{bpm,tempo}:undefined} cued={!!drill.cues?.length}/>
     {host&&<div className="focus-companion" style={inkStyle(host.id)}><img src={host.portrait} alt=""/><p><strong>{host.name}</strong> · {host.practiceCue}</p></div>}
     <p className="small-note">Closing this window keeps your timer and place. Pause stops timing and bells.</p>
    </section>

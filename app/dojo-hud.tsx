@@ -17,7 +17,7 @@ export const MEMBER_INK: Record<string, string> = {akari: "#8cc79a", ren: "#f08a
 export const memberInk = (id: string | undefined) => (id && MEMBER_INK[id]) || "#e8b865";
 export const inkStyle = (id: string | undefined) => ({"--ink": memberInk(id)} as CSSProperties);
 
-export function DojoTopbar({practices, supplies}: {practices: number | null; supplies: number | null}) {
+export function DojoTopbar({practices, supplies, stage}: {practices: number | null; supplies: number | null; stage: string}) {
   return <header className="hud-bar">
     <div className="hud-brand"><span className="hud-seal" aria-hidden="true">道</span><strong>Dojo</strong></div>
     <TabsList className="hud-tabs" aria-label="Dojo navigation">
@@ -26,7 +26,7 @@ export function DojoTopbar({practices, supplies}: {practices: number | null; sup
     <div className="hud-resources">
       <span className="hud-chip" title="Completed training practices"><Flame aria-hidden="true"/><strong key={`practices-${practices}`}>{practices ?? "—"}</strong><span>practices</span></span>
       <span className="hud-chip" title="Supplies for optional hall projects"><Package aria-hidden="true"/><strong key={`supplies-${supplies}`}>{supplies ?? "—"}</strong><span>supplies</span></span>
-      <span className="hud-chip hud-rank">Level 1 · Beginner</span>
+      <span className="hud-chip hud-rank" title="Your current chapter. It records practice, not rank.">{stage}</span>
       <TabsList className="hud-settings-list" aria-label="Settings"><TabsTrigger value="settings" className="hud-icon-button" aria-label="Settings" title="Settings"><Settings2 aria-hidden="true"/></TabsTrigger></TabsList>
     </div>
   </header>;

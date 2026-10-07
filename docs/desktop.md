@@ -1,6 +1,6 @@
 # Local Dojo for Windows
 
-Open **Dojo** from the desktop or Start menu. This is a native Electron application with its own bundled runtime, artwork, fonts and SQLite database. It runs without ChatGPT or an internet connection. No terminal or browser is needed to use the installed app.
+Open **Dojo** from the desktop or Start menu. This is a native Electron application with its own bundled runtime, artwork, fonts and SQLite database. It runs without an internet connection or any online account. No terminal or browser is needed to use the installed app.
 
 ## Automatic local updates
 
@@ -38,7 +38,7 @@ pwsh -File scripts/install-desktop.ps1
 
 Installation creates desktop and Start menu shortcuts without administrator access. To package in a separate worktree and point the installed app at the canonical source folder, pass `-SourceRoot C:\Users\minal\Amahara-Dojo` to the installer after synchronizing the source.
 
-The package is `desktop/release/Dojo-win32-x64`. Its **Dojo.exe** can be run without Node.js, npm, the source folder or any ChatGPT app. Move the entire package folder together, keeping its DLLs and `resources` directory. Deleting or reinstalling the executable folder does not remove progress from the separate save folder.
+The package is `desktop/release/Dojo-win32-x64`. Its **Dojo.exe** can be run without Node.js, npm, the source folder or any online account. Move the entire package folder together, keeping its DLLs and `resources` directory. Deleting or reinstalling the executable folder does not remove progress from the separate save folder.
 
 ## Validation
 

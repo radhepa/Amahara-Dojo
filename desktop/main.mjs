@@ -84,7 +84,7 @@ else {
       {label: "Dojo", submenu: [{label: "Back up local save…", click: backupSave}, {label: "Open save folder", click: () => shell.openPath(saveDirectory)}, {type: "separator"}, {role: "quit"}]},
       {label: "Edit", submenu: [{role: "undo"}, {role: "redo"}, {type: "separator"}, {role: "cut"}, {role: "copy"}, {role: "paste"}, {role: "selectAll"}]},
       {label: "View", submenu: [{role: "reload"}, {role: "resetZoom"}, {role: "zoomIn"}, {role: "zoomOut"}, {role: "togglefullscreen"}, ...(backend.live ? [{role: "toggleDevTools"}] : [])]},
-      {label: "Help", submenu: [...(sourceRoot ? [{label: "Open project folder", click: () => shell.openPath(sourceRoot)}] : []), {label: "About Dojo", click: () => dialog.showMessageBox(window, {title: "Dojo", message: "Dojo", detail: `Created by Radhe Patel.\n\nEverything runs on this computer. No ChatGPT sign-in or internet connection is required.\n\n${backend.live ? "Local project changes update this window automatically." : "Running the self-contained desktop copy."}\n\nSave: ${path.join(saveDirectory, "progress.sqlite")}`})}]},
+      {label: "Help", submenu: [...(sourceRoot ? [{label: "Open project folder", click: () => shell.openPath(sourceRoot)}] : []), {label: "About Dojo", click: () => dialog.showMessageBox(window, {title: "Dojo", message: "Dojo", detail: `Created by Radhe Patel.\n\nEverything runs on this computer. No online sign-in or internet connection is required.\n\n${backend.live ? "Local project changes update this window automatically." : "Running the self-contained desktop copy."}\n\nSave: ${path.join(saveDirectory, "progress.sqlite")}`})}]},
     ]));
     await window.loadURL(backend.origin);
     window.show();

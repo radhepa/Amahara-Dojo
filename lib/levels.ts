@@ -1,13 +1,18 @@
-export type Level={number:number;name:string;sessions:number;minutes:number;days:number;coachedMinutes:number;focus:string;tests:string[];coach:boolean};
-export const LEVELS:Level[]=[
- {number:1,name:"Beginner",sessions:0,minutes:0,days:0,coachedMinutes:0,focus:"Build comfortable mobility, a tall stance, and a habit you can recover from.",tests:[],coach:false},
- {number:2,name:"Movement foundation",sessions:48,minutes:1440,days:56,coachedMinutes:0,focus:"Become balanced and consistent before practicing strikes.",tests:["Hold a tall natural guard for 3 × 60 seconds with equal rests, relaxed breathing, and no pain.","Complete 3 × 60 seconds of slow forward/backward steps without crossing feet or losing balance.","Use comfortable chair-supported mobility without forcing squat depth or toe reach."],coach:false},
- {number:3,name:"Coached fundamentals",sessions:60,minutes:1800,days:84,coachedMinutes:600,focus:"Learn straight punches and guard recovery from a qualified striking instructor.",tests:["Instructor confirms balanced stance, guard, and basic footwork on both leads.","Demonstrate coach-taught straight punches at controlled speed with safe wrist alignment and immediate guard recovery.","Maintain balance through 3 × 2-minute technique rounds with 1-minute rests; instructor sees no recurring major errors."],coach:true},
- {number:4,name:"Controlled striking",sessions:100,minutes:3000,days:140,coachedMinutes:1500,focus:"Learn low kicks, stable chambers, and a controlled return to stance.",tests:["Instructor confirms safe straight punches while stepping forward and backward.","Demonstrate coach-taught low front kicks on both sides, returning to stance without hopping or falling.","Complete 3 × 2-minute controlled pad rounds with safe alignment and consistent guard; no forced kick height."],coach:true},
- {number:5,name:"Connected movement",sessions:160,minutes:4800,days:224,coachedMinutes:3000,focus:"Connect punches, low kicks, and steps with control.",tests:["Demonstrate instructor-selected punch and kick combinations on both sides with controlled distance.","Move in and out without crossing feet, turning your back, or losing your guard.","Complete 4 × 2-minute technical rounds with rests; instructor confirms control and repeatable technique."],coach:true},
- {number:6,name:"Intermediate practice",sessions:240,minutes:7200,days:336,coachedMinutes:5400,focus:"Add distance, defense, and supervised partner drills.",tests:["Respond to instructor-selected attacks in supervised, low-contact partner drills with appropriate guard and distance.","Show controlled defensive movement and counter technique against an unpredictable but cooperative partner.","Complete 4 × 2-minute supervised technical rounds; stop on command and never lose contact control."],coach:true},
- {number:7,name:"Reliable intermediate",sessions:360,minutes:10800,days:504,coachedMinutes:9000,focus:"Keep your technique when a partner applies appropriate pressure.",tests:["Instructor confirms controlled technique against multiple partners of comparable experience.","Demonstrate defense, distance, and safe exits during supervised restricted practice with a non-cooperative partner.","Maintain balance and composure across 5 × 2-minute rounds with rests; control matters more than winning."],coach:true},
- {number:8,name:"Skilled practitioner",sessions:520,minutes:15600,days:728,coachedMinutes:13800,focus:"Adapt your timing and movement to different partners.",tests:["Instructor assesses competent offense, defense, and movement against varied partners in safe supervised practice.","Adjust distance and timing when an initial technique does not work; remain controlled throughout.","Repeat strong performance on two instructor assessment days at least 4 weeks apart."],coach:true},
- {number:9,name:"Advanced candidate",sessions:750,minutes:22500,days:1092,coachedMinutes:19800,focus:"Demonstrate dependable skill across varied situations.",tests:["Instructor records advanced technical quality in punches, kicks, combinations, and movement within your chosen art.","Demonstrate tactical adaptation and controlled defense against resisting partners under coach-defined rules.","Maintain this standard over three assessment days across at least 3 months; no single good round is sufficient."],coach:true},
- {number:10,name:"Advanced practitioner",sessions:1000,minutes:30000,days:1460,coachedMinutes:27000,focus:"Earn advanced standing in your real martial art through sustained external assessment.",tests:["Primary instructor explicitly assesses you as advanced in the named martial art, including punching, kicking, defense, distance, and footwork.","A second qualified instructor independently agrees with that assessment after observing your technique and supervised partner practice.","Show consistent control and effective movement against appropriately matched resisting partners across at least 6 months of assessments."],coach:true},
-];
+import {CHAPTERS,PROGRAMME_WEEKS,STORY_READY_CHAPTERS,chapterForWeek} from "./curriculum";
+
+// Solo milestones replace the old instructor-led Levels 2–10. Each is earned by completing a
+// chapter's practices and its trial-week self-check. They record practice, never rank.
+export const MILESTONE_NOTE = "This records your practice and self-review. It is not a rank or a measure of fighting ability.";
+export type Milestone = {number:number;name:string;phase:string;weeks:number;firstWeek:number;lastWeek:number;practices:number;totalPractices:number;focus:string;trial:string;checks:readonly string[];playable:boolean};
+export const MILESTONES:readonly Milestone[] = CHAPTERS.map(c=>({
+ number:c.chapter,name:c.milestone,phase:c.phase,weeks:c.weeks,firstWeek:c.firstWeek,lastWeek:c.firstWeek+c.weeks-1,
+ practices:c.weeks*6,totalPractices:(c.firstWeek+c.weeks-1)*6,focus:c.goal,trial:c.trial.title,checks:c.trial.checks,playable:c.chapter<=STORY_READY_CHAPTERS,
+}));
+
+export function earnedMilestones(progress:{week:number;complete:boolean}){
+ return MILESTONES.filter(m=>progress.week>m.lastWeek||(progress.complete&&progress.week===m.lastWeek)).map(m=>m.number);
+}
+export function stageLabel(week:number){
+ if(week>PROGRAMME_WEEKS)return "Continuing practice";
+ const c=chapterForWeek(week);return `Chapter ${c.chapter} · ${c.milestone}`;
+}

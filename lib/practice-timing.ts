@@ -1,8 +1,11 @@
 import type {Drill} from "./training";
 import {practicePhase} from "./week-one";
+import {timelinePhase} from "./blocks";
 
-export function drillPhase(drill:Drill,seconds:number,elapsed:number){
+export type DrillPhase = {kind:string;label:string;remaining:number;round:number;rounds?:number;count?:boolean;cued?:boolean;exercise?:string};
+export function drillPhase(drill:Drill,seconds:number,elapsed:number):DrillPhase{
  const used=Math.min(seconds,Math.max(0,Math.floor(elapsed)));
+ if(drill.format&&drill.format!=="A")return timelinePhase(drill,seconds,used);
  if(drill.timedRounds)return practicePhase(seconds,used);
  if(used>=seconds)return {kind:"complete",label:"Block complete · stop and confirm",remaining:0,round:0};
  if(drill.timing==="warmup"){

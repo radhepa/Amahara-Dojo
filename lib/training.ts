@@ -1,6 +1,12 @@
 import {WEEK_ONE_DRILLS} from "./week-one";
-import {FOUNDATION_DRILLS,foundationSchedule,MAX_PRACTICE_MINUTES} from "./foundations";
-export type Drill = {name:string;category:string;cue:string;steps:string[];easier:string;avoid:string;dose:string;timedRounds?:boolean;timing?:"warmup"|"cooldown";checkpoints?:string[]};
+import {FOUNDATION_DRILLS,MAX_PRACTICE_MINUTES} from "./foundations";
+import {CURRICULUM_DRILLS,programmeSchedule} from "./curriculum";
+// Block formats from docs/training-architecture.md. A is the original learn block (timedRounds).
+export type BlockFormat = "A"|"B"|"H"|"E"|"C"|"F"|"D"|"G"|"S";
+export type CueTone = "high"|"low"|"double";
+export type CueCall = {call:string;answer:string;tone:CueTone};
+export type Drill = {name:string;category:string;cue:string;steps:string[];easier:string;avoid:string;dose:string;timedRounds?:boolean;timing?:"warmup"|"cooldown";checkpoints?:string[];
+ format?:BlockFormat;minutes?:5|10;exercises?:string[];cues?:CueCall[];cueGap?:readonly [number,number];tempo?:number;countCycle?:number;hold?:20|30;sources?:string[]};
 export const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 export const SCHEDULE = [
  {load:"Stance",title:"Find your footing",focus:"Stance & mobility",minutes:30,reason:"Keep movement easy. Build a comfortable base before increasing speed.",blocks:[["warm",5],["ankle",6],["stance",7],["step",7],["cool",5]]},
@@ -29,7 +35,8 @@ Object.assign(DRILLS,{
 export const DEFAULT_ASSESSMENT:Assessment = {squat:"shallow",reach:"shins",comfort:false};
 Object.assign(DRILLS,WEEK_ONE_DRILLS);
 Object.assign(DRILLS,FOUNDATION_DRILLS);
-export function scheduleForWeek(week:number){return foundationSchedule(week);}
+Object.assign(DRILLS,CURRICULUM_DRILLS);
+export function scheduleForWeek(week:number){return programmeSchedule(week);}
 export function dateKey(date=new Date()){return new Intl.DateTimeFormat("en-CA",{timeZone:"America/Indianapolis",year:"numeric",month:"2-digit",day:"2-digit"}).format(date);}
 export function dayIndex(date=new Date()){return DAYS.indexOf(new Intl.DateTimeFormat("en-US",{timeZone:"America/Indianapolis",weekday:"long"}).format(date));}
 export function weekDates(key:string){const d=new Date(key+"T12:00:00Z");d.setUTCDate(d.getUTCDate()-(d.getUTCDay()+6)%7);return DAYS.map((_,i)=>{const x=new Date(d);x.setUTCDate(x.getUTCDate()+i);return x.toISOString().slice(0,10);});}

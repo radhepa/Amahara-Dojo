@@ -19,6 +19,6 @@ Dojo stays a **solo** programme for its whole length: no partner, instructor or 
 | 9 | 8 | Integration: steady count | Confrontation and sacrifice | Steady-count mode and integrated sessions |
 | 10 | 6 | Practice for life | Resolution and legacy | Build-your-own sessions, maintenance plans, continuing practice |
 
-Total: 68 weeks, 408 practices. Later chapters require new writing and curriculum before they unlock; a chapter's story and its curriculum unlock together. Story rewards cannot certify technique. Solo milestones record practice and self-review, not rank or fighting ability.
+Total: 68 weeks, 408 practices. Every chapter's solo curriculum is written (`curriculum-review.md`); later chapters still need their story before they unlock, and a chapter's story and its curriculum unlock together. Story rewards cannot certify technique. Solo milestones record practice and self-review, not rank or fighting ability.
 
-Next additions should follow the first season's playthrough feedback: scene-specific pose art, the weeks 5–8 expansion, and the Chapter 2 curriculum and scripts. New features should strengthen the characters or practice loop rather than add daily chores.
+Next additions should follow the first season's playthrough feedback: scene-specific pose art, the weeks 5–8 expansion, and the Chapter 2 scripts (its curriculum is ready). New features should strengthen the characters or practice loop rather than add daily chores.

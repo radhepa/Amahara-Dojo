@@ -1,0 +1,25 @@
+// Sources cited by drills (Drill.sources) and docs/curriculum-review.md.
+// They support general technique and safety points; none validates Dojo's exact doses.
+export type Source = {label:string;url?:string;supports:string};
+export const SOURCES:Record<string,Source> = {
+ "boxing-beginner":{label:"Boxing Canada · Instruction Beginners reference material (2024), ch. 5",url:"https://boxingcanada.org/wp-content/uploads/2025/01/Instruction-Beginners-Reference-Manual-EN.pdf",supports:"Stance, footwork, straight-punch mechanics (pivot, fist, wrist, return along the same path), the jab, the rear straight, parries, double jab and 1-2, parry counters, covering up."},
+ "boxing-club":{label:"Boxing Canada · Club Coach reference material v1.7 (2016), ch. 2–3",url:"https://www.fqbo.qc.ca/modules/publications/Club%20Coach%20manual%20-%202016,%20June%2015.pdf",supports:"Side-step and pivot, the lead hook, ducking with the knees, the uppercut, slipping to the correct side, common errors such as dropping the hands."},
+ "jkd":{label:"Bruce Lee · Tao of Jeet Kune Do (Ohara, 1975)",supports:"The lead straight, non-telegraphic starts, economy of motion, stop-hits and low stop-kicks that intercept an advance."},
+ "kicks":{label:"Vagner et al. 2023 · Front and roundhouse kicks: a systematic review (Sports 11:141)",url:"https://doi.org/10.3390/sports11080141",supports:"Kicks are driven by hip rotation and proximal-to-distal sequencing; front kicks push, round kicks swing."},
+ "aaos":{label:"AAOS OrthoInfo · Martial arts injury prevention",url:"https://www.orthoinfo.org/staying-healthy/martial-arts-injury-prevention",supports:"Warm up before practice, stretch afterwards, learn new moves slowly, know your limits."},
+ "nhs-balance":{label:"NHS · Balance exercises",url:"https://www.nhs.uk/live-well/exercise/balance-exercises/",supports:"Gradual balance practice with stable support nearby."},
+ "nhs-strength":{label:"NHS · Strength exercises",url:"https://www.nhs.uk/live-well/exercise/strength-exercises/",supports:"Sit-to-stand, mini squats with chair support, calf raises, sideways leg lifts, wall press-ups; build up slowly."},
+ "nhs-sitting":{label:"NHS · Sitting exercises",url:"https://www.nhs.uk/live-well/exercise/sitting-exercises/",supports:"Seated alternatives for mobility and strength."},
+ "nhs-flex":{label:"NHS · Flexibility exercises",url:"https://www.nhs.uk/live-well/exercise/flexibility-exercises/",supports:"Gentle, held stretches without bouncing."},
+ "neck":{label:"Cambridge University Hospitals NHS · Neck exercises and advice",url:"https://www.cuh.nhs.uk/patient-information/neck-exercises-and-advice/",supports:"Gentle neck turns and tilts within a comfortable range."},
+ "who":{label:"Bull et al. 2020 · WHO guidelines on physical activity (BJSM)",url:"https://doi.org/10.1136/bjsports-2020-102955",supports:"Regular muscle-strengthening activity and balance work; some activity is better than none."},
+ "talk-test":{label:"CDC · Measuring physical activity intensity",url:"https://www.cdc.gov/physical-activity-basics/measuring/index.html",supports:"The talk test: moderate effort still allows talking; vigorous effort allows only a few words."},
+ "rir":{label:"Refalo et al. 2023 · Proximity to failure and hypertrophy (Sports Medicine)",url:"https://doi.org/10.1007/s40279-022-01784-y",supports:"Stopping sets short of failure keeps most of the benefit."},
+ "balance-training":{label:"Hübscher et al. 2010 · Neuromuscular training for sports injury prevention",url:"https://pubmed.ncbi.nlm.nih.gov/19952811/",supports:"Balance and neuromuscular training reduce some sports injuries, notably ankle sprains."},
+ "kata-balance":{label:"Mustafa et al. 2022 · Karate training and balance in older adults (BMC Sports Sci Med Rehabil)",url:"https://pmc.ncbi.nlm.nih.gov/articles/PMC8997192/",supports:"Five weeks of kata-based karate training improved dynamic balance in a small preliminary study."},
+ "focus":{label:"Wulf 2013 · Attentional focus and motor learning",url:"https://doi.org/10.1080/1750984X.2012.723728",supports:"Cues about the effect of a movement (an external focus) tend to help learning more than cues about body parts."},
+ "imagery":{label:"Simonsmeier et al. 2021 · Imagery interventions in sports: a meta-analysis",url:"https://doi.org/10.1080/1750984X.2020.1780627",supports:"Imagery combined with physical practice improved motor performance more than physical practice alone."},
+ "practice-order":{label:"Czyż et al. 2024 · Contextual interference and retention (Scientific Reports)",url:"https://doi.org/10.1038/s41598-024-65753-3",supports:"Mixed (random) practice improves retention once a skill is known; the applied effect is small."},
+ "breath":{label:"Balban et al. 2023 · Brief structured respiration practices (Cell Reports Medicine)",url:"https://doi.org/10.1016/j.xcrm.2022.100895",supports:"Exhale-emphasised breathing lowered respiratory rate and improved mood."},
+ "heat":{label:"NHS · Heat exhaustion and heatstroke",url:"https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",supports:"Warning signs and fluids when exercising in heat."},
+};
