@@ -62,14 +62,27 @@ const DEFAULT_REASONS = [
 ];
 const REST:PracticeDay = {load:"Full rest",title:"Rest is your mission",focus:"Full rest",minutes:0,reason:"Wednesday has no practice or required check-in. Missed days never need making up.",blocks:[]};
 
+const list = (items:string[]) => items.length<2?items.join(""):`${items.slice(0,-1).join(", ")} and ${items[items.length-1]}`;
+// Default descriptions name the day's actual drills.
+function dayReason(index:number,ids:readonly string[]){
+ const skills=[...new Set(ids.filter(id=>ALL[id].format!=="S"&&!/Mobility|Recovery/.test(ALL[id].category)).map(id=>ALL[id].name))];
+ const conditioning=ids.map(id=>ALL[id]).find(d=>d.format==="S");
+ if(index===1&&skills.length)return `${list(skills.slice(0,3))} at low effort. Choose the supported or seated version freely; there is nothing to make up.`;
+ if(index===4&&skills.length&&conditioning)return `${list(skills.slice(0,3))} first, then ${conditioning.name}. Stop each exercise two or three repetitions before it gets hard.`;
+ if(index===6&&skills.length)return `Easy flow: ${list(skills.slice(0,2))}, then gentle mobility. Finish feeling better than you started.`;
+ return undefined;
+}
+
 function buildWeek(spec:ChapterSpec,week:WeekSpec,feel:Feel):PracticeDay[]{
  const trial=feel==="Trial"||feel==="Recovery + Trial";
  const days=week.days.map(([title,focus,ids,reason],i)=>{
   const index=i<2?i:i+1;
   const blocks:PracticeDay["blocks"] = [[spec.warm,5],...ids.map(id=>{const d=ALL[id];if(!d)throw new Error(`Unknown drill ${id}`);return [id,blockMinutes(d)] as const;}),[spec.cool,5]];
   const load=trial?(index===5?"Chapter trial":index===6?"Easy flow":"Light review"):feel==="Recovery"?"Recovery":DAY_LABELS[index];
-  const fallback=trial&&index<5?"Trial week: lighter review before Saturday. Keep it crisp and easy; no extra rounds.":trial&&index===6?"The trial is done. Easy flow and mobility only.":feel==="Recovery"?"Recovery week: everything light and familiar. Rest is part of the plan.":DEFAULT_REASONS[index];
-  return {load,title,focus,reason:reason??fallback,blocks,minutes:blocks.reduce((n,[,m])=>n+m,0)} satisfies PracticeDay;
+  const fallback=trial&&index<5?"Trial week: lighter review before Saturday. Keep it crisp and easy; no extra rounds.":trial&&index===6?"The trial is done. Easy flow and mobility only.":feel==="Recovery"?"Recovery week: everything light and familiar. Rest is part of the plan.":dayReason(index,ids)??DEFAULT_REASONS[index];
+  // Easy days get a title from the week instead of repeating their "Easy review" tag.
+  const named=title==="Easy review"?`${week.name}, lightly`:title==="Easy flow"&&!trial?`${week.name}, at ease`:title;
+  return {load,title:named,focus,reason:reason??fallback,blocks,minutes:blocks.reduce((n,[,m])=>n+m,0)} satisfies PracticeDay;
  });
  return [days[0],days[1],REST,days[2],days[3],days[4],days[5]];
 }
