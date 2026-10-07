@@ -1,6 +1,8 @@
 # Chapter 1 — Lantern Hall
 
-**AUTHOR ONLY. Continuity map of released writing, not a replacement script.**
+**AUTHOR ONLY. Continuity map of released writing, not a replacement script.** Revision 3 (7 October 2026) leaves the published map unchanged and adds expansion seeds below.
+
+**Training sync:** Foundations (stance, guard, balance, four-direction footwork, distance, review). Published curriculum `f2-*`.
 
 ## Chapter contract
 
@@ -86,6 +88,18 @@ Preserve the exact eight original flags and option values: `repair` (`floor` / `
 
 The existing four personal scenes per founder, five optional adult relationship invitations, and six supporting visits retain their authored IDs and gates. The prologue and eight revised first-month openings remain as released. No future revelation belongs in an added Chapter 1 line merely to make this plan look more foreshadowed.
 
+## Revision 3 seeds for the weeks 5–8 expansion (fresh campaigns only)
+
+Weeks 5–8 still use their shorter published scenes. When they are expanded the way weeks 2–4 were (new revisioned scene IDs for fresh campaigns; legacy and started saves untouched), plant these seeds. Each must read as ordinary texture, never as a wink.
+
+- **The dawn count.** Week 5 or 6: the apprentice arrives early and sees one founder practising alone before the unlit lantern. Nobody explains it as tradition yet; Chapter 2 opens on it. Do not attribute "light your own lantern first" to Iori in Chapter 1.
+- **The Old Gate.** Week 7's rain: Riku or the keeper notes that the third note's clearance comes from "the old municipal gate below the market," stuck since the flood and long bypassed. No one knows yet that the bypass has failed.
+- **Natsume's ear.** Week 5's inspection: when the bell rings two, Natsume's pencil stops for exactly as long as Akari's once did. She says nothing.
+- **Cohort cameos.** Week 8's review crowd: a seamstress with a tape measure wound around two fingers (Avel, unnamed) and a young man who asks a procedural question about responder licences (Jalen, unnamed). Neither speaks a second line.
+- **The apprentice's practice.** Let the founders notice the apprentice's consistency in one line each week. It sets up the Chapter 2 moment when the apprentice is no longer the newest person in the room.
+
+Do not add any line about Veyr, Merrow Quay, Maela, the Crown Junction or Natsume's guilt to Chapter 1.
+
 ## Handoff
 
-The hall is independent for a year with work still owed. Iori is alive and not reconciled. Sora owes the courier explanation. The evidence is preserved but unauthenticated. The apprentice has a place and bounded responsibilities, not advanced martial competence.
+The hall is independent for a year with work still owed. Iori is alive and not reconciled. Sora owes the courier explanation. The evidence is preserved but unauthenticated. The bell still rings two. The apprentice has a place and bounded responsibilities, not advanced martial competence. Chapter 2 opens at dawn on the count.

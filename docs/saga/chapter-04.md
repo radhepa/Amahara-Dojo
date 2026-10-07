@@ -1,102 +1,121 @@
 # Chapter 4 — The River Remembers
 
-**AUTHOR ONLY. Complete treatment; not yet playable.**
+**AUTHOR ONLY. Revision 3 final treatment, 7 October 2026. Six weeks, 36 episodes, 12 openings.**
+
+**Training sync:** Kicks and balance (knee raise and chamber, low front kick, low round kick, side step-kick, the check, single-leg holds with support, hip mobility). In the fiction Iori, who can no longer kick, may correct the apprentice's chamber from a stool.
 
 ## Chapter contract
 
-The inquiry must leave the comforting hall and learn that a true account can still be arranged around the wrong person's feelings. Kanna establishes load causation. Iori supplies an independent recollection that refuses the rescue legend. Local residents accept some help, reject some reopening, and disagree with one another. A public sporting visit supplies a readable martial rivalry without turning political legitimacy into the prize of a fight. The chapter proves the physical wrong and leaves restitution harder than confession.
+The inquiry leaves its comfortable hall and learns that a true account can still be arranged around the wrong people's feelings. Kanna proves the load went both ways — west into Weir End, east toward Merrow Quay. Iori refuses to be anyone's legend and gives Daichi an argument instead of absolution. Ren loses a real match with the apprentice in his corner. Natsume works a manual gate in a narrow shaft and reports a rotten beam. The chapter ends with a dispatch from a Veyr commander asking for the survey.
 
-## Eight episode units
+New speakers: Kanna (W1), Iori (W2). Maela's name on a dispatch (W6).
 
-### Episode 1 — Measure the house
+## Week 1 — Measure the House
 
-1. Kanna meets the survey party at a flood-marked doorway, not the damaged monument. She defines her authority and the visitors' limited access before showing equipment.
-2. A resident explains the repairs already made locally. Riku revises his plan to use an existing brace rather than replacing it with a more impressive donation.
-3. Akari offers a measurement sequence; Kanna rejects its omission of the lower houses. Akari follows the engineer's revised order visibly.
-4. The apprentice and optional nontraveler equivalent receive records at a sheltered station. Neither route requires entering a live spillway to understand the findings.
-5. Survey emphasis is chosen: household flood marks or structural gate history first [C04-A]. Both are eventually measured, but early witnesses and confidence differ.
-6. A trace identifies a loaded branch beneath an apparently disconnected mill. The survey halts until Kanna can verify isolation, establishing the chapter's action geography.
+- **Opening A** — Two road days west. The land gets poorer; bridges are rebuilt by hand; the flood marks on doorframes stand at head height. Yuzu's river contacts lodge them. Travelling: Akari, Ren, Sora, Daichi, Yuzu, Riku, Jalen, the apprentice; Haru and Seiran join from White Ash as academy observers under the assignment rules. Emi runs the hall's welcome shift at home; Avel stays for work.
+- **1 ●** Kanna meets them at a flood-marked doorway, not the monument. She kneels to read a level before saying hello, then defines her authority and their limited access.
+- **2 ♪** The river inn. Ren snores; Akari labels the inn's shelves; the innkeeper re-labels hers overnight in revenge; Yuzu brokers peace with a tune. Sincere line: the innkeeper, "Nobody from Amahara's stayed here since the flood. You're louder than I expected."
+- **Opening B** — Akari offers a measurement sequence; Kanna rejects it for leaving out the lower houses. Akari follows the engineer's order where everyone can see her do it.
+- **3 ★** Grandmother Sato shows the repairs her street made itself and describes the night: the sound the water made before it arrived. Riku revises his plan to use her brace instead of his more impressive one.
+- **4 ●** The apprentice and Jalen run the sheltered records station. Jalen's procedural notes turn out to be exactly what Kanna needs; he is unbearable about it for an hour.
+- **5 ◆** A trace finds a loaded branch beneath a mill everyone believed disconnected. Kanna puts her palm on the stone and feels it hum. "This should be dead." The survey halts until isolation is verified.
+- **6 ☾** Night at the inn. Daichi can't eat. The washed scarf is folded in his bag. A letter from Mika, who stayed home, says only that the clinic kettle is broken and she has decided not to wait for him to fix it.
+- *Sting:* the mill wheel turning in the dark when nothing should turn it.
 
-### Episode 2 — A man in his workshop
+## Week 2 — A Man in His Workshop
 
-1. Iori speaks in his own busy workshop. His scar and limited range are visible without making disability his introduction's entire content.
-2. Daichi returns the washed scarf. Iori checks a repaired seam and thanks the person who washed it, refusing the sacred object others made from his practical knot.
-3. Iori says he refused the demonstration because the downstream gate had not been checked. He remembers responders, residents, and bad instructions, not one heroic friend.
-4. Daichi admits supporting him too late. Iori declines a public reconciliation and asks Daichi to stop telling others what he would have wanted.
-5. Kanna asks her father to distinguish what he saw from what he concluded later. Their disagreement establishes her independent authority, not a loyal daughter's exposition.
-6. Daichi leaves a borrowed tool behind and must ask to return for it. An ordinary future errand exists without Iori promising forgiveness.
+- **Opening A** — Iori's workshop is busy. He is fixing a neighbour's pump and does not stop when they arrive. His scar and stiff leg are visible; his hands are fast.
+- **1 ●** Daichi returns the scarf. Iori checks the repaired seam. "You washed this?" "Yes." "You used to shrink everything." He refuses to treat it as a relic and ties it round his neck because the workshop is cold.
+- **2 ☾** Iori explains why he refused the demonstration nine years ago: the downstream gate hadn't been checked. He remembers responders, residents and bad instructions — not one heroic friend.
+- **Opening B** — Daichi admits he supported him too late.
+- **3 ★** Iori declines a public reconciliation and asks Daichi to stop telling people what Iori would have wanted. Daichi accepts it without asking anyone to persuade him. It is the hardest scene in the chapter and nobody raises their voice.
+- **4 ●** Kanna asks her father to separate what he saw from what he concluded afterwards. They disagree; it establishes her authority as her own.
+- **5 ◆ Decision C4-A `chamber`.** Dawn in Iori's yard. The apprentice does their solo count, travelling or not, and practises the knee chamber. Iori watches. He hasn't watched anyone kick since the spillway. He offers a correction from his stool. Accept (`learn`) or suggest he show Daichi instead, since Daichi has been teaching them (`decline`).
+  - `learn`: two words and a tap of his cane fix the chamber. Then, under his breath: "Light your own lantern first." From the doorway Daichi hears it. Iori: "He still says that?" The apprentice: "Every morning."
+  - `decline`: Iori snorts. Daichi and Iori argue about the chamber for ten minutes, Daichi kicking, Iori correcting from the stool — their first ordinary argument in nine years. Iori, at the end: "He still says that? 'Light your own lantern'?" Daichi: "Every morning."
+- **6 ☾** Daichi leaves a borrowed tool behind and will have to ask to come back for it. An ordinary errand exists.
+- *Sting:* the red scarf at Iori's throat; Daichi walking back to the inn without it.
 
-### Episode 3 — The direction of the load
+## Week 3 — The Direction of the Load
 
-1. Survey records and market logs are laid over matching time intervals. Kanna demonstrates how the central bypass shifted pressure into the lower branch.
-2. The missing diagram fits a physical joint the old report omitted. Riku's measurements independently support the fit; no single character's clever speech proves everything.
-3. Natsume confirms the gate configuration available during the flood. She cannot excuse the omission by saying that the outcome was already unavoidable.
-4. Sora corrects a time from her courier source. The correction slightly weakens one allegation while strengthening the surviving argument's reliability.
-5. Witness records are packaged with resident annotations or a jointly authored technical account [C04-B]. Both include the affected residents' actual objections.
-6. Kanna signs the physical finding and explicitly withholds permission to reopen. Knowing what happened does not entitle upstream visitors to choose the repair.
+- **Opening A** — Survey records and market logs laid over the same intervals. Kanna names the mechanism for the first time: the **Crown Junction**, the central bypass, and how it moved pressure into the lower branch.
+- **1 ●** The missing page fits a physical joint the old report left out. Riku's measurements agree independently.
+- **2 ♪** Weir End's children follow the apprentice and Jalen everywhere, demanding kicks. Jalen teaches the knee chamber with rule recitation; chaos; Kanna laughs once and denies it.
+- **Opening B** — Natsume arrives to testify and offer restitution labour. The residents' faces.
+- **3 ★** Natsume confirms the gate configuration on the flood night. She cannot excuse the omission by calling the outcome unavoidable. Iori is in the room. He names the nine Weir End dead, one by one, because no report ever did. Natsume listens to every name. No forgiveness is asked for or given.
+- **4 ●** Sora corrects a time from her own courier source. It weakens one allegation and makes the rest stronger.
+- **5 ◆** Kanna signs the physical finding and withholds permission to reopen anything. Then the survey's second arrow: the surge split. West into the spillway, east down the main channel — toward the border, toward Merrow Quay. Now it is proven.
+- **6 ☾** The riverbank at night. Akari, angry at being technically right; Kanna: "Right is cheap here. Everyone's been right."
+- *Sting:* the survey map with two arrows.
 
-### Episode 4 — A match that is only a match
+## Week 4 — A Match That Is Only a Match
 
-1. A previously scheduled local sporting afternoon continues on an isolated practice area. Residents want normal pleasure, not an entire season of inquiry meetings.
-2. Haru and Ren negotiate rules, contact limits, and a stop. Ren loses the final scored exchange after overcommitting, with no enemy interference or moral victory awarded.
-3. Ren remains to stack the frame and acknowledges the specific error. A good baker asks him to judge bread, giving him competence that needs no consolation label.
-4. Akari and Seiran exchange one controlled round. Their timing creates a brief isolated ring; nobody claims the sound demonstrates route management authority.
-5. Yuzu's local movement game includes seated participation and people uninterested in competition. It is pleasurable without being treated as remediation for the less capable.
-6. Iori attends the edge of the afternoon because he wishes to see a neighbor. He does not visit merely to applaud Daichi's newfound honesty.
+- **Opening A** — A long-planned sporting afternoon goes ahead on an isolated practice ground. Residents want an ordinary good day.
+- **1 ♪** Festival-flavoured sports: Yuzu's movement game with seated players welcome; locals versus visitors tug-of-war (locals win, decisively); Riku and the mill crew's log carry; food stalls. Joy with no lesson attached.
+- **2 ●** Ren and Haru (here as academy observer with Seiran) negotiate rules, contact limits and a stop. Ren asks the apprentice to be his corner: "You see my feet better than I do."
+- **Opening B** — Akari and Seiran exchange one controlled round; their timing locks for a beat and the stone rings again; the crowd gasps; both deny it meant anything.
+- **3 ★◆ Ren vs Haru.** A full, readable anime bout: range, feints, Haru's academy precision against Ren's rhythm. **Decision C4-B `corner`** between rounds: Ren, breathing hard, "What do I do?" — "Enjoy it" (`joy`) or "Stay with the plan" (`plan`).
+  - `joy`: Ren overcommits laughing; Haru catches it and wins, laughing too. The brothers laugh the same laugh in public for the first time in years.
+  - `plan`: Ren fights the best bout of his life and loses by one exchange. Haru, quietly: "That was the best you've ever fought."
+- **4 ●** Ren stays to stack the frame and names his specific error. A local baker asks him to judge bread; he does it seriously.
+- **5 ◆** Iori watched from the edge of the field. He nods once at Ren and leaves before Daichi can reach him. Daichi lets him go. That is the growth.
+- **6 ☾** The brothers on the inn roof (branch line from `corner`).
+- *Sting:* two pairs of wraps drying side by side.
 
-### Episode 5 — The mill still turns
+## Week 5 — The Mill Still Turns
 
-1. A scheduled mill inspection reveals that a replacement part couples the supposedly idle branch under load. The defect predates the visitors and has a documented supplier.
-2. Kanna directs evacuation of the maintenance crew; civilians use the marked high path. The apprentice's record station remains outside the hazard.
-3. Akari and Seiran stabilize opposite anchors while Daichi and Haru prepare the measured release. Fatigue and distance prevent a single spectacular solution.
-4. Ren wants to improvise a shorter containment and accepts Kanna's refusal. Riku installs the conventional brace the practitioners' temporary stabilization makes possible.
-5. Natsume operates the known manual isolation fallback under supervision. Its difficult access and required tether are recorded for future repair, not celebrated as safe heroism.
-6. The branch is decoupled and the crew returns. The rescue makes the removed isolation hardware tangible while creating repair invoices the hall cannot wish away.
+- **Opening A** — Scheduled mill inspection. A replacement part couples the "idle" branch under load. The part has a supplier and a serial number. Rain upstream.
+- **1 ●** Kanna orders the maintenance crew out; civilians use the high path; the apprentice's records station sits outside the hazard, within sight.
+- **2 ☾** The calm before. Ren eats an apple. Natsume checks her tether twice. "Check it twice." Akari realises where she learned it.
+- **Opening B** — The load rises. The mill's stones begin to sing.
+- **3 ★◆** Akari and Seiran stabilise opposite anchors; Daichi and Haru prepare the measured release. Fatigue and distance prevent a single solution. Ren wants to improvise a shorter containment; Kanna refuses; he accepts in one breath.
+- **4 ●** Riku installs the conventional brace the stabilisation made possible. His hands are the steadiest thing on the river.
+- **5 ◆** Natsume works the manual isolation fallback, tethered, in a narrow access shaft. The branch decouples. The crew returns. She comes out shaking. "That access beam is rotten. The Old Gate at home is the same design and nine years older. Put both on the list." Akari ties off her tether and does not let go of the rope for a while. **(Seed for 8.5: the Old Gate's access beam is the one that fails.)**
+- **6 ☾** Invoices. The rescue made the missing isolation hardware tangible. Kanna to Natsume: "You were good in there." Natsume: "I'm good at gates. That was never the problem."
+- *Sting:* the tether coiled on the bank.
 
-### Episode 6 — Who wants the road reopened
+## Week 6 — A River Is Not Evidence Alone (chapter trial)
 
-1. Residents debate reopened trade against a credible recurrence of load transfer. They have work, family, and political disagreements before Lantern Hall arrives.
-2. Iori favors a restricted trial while Kanna favors full local veto before any reconnection. Their disagreement prevents the family from representing one unanimous answer.
-3. Natsume offers restitution labor and admits that money also needs to come from the contracts. Akari supports her proposal without asking residents to appreciate the family change.
-4. The first repair request is selected: a locally controlled isolation gate or restored household access [C04-C]. Both are needed; a limited fund determines sequence.
-5. Yuzu's river family challenges her promise to help both sites. She limits her commitment and finds another paid courier instead of volunteering every free hour.
-6. Kanna sends an invitation to neighboring halls for a witnessed parts comparison. The next gathering grows from an actual repair need, not a surprise global tournament.
+- **Opening A** — Trial morning: kicks and balance. The cohort (Jalen and the apprentice) and Weir End's children. Iori watches from his door. (`learn`: he nods at the apprentice. `decline`: he nods at Daichi.)
+- **1 ●** Residents debate reopening. Iori favours a restricted trial; Kanna favours full local veto first. The family disagrees in public, and that is healthy.
+- **2 ♪** Daichi returns for his tool. Iori has cleaned it. They talk about a pump for twenty minutes. Tea. Nothing is settled; something has started.
+- **Opening B** — Natsume offers restitution labour and admits the money must come from the contracts too. She asks that the Old Gate in Amahara go on the repair list; Kanna adds the mill shaft's beam beside it.
+- **3 ★** The mill part's serial links the removed isolation hardware to a cross-border parts schedule through Ordan. A letter from Neris Vale, via Avel, confirms Veyr keeps its own load ledger: *Merrow Quay, the night of the flood: thirty-one dead.*
+- **4 ●** Kanna will attend the coming cross-school exchange as an engineer, not as Lantern Hall's ally. Iori will stay home.
+- **5 ◆** A dispatch reaches Kanna's office: *Request: full copy of the Weir End survey. — M. Vorr, Supply Directorate, Republic of Veyr.* "Who is this?" Jalen: "The woman who pulled forty-two people out of the water at Merrow." Kanna: "Then she'll want to know where it came from." She sends the public version only.
+- **6 ☾** Home. Akari replaces a map labelled with institutions by one naming the places: Weir End, Merrow Quay, Amahara. Kanna's copy leaves one branch crossed out: consent missing.
+- *Sting:* a paper moth Yuzu clips to the map at Merrow Quay.
 
-### Episode 7 — An account nobody owns
+## Decisions
 
-1. The physical findings reach Amahara through the chosen witness package. Shigure accepts the survey's mechanics while disputing what later contract holders knew.
-2. The mill's supplier serial links removed isolation hardware to a cross-border parts schedule. Kanna can prove design economies, not yet intentional foreign conspiracy.
-3. Lyra's earlier acknowledgment confirms that Veyr keeps a separate load ledger. The ledger requires independent authority and a person willing to bring it.
-4. Seiran submits the corrected drill and survey to her academy. Administrators praise the rescue while delaying the local refusal rule again.
-5. Daichi returns for his tool and finds Iori has cleaned it. They talk about a mundane repair; neither turns the conversation into a final settlement.
-6. The party leaves with an engineering invitation, repair costs, and several unclosed relationships. Downstream voices remain in the process after the visitors go home.
+| Ref | Beat | Options | Immediate | Later |
+|---|---|---|---|---|
+| C4-A `chamber` | 4.2.5 | `learn` / `decline` | Iori corrects the apprentice, or Daichi and Iori argue about the apprentice's chamber | 4.6 nod; 7.8 Daichi: "Iori would say your third step is late"; 9.7 Iori at the spillway: "Tell the kid their chamber's still low" / "Tell him his chamber's still low"; 10.5 Iori watches the apprentice kick and says "Better." (`learn`) or watches Daichi and says it to him (`decline`) |
+| C4-B `corner` | 4.4.3 | `joy` / `plan` | How Ren loses and what Haru gives him | 8.4 Haru calls Ren's relief with "Not today, laughing boy" / "Stay with the plan, Ren"; 9.7 Ren whispers the same word on his last count; 10.3 the standing count |
 
-### Episode 8 — A river is not evidence alone
-
-1. The early survey choice pays off in either resident attendance or a sturdy technical rebuttal. Both accounts preserve the same established load causation.
-2. The selected repair begins under local supervision. The other project receives a published waiting position and funding request instead of disappearing from the story.
-3. Ren finishes the promised bakery order after travel. Haru arrives to help and asks what job needs doing rather than suggesting a technique.
-4. Kanna confirms she will attend the cross-school exchange as an engineer, not Lantern Hall's ally by default. Iori decides independently to stay home.
-5. An international hall's response promises a visitor and a registrar. A parts comparison and sporting exchange will bring competing interpretations into one physical place.
-6. Akari replaces a map labeled with institutions by one naming the settlements they serve. Kanna leaves one branch crossed out: consent is still missing there.
+Chapter 1 `place` callback: in 4.2 Iori remembers the blue bowl's arrangement (a seat kept for him / a bowl for whoever arrives) and says which he'd have preferred, without making either wrong.
 
 ## Optional founder conversations
 
-- Akari: a rejected measurement plan; anger at being technically right; asking Kanna to lead; using a map corrected by someone else.
-- Ren: good bread before the match; losing without a joke; asking which work is available; finishing the frame cleanup with Haru.
-- Sora: an inaccurate river time; embarrassment at a public correction; requesting a witness's amendment; attaching it where it changes her argument.
-- Daichi: a returned scarf; a refused reunion; asking for a tool rather than forgiveness; a workshop errand that stays ordinary.
-- Yuzu: a river household meal; incompatible promises; requesting a paid substitute courier; making the smaller commitment real.
+- **Akari:** a rejected plan; anger at being technically right; asking Kanna to lead; using a map someone else corrected.
+- **Ren:** good bread before the match; losing without a joke; asking which work is available; folding the frame with Haru.
+- **Sora:** an inaccurate river time; embarrassment at a public correction; asking a witness to amend; attaching it where it weakens her argument.
+- **Daichi:** a returned scarf; a refused reunion; asking for a tool rather than forgiveness; a workshop errand that stays ordinary.
+- **Yuzu:** a river household meal; incompatible promises; a paid substitute courier; making the smaller commitment real.
 
-## Six supporting visits
+## Supporting visits
 
 1. Kanna demonstrates a model without allowing live access.
-2. Iori talks about a present workshop project and declines a particular memory.
-3. Riku compares a local brace with his own proposal.
-4. Haru helps Ren after the sporting loss without reviewing it unasked.
-5. Natsume records the manual gate's access defect and proposes repair.
-6. Avel discusses what should be translated for the international gathering.
+2. Iori talks about his current project and declines one memory.
+3. Riku compares Grandmother Sato's brace with his own design.
+4. Haru helps Ren after the match without reviewing it unasked.
+5. Natsume records the access defects at the mill and the Old Gate.
+6. Avel writes from Amahara about what should be translated for the coming exchange.
+
+## Key visuals and art
+
+New portraits: Kanna, Iori (six moods each; Iori with cane and seated variants). Backgrounds: Weir End street with flood marks; Iori's workshop; the mill; the river inn. Event illustrations: Kanna's palm on the humming stone (4.1.5); Iori on his stool correcting a chamber (4.2.5, two variants); Ren vs Haru (4.4.3); Natsume emerging from the shaft (4.5.5); the two-arrow map (4.3.5).
 
 ## Handoff
 
-The original load transfer is independently demonstrated. Iori remains alive, angry, and selectively connected. The safety hardware deficit has real costs. Restitution requires money and local consent; cross-border records can establish who continued to benefit.
+The load transfer is proven in both directions. Iori is alive, angry, and in ordinary contact. The missing safety hardware has real costs and a cross-border supplier. A Veyr commander has asked for the survey by name. The Old Gate and a rotten shaft beam are on the repair list.

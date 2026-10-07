@@ -1,102 +1,115 @@
 # Chapter 2 — The Other Copy
 
-**AUTHOR ONLY. Complete treatment; not yet playable.**
+**AUTHOR ONLY. Revision 3 final treatment, 7 October 2026. Six weeks, 36 episodes, 12 openings.**
+
+**Training sync:** Hands (straight strikes in the air, return to guard, the 1-2, step-and-strike). In the fiction Ren teaches the cohort hands at the dawn count.
 
 ## Chapter contract
 
-The hall discovers that truth is something people must agree to examine together, not something Sora can safely possess for everyone. New apprentices turn the founders' claimed values into daily disagreements. Emi joins by choice; Avel wants work and ordinary training, not a role as Veyr's representative; Jalen wants a responder qualification he can afford. The first mystery resolves Sora's participation while exposing an economy that makes local secrecy profitable. The chapter ends with independently witnessed records and an academy invitation, not a trial verdict.
+Sora's truth stops being something she carries alone. The apprentice stops being the newest person in the room: Emi, Avel and Jalen arrive, and the rookie cohort is born. A second edited copy reveals that the hidden burden went in two directions, one of them across a border to Avel's hometown, and the apprentice must decide whether to tell her before anyone is sure — the exact dilemma Sora failed. The chapter ends with Natsume promising to answer in public and Avel asking what the third note is for.
 
-## Eight episode units
+New speakers: Avel (W1), Jalen (W2). Neris by letter (W6). Maela's name only (W4).
 
-### Episode 1 — The promised morning
+## Week 1 — The Promised Morning
 
-1. The Chapter 1 inquiry choice determines the first meeting's format. Public uncertainty or appointed witnesses honor the existing promise instead of resetting it.
-2. Emi accepts a limited trial at the hall and asks who covers her stationery shift. Membership begins with an answer about time, not a pledge of loyalty.
-3. Avel arrives for repair measurements and optional preparation. Her Veyr accent draws an unwelcome policy question; Akari redirects it without speaking for her.
-4. Sora lays out the stamp, delivery date, edited copy, and what she only suspects. She admits why the patron's schooling payment mattered to her.
-5. Ren asks why she let others hold an incomplete story. Sora answers without asking the group to accept a good motive as repair.
-6. A witness plan is chosen: a visible invitation to holders of copies or scheduled protected appointments [C02-A]. Avel decides whether to attend as herself.
+- **Opening A** — Dawn. The apprentice arrives early and finds Daichi alone before the unlit lantern, doing the slow solo count. He finishes before speaking. "Light your own lantern first." He doesn't say where the phrase comes from. If they want, tomorrow, same time.
+- **1 ●** The inquiry meeting, shaped by the Chapter 1 `inquiry` flag (everyone at the table / two named witnesses and a date). Sora lays out the stamp, the delivery date, the edited copy, and labels what she only suspects. Last line: "There's a reason I didn't say it sooner. It isn't a good one."
+- **2 ♪** Emi's first trial day. She relabels the shelves better than Akari did. A silent label war escalates through the afternoon until Toma is asked to vote and abstains in terror. Emi's sincere line: she asks who covers her stationery shop. Membership begins with a schedule, not a pledge.
+- **Opening B** — Avel Deren at the gate, tape measure around two fingers, hired to measure for new mat covers. A neighbour asks her "what Veyr thinks" of route politics; Akari redirects without speaking for her. Avel measures the doorway twice and finds it a finger narrower at the top.
+- **3 ★** Sora's why: the relief circle that paid her brother Kei's schooling is Shigure's. Ren asks why she let them hold half a story. Sora asks for no absolution and offers none of the good motives she has. She slides the courier stamp to the middle of the table and cannot take her hand off it. (Chapter 1 `consult` flag: she names the path the apprentice took with her, open or verified, as the first time someone handled her uncertainty better than she did.)
+- **4 ●** The first cohort dawn count: the apprentice, Emi, and Avel (who came to finish measuring and stayed). Ren teaches hands: the straight strike in the air and the return to guard. He is patient, precise and funny, the best teacher the apprentice has seen him be. A faint ring in the floor stone when three people return on the same count.
+- **5 ◆ Decision C2-A `stamp`.** The archive at dusk. Sora asks the apprentice to keep her stamp until the account is public (`keep`) — or the apprentice tells her to carry it where people can see it (`return`). Both answers are kind; both cost her something.
+- **6 ☾** Supper. Emi points out an annotation error on Sora's map. Sora's hand hovers over the pencil, then lets Emi make the correction. An embarrassingly small act; everyone pretends not to notice; Ren notices loudly.
+- *Sting:* the stamp under lamplight, in a drawer (`keep`) or on a cord at Sora's throat (`return`).
 
-### Episode 2 — People who are not your lesson
+## Week 2 — People Who Are Not Your Lesson
 
-1. Jalen visits with his academy application and a realistic concern about fees. Lantern Hall cannot promise him a licensed career to win an argument.
-2. Emi finds the hall expects her neat handwriting whenever work needs doing. She asks to train before being useful and Akari changes the rota.
-3. Avel refuses a public account of her family's journey. The inquiry continues without declaring her silence suspicious or creating a trauma-unlock bonus.
-4. Ren cancels a demonstration he cannot cover, then admits being disappointed that the sensible choice receives no applause.
-5. Jalen helps with a notice but wants it checked by somebody qualified. His procedural habits protect a real beginner from an unclear instruction.
-6. An ordinary shared lunch goes awkwardly well. Sora lets Emi correct an annotation and discovers that giving up control can feel embarrassingly small.
+- **Opening A** — Jalen Mori arrives with an academy application and a timetable worn soft. He counts the steps up the hill aloud.
+- **1 ●** Jalen asks whether the hall can certify him for a responder licence. Akari says no, plainly. It costs the hall a recruit — until he turns up for the dawn count anyway: "It's free, and you didn't lie to me."
+- **2 ♪** The cohort's first group comedy. Jalen counts every rep aloud; Avel corrects his stance ("your left shoulder is a coat hanger"); Emi labels the cups. Someone asks the apprentice a question and, for the first time, they know the answer. Sincere line: Avel, quietly, "You make it look like something a person can do."
+- **Opening B** — Emi realises the hall reaches for her handwriting whenever anything needs doing. She asks to train before being useful.
+- **3 ★** Akari changes the rota for Emi, then rechecks her work at night. Emi finds the pencil marks. "You delegate like a loan you plan to recall." Akari has no answer and does not pretend to.
+- **4 ●** Ren cancels a flashy demonstration he cannot cover properly. Nobody applauds the sensible choice; he sulks with dignity. Yuzu, back from the river, stages a one-person parade for him with paper moths on sticks.
+- **5 ◆** At the notice board a neighbour asks Avel, in front of everyone, why her family left Veyr. Avel declines. The hall does not treat her silence as suspicious, and the apprentice does not ask either. Avel notices. That evening she asks the apprentice to hold the other end of the tape.
+- **6 ☾** A rainy night strands the cohort at the hall. Daichi's carpentry puns, terrible tea, and the first real conversation about why each of them climbed the hill. (Apprentice reflection: unflagged reply options.)
+- *Sting:* four cups on the shelf in Emi's handwriting; one label reads "you" because she didn't know what else to write.
 
-### Episode 3 — A copy with a different edge
+## Week 3 — A Copy With a Different Edge
 
-1. The witness format brings a former delivery receipt from a neighbor or a private appointment. It authenticates Sora's transport, not the route's truth.
-2. A page number in a clinic supply record matches the missing sleeve. Mika explains how paper from official packets was reused without creating a conspiracy.
-3. The archive appointment granted in Chapter 1 supplies a second edited copy with a different omission. Shigure gives access under supervision and records the request.
-4. Sora notices both copies remove the same downstream reference. She labels the pattern an observation until an independent reader checks it.
-5. A duplicated account is lodged with the guild or with clinic custodians [C02-B]. Both protect originals and preserve witnesses, with different practical costs.
-6. The bell clearance log places a route test after the date of the supposedly final report. Someone continued operating a design declared settled.
+- **Opening A** — The witness format from Week 1 produces a former delivery receipt (open) or a private appointment's testimony (verified).
+- **1 ●** The receipt authenticates Sora's transport, not the route's truth. Jalen points out the difference before anyone else does and is embarrassed to have said it.
+- **2 ♪** Clinic day. The cohort folds bandage packets for Mika. Toma finds a page number on old official packet paper matching the missing sleeve; brief panic; Mika: "It's paper. Paper gets reused. Breathe." They breathe. It still matters.
+- **Opening B** — Shigure grants the supervised archive appointment promised at the end of Chapter 1. Polite, precise; he records the request in his own hand.
+- **3 ★** The second edited copy has a different omission — but both copies remove the same downstream reference. Sora writes "observation" in the margin and asks Riku to check it independently before she believes herself.
+- **4 ♪** Bake-off. Haru visits and insults Ren's buns; the brothers compete; Toma judges. Haru wins bread, Ren wins buns, both claim overall victory. For one minute they laugh the same laugh.
+- **5 ◆ Decision C2-B `copy`.** Riku's raking-light trick lifts the erased line on the second copy: *"E. branch → Merrow Q."* Only the apprentice and Sora see it. Avel is across the room measuring curtains. Sora looks at the apprentice: she has stood exactly here before. Tell Avel now (`tell`), or wait until Riku can verify it (`verify`)?
+- **6 ☾** `tell`: Avel sits on the floor with the copy and asks the apprentice to read the line twice. She goes home and does not come to the next dawn count. `verify`: Avel laughs with the cohort at supper while the apprentice carries the secret. Sora sits beside them. "Now you know what it weighs."
+- *Sting:* the empty place at dawn (`tell`) / Sora's hand on the apprentice's shoulder (`verify`).
 
-### Episode 4 — The price of being helpful
+## Week 4 — The Price of Being Helpful
 
-1. Shigure funds a damaged neighbor's access ramp promptly. Ren helps carry materials and sees why criticism of the contract feels cruel to recipients.
-2. The relief account funds Sora's brother's schooling through the same patron circle. Sora acknowledges a conflict without revealing his private school history.
-3. Her brother's reply, summarized with permission, says he wants the fund made answerable rather than his education turned into a public punishment.
-4. Daichi argues for separating deserved aid from the fund's defense. Akari asks what replacement exists if the contract's income is interrupted.
-5. Jalen points out that independent halls still buy central parts. A satisfying accusation cannot keep tomorrow's clinic gate working.
-6. The group starts a small alternative contribution ledger, openly inadequate. Shigure's help stays real while its hidden cost becomes harder to excuse.
+- **Opening A** — Shigure funds a neighbour's access ramp promptly. Ren carries timber and understands why criticising the contract feels cruel to the people it helps.
+- **1 ●** Kei's letter, shared with permission: make the fund answerable; don't make his schooling the punishment. Sora reads it twice, the second time to herself.
+- **2 ♪** River market field trip with Yuzu. She teaches the cohort a river tune; Jalen cannot sing; Avel can, beautifully, and stops when she notices people listening. A stall sells a Veyr paper: *Commander Vorr's convoys reach Merrow Quay.* Avel: "Maela Vorr pulled forty-two people out of the water the night the quay fell. Everyone in Merrow has her picture." (`verify` branch: the apprentice hears this while still holding the secret.)
+- **Opening B** — Daichi argues that deserved aid must be separated from the fund's defence. Akari asks what replaces the income if the contract stops.
+- **3 ★** Jalen: independent halls still buy central parts. A satisfying accusation cannot keep tomorrow's clinic gate working. The hall starts a small alternative ledger, openly inadequate, and pins it next to the year's conditions.
+- **4 ●** Convergence. `verify`: Riku confirms the line; the apprentice and Sora tell Avel together. Avel is angry at being managed: "You did the thing she did." The apprentice owns it; Avel stays angry for a day and comes back. `tell`: Avel returns to the dawn count without explanation and asks the apprentice to help her find the Veyr registry's address. In both, she decides to write herself.
+- **5 ◆** Avel writes the letter in her own language at the courtyard table. The founders do not draft it. The cohort sits with her: presence, not help. Jalen times nothing. She seals it and walks it to the river post alone.
+- **6 ☾** Dawn. Ren adds the first combination: the 1-2. Four people strike the air and return on the same count; the stone rings, faint and clean. Avel's hands are steady.
+- *Sting:* the letter on the river boat, going east.
 
-### Episode 5 — A useful disagreement
+## Week 5 — Not Every Signal Is a Message
 
-1. An open gathering or protected appointment reveals that residents remember differing water levels. Sora stops trying to compress accounts into one neat testimony.
-2. Avel translates a public supply term and declines to translate a private letter without consent. Toma learns that access does not make every message his.
-3. Emi notices a copied correction has become an accusation the original speaker never made. She refuses to circulate it until the wording is repaired.
-4. Sora wants to delay the whole account until it is perfect. Ren asks which uncertainty needs a label and which promise she is postponing.
-5. The founders publish verified facts and distinguish disputed memories. The Chapter 1 mistake branch determines how they explain the correction, not its moral quality.
-6. A resident withdraws permission for a name while leaving a measurement public. The inquiry gains a rule it will later need under international pressure.
+- **Opening A** — An isolated demonstration on Riku's model reproduces the two-note fault: a loosened temporary coupling. Riku names the source: the Old Gate below the market, jammed since the flood, bypassed by a patch that has finally failed.
+- **1 ●** From the marked safe area, Avel and Emi ask plain questions; the adults answer too technically, notice, and translate themselves. Kanna is not yet a speaker; Riku mentions "the engineer at Weir End who'd yell at me for this patch."
+- **2 ♪** Toma's notice-copying project. He copies the clearance code wrong in a way that would send the bakery's deliveries to the clinic; supervised fix; he chooses when to stop for the day and is proud of choosing.
+- **Opening B** — A delivery fails because an outdated clearance code is still printed at a neighbour's gate. Chapter 1 `mistake` flag shapes the correction (public notice / direct visits).
+- **3 ★** Natsume inspects the Old Gate's failed patch. She looks at the stuck gate for a long time. To Akari: "It rang three for twenty years. I stopped listening for it." She authenticates "the signature style" on the copy without admitting it is her own. Akari recognises the family habit of evasion — it is hers too.
+- **4 ●** Ren misses a bakery task while fixing his cancellation plan and apologises directly, without using the inquiry to make himself indispensable.
+- **5 ◆** Shigure argues that route details could expose vulnerable infrastructure. Sora agrees safety matters and refuses to equate protection with hiding who paid. The hall separates public burden accounts from technical schematics. Then Sora writes the question she cannot answer on the first page, in ink: *Who decided Weir End and Merrow Quay would carry it?*
+- **6 ☾** Haru brings White Ash's invitation: a training exchange and a witnessed forum where Natsume could answer. Ren's face does several things.
+- *Sting:* the question on page one.
 
-### Episode 6 — Not every signal is a message
+## Week 6 — Enough Truth to Move (chapter trial)
 
-1. A scheduled isolated route demonstration reproduces the missing third note under a loosened coupling. Riku shows that the fault has a physical cause.
-2. The apprentice watches from the marked safe area. Avel and Emi ask plain questions that the adults initially answer too technically.
-3. A scheduled delivery fails because an outdated clearance code is still printed at a neighbor's gate. No enemy sabotaged the exercise.
-4. The adults halt the test, replace the notice, and disagree about who is empowered to stop a civic procedure. Jalen wants an appealable standard.
-5. Ren misses a bakery task while correcting his earlier cancellation plan. He apologizes directly rather than using the inquiry to make himself indispensable.
-6. Haru brings an academy training invitation addressing that stop authority. Its usefulness is genuine even if Lantern Hall distrusts the institution's contract.
+- **Opening A** — Trial morning. One at a time, the cohort performs the 1-2 for Ren. He gives each of them one specific piece of praise. The apprentice's is about their return, not their strike.
+- **1 ●** A misplaced appointment packet tests the evidence custody. `stamp` callback: the stamp's keeper (apprentice or Sora, openly) proves which copy is which.
+- **2 ♪** Emi sets a training hour the inquiry must work around. Akari respects it, then grins, which frightens everyone.
+- **Opening B** — A reply from abroad for Avel, signed *Neris Vale, Registrar*: "Received. Do not send originals. We keep our own ledger."
+- **3 ★** At a town meeting Sora presents her own transport role before presenting the pattern of edits. People can distrust her and still examine a documented fact. Some do both. She stays standing.
+- **4 ●** Natsume agrees to address the full signed report at a witnessed forum at White Ash. Shigure will attend, expecting the forum to prove central oversight is needed.
+- **5 ◆** Night. The bell rings two. Avel: "What is the third note for?" Akari: "It means the way is clear." Avel: "Then it hasn't been clear for a long time." Montage: Sora asleep at the archive table; Daichi's lantern at dawn; Jalen packing his good shoes. Last image: Natsume alone at the Old Gate in the rain, her hand on the rusted lever.
+- **6 ☾** The cohort decides to go to White Ash together. Haru: "Bring good shoes. Seiran checks shoes."
+- *Sting:* a silhouette at White Ash's gate.
 
-### Episode 7 — Who gets to read it
+## Decisions
 
-1. Natsume authenticates the signature style without confirming what the damaged page proves. Her reaction is contained, and Akari notices a family habit of evasion.
-2. Shigure argues that route details could expose vulnerable infrastructure. Sora agrees safety matters while refusing to equate protection with hiding affected settlements.
-3. The hall separates public burden accounts from restricted technical schematics. Neither a reckless data dump nor indefinite secrecy becomes its answer.
-4. The next evidence forum is selected: a town workshop or a formally witnessed academy session [C02-C]. Both include accessible written submissions and downstream invitations.
-5. Avel decides to send a question to a Veyr registrar herself. The founders do not draft it in her name or celebrate her as proof of their openness.
-6. Sora copies a question she cannot answer onto the first page. The act is a visible behavior change, not an announcement that she is now honest forever.
-
-### Episode 8 — Enough truth to move
-
-1. The duplicated custody arrangement survives a misplaced appointment packet. Its distinct custodians matter without destroying any core evidence.
-2. Emi sets a training hour the inquiry must work around. Akari respects it even when there is nobody else with equally neat handwriting.
-3. Avel receives acknowledgment from abroad, not the foreign ledger itself. Distance and bureaucracy remain part of the world.
-4. Sora presents her own transport role before presenting the pattern of edits. The audience can distrust her while still examining a documented fact.
-5. Natsume agrees to address the full signed report at the selected forum. Shigure attends on terms he considers fair, still expecting central oversight to prevail.
-6. Lantern Hall closes its notice meeting with ordinary supper. Haru's academy invitation now has a purpose: learn who could refuse an unsafe order and who did not.
+| Ref | Beat | Options | Immediate | Later |
+|---|---|---|---|---|
+| C2-A `stamp` | 2.1.5 | `keep` / `return` | The apprentice holds Sora's stamp in a drawer, or Sora wears it openly | 2.6.1 custody; 5.7 correction (keeper hands it back / heckler points at it); 9.4–9.6 sealing a thousand copies; 10.6 its final place |
+| C2-B `copy` | 2.3.5 | `tell` / `verify` | Avel learns raw from the apprentice, or the apprentice carries the secret | 2.4.4 convergence; 9.3 Avel's speech carries the lesson ("nobody should decide for you what you're allowed to know" / "being careful with people isn't the same as deciding for them") |
 
 ## Optional founder conversations
 
-- Akari: Emi's unassigned stationery hour; a secretly rechecked measurement; receiving an explicit refusal; leaving the rota with another person.
-- Ren: a cancelled performance poster; envy of a praised sensible decision; asking a baker to cover one shift; returning to finish a small order.
-- Sora: recipe annotation; the patron's actual usefulness; asking someone to witness an uncertain claim; receiving a correction without recovering the paper.
-- Daichi: a reply delayed by river post; rehearsing a defense nobody requested; asking Mika whether she wants company; sharing tea without predicting Iori's answer.
-- Yuzu: a packed river bag; a celebration she will miss; agreeing one limited delivery; a kept return acknowledged without a loyalty speech.
+- **Akari:** Emi's labels; the night recheck; receiving an explicit refusal; leaving the rota in another hand.
+- **Ren:** a cancelled poster; envy of a praised sensible choice; asking a baker to cover one shift; teaching hands to someone who isn't impressed by him.
+- **Sora:** a recipe annotation; the patron's real usefulness; asking someone to witness an uncertain claim; a correction she doesn't recover.
+- **Daichi:** the dawn lantern; rehearsing a defence nobody asked for; asking Mika whether she wants company; tea without predicting Iori.
+- **Yuzu:** a packed river bag; the parade; agreeing one limited delivery; a kept return acknowledged without a loyalty speech.
 
-## Six supporting visits
+## Supporting visits
 
-1. Emi negotiates work and training hours.
-2. Avel repairs a torn sleeve and names an ordinary preference.
-3. Jalen calculates the academy fee and an available bursary.
+1. Emi negotiates shop hours and training hours.
+2. Avel repairs a torn sleeve and names an ordinary preference (she hates the colour orange).
+3. Jalen calculates the academy fee and a bursary.
 4. Toma copies a notice under supervision and chooses when to stop.
 5. Mika challenges a proposed use of clinic records.
-6. Haru explains what a responder license does and does not authorize.
+6. Haru explains what a responder licence does and does not authorise.
+
+## Key visuals and art
+
+New portraits: Avel, Jalen (six moods each, full-pose). Event illustrations: the dawn count before the unlit lantern (2.1); four cohort members returning on one count (2.4.6); the raking-light line on the copy (2.3.5); the Old Gate in rain with Natsume's hand on the lever (2.6.5). Background: the river market.
 
 ## Handoff
 
-Sora's connection is explicit. Multiple copies and dates exist; the omitted design is still not physically proven. Natsume has promised to answer publicly. Emi, Avel, and Jalen have independent stakes. No country's ordinary people have yet been equated with its officials.
+Sora's connection is public and shared. Two copies prove a pattern of edits; the burden had two destinations, one across the border, not yet physically proven. Avel has written to Veyr herself. Natsume has promised to answer at White Ash. The bell still rings two.

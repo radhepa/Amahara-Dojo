@@ -1,102 +1,115 @@
 # Chapter 6 — Farther Than Home
 
-**AUTHOR ONLY. Complete treatment; not yet playable.**
+**AUTHOR ONLY. Revision 3 final treatment, 7 October 2026. Six weeks, 36 episodes, 12 openings.**
+
+**Training sync:** Practise anywhere (small-space sessions, bodyweight strength and mobility for martial arts) and Form One, the first complete portable solo sequence. In the fiction the apprentice practises in barns, on a rocking dock and in an inn's corridor.
 
 ## Chapter contract
 
-The travelers encounter a world that has been living through the same system from other directions. Ordan's neutrality has a price; Veyr's shortages have more than one cause; hospitality does not cancel political disagreement. The journey's martial set piece asks trained allies to follow an unfamiliar instructor rather than showcase dominance. Maela's first personal appearance offers a genuinely workable, coercively governed repair. The chapter ends with a shared technical alternative and a reason for the Directorate to contest it.
+The journey arc. The travellers meet people who have lived inside the same system from the other side. Ordan's neutrality has a price; Veyr's shortages have several causes; hospitality does not cancel disagreement. Natsume reads the thirty-one names at Merrow Quay and the commander finishes the list. The apprentice teaches Natsume the first stance and she laughs. Maela offers a repair plan that would work and would take away everyone's right to say no. The chapter ends at home with a lease on the table.
 
-## Eight episode units
+Travelling party: Akari, Sora, Daichi, Yuzu, Riku, Natsume, Seiran, Jalen, the apprentice; Ren for Week 1 only. Kanna stays at Weir End and writes. Emi, Avel, Mika, Toma, Haru stay in Amahara.
 
-### Episode 1 — The hall above the pass
+## Week 1 — The Hall Above the Pass
 
-1. Tarek welcomes the party to Cairn House with its ordinary class still in progress. The visitors work around local needs rather than receiving an empty ceremonial school.
-2. Yuzu recognizes a tune but not the revised route schedule. Her familiarity has limits, and she asks instead of improvising authority.
-3. Ordan apprentices debate parts sales to both governments. Their disagreement prevents one welcoming instructor from representing unanimous national innocence.
-4. Akari follows Tarek's isolated-anchor scope even when her preferred method is faster. Observers can see the unfamiliar rhythm without needing to imitate it.
-5. The supplier session uses public manifest scrutiny or a negotiated guild repair pledge [C06-A]. Both expose the missing isolation hardware and preserve ordinary workers' jobs.
-6. Tarek admits his hall would lose income if the pledge succeeds. The visitors cannot praise sacrifice without answering how his chairs and classes remain funded.
+- **Opening A** — Three days' road into the plateau. Dawn practice in a hay barn: the apprentice runs Form One for the first time in a space the size of a cart (training mirror).
+- **1 ●** Cairn House: Tarek's ordinary class is in progress and the visitors work around it. No ceremony, just chairs moved to make room.
+- **2 ♪ Hot spring episode.** Cairn House's springs. Ren and Daichi's pun war; Akari refusing to admit she likes the patterned robe; Sora with three towels; Natsume asleep in the water, snoring; Seiran and Akari racing to be first out of the cold plunge, then first back in. Funny and warm, never leering. Sincere line: Natsume, waking, "I haven't been on holiday in nine years. I forgot you're allowed to be bad at it."
+- **Opening B** — Ordan apprentices argue over selling parts to both governments; one welcoming instructor cannot speak for a confederacy.
+- **3 ★** Akari follows Tarek's anchor scope although her own method is faster. It visibly costs her. The cohort keeps score of her suffering in Jalen's notebook.
+- **4 ●** Tarek admits his hall would lose income if the guild repair pledge succeeds. Praise for sacrifice must come with an answer about his chairs.
+- **5 ◆** The **stool count**: Cairn House's seated count, from miners who lost legs but not timing. Tarek's oldest student, legless at the knee, holds an isolated anchor seated with a partner. Ren watches it like a man memorising a road. **(Seed for 9.7.)**
+- **6 ☾** Sora and Natsume by the fire, two people who hid things. They do not compare. They pass a cup.
+- *Sting:* an empty stool in the training hall, positioned perfectly.
 
-### Episode 2 — The vote after hospitality
+## Week 2 — The Vote After Hospitality
 
-1. The supplier vote begins with real competing canton budgets. Parts workers object to being blamed for orders they did not control.
-2. Riku argues for funded replacement and inspection rather than a symbolic boycott. His guild experience finds an ally outside the martial prestige contest.
-3. Kanna presents the survey through dispatch and a remote written reply; she has stayed with the western work rather than appearing at every destination.
-4. The selected approach secures either public evidence or an early repair allocation. The other goal remains an explicit obligation, not a vanished branch.
-5. Natsume's statement is read alongside the manifest. Owning her omission allows criticism of the shared system without pretending that every country is equally responsible.
-6. The guild approves a limited parts pool under civilian inspection. Tarek's hall must adjust its budget; a useful victory begins with mundane accounting.
+- **Opening A** — Ren leaves for home and the bakery. He gives the apprentice his spare wraps "for the road." Not a ceremony; it is.
+- **1 ●** The guild vote begins with real canton budgets. Parts workers object to being blamed for orders they did not control.
+- **2 ♪** Tarek's students challenge the apprentice and Jalen to a balance game on access stools. Jalen falls with great dignity; the apprentice lasts one count longer; Seiran beats everyone without appearing to try.
+- **Opening B** — Kanna's survey arrives by dispatch with a dry cover note: *I am not coming. Read the house numbers.* Natsume's signed statement is read alongside the manifest.
+- **3 ★** Riku argues for funded replacement and inspection, not a symbolic boycott. He finds his first ally outside the martial world: a guild machinist who has also been donating labour for years.
+- **4 ●** Owning her omission lets Natsume criticise the shared system without pretending every country is equally responsible. It is the first time her confession is useful to anyone.
+- **5 ◆** The guild approves a limited parts pool under civilian inspection. Tarek's hall must cut its budget; Daichi and Riku help him do the sums at midnight. A useful victory that begins with mundane accounting.
+- **6 ☾** The apprentice practises in the inn corridor at dawn because the yard is iced. Tarek's student on the stool counts with them through the wall.
+- *Sting:* two counts heard through one wall.
 
-### Episode 3 — The pass does not care who leads
+## Week 3 — The Pass Does Not Care Who Leads
 
-1. A surveyed retaining span shifts during scheduled convoy passage. A known worn component and changed load cause the problem, not hidden sabotage.
-2. Tarek orders the convoy held and civilians moved to the sheltered route. The apprentice either observes from protection or receives the later checked account.
-3. Seiran and Akari initially choose conflicting anchor rhythms. Tarek calls the stop; both obey while the conventional crew secures an alternate brace.
-4. The trained teams stabilize short intervals as loads are reduced. Elian's changing-ground timing helps one task but cannot solve the fixed gate coupling.
-5. Ren completes his narrow partner role without extending it for an impressive finish. His competent restraint is seen and needed.
-6. The pass reopens with an actual capacity reduction and repair date. The story keeps the inconvenience, demonstrating safety that costs trade rather than mere applause.
+- **Opening A** — The northern pass toward Veyr. A surveyed retaining span carries convoy traffic above a drop.
+- **1 ●** The span shifts during the scheduled convoy. A known worn component and a changed load: no sabotage. Tarek orders the convoy held.
+- **2 ☾** The waiting. Freight drivers swear. A child in a wagon asks Yuzu whether the mountain is angry; Yuzu tells her mountains don't get angry, they get tired.
+- **Opening B** — **Decision C6-A `role`.** Tarek needs two tasks done at once: move civilians down the sheltered path (`people`) or run his stop flags back to the convoy tail (`signal`). Both are safe; both matter.
+- **3 ★◆** Seiran and Akari choose conflicting anchor rhythms. Tarek calls stop. Both obey instantly. The conventional crew sets an alternate brace while the trained pairs stabilise short intervals as loads are reduced. (`people`: the apprentice sees the stabilisation from the path, holding the child's hand. `signal`: the apprentice sees it from the tail, flags up, a hundred metres of held breath.)
+- **4 ●** Seiran and Akari, shaking, laugh at the same moment for no reason. Tarek: "You two should never be allowed to choose a rhythm together. Unless someone else is counting."
+- **5 ◆** The pass reopens with a real capacity reduction and a repair date. Freight is delayed; drivers lose money. The story keeps the inconvenience.
+- **6 ☾** Descent to the coast. The sea for the first time in the saga.
+- *Sting:* the first sight of Merrow Quay's broken waterline.
 
-### Episode 4 — Houses without a harbor
+## Week 4 — Houses Without a Harbour
 
-1. At Veyr's coast, Elian takes the travelers past relocated households before a government meeting. Residents are busy rebuilding, trading, and criticizing their own institutions.
-2. Lyra compares the Hoshin route shift with local port damage. It explains one continuing burden while leaving weather, maintenance, and Directorate procurement separately accountable.
-3. The visitors listen to civilian accounts or map the shared technical route first [C06-B]. Each corrects a different assumption before the same facts are assembled.
-4. Sora hears a recollection inconsistent with her summary and preserves it as disputed instead of pressing the witness to agree.
-5. Avel sends a personal request for fabric through ordinary post. The travelers buy it without adding her family to the political inquiry.
-6. Yuzu visits a local household where her old travel contacts have moved away. Loss is geographic and mundane before it becomes a dramatic confrontation.
+- **Opening A** — Merrow Quay: relocated households, a market rebuilt on a new street, people criticising their own institutions loudly. The collapsed section of quay is a memorial wall.
+- **1 ●** Neris, suspended pending review and here anyway, compares the Hoshin transfers with local port damage. One continuing burden; weather, maintenance and Directorate procurement separately accountable.
+- **2 ♪** The fish market. Yuzu haggles in dialect; Daichi learns a local bread; the apprentice is dared into eating a sea urchin; Jalen keeps a notebook of foods ranked by fear.
+- **Opening B** — Natsume asks to go to the wall before any meeting.
+- **3 ★◆ Decision C6-B `names`.** At the wall Natsume begins to read the thirty-one names aloud. Read them with her (`read`) or stand back so she does it herself (`alone`). On the thirty-first — *Tobin Vorr* — a voice behind them finishes the name with her. Maela, with flowers; she comes every week. "You are the signature." Natsume: "I am." Silence long enough to hear the water. Maela: "Thank you for reading them correctly. Nobody from Amahara ever has." She lays the flowers and leaves.
+- **4 ●** Sora hears a recollection inconsistent with her summary and preserves it as disputed instead of pressing the witness to agree.
+- **5 ◆** Akari finds Natsume on the breakwater, unable to stop shaking. She sits with her. C3-B `seat`: Natsume, "You sat with me at White Ash, when it cost you." / "You sat with the town. You were right to." Akari puts her own jacket on her aunt.
+- **6 ☾** Night at the inn window. Merrow's harbour bell rings — two notes. The east branch is broken here too.
+- *Sting:* flowers at name thirty-one.
 
-### Episode 5 — A school under emergency powers
+## Week 5 — A School Under Emergency Powers
 
-1. Tideglass continues instruction using limited equipment after refusing compulsory route registration. Elian has already made sacrifices before Lantern Hall hears about them.
-2. Ren joins a licensed, isolated exchange within his qualified range. An expert local practitioner beats him without humiliating an entire foreign school.
-3. Seiran observes that the Directorate standardizes supplies better than her own academy. Elian asks what happens to schools that contest the standard's commands.
-4. Lyra receives formal removal from her registry post. Independent copies survive, but her housing and income need a plan rather than admiration for courage.
-5. Neris sets up civilian review and explains the real urgency of winter supply. Her compromise instincts are neither proof of betrayal nor a sufficient solution.
-6. The group drafts a mixed-country design with local physical isolation and public burden limits. It is technically feasible, slower, and more expensive than central control.
+- **Opening A** — Tideglass Hall trains with limited equipment in a half-flooded yard after refusing compulsory registration. Elian has paid for that choice before Lantern Hall ever heard of it.
+- **1 ●** Daichi joins a licensed exchange within his range and is beaten cleanly by an old fisherwoman practitioner who then pours his tea. He laughs harder than anyone has seen.
+- **2 ♪** Tideglass students and the apprentice trade solo counts on a rocking dock. The apprentice falls into the harbour (shallow, safe, humiliating). Seiran fishes them out with one hand and a look. Elian, kneeling on the dock: "She used to hold my ankles when it rocked. She said, 'I'll hold it until you can.'"
+- **Opening B** — Seiran observes that the Directorate standardises supply better than her academy. Elian asks what happens to schools that contest the standard's orders.
+- **3 ★** Neris is formally removed from her registry post. Copies survive; her rent does not. Sora sits with her and does the sums. The record-keepers become friends over arithmetic.
+- **4 ●** Neris sets up a civilian review and explains how real the winter supply urgency is. Her instinct to compromise is neither betrayal nor a solution.
+- **5 ◆** The travellers draft a mixed-country design: local physical isolation, public burden limits. Kanna's dispatch supplies the phrase: *Not one big gate. A thousand small doors, each one able to close.* It works on paper. It is slower and costlier than central control.
+- **6 ☾** Natsume asks the apprentice what the dawn count feels like; she was an inspector, she measured other people's timing and never learned it. On the beach at sunrise the apprentice teaches her the first stance, exactly as Akari once taught them, chair and all (a driftwood log). She wobbles terribly. She laughs, the first time anyone in the saga has heard her laugh.
+- *Sting:* Natsume's wobbly stance against the sunrise.
 
-### Episode 6 — Commander Vorr's proposal
+## Week 6 — Commander Vorr's Proposal (chapter trial)
 
-1. Maela receives the delegation at a working supply depot. Orderly food distribution and repaired pumps establish why citizens accept her emergency authority.
-2. She acknowledges the original load injustice and offers to replace every missing gate. Her condition is a single command able to override local refusal.
-3. Akari asks who can suspend the commander. Maela answers with a centralized review after the emergency, exposing the same structural omission in a more competent package.
-4. Seiran argues the offer could save responders. Neris requests a mixed civilian board and Maela permits advice while retaining final authority.
-5. The counterproposal is chosen: a small jointly inspected pilot or reciprocal inspection before activation [C06-C]. Both retain local refusal and require funded hardware.
-6. Maela declines the veto but agrees to continue supply talks. She learns the location of contested strategic anchors through authorized negotiations, not secret omniscience.
+- **Opening A** — Trial morning on the Tideglass dock: Form One, start to finish, for the apprentice and Jalen, on boards that move. Elian counts.
+- **1 ●** Maela receives the delegation at a working supply depot: orderly food distribution, repaired pumps, people who eat because of her. The reason citizens accept her authority is visible.
+- **2 ☾** She acknowledges the original injustice in full and offers to replace every missing gate in all three countries. One condition: a single command able to override any local refusal. C5-B `offer`: her glance finds the apprentice (`thanks`: a nod; `question`: "You asked who decides. Now you'll see.").
+- **Opening B** — Akari: "Who can suspend the commander?" Maela: a centralised review after the emergency.
+- **3 ★◆** The debate. Seiran argues the offer could save responders. Neris asks for a mixed civilian board; Maela allows advice and keeps authority. Natsume: "I decided alone, for everyone, in an emergency. I am the proof of what that becomes." Maela: "No. You decided for yourselves. I will decide for everyone. That is the difference." It is chilling, and it is a real argument.
+- **4 ●** Maela refuses the veto and agrees to keep talking about supply. Through these authorised talks she learns the location of contested anchors on the Hoshin side. Nobody hides it; nobody can.
+- **5 ◆** The road home. The pass still at reduced capacity. Kanna approves drafting a pilot at Weir End subject to household consent. Natsume asks that the Old Gate go first on Amahara's list: "I've waited nine years to stop listening for it."
+- **6 ☾** Home. Emi and Avel report the hall ran perfectly without the founders, with a list of things the founders must fix. Ren has a new bread. Then Shigure arrives with an offer: a bridge supply lease while the coalition sources its parts, written conditions attached.
+- *Sting:* the lease draft on Akari's table under a paper moth.
 
-### Episode 7 — What a guest cannot promise
+## Decisions
 
-1. A ration delay prompts residents to demand immediate practical relief. The alternative's slower procurement leaves a gap the coalition must honestly acknowledge.
-2. Neris secures ordinary supplies without compulsory record enrollment for a temporary interval. Maela accepts because the limited deal serves her own logistical interest.
-3. Sora and Lyra lodge independently verifiable copies with the civic assembly. Neither publishes vulnerable route diagrams to generate a sensational victory.
-4. Daichi accepts a locally prescribed rest instead of becoming the visiting rescuer. Mika's letter describes a clinic task she needs him to leave alone.
-5. Elian commits Tideglass operators to a limited trial and refuses to speak for Veyr's entire responder corps. That distinction will matter during occupation.
-6. The delegation leaves with a design, supply window, and an unresolved command dispute. Maela's written position can be quoted later when policy changes.
-
-### Episode 8 — Distance is now a relationship
-
-1. Return travel shows the pass's reduced capacity still in effect. A victory has changed an ordinary timetable, and freight workers bear part of its cost.
-2. The Chapter 5 mandate determines whether the hall receives an early repair arrangement or a richer witness account first. Both are needed before the pilot.
-3. Avel receives her fabric and news she requested, without being handed responsibility for explaining the Directorate to Amahara.
-4. Emi and Jalen report a workable hall rota during the founders' absence. They also list things the travelers will have to repair rather than offering uncomplicated praise.
-5. Kanna approves drafting a local isolation pilot at Weir End subject to household consent. Natsume insists the manual gate defect remain on the repair list.
-6. Shigure offers a bridge supply lease while the coalition sources parts. The useful offer creates the next chapter's dangerous political choice without hiding its written conditions.
+| Ref | Beat | Options | Immediate | Later |
+|---|---|---|---|---|
+| C6-A `role` | 6.3 opening B | `people` / `signal` | Which side of the pass incident the apprentice sees | 8.1 the apprentice's shelter role (door greeter / notice-and-bell desk with Emi); 9.1 Kanna's assignment remark |
+| C6-B `names` | 6.4.3 | `read` / `alone` | The apprentice reads half the names with Natsume, or watches her read all of them | 8.6.3 at Natsume's memorial the apprentice reads her name (`read`) or Akari reads it while the apprentice stands back as before (`alone`) |
 
 ## Optional founder conversations
 
-- Akari: unfamiliar anchor timing; losing local authority as a guest; asking Tarek to direct a task; repeating his scope faithfully.
-- Ren: a local baker's praise; disappointment after another fair loss; asking for a modest partner task; completing it without extending the finish.
-- Sora: Lyra's moving boxes; disagreement over protected sources; offering a verifiable custody plan; trusting an independent witness's amendment.
-- Daichi: tea prepared by another host; an urge to fix unfamiliar work; requesting rest without becoming ashamed; accepting a reply he did not predict.
-- Yuzu: a street whose tune remains but household changed; the limits of being familiar; naming what her contacts can offer; returning as someone who still belongs imperfectly.
+- **Akari:** an unfamiliar anchor rhythm; losing authority as a guest; asking Tarek to direct; repeating his scope faithfully.
+- **Ren (Week 1 only, then by letter):** a local baker's praise; the stool count; a letter about a new bread; a letter that admits he misses the road.
+- **Sora:** Neris's moving boxes; disagreement over protected sources; a verifiable custody plan; trusting an independent amendment.
+- **Daichi:** tea made by another host; an urge to fix unfamiliar work; asking for rest without shame; a reply he didn't predict.
+- **Yuzu:** a street whose tune remains but whose household moved; the limits of being familiar; naming what her contacts can offer; belonging imperfectly.
 
-## Six supporting visits
+## Supporting visits
 
-1. Tarek revises his hall budget after the supplier vote.
+1. Tarek revises his hall budget after the vote.
 2. Elian shares an ordinary Tideglass lesson and its scope.
-3. Lyra seeks paid work after removal from office.
-4. Neris distinguishes advice from an enforceable civilian veto.
-5. Avel chooses the meaning of a parcel from abroad.
-6. Jalen explains a hall problem he handled without the travelers.
+3. Neris looks for paid work after her removal.
+4. Neris distinguishes advice from an enforceable veto.
+5. Avel (by parcel from home) asks for Merrow fabric; the travellers buy it without asking why.
+6. Jalen explains a hall problem Emi handled by letter, and is jealous.
+
+## Key visuals and art
+
+Travel outfits for the party. Backgrounds: Cairn House hall and hot spring; the northern pass span; Merrow Quay market and memorial wall; Tideglass's flooded yard and dock; the Directorate depot. Event illustrations: the hot spring (6.1.2, tasteful ensemble comedy); the stool count (6.1.5); the pass stabilisation (6.3.3, variant by `role`); the names at the wall with Maela behind (6.4.3); Natsume's stance at sunrise (6.5.6); Maela at the depot table (6.6.3).
 
 ## Handoff
 
-The coalition understands three distinct national interests and has a practical distributed design. Maela is a capable opponent with a stated disagreement, not a surprise monster. The interim supply gap makes Shigure's lease attractive. Physical anchor access will now become strategic.
+The coalition understands three national interests and holds a practical distributed design. Maela is a capable opponent with a stated, quotable position and knowledge of the anchors. Natsume has met the woman whose brother her signature hid. The supply gap makes Shigure's lease attractive. Physical anchor access is about to become strategic.

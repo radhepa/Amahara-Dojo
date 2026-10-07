@@ -2,6 +2,16 @@
 
 Updated 7 October 2026. Owner: Radhe Patel.
 
+## Final story canon (Revision 3) and solo training architecture
+
+On 7 October the owner asked for the story to be analysed for faults and holes and finalized so it feels like a real anime in visual-novel form, with every episode (fillers included) worth finishing a workout for, and for a structural outline of the workouts from Chapter 1 to 10 while keeping Dojo strictly **solo**. The actual workouts will be written in a separate follow-up. **The owner must still not be spoiled: keep all story detail out of owner-facing notes and conversation.**
+
+- **Story (private):** `docs/saga` is now Revision 3, the final canon. `docs/saga/story-audit.md` lists the faults found in Revision 2 and their fixes; `episode-craft.md` is new and governs how every post-practice episode is written. The saga bible, characters, choices register and Chapters 2–10 were rewritten; Chapter 1's map gained seeds for the weeks 5–8 expansion only. Chapters now run 6 or 8 weeks: **68 weeks, 408 post-practice episodes, 136 openings, 18 new decisions** (the 27 Revision 2 decisions are retired). The writer bible and story-authoring guide point to Revision 3. Revision 2 figures elsewhere in this file (480 beats, 27 decisions) are historical.
+- **Training (spoiler-free, owner-readable):** `docs/training-architecture.md` defines ten solo phases (Foundations → Hands → Guard and defense → Kicks and balance → Combinations and rounds → Practice anywhere + Form One → the Lantern Form + timing → Endurance and composure → Integration: steady count → Practice for life), the weekly rhythm, block formats, progression and safety rules, chapter trials, week feel tags, and a handoff checklist. `docs/roadmap.md` now lists the solo phases and chapter lengths; its story column is unchanged.
+- **Known follow-ups for the workout pass:** `lib/levels.ts`, `app/beginner-journey.tsx` and the training column of `app/dojo-roadmap.tsx` still describe instructor-led Levels 3–10 and partner drills; replace them with the solo milestones in the architecture. The timing engine needs the new block formats, a bell cue scheduler (Chapter 7) and a steady count mode (Chapter 9).
+
+Documents only. No scene IDs, story text, saves, rewards, curriculum code, art, API, schema, authentication, dependencies or app behaviour changed.
+
 ## Game HUD interface revamp — "Lantern Hall at dusk"
 
 On 7 October the owner approved a redesign (a canvas of Hall, Train, guided practice, story reader, Companions and a visual system) and asked for it to be implemented. The interface now reads as a game HUD: dark night-ink chrome, the existing paintings and portraits carrying the mood, one vermilion action per screen, gold for progress and rewards, sage for rest, and each founder's outfit colour (`MEMBER_INK` in `app/dojo-hud.tsx`) for names, rings and bond.

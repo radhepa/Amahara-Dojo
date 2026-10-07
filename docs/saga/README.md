@@ -1,32 +1,48 @@
-# Dojo — complete saga development
+# Dojo — complete saga (final canon)
 
-**AUTHOR ONLY — MAJOR SPOILERS THROUGH THE ENDING. Do not open these documents in a player preview, import them into the application, or summarize them in owner-facing chat.**
+**AUTHOR ONLY — MAJOR SPOILERS THROUGH THE ENDING. Do not open these documents in a player preview, import them into the application, or summarise them in owner-facing chat.**
 
-Approved creative scope: 6 October 2026. The owner requested an ambitious, complex, emotional, anime-like ten-chapter saga and delegated its narrative decisions while asking to hear no spoilers.
+**Revision 3, 7 October 2026: final canon.** The owner asked for the story to be analysed for faults and holes and finalised so it feels like a real anime in visual-novel form: breathtaking, emotional, and worth every post-workout episode. The owner delegated all narrative decisions and must not be spoiled. Revision 2 (6 October) is superseded; `story-audit.md` lists every fault found and how it was fixed.
 
-This directory is the complete narrative blueprint, not a claim that Chapters 2–10 are playable. It specifies the ending, causes, character transformations, chapter treatments, all 480 main beat positions, optional conversations, choices, and eventual production requirements. Chapter 1 is a continuity map of the published campaign. Future beat labels are planning references, not assigned durable scene IDs.
+This directory is the complete blueprint, not a playable ten-chapter release. Chapter 1 is a continuity map of the published campaign. Chapters 2–10 are week-by-week treatments with every opening, episode, decision, callback, optional scene and key visual specified. Labels are planning references, not durable scene IDs.
 
 ## Reading order for authors
 
-1. `../project-status.md`, `../story-authoring.md`, and `../writer-bible.md` establish release state and binding existing canon.
-2. `saga-bible.md` establishes the complete story, world, antagonist logic, chronology, and final state.
-3. `characters.md` tracks independent lives, relationships, personal arcs, and physical performances.
-4. `choices-and-continuity.md` tracks branch promises, reveals, objects, and production boundaries.
-5. `chapter-01.md` through `chapter-10.md` provide eight six-beat episode units per chapter. Every future unit has a local dramatic problem, a consequential action, and an outcome that drives the next unit.
+1. `../project-status.md`, `../story-authoring.md`, `../writer-bible.md` — release state and binding published canon.
+2. `story-audit.md` — what was wrong with Revision 2 and what changed.
+3. `saga-bible.md` — theme, world, resonance, the bell, history, antagonists, the ten-chapter movement, losses, final state.
+4. `characters.md` — the apprentice's arc, founders, rookie cohort, supporting cast, rivalries, romance rules.
+5. `episode-craft.md` — how every episode earns its place after a workout: weekly rhythm, episode types, anime grammar, things to avoid.
+6. `choices-and-continuity.md` — the 18-decision register, Chapter 1 carry-forward, reveal ladder, motifs, production rules.
+7. `chapter-01.md` … `chapter-10.md` — treatments.
 
-Published Chapter 1 scenes, pilot/month revisions, recorded replies, and saved paragraph order remain authoritative. These plans never authorize retroactive edits to a save. If a detail conflicts with published material, preserve the published detail and revise the plan.
+The spoiler-free companion for curriculum work is `../training-architecture.md`. It may be shown to the owner.
+
+Published Chapter 1 scenes, recorded replies and saved paragraph order remain authoritative. If a plan detail conflicts with published material, keep the published detail and revise the plan.
+
+## Shape
+
+| Ch | Weeks | Episodes | Openings | Training sync |
+|---|---|---|---|---|
+| 1 | 8 | 48 | 16 | Foundations (published) |
+| 2 | 6 | 36 | 12 | Hands |
+| 3 | 6 | 36 | 12 | Guard and defense |
+| 4 | 6 | 36 | 12 | Kicks and balance |
+| 5 | 8 | 48 | 16 | Combinations and rounds |
+| 6 | 6 | 36 | 12 | Practise anywhere, Form One |
+| 7 | 8 | 48 | 16 | The Lantern Form and timing |
+| 8 | 6 | 36 | 12 | Endurance and composure |
+| 9 | 8 | 48 | 16 | The Line |
+| 10 | 6 | 36 | 12 | Practice for life |
+| **Total** | **68** | **408** | **136** | |
+
+Chapters 2–10 also specify 20 optional founder conversations and 6 supporting visits each (180 and 54), and 18 new decisions on top of Chapter 1's eight.
 
 ## Delivery boundaries
 
-- Keep saga documents under `docs/saga`; never copy them to `public`, a renderer module, a player roadmap, or a downloadable player transcript.
-- Do not announce future titles, characters, destinations, deaths, alignments, or the existence of a particular twist to the owner.
-- Author playable scripts chapter by chapter from these treatments. Later unlocks remain closed until writing, curriculum, portraits, save compatibility, and validation are ready.
-- Narrative skill belongs to fictional characters. The player's real curriculum stays Level 1 Beginner until separately developed instruction and assessment exist.
-- Story time advances at authored events. Pauses, private reflection, seated or supported preparation, and gentle practice never cause a worse ending.
-- No app, database, reward, authentication, hosting, or installation change is part of this authoring delivery.
-
-## Completion inventory
-
-Ten chapter treatments contain 80 episode units and 480 main beat outlines. Chapters 2–10 each specify four optional personal scenes for each of the five founders and six supporting visits: 180 future founder conversations and 54 future supporting visits. Existing Chapter 1 keeps its 20 personal scenes, five relationship invitations, six visits, prologue, and revised first-month openings. Romance continuity is defined independently of main-story outcomes. Twenty-seven new two-option saga decisions have immediate, delayed, and final consequences specified in `choices-and-continuity.md`.
-
-Final dialogue scripts, commissioned artwork, later real-world curricula, later-chapter state migrations, and playable integration remain production work. The blueprint resolves its major mysteries and ending now; those are not deferred to improvisation during implementation.
+- Keep saga documents under `docs/saga`. Never copy them to `public`, a renderer module, the player roadmap or a player-downloadable transcript.
+- Never tell the owner future titles, characters, places, deaths, alignments or that a particular twist exists.
+- Script chapters one at a time from these treatments; later unlocks stay closed until writing, curriculum, art, save compatibility and validation are ready.
+- Narrative skill belongs to fictional characters. The real curriculum and its self-checks are separate and never certified by story progress.
+- Story time advances only at authored events. Pauses, private reflection, gentle or seated practice and long breaks never cause a worse ending.
+- No app, database, reward, authentication, hosting or installation change is part of this delivery.

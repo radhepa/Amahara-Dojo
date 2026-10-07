@@ -1,104 +1,104 @@
-# Dojo — consequence and continuity register
+# Dojo — choices and continuity register
 
-**AUTHOR ONLY. Includes all major outcomes.**
+**AUTHOR ONLY. Includes all major outcomes. Revision 3, 7 October 2026.** Supersedes Revision 2's 27-decision register (retired; see `story-audit.md`).
 
 ## Branch contract
 
-Every option receives an immediate authored reply and an observable local result. The delayed callback must remember the actual arrangement, not merely say the player was thoughtful. The final callback must identify work, a voice, a prop, or a responsibility that exists because of the choice. No virtue score, loyalty alignment, cumulative correct-answer ending, romance-dependent survival, or exercise-attendance disaster.
+- Every option gets an immediate authored reply and a visible local result.
+- The delayed callback remembers the actual arrangement: an object, a line, a place someone stands, a person's presence. Never just "you were thoughtful."
+- No virtue score, loyalty meter, correct-answer ending, romance-dependent survival or attendance disaster.
+- Large losses (Natsume, Mika's hand, Ren's knee, White Ash) are fixed by authored causes and are never touched by an option.
+- Both options of every decision are dignified. The narration never tells the player one was better.
+- Labels below (`C2-A` etc.) are planning references, not save keys. Assign final namespaced, revisioned flags when each chapter is scripted; never reuse a published key with a new meaning. Replays keep their captured entry flags and original inline choices.
 
-The `C02-A` style labels below are **planning references only**, not durable scene IDs or implemented save keys. Assign final namespaced flags when a chapter is scripted, and never reuse an existing published key for another meaning. Captured scene-entry flags and original inline choices must continue to govern replays. A later choice cannot retroactively rewrite a replay's witnesses.
+## Decision register (18 new)
 
-Twenty-seven new decisions have two options each. Both options preserve necessary evidence, basic civilian safety, and access to the ending. Different routes create different labor, delays, representation, and a legible historic asset loss. The large irreversible losses in Chapter 8 have authored causes and are independent of player selections.
-
-## Future decision register
-
-| Reference and beat | Two options | Immediate response and result | Delayed consequence | Final consequence |
+| Ref | Beat | Flag and options | What it is | Callbacks |
 |---|---|---|---|---|
-| C02-A, 2.1.6 | `invitation` / `appointments` | Ren drafts a visible witness invitation; or Sora books protected appointments. Avel chooses participation independently. | 2.3 and 2.5 receive a copy and recollections through different witnesses; open attendance needs more capacity, appointments need more coordinator time. | Chapter 10's public record credits either the gathering's contributors or the appointment custodians without exposing private names. |
-| C02-B, 2.3.5 | `guild` / `clinic` | Riku establishes guild duplicate custody; or Mika sets sealed clinic custody with explicit permission. Originals remain intact. | Chapter 8 evacuation depends on the selected custodian's established backup and storage constraints. | Chapters 9–10 include the actual custodian in evidence transfer and compact inspection, with privacy rules preserved. |
-| C02-C, 2.7.4 | `workshop` / `academy` | Akari books a town workshop; or Haru secures a witnessed academy forum. Written and downstream submissions exist in both. | Chapter 3 confession begins with residents or trained institutional witnesses, changing who asks the first questions. | Chapter 10's testimony remembers the forum and preserves the other audience's written record. |
-| C03-A, 3.2.5 | `chain` / `accounts` | Seiran reconstructs the command sheet first; or Ren and participants describe the warning first. Both reach the same documented fault. | 3.3 gives Jalen a procedural precedent or gives Emi an explicit participant-hearing precedent. | The academy's final training charter includes the method established here and the complementary review added later. |
-| C03-B, 3.4.5 | `topics` / `chronology` | Kanna's submitted questions organize affected topics; or Sora arranges a dated reconstruction. Natsume answers without controlling the format. | Chapter 4's witness account finds an existing category or a dated contradiction to amend. | Final restitution records use the selected structure and retain the independent amendments rather than compressing them away. |
-| C03-C, 3.6.5 | `observers` / `refusal` | Emi receives observer access; or Jalen receives a written stop-protection draft. Limited work makes the second priority explicit and pending. | Chapters 5 and 7 test who can inspect or who can halt; the pending complement must be completed before live pilot operation. | White Ash's Chapter 10 charter cites both commitments, remembering which people made the first one usable. |
-| C04-A, 4.1.5 | `households` / `gates` | Kanna begins with resident flood marks; or Riku begins with dated structures. No live survey skips isolation. | 4.8 produces stronger early attendance or a stronger first technical rebuttal, with both bodies of evidence complete. | The final archive includes resident annotations or measured model plates as the lead exhibit, with the other retained. |
-| C04-B, 4.3.5 | `annotations` / `joint-report` | Sora prepares a record with resident corrections; or Kanna prepares a jointly signed technical account. Neither speaks for unnamed residents. | Chapter 5's public claims are checked against individual remarks or independent signatures, imposing different verification work. | The compact gives affected voices a formal annotation channel or jointly authored review channel established through this experience. |
-| C04-C, 4.6.4 | `isolation` / `access` | Kanna schedules the local gate first; or Mika schedules household access first. The other receives a funded position. | Chapters 5–7 show different temporary inconvenience and urgency; both essential works finish before Chapter 8's hazard. | The rebuilt river records the original sequence; residents remember either the gate ceremony or first usable path without ranking their dignity. |
-| C05-A, 5.1.5 | `hosting` / `technical` | Ren assigns broad accessible hosting; or Akari funds a smaller technical session. Capacity limits and translated rules remain mandatory. | The sporting queue needs an overflow host or an extra later public session; Chapter 7 recruits hosts or specialist contacts through that arrangement. | The hall's final guest practice uses the funded public hosting pattern or repeats the small exchange with a public follow-up. |
-| C05-B, 5.5.4 | `audit` / `parts-fund` | Sora and Lyra prioritize relief receipts; or Riku and Tarek prioritize transparent hardware funding. Basic deliveries continue. | Chapter 6 gains stronger financial leverage or earlier supplier allocation, while the complementary evidence or repair funding remains required. | Shigure's hearing remembers the documented audit witnesses or independent fund accounts as the route to the same verified concealment. |
-| C05-C, 5.7.3 | `repair` / `listening` | Kanna defines a limited repair-negotiation mandate; or Avel helps define a listening and evidence mandate. Absent residents retain veto. | Chapter 6 obtains an early repair schedule or a richer first witness record; Chapter 7 cannot activate until it has both. | The coalition's final travel charter preserves concrete delegation limits or explicit listening duties, with both eventually guaranteed. |
-| C06-A, 6.1.5 | `manifest` / `pledge` | Lyra requests public manifests; or Tarek negotiates a verified guild repair pledge. Workers are not personally blamed for the procurement design. | Ordan's supplier vote yields earlier public scrutiny or earlier parts release; the other follows after finite review. | Ordan's compact contribution credits the actual scrutiny or pledge and includes an independent future audit either way. |
-| C06-B, 6.4.3 | `accounts` / `map` | Elian hosts civilian listening; or Kanna's dispatch starts the technical comparison. Locals may decline personal disclosure in both. | Maela's proposal is challenged first through lived supply consequences or a verified system limit, without changing her stated policy. | The Veyr restitution record preserves the chosen initial witnesses or mapped causal argument alongside the completed complementary account. |
-| C06-C, 6.6.5 | `pilot` / `inspection` | Akari proposes a tiny joint trial; or Neris proposes reciprocal inspection before activation. Maela rejects unrestricted local veto in both. | Chapter 7 gets a clearer test scope or an earlier inspection protocol; the missing complement must be finished before connection. | The compact retains the pilot's phase limits or reciprocal observer guarantees as the first negotiated safeguard. |
-| C07-A, 7.1.3 | `links` / `maintenance` | Kanna opens a small consented access branch first; or Riku trains and funds maintenance before expanding. Safe disconnected fallback persists. | The pilot encounters limited trained capacity or delayed household connection; its published report names the cost without punishing users. | Chapter 10 funds the complementary work and describes the original bottleneck as a reviewed decision, not a failure of care. |
-| C07-B, 7.2.4 | `rotation` / `office` | Jalen assigns a qualified rotating coordinator with backup; or Emi helps create a paid coordination office. Neither makes volunteers compulsory. | Chapter 8 handles absences through backups or staff capacity; each has a corrected, documented limitation. | The compact permits either locally chosen pattern under the same funded review, and credits the pilot's actual operators. |
-| C07-C, 7.4.5 | `challenge` / `inspectors` | Akari challenges renewal publicly; or Natsume negotiates independent inspectors with restricted scope. The assembly still signs the lease. | Chapter 8 has a strong prior objection or better initial site records; Chapter 9 joins both with independently obtained evidence. | Shigure's trial cites the warning ignored or the scope breached, giving the actual branch a concrete evidentiary role. |
-| C08-A, 8.1.5 | `stations` / `couriers` | Emi sets sheltered notice stations; or Yuzu's funded adult network sets supervised dispatch lanes. Toma remains in shelter. | Chapter 9 uses stable civilian notices or resilient permitted dispatches, with additional protected access created where needed. | Avel and Toma's final access project remembers a notice design or message protocol; both remain optional civilian work. |
-| C08-B, 8.4.5 | `households` / `services` | Mika's colleagues group households where safely possible; or group familiar service users with guaranteed family contact. Medical triage is fixed separately. | Chapter 9 reconstruction meetings need family delegates or service coordinators to locate complaints and appointments. | Clinic or housing access planning preserves the preferred grouping without making the other group second-class. |
-| C08-C, 8.6.5 | `quiet` / `public-record` | Daichi arranges a named quiet gathering; or Sora prepares an accountable public record with private space. Both include truthful history. | Akari returns to a small memorial object or amendable public record; affected residents may grieve or criticize either. | Chapter 10 adds a family's correction in the chosen form; Natsume is neither erased nor absolved by her death. |
-| C09-A, 9.1.5 | `observers` / `petitions` | Neris brings independent legal observers; or Elian's civilian groups establish protected refusal petitions. Military scope remains legally reviewed. | Depot inspection gets stronger formal scrutiny or broader visible consent. The complementary protection is added before the operation. | Final hearings and compact appeals credit actual observers or civilian representatives rather than praising founders alone. |
-| C09-B, 9.6.5 | `archive` / `landing` | Residents and operators receive the hall's recommendation to preserve the historic archive room or old landing; both qualified safe paths are explained. | The unselected empty asset is deliberately dismantled to isolate the final coupling. People, essential access, and authenticated portable evidence survive both. | Chapter 10 restores the lost function through a new archive facility or accessible landing. The preserved asset hosts a different ordinary final activity. |
-| C09-C, 9.8.2 | `address` / `briefs` | Akari joins a shared, witnessed account; or Sora distributes independent briefs. Both state uncertainties and cost. | The hearings open with joint presentation or distinct witnesses; neither lets a polished story replace contradiction. | The final public account keeps its actual form and the compact supports independent correction in either case. |
-| C10-A, 10.1.3 | `clinic` / `households` | Mika schedules discretionary clinical access improvements; or Kanna schedules additional household isolation work. Essential care and committed repairs are already protected. | 10.4 and 10.7 show earlier adapted clinic convenience or earlier local route availability; the other has a dated funded completion. | The ending includes a specific tool or access gate already in use and names the complementary work underway, without an inferior ending. |
-| C10-B, 10.5.2 | `rota` / `welcome-role` | Emi coordinates a paid shared welcome rota; or a funded stable welcome role with backup. Both preserve refusal, training, and ordinary apprentice time. | The booking error is resolved through named backups or the stable role's recorded process while Akari is away. | The newcomer receives a chair from the actual chosen arrangement; the hall is no longer dependent on one exhausted founder. |
-| C10-C, 10.8.5 | `welcome` / `quiet` | A founder offers a bounded door task; or makes room for quiet presence at the table, with writing, silence, and rest welcome. | The final beat remembers the apprentice's selected position without inventing an avatar or a public speech. | Last narration locates the apprentice at the door or in the shared room. Both have equal affection, rewards, belonging, and final canon. |
+| C2-A | 2.1.5 | `stamp`: `keep` / `return` | The apprentice keeps Sora's courier stamp until the account is public, or tells her to carry it openly | 2.6.1; 5.7 opening B; 9.4.5; 10.6.4 |
+| C2-B | 2.3.5 | `copy`: `tell` / `verify` | Tell Avel her hometown is on the copy now, or wait for verification | 2.3.6; 2.4.4; 5.2.6; 9.3.3 |
+| C3-A | 3.2.5 | `correction`: `take` / `give` | Seiran's one correction for the apprentice, or for Jalen's licence | 3.6.4; 8.3.2; 9.5 opening B; 10.3.1 |
+| C3-B | 3.4.1 | `seat`: `family` / `town` | Where Akari sits at Natsume's confession | 3.4.3; 6.4.5; 8.6.3; 10.5.4 |
+| C4-A | 4.2.5 | `chamber`: `learn` / `decline` | Iori corrects the apprentice's chamber, or Daichi and Iori argue about it | 4.6 opening A; 7.8 opening A; 9.7.2; 10.5 opening B |
+| C4-B | 4.4.3 | `corner`: `joy` / `plan` | What the apprentice tells Ren between rounds | 4.4.6; 8.4.3; 9.7.6; 10.3.3 |
+| C5-A | 5.5.1 | `forms`: `first` / `last` | The apprentice opens or closes the rookie showing | 5.5.3; 9.7.1 |
+| C5-B | 5.7.4 | `offer`: `thanks` / `question` | How the apprentice refuses Maela's school | 6.6.2; 10.2.4 |
+| C6-A | 6.3 opening B | `role`: `people` / `signal` | The apprentice's task during the pass incident | 6.3.3; 8.1.5; 8.4.1; 9.1.1 |
+| C6-B | 6.4.3 | `names`: `read` / `alone` | Read the Merrow names with Natsume, or stand back | 8.6.3 |
+| C7-A | 7.5.2 | `lantern`: `name` / `open` / `here` | The word on the apprentice's door lantern | 7.6.6; 9.7.1; 9.7 sting; 10.6.6 |
+| C7-B | 7.6.3 | `festival`: `akari` / `ren` / `sora` / `daichi` / `yuzu` / `cohort` | Who the apprentice lights their lantern with | 9.6.3; 10.6.3 |
+| C8-A | 8.2.5 | `toma`: `job` / `stay` | Give Toma a real shelter job, or admit being scared too | 9.7.2; 10.3.4 |
+| C8-B | 8.6.3 | `memorial`: `bell` / `silence` | Ring three at Natsume's memorial, or keep the valley silent a day | 8.6 sting; 9.6.1; 10.5.4 |
+| C9-A | 9.7.4 | `last-step`: `forward` / `back` | Send the last surge into the bell (it cracks) or the floor (it splits) | 9.7.6; 9.8.4; 10.1.3; 10.3.4; 10.6.1; 10.6.6 |
+| C10-A | 10.3.3 | `standing`: `count` / `beside` | Count for Ren's first standing count, or stand and count with him | 10.6 opening A |
+| C10-B | 10.6.6 | `place`: `door` / `table` | The apprentice's position in the final scene | Final line identical in both |
+
+Unflagged reflective choices (reply options that change only the immediate line) appear in many quiet episodes, including 2.2.6, 3.3.6, 5.3.6, 5.4.6 and the 9.6.3 letter.
 
 ## Chapter 1 carry-forward obligations
 
-| Existing flag | Concrete future returns |
+| Existing flag | Returns |
 |---|---|
-| `repair` | Chapters 2 and 7 organize the evidence meeting around the repair board or welcome route first; Chapter 10 shows both completed and remembers their order. |
-| `access` | Chapters 2 and 5 reuse open capacity and quiet corner or appointments and flexible requests; evacuation and final welcome preserve access without coercing public participation. |
-| `consult` | Sora acknowledges the actual early consultation path in Chapter 2, revisits its uncertainty practice in Chapter 6, and shows corrected record behavior in Chapter 10. |
-| `mistake` | Chapter 2 corrects a notice through public ownership or direct contact; Chapters 7–8 use that procedure for reliable information; the final record remembers what changed. |
-| `promise` | Chapters 2 and 7 use a dated owner or named shared parts with backup; Chapter 10's funded maintenance retains the same practical accountability. |
-| `place` | Iori's bowl and additional seats follow the remembered arrangement at Chapters 4 and 10; do not treat one option as grief denial or exclusion of neighbors. |
-| `statement` | Chapters 3 and 5 use founder statements with visitors' exact words or a mixed spoken/written account; the final hearing preserves that representational habit. |
-| `inquiry` | Chapter 2 begins with the promised open account or bounded independent verification on its actual agreed story date. Both lead to disclosure and an external forum. |
+| `inquiry` (`open` / `verify`) | 2.1.1 sets the meeting format; 2.3 opening A's witness evidence |
+| `consult` (`open` / `verify`) | 2.1.3 Sora names how the apprentice handled her uncertainty |
+| `mistake` (`public` / `direct`) | 2.5 opening B; 8.1.5 storm notices are corrected the same way |
+| `access` (`open` / `quiet`) | 5.1.5 hosting; 8.1.4 the shelter's arrangement |
+| `promise` (`specific` / `shared`) | 7.1.6 the doors' maintenance roster |
+| `statement` (`founders` / `community`) | 3.4.1 who asks Natsume the first question |
+| `repair` (`floor` / `welcome`) | 7.8 opening B the year review's order; 10.1.5 the first rebuilt piece; the narration notes it at 9.7.4 if the floor is chosen |
+| `place` (`remember` / `welcome`) | 4.2 Iori on the bowl; 10.5 opening A where he sets his own bowl |
 
-The expanded month's minor choices get local objects and personal callbacks where naturally relevant. Script production must inventory their actual keys before assigning final future flags. Do not invent a memory of an option the saved campaign never offered. Legacy and revised campaigns may phrase the same major obligation differently; build their callbacks from the actual captured flag set.
+The expanded month's minor inline choices may return as small objects or lines where natural. Inventory their actual keys before scripting. Never invent a memory of an option a campaign never offered. Legacy and revised campaigns phrase obligations from their own captured flags.
 
-## Reveal and knowledge register
+## Reveal ladder
 
-| Fact | Earliest authorized confirmation | Before confirmation | Who can verify; final evidence |
+| Fact | First confirmed | Before that | Evidence |
 |---|---|---|---|
-| Sora carried the edited report and had a patron conflict | Chapter 2, episode 1 | Chapter 1 stamp recognition and an owed explanation only | Sora's admission, dated receipt, independent copy, permitted family account |
-| Natsume signed and knowingly omitted the downstream diagram | Chapter 3, episode 4 | A damaged signature and inspection discomfort are not a verdict | Her signed statement, full report, forum record |
-| Central routing physically shifted load toward lower settlements | Chapter 4, episode 3 | Map suspicion, memories, model behavior; no complete proof | Kanna's independent survey, Riku's joint measurements, timed logs |
-| Relief savings continued to depend on deferred isolation hardware | Chapter 5, episode 6 | Genuine help and a supply conflict without full financial causation | Relief receipts, parts pricing, survey, Ordan manifest, inherited contract dates |
-| Veyr's downstream loss has multiple causes and a legitimate shared-route claim | Chapter 6, episodes 4–5 | Foreign ledger proves a pattern, not every crop failure | Lyra's ledger, civilian accounts, physical comparison, local port records |
-| Directorate repair policy requires compulsory override | Chapter 6, episode 6 | Emergency clauses and known relief powers | Maela's stated terms, Neris's amended proposal |
-| Lease access can be renewed without local suspension | Chapter 7, episode 4 | Proposed supply bridge, inspectable draft | Signed lease and recorded objections or inspection conditions |
-| Maela chooses occupation and cancels vetoes | Chapter 8, episode 1 | Armed supply access and foreseeable policy risk, not secret invasion certainty | Published override order, physical custody, Neris's refusal |
-| Natsume is dead | Chapter 8, episode 5 | Established manual gate defects and real professional risk; no fake farewell pattern | Witnessed collapse and confirmed recovery record; never reverse this fact |
-| Full operation and benefit of the Crown Junction bypass | Chapter 9, episode 4 | Engineering design and a known central bypass, without all use logs | Authenticated operating logs matched to national records and survey |
-| The new Compact actually handles refusal under ordinary cost | Chapter 10, episode 7 | Successful pilot, provisional charter, funded promises | A local stop upheld, paid repair, corrected account, inspected reopening |
+| Sora carried the edited report; Shigure's fund paid Kei's school | 2.1 | Ch1 stamp recognition only | Her account, receipt, Kei's letter |
+| The copies hide a burden sent to Merrow Quay | 2.3.5 (line), 4.3.5 (physical) | — | Second copy; Kanna's survey |
+| The bell's third note comes from the Old Gate | 2.5 opening A | Ch1: "a fault farther down the route" | Riku's model |
+| Natsume signed and knowingly withheld the diagram | 3.4.3 | 2.5.3 evasive authentication | Her statement at White Ash |
+| The Crown Junction moved the load both ways | 4.3 | — | Survey over market logs |
+| Thirty-one died at Merrow Quay; Tobin Vorr among them | 4.6.3 (count), 6.4.3 (name) | — | Neris's ledger; the memorial wall |
+| Transfers continued under Shigure's contract | 5.2.3 | — | Kanna's cross-check |
+| Deferred isolation money funded relief, knowingly | 5.7 opening A | Genuine help, unexplained money | Audit, manifest, contract dates |
+| Maela's governance requires overriding local refusal | 6.6.2 | Her stated philosophy (5.6) | Her own terms at the depot |
+| Lease renewal can bypass local suspension | 7.4 | — | Signed lease |
+| Maela chooses occupation | 8.1.1 | Armed escorts (7.8) | Published override order |
+| Natsume is dead | 8.5.5 | Rotten beam named in 4.5.5; parts delayed in 7.5.3 | Witnessed collapse. Never reversed. |
+| Full operation of the Crown Junction | 9.4.1 | — | Authenticated logs |
+| The Compact survives a refusal | 10.4.3–10.4.5 | Pilot success (7.3, 7.8) | Upheld stop, paid repair, corrected account |
 
-Characters act only on information they have received. Dispatch arrival is explicit. Neris cannot know a hall argument because the player selected it privately. Optional conversations cannot carry the only required proof. External action viewpoints must be visibly authored viewpoints, not facts the apprentice is pretending to witness from shelter.
+Characters act only on information they have received. Optional conversations never carry the only proof of anything.
 
-## Motif returns
+## Motifs
 
-- **Red scarf:** returned to Iori in Chapter 4 as practical clothing. It can be worn during a later workshop visit; do not turn it into Natsume's flag, a weapon, or a magic inheritance.
-- **Sixth bowl:** a present invitation governed by the Chapter 1 choice. Iori brings his own in Chapter 10. The old bowl remains usable by its actual chosen arrangement.
-- **Three-note bell:** faulty coupling, verified isolated test, locally refused clearance, storm evacuation, deliberate inspected silence, final permitted reopening. Missing sound never becomes supernatural prophecy.
-- **Paper moth:** ordinary joke, calendar marker, travel itinerary, a creased object recovered with hall contents, a packed-away keepsake beside a real key. Its wing does not conceal final evidence.
-- **Labels:** founder names, named shared jobs, independent custody, qualified operators, paid backups, a schedule that functions while Akari is away.
-- **Maps:** incomplete page, annotated uncertainty, independently measured settlements, cross-border differences, prohibited live branches, public burden record. Sora's final map contains another person's correction.
-- **Bread and wraps:** competent hands, a promise with a cost, restrained competition, provisioning, recovery work, ordinary final pleasure. Do not repeatedly burn food to manufacture vulnerability.
-- **The door:** narrow entry, usable access, competing stop rights, closed unsafe hall, local isolation, reconstructed welcome. The final open door has inspectable conditions.
+- **The bell.** Two notes (Ch1–7) → door chimes ring three while the hall still rings two (7.3, 7.6) → three for the first time as Natsume frees the Old Gate (8.5) → memorial (8.6) → Ren's count on the Line (9.7) → cracked or ringing over a broken floor (9.7.4) → silent under inspection (9.8) → three notes at the final door (10.6).
+- **Lanterns.** The unlit dawn lantern (2.1) → the first door's lantern (7.1) → a thousand at once (7.6) → the Line lighting (9.7) → the apprentice lights the hall's alone (10.6.5).
+- **The red scarf.** Ch1 brace → washed (3.6) → returned and worn because the workshop is cold (4.2). Never a relic again.
+- **The bowl.** Ch1 sixth bowl → Iori remembers (4.2) → brings his own (10.5).
+- **Paper moths.** Ch1 gate → Ren's parade (2.2) → clipped to Merrow on the map (4.6) → on every festival lantern (7.5) → on every door before the Line (9.6) → on the apprentice's blanket (9.8).
+- **The stamp.** Sora's guilt → kept or worn (2.1) → her correction (5.7) → seals a thousand copies (9.4) → its final place (10.6).
+- **The yellow cord.** Day one's boundary → the ninety seconds stood where it used to be (8.2) → the floor splits along its line (9.7, `back`) → strung again around the last unfinished work for the final line (10.6).
+- **Wraps.** Ren's spare wraps given on the road (6.2) → worn by the apprentice on the Line (9.7).
+- **"Light your own lantern first."** Daichi (2.1) → revealed as Iori's (4.2) → the Lantern Form (7.1) → the apprentice alone (10.6.5).
+- **Labels.** Founder names → Emi's labels and the "you" cup (2.2) → Toma's chart (7.2) → unlabelled wet shoes in the storm (8.1) → Emi opens the ledger (10.6).
+- **Bread.** Ch1 promise → bake-off (2.3) → feeding the crews (5.3) → "The Recovery" (7.4) → kneading on the count (9.6) → the final afternoon (10.6). No more burnt food.
+- **Natsume's pencil.** Handed to Akari to hold (8.5.2) → in her hand on the bank (8.5.5) → its brass cap in the bell's metal (10.1.3, `forward`); otherwise Akari keeps it on the ledger shelf.
 
 ## Production and compatibility
 
-This delivery changes contributor documents only. No future chapter is added to the current scene catalog, navigation, save state, curriculum, art manifest, or app package. Never import these documents, read them in a client build step, or serve them from public files. A GitHub source archive is contributor material; do not imply it is a secret store protected by authentication.
+This revision changes contributor documents only. Nothing is added to the scene catalogue, navigation, save state, curriculum, art manifest or app package. Never import these files into a client build, serve them publicly, or quote them in owner-facing text.
 
-Before a playable chapter is integrated:
+Before a chapter becomes playable:
 
-1. Write all 48 main scenes as final dialogue with authored option replies, callbacks, accurate reading estimates, protected viewpoints, and explicit whole-pose directions. Keep quieter episodes quieter; set pieces need spatially readable tasks, stops, and aftermath.
-2. Write the 20 personal scenes and six supporting visits specified by its treatment. Optional disclosure never gates essential evidence. Add romance variants only under existing adult consent and exclusivity rules.
-3. Create original full-pose art for new speakers and changed physical conditions using existing designs and outfits as references. Prototype performance direction as posture, hands, weight, distance, and gaze; never infer a mood from sentiment.
-4. Develop any actual later curriculum and qualified assessment independently. The chapter's fictional skill cannot authorize a higher real practice level. Keep equal gentle rewards, 30–40 minute new plans, the 45-minute total ceiling, full Wednesday rest, and no absence penalties.
-5. Assign stable final IDs and revisioned future flags, then define next-chapter availability and migration for each existing campaign. Do not insert future passages into started Chapter 1 scenes or reset a save to obtain them.
-6. Continue the existing atomic game/session routes, compare-and-swap transactions, exactly-once rewards, and journal writes in desktop SQLite. No second reward engine or covert hosted dependency.
-7. Validate immediate replies, each local branch, delayed callbacks, and final outcomes without enumerating all 2^27 combinations. Use targeted choice coverage, interacting flag pairs, structural invariants, and complete representative saga paths. Verify that core evidence and safety are invariant and that the historic asset branch is legible before selection.
-8. Run relevant type/story/API checks and desktop build/tests for actual desktop integration, using disposable saves. Synchronize reviewed source into the canonical checkout and refresh the installed fallback package after runtime changes. Publish the archived Site only at explicit owner request.
+1. Write its openings and episodes as final dialogue following `episode-craft.md`: authored option replies, callbacks, reading estimates, whole-pose directions.
+2. Write its optional founder conversations and supporting visits. Romance variants follow existing adult consent and single-interest rules.
+3. Produce original full-pose art for new speakers and changed conditions from existing references (lists in each chapter file).
+4. Ship the matching real curriculum chapter (`../training-architecture.md`), developed separately. Fiction never authorises a higher real level. Keep equal gentle rewards, 30–40 minute plans, the 45-minute ceiling, full Wednesday rest and no absence penalties.
+5. Assign stable IDs and revisioned flags; define availability and migration for each existing campaign. Do not insert passages into started scenes or reset saves to reach new writing.
+6. Reuse the existing atomic game/session routes, compare-and-swap transactions, exactly-once rewards and journal writes in desktop SQLite.
+7. Validate every immediate reply, local branch, delayed callback and final variant. Test representative full paths, interacting pairs (`last-step` × `memorial`, `last-step` × `repair`, `festival` × romance state, `forms` × `lantern`), and structural invariants: Natsume always dies at 8.5; no option alters the 8.3–8.5 losses; the final line is identical across `place`.
+8. Run type, story and API checks, desktop build and tests on disposable saves; sync into the canonical checkout.
 
-The final saga must remain understandable to a player who reads only required scenes, selects private reflection, always uses gentle preparation, takes long breaks, chooses friendship, and declines every optional public task. That path receives the same ending's dignity and factual completeness.
+The saga must stay complete for a player who reads only required episodes, always chooses gentle practice, takes long breaks, chooses friendship, and declines every optional scene.

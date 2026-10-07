@@ -4,19 +4,21 @@ The first season follows eight story weeks in Lantern Hall, an independent train
 
 Chapter 1 focuses on belonging, rebuilding, the five founders' personal lives, and decisions with consequences. The player contributes as a beginner; trained characters handle advanced action. Completing a story is separate from real martial arts competence.
 
-| Chapter | Training direction | Story direction | Future systems |
-|---|---|---|---|
-| 1 | Beginner, eight weeks | Belonging and rebuilding | Authored scenes, bonds, small projects |
-| 2 | Movement foundations | Responsibility beyond the hall | New apprentices, community errands |
-| 3 | Coached fundamentals | Teachers and inherited expectations | Instructor feedback and recorded goals |
-| 4 | Controlled striking | Rivalry and public pressure | Qualified striking practice, partner boundaries |
-| 5 | Connected movement | Promises across different lives | Group relationships and longer consequences |
-| 6 | Intermediate | Travel and competing loyalties | Visiting halls and travel episodes |
-| 7 | Reliable intermediate | Reputation and accountability | Player-led projects with oversight |
-| 8 | Skilled practitioner | Revelations and lasting costs | Advanced coached assessments |
-| 9 | Advanced candidate | Confrontation and sacrifice | Campaign consequences and final preparation |
-| 10 | Advanced practitioner | Resolution and legacy | Instructor-confirmed competence and continuing practice |
+Dojo stays a **solo** programme for its whole length: no partner, instructor or sparring is ever required. The full structure (phases, weekly rhythm, session blocks, trials and solo milestones) is in `training-architecture.md`.
 
-Later chapters require new writing, curriculum, and assessment work. Story rewards cannot certify technique. A high level needs sustained coached practice and demonstrated control, not an accumulated click count.
+| Chapter | Weeks | Training direction | Story direction | Future systems |
+|---|---|---|---|---|
+| 1 | 8 | Foundations | Belonging and rebuilding | Authored scenes, bonds, small projects |
+| 2 | 6 | Hands | Responsibility beyond the hall | New apprentices; strike drills with guard-return checks |
+| 3 | 6 | Guard and defense | Teachers and inherited expectations | Defensive drills and defense-into-counter pairs |
+| 4 | 6 | Kicks and balance | Rivalry and public pressure | Supported balance and low controlled kicks |
+| 5 | 8 | Combinations and rounds | Promises across different lives | Timed shadow rounds and combination menus |
+| 6 | 6 | Practice anywhere + Form One | Travel and competing loyalties | Small-space sessions, bodyweight strength, the first solo form |
+| 7 | 8 | The Lantern Form + timing | Reputation and accountability | A longer solo form and bell-cued reaction drills |
+| 8 | 6 | Endurance and composure | Revelations and lasting costs | Longer rounds, breathing and composure work |
+| 9 | 8 | Integration: steady count | Confrontation and sacrifice | Steady-count mode and integrated sessions |
+| 10 | 6 | Practice for life | Resolution and legacy | Build-your-own sessions, maintenance plans, continuing practice |
 
-Next additions should follow the first season's playthrough feedback: scene-specific pose art, additional recruit arcs, instructor review tools, and deeper dojo projects. New features should strengthen the characters or practice loop rather than add daily chores.
+Total: 68 weeks, 408 practices. Later chapters require new writing and curriculum before they unlock; a chapter's story and its curriculum unlock together. Story rewards cannot certify technique. Solo milestones record practice and self-review, not rank or fighting ability.
+
+Next additions should follow the first season's playthrough feedback: scene-specific pose art, the weeks 5–8 expansion, and the Chapter 2 curriculum and scripts. New features should strengthen the characters or practice loop rather than add daily chores.

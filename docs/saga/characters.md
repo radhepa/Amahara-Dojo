@@ -1,92 +1,168 @@
-# Dojo — character and relationship trajectories
+# Dojo — characters and trajectories
 
-**AUTHOR ONLY. Contains outcomes and losses.**
+**AUTHOR ONLY. Contains outcomes and losses. Revision 3, 7 October 2026.**
 
-The five founders remain the emotional center. Later guests expand the world without replacing that center. A new character needs a want beyond helping or obstructing Lantern Hall, a material obligation, a recognizable speaking habit, and a relationship that does not involve the apprentice. Ages below are at first appearance. Introduce at most two new active speakers per episode unit; a name or letter can precede the person's speaking debut.
+The five founders are the emotional centre. Every newcomer needs a want beyond helping or obstructing Lantern Hall, a material obligation, a recognisable speaking habit, one relationship that does not involve the apprentice, and one moment in the saga that belongs to them alone. No more than two new active speakers per story week.
 
-## Five founders
+Voices from `../writer-bible.md` remain binding. Emotional performances change pose and body language, not only the face.
+
+## The apprentice ("you")
+
+No portrait, no name, no gender, no invented body. Never chosen or secretly gifted; never certified by the story.
+
+| Ch | Fictional training (mirrors the real curriculum) | Story growth | Their moment |
+|---|---|---|---|
+| 1 | Stance, guard, four-direction steps | Attention and reliability; a place at the table | Holding Riku's tape; the review doorway |
+| 2 | Hands: straight strikes, the 1-2 | No longer the newest; carries a secret like Sora once did | Telling Avel, or waiting (choice) |
+| 3 | Guard and defense, the slip, curved hands | Sees real mastery; stands still when a stop is called | Seiran's one correction, kept or given away |
+| 4 | Kicks and balance | Taught by a man who can no longer kick | Ren's corner in the match |
+| 5 | Combinations and rounds | First public showing | The rookie forms; Maela's offer |
+| 6 | Practise anywhere; Form One | The wider world; grief that is not theirs | Reading the Merrow names, or standing back |
+| 7 | The Lantern Form; timing on the bell | A door-keeper candidate; joy | The lantern word; the festival night |
+| 8 | Endurance and composure | First real test | Holding the hall's anchor ninety seconds with Emi |
+| 9 | The Line | One of a thousand; teaches the first stance to a stranger | The last step: bell or floor |
+| 10 | Practice for life | Belongs without being exceptional | "No. I just practice here." |
+
+## Founders
 
 ### Akari, 28
+Opening competence is real. Flaw: delegation as a temporary loan she plans to recall; checking twice. The habit is Natsume's ("check it twice").
 
-Her opening competence is real. Her problem is not excessive concern for safety; it is treating all delegation as a temporary concession until she can check everything herself. Chapter 2 makes that habit unfair to Emi. Chapter 3 forces her to hear Natsume's guilt without converting the hearing into either familial defense or immediate moral certainty. Chapter 4 lets Kanna reject a technically sound plan for a socially sound reason. Chapter 5 she overcorrects toward public agreement and lets an underfunded promise through. Chapter 6 she follows another hall's lead without disguising it as observation. Chapter 7 she can transfer a decision and accept a result she would not have chosen.
+- Ch2: Emi catches her rechecking her work at night: "You delegate like a loan you plan to recall."
+- Ch3: Finds her equal and opposite in Seiran. Asks her aunt one question at the confession and sits where the apprentice advised.
+- Ch4: Kanna rejects her technically sound plan for a socially sound reason; Akari follows visibly.
+- Ch5: Watches Maela hold alone what she has always tried to hold alone, and is frightened by the resemblance.
+- Ch6: Puts her jacket on her shaking aunt on the Merrow breakwater; first real tenderness between them.
+- Ch7: Last good dinner with Natsume, laughing about the patterned cloth Natsume gave her as a child.
+- Ch8: Grief becomes control: reorganises everyone, refuses food. Emi confronts her. She eats sitting on the floor.
+- Ch9: At the Junction she must obey Seiran's stop and trust a thousand people she cannot check. She saves Maela: "Nobody holds it alone. Not even you." Asked why: "Because she would have."
+- Ch10: Leaves the opening to Emi and takes a walk; admits she likes patterned fabric; leaves a crooked cup crooked.
 
-Natsume's death in Chapter 8 brings back control as a grief response: Akari reorganizes the survivors' schedules while refusing to eat. A confrontation with Emi, not the apprentice's perfect confession, interrupts it. In Chapter 9 she distributes the anchor operation and physically obeys a stop called by Seiran. Chapter 10 she learns that leadership survives her unavailability. Her last personal scene is taking an unplanned walk while the hall opens correctly without her.
-
-Keep her dry humor, mending, labels, and precise language. Performance progression: square stance and hands gripping a clipboard; one hand offered with the task; shoulders turned toward another person's explanation; in grief, rigid knees and too carefully folded sleeves; in recovery, resting both palms on a table while someone else leads. Anger may be controlled and quiet. Softness is allowed to include fatigue.
+Performance: square stance, clipboard grip → task offered with one hand → shoulders turned to someone else's explanation → grief: rigid knees, sleeves folded too carefully → recovery: both palms flat on a table while someone else leads.
 
 ### Ren, 26
+Flaw: promises quickly, hides disappointment in a joke, needs to be seen. Gift: rhythm. Careful baker's hands are the same hands he uses on pads; he is the best hands teacher in the hall.
 
-Reliability must become more than a new joke about being reliable. Chapter 2 he says no to a popular demonstration and resents that nobody celebrates the sensible choice. Chapter 3 Haru's institutional status exposes a deeper fear: if Ren is not impressive, will he still be wanted? Chapter 4 he loses a bounded match fairly and stays to help dismantle the arena. Chapter 5 he is publicly useful through baking while Seiran receives the applause. Chapter 6 he performs beautifully at a task with a modest ceiling. Chapter 7 he keeps a rota through boredom rather than danger.
+- Ch2: Teaches the cohort hands; cancels a showy demonstration and sulks that nobody applauds sense (Yuzu throws him a one-person parade).
+- Ch3: Calls the stop at White Ash when the returning load could reach the waiting group; Haru argues; the sheet proves Ren right.
+- Ch4: Loses the match to Haru with the apprentice in his corner; stays to stack the frame.
+- Ch5: Feeds the crews while Seiran gets applause; admits at midnight that he wants to be clapped for.
+- Ch6: Watches Cairn House's stool count like a man memorising a road, gives the apprentice his spare wraps, and goes home to the bakery after the first week.
+- Ch7: Keeps a boring rota; "nothing happened" becomes his proudest sentence.
+- Ch8: Stops a slipping brace and wrecks his knee. On a cot, after a joke fails: "I'm scared."
+- Ch9: Cannot stand on the Line, so he rings it: the count for the whole valley from a chair beside Lantern Hall's bell, knee up, sweating.
+- Ch10: Adapted practice; no comeback fight. The finale's dawn count is the first he does standing.
 
-The knee injury in Chapter 8 removes the performance he uses to manage discomfort. Chapter 9 he plans provisioning from a seated station and hates some of the help offered; one apology is his to make. Chapter 10 he returns to adapted, qualified practice without a triumphant pain-denying comeback. He becomes both a baker and practitioner, with neither role compensating for a supposed failure at the other.
-
-His hands remain careful. Humor changes with audience and timing. Performance: leaning into a room, wide arm invitation; later, finishing a wrap before answering; injury scenes with leg supported and eyes tracking a door; anger as a joke that fails followed by an unadorned sentence; recovery with a small deliberate transfer of weight, never new art that erases established limitations.
+Performance: leaning into a room, wide arm invitation → finishing a wrap before answering → injured: leg supported, eyes tracking the door → anger as a failed joke and then a plain sentence → seated at the bell, whole body counting.
 
 ### Sora, 25
+Flaw: manages other people's knowledge "for their protection." Gift: precision, practical care (towels).
 
-Chapter 2 confession requires documents, names, and uncertain limits; it is not a cleansing monologue. She explains her courier stamp, patron tie, and delay separately. Chapter 3 she releases testimony in a form she cannot control and receives an unfair criticism along with fair ones. Chapter 4 she hears Iori contradict a detail in her source and corrects the record. Chapter 5 one selectively quoted true statement becomes propaganda. Chapter 6 she collaborates with Lyra, who keeps a source private for an understandable reason. Chapter 7 she supports a record system with witnesses who can overrule her.
+- Ch2: Confesses with documents, names and labelled uncertainty; gives her courier stamp into someone else's keeping, or is told to carry it openly (choice). Lets Emi correct her map.
+- Ch3–4: Corrects her own source publicly when Iori contradicts a time.
+- Ch5: A true statement is quoted without its uncertainty; she corrects it and cannot force acceptance. Neris and she battle silently over pencil versus pen.
+- Ch6: Preserves a Merrow witness's account as disputed rather than pressing agreement. Helps Neris plan rent after her dismissal.
+- Ch7: Posts the pilot's failure before its success.
+- Ch8: The hall archive must be abandoned; she relies on the copies she once resisted.
+- Ch9: "Don't keep one original safe. Keep a thousand." Seals copies for every door with her courier stamp; Yuzu's couriers deliver them.
+- Ch10: Posts a correction about herself unprompted; a stranger annotates her map while she holds it steady.
 
-Chapter 8 she temporarily loses access to the hall archive and must rely on the distributed copies she once resisted. Chapter 9 she gives Neris access to evidence despite fear of another compromise, using agreed boundaries rather than blind faith. Chapter 10 she publishes a correction about her own action without being prompted. She never stops being perceptive or private; she stops monopolizing other people's uncertainty.
+Brother: **Kei**, alive, at school, entitled to his own view of the fund.
 
-Her brother remains alive, at school, and entitled to his own view of the fund. No hostage plot. Map annotation, experimental cooking, quiet humor, and practical towels continue. Performance: body placed between paper and room; papers rotated outward; hands empty during listening; after loss, ink-stained fingers clenched around nothing; at the ending, another person marks her map while she holds it steady.
+Performance: body between paper and room → papers rotated outward → empty hands while listening → after loss, ink-stained fingers clenched around nothing → holding a map steady for someone else's pencil.
 
 ### Daichi, 43
+Flaw: warmth that postpones a boundary; rescue as identity. Has already sent his imperfect letter; do not reset that growth.
 
-He has already sent the imperfect letter. Do not reset that growth. Chapter 2 he can wait for a reply but still prepares an entire defense of it. Chapter 3 he supports a public allegation against Natsume even when it makes a peaceful meal impossible. Chapter 4 Iori rejects his rescue story and refuses a particular visit. Daichi apologizes without asking the apprentice to persuade Iori. Chapter 5 he sets a boundary with Shigure before friendship can soften it. Chapter 6 he receives care in a hall where his warmth does not grant authority. Chapter 7 he leaves a delegation dispute unresolved for one night rather than fixing it personally.
+- Ch2: The dawn count alone before the lantern: "Light your own lantern first." He does not say whose phrase it is.
+- Ch3: Washes the red scarf in a long wordless scene.
+- Ch4: Returns it. Iori refuses the rescue legend and a public reunion; Daichi apologises without asking anyone to persuade him. They argue about the apprentice's kick chamber: their first ordinary argument in nine years.
+- Ch5: Refuses Shigure a private endorsement; later sits two stools away at a noodle stall and pays for both.
+- Ch6: Beaten cleanly by an old Tideglass fisherwoman who then pours his tea; laughs harder than anyone has seen. Helps Tarek cut his budget at midnight.
+- Ch7: Teaches the apprentice the Lantern Form and finally says Iori made it.
+- Ch8: Rescues within limits; cannot protect Natsume or Mika's hand. Mika refuses to let her injury become his lifelong obligation.
+- Ch9: Holds the Weir End spillway door with Iori, the place Iori was hurt. "This isn't forgiveness. It's a count. Keep it." He is on the count.
+- Ch10: Fixes a kettle with Iori and disagrees about a measurement; asks before improvising; still needs Riku.
 
-Chapter 8 he rescues within assignment limits but cannot protect Natsume or prevent Mika's injury. Mika refuses his attempt to turn her disability into a lifelong obligation she must grant him. In Chapter 9 he leads a rotating containment team and accepts being relieved before collapse. Chapter 10 he and Iori build an ordinary day together without a forgiveness ceremony. His last scene repairs a kettle badly enough to need Riku, and he asks before improvising.
-
-Tea, carpentry puns, patient weight placement, and mischief remain. Performance: an open stance that can avoid a hard conversation; hands withdrawn from a task someone else owns; grief bent at a bench without a audience; an older practitioner's deliberate transitions; warmth shown by sitting beside someone without moving their things.
+Performance: an open stance that avoids a hard conversation → hands withdrawn from a task someone else owns → grief bent over a bench with no audience → deliberate transitions → warmth by sitting beside someone without moving their things.
 
 ### Yuzu, 24
+Travel is a vocation, not a flaw. Flaw: useful without committing long enough to be disappointed. Gifts: folds paper moths, collects tunes, invents movement games.
 
-Travel is a vocation, not a flaw to be cured. Chapter 2 she keeps a limited river commitment and misses a hall celebration without relationship penalty. Chapter 3 she refuses Haru's assumption that touring means unserious training. Chapter 4 her family disagrees about reopening the route. Chapter 5 she uses travel contacts but resents being treated as permanently available. Chapter 6 she leads the visiting party somewhere she is also a guest, revealing the care behind her apparent ease. Chapter 7 she writes a return and backup arrangement before leaving.
+- Ch2: The one-person parade for Ren; river market field trip; a Veyr newspaper.
+- Ch3: Beats Haru at a balance game after he calls touring unserious.
+- Ch4: Her river family challenges her divided promises; she hires a paid substitute courier.
+- Ch5: Leads the river-tune night; refuses to be permanently available; hands Emi the hall key.
+- Ch6: Leads the party somewhere she is also a guest; finds her old Merrow contacts moved away.
+- Ch7: Folds a paper moth for every festival lantern. Leaves for her contract with a return route and backup.
+- Ch8: Away when the storm hits; returns days later along a permitted route, muddy and furious at herself. Is allowed to be angry.
+- Ch9: "I always leave. This time leaving is the job." Runs the couriers who carry sealed copies, timing sheets and a paper moth to every door before dawn.
+- Ch10: Packs, leaves a real spare key, and asks someone to water a plant.
 
-Chapter 8 she is away when occupation begins and takes an established route back with supplies, not a miraculous arrival during the death scene. Guilt tempts her to abandon travel; Ren's frustration and her family's practical need show why that promise is unsustainable. Chapter 9 she manages physical route messengers while civilian lanes remain protected. Chapter 10 she chooses a touring contract with reliable home periods. Her last personal scene packs a case, leaves a real spare key, and asks someone to water a plant rather than admire a paper moth.
+Performance: poised near a threshold → weight settled while committing → hands working a fold during uncertainty → shoulders down, case set down → muddy boots off and an ordinary job started.
 
-Her sideways humor stops when requested. Performance: poised near a threshold; weight settled while making a commitment; hands working a paper fold during uncertainty; travel fatigue visible in lowered shoulders and a placed-down case; homecoming that includes taking off muddy boots and doing an ordinary job.
+## The rookie cohort (joins Chapter 2)
 
-## Existing supporting cast
+Anime rookies: they grow up beside the apprentice, tease, panic, and each hold a door in Chapter 9.
 
-**Riku, 24.** A skilled repair collaborator who eventually leads a mixed-country maintenance crew. His arc is the conflict between visible heroic work and the maintenance nobody funds. Chapters 4–7 demand that he stop donating labor indefinitely. Chapter 8 preserves his competence during a failed structure; he identifies the limit before others believe it. Chapter 10 he trains paid apprentices and can refuse impossible quotes. He is never the comic person whose incompetence starts the invasion.
+**Emi, 20 (published Ch1).** Stationery shop; neat handwriting she refuses to be reduced to. Wants to be good at something that isn't clerking. Ch2 calls out Akari's rechecking; Ch3 asks the academy for plain language; Ch5 halts an overcapacity queue and keeps the hall running while the founders travel; Ch8 holds the hall's anchor with the apprentice for ninety seconds and confronts Akari's grief; Ch9 holds Lantern Hall's door with the apprentice ("If I freeze—" "Then I'll count for both."); Ch10 opens the ledger and runs the paid welcome shift while planning her own shop. Never promoted to instructor through admin.
 
-**Mika, 42.** A medic with outside work, privacy requirements, and an adult relationship independent of the apprentice. She argues with militarized relief in Chapter 5 before needing that relief in Chapter 8. Reduced left-hand dexterity changes her procedures; her medical knowledge and ability to supervise remain. Chapter 10 includes frustration with an inaccessible tool and pleasure at an adapted one. Do not give her only grateful patient scenes.
+**Avel Deren, 23.** Veyr-born seamstress from Merrow Quay; came to Amahara four years ago for work. Tape measure wound around two fingers; tailor's precision ("your left shoulder is a hanger"). Wants stable work and not to be anyone's ambassador. Ch2 learns her hometown is on the second copy (choice governs how) and writes to the Veyr registry herself; Ch5 chooses to stay home from the journey; Ch7 sews festival lanterns; Ch9 chooses, once, to speak in her own dialect to a Directorate logistics unit: "Commander Vorr pulled my neighbour out of the water. She is not the water. You can put down a list." The unit declines compulsory transfer. Ch10 runs an access and translation cooperative.
 
-**Haru, 27.** Ren's brother, skilled academy practitioner. Loyal to responders and family, not merely to authority. Chapter 3 follows an invalid order until he recognizes that Ren is the person being risked; his shame concerns what he missed, not being less talented. Chapter 7 backs Seiran in a disagreement with Lantern Hall and remains welcome. Chapter 8 evacuates academy students. Chapter 9 is a trained anchor operator, with Ren coordinating support. Chapter 10 stops phrasing praise as instruction.
+**Jalen Mori, 24.** Responder candidate supporting his mother; counts reps aloud; carries a timetable worn soft; asks procedural questions that protect real people. Ch2 stays for the dawn count "because it's free and you're honest"; Ch3 needs Seiran's correction for his licence component (choice); Ch8 refuses to hand a Directorate officer the trainee roster ("Under section four, this roster is protected."); Ch9 holds the clinic door; Ch10 begins supervised instructor preparation and lists what he may not yet teach.
 
-**Toma, 14 at Chapter 1, still a minor at the ending.** A messenger with a household, school, friends, and a desire to be taken seriously. Starts a copied notice project in Chapter 2, learns translation boundaries from Avel, and argues against adults making promises on his behalf. He never enters an active battle, live gate, occupied checkpoint operation, adult romance, or evacuation role beyond a sheltered supervised station. Chapter 10 he chooses what to study; running every message is no longer his identity.
+## Lantern Hall's circle
 
-**Emi, 20.** Existing future recruit. Joins on her own terms in Chapter 2. Her stationery work becomes useful to the inquiry but she does not want to become its permanent clerk. Chapter 3 she requests a simpler explanation from prestigious teachers; Chapter 5 she stops an overcapacity invitation; Chapter 8 she confronts Akari's grief-driven control. Chapter 10 she runs a paid welcome shift and retains her own shop plans. Never promote her to instructor through admin work.
+**Riku, 24.** Carpenter and route mechanic. Arc: visible heroics versus unfunded maintenance; stops donating labour (invoices the model gate in Ch3). Builds the pilot doors in Ch7, talks the apprentice and Emi through the ninety seconds in Ch8, explains the bell/floor tradeoff and isolates the Junction in Ch9, trains paid apprentices in Ch10.
 
-**Natsume, 46.** Her signed omission and genuine care coexist. She admits the document in Chapter 3, faces restrictions, and works on restitution afterward. She offers no excuse that raiders made secrecy inevitable; safety details could have been protected without hiding who carried the burden. Chapter 7 she challenges Maela's proposed custody using evidence of her own error. Chapter 8 dies during the documented manual gate operation. Preserve her difficult, funny, and mundane relationships before the death; do not make every preceding scene a farewell.
+**Mika, 42.** Medic with outside work and privacy obligations. Opposes compulsory records; needs relief anyway. Loses fine dexterity in her left hand in Ch8. Ch10: anger at an inaccessible tool, pleasure at an adapted one, an independent clinical schedule.
 
-**Shigure, 39.** See saga bible. Give him competence, civic relationships, a life outside meetings, and occasional correct criticisms. End his prestige, not his humanity. No romance or bond meter controls his prosecution.
+**Haru, 27.** Ren's older brother, White Ash's star. Shame in Ch3 is about what he missed, not talent. Ch4 wins the match; Ch8 leads operators out of the academy and calls Ren's relief with the line the apprentice's corner choice gave him; Ch9 holds a hard-site anchor on Ren's count; Ch10 waits to be asked before giving feedback.
+
+**Toma, 14 → still a minor at the end.** Messenger who wants to be taken seriously. Never in danger, never in a battle, checkpoint or romance. Ch8 the apprentice gives him a real job or admits being scared too (choice); Ch9 he lights shelter lanterns or teaches shelter children the count; Ch10 he chooses to study bell-casting or carpentry depending on what was rebuilt.
+
+**Natsume, 46.** Inspector, Akari's aunt, the woman who taught her to check twice. Signed omission and genuine care coexist. Ch2 authenticates "the signature style" without admitting it is hers; Ch3 confesses; Ch4 works the mill's manual fallback and reports the rotten access beam; Ch6 reads the Merrow names and meets Maela; Ch6 learns the dawn count from the apprentice, wobbles, and laughs for the first time in the saga; Ch7 last good dinner; Ch8 frees the Old Gate, hears three notes, says "It works," and dies. Give her funny, mundane scenes (a stickler about load gauges, hopeless at goldfish scooping) so the death costs.
+
+**Shigure, 39.** See saga bible. Competence, civic relationships, a noodle-stall habit, occasional correct criticism. End his prestige, not his humanity.
 
 ## New speaking characters
 
-| Person | Debut | Independent want and pressure | Voice and physical anchor | Ending |
-|---|---|---|---|---|
-| Avel Deren, 23, Veyr-born adult apprentice and seamstress | 2.1 | Stable work without becoming an ambassador for all migrants | Concrete questions; waits with a tape measure wound around two fingers | Runs an access and translation cooperative; keeps training optional |
-| Jalen Mori, 24, local examination candidate | 2.2 | A licensed responder place; supporting a parent makes uncertainty expensive | Fast procedural questions; checks a worn timetable | Supervised instructor candidate with civilian hours protected |
-| Seiran, 31, White Ash instructor | 3.1 | Traceable command and living responders | Formal verbs, exact corrections; palms flat at her sides before a bout | A school charter she can be challenged under |
-| Kanna, 27, route engineer, Iori's daughter | 4.1 | A usable river without another bargain made over her home | Measurement before metaphor; kneels to read a level before speaking | Downstream route representative with an enforceable veto |
-| Iori, 49, former caretaker and current workshop repairer | 4.2 | Ordinary life beyond the rescue people celebrate | Blunt specific recollections; sets tools down before refusing | Selective renewed contact, no total forgiveness |
-| Elian Roe, 29, Tideglass Hall practitioner | 5.1 | Keep their school independent of the Directorate | Playful technical precision; shifts stance while listening, stills to decide | Co-leads a Veyr civic responder school |
-| Lyra Om, 33, Veyr route registrar | 5.2 | Preserve reliable records while protecting named sources | Dates and careful distinctions; sleeves rolled only at work | Independent inspector living partly abroad after losing her official post |
-| Tarek Sen, 38, Ordan Cairn House instructor | 5.3 | Fund an accessible school without profiting from buried risk | Warm questions that demand an answer; moves a chair before welcoming anyone | Helps reform the parts guild and retains his hall |
-| Neris Vale, 36, Veyr civil treaty officer | 5.5 | Keep supply flowing and retain civic control of emergency powers | Patient clauses, unexpectedly blunt conclusions; closes a notebook to disagree | Treaty delegate under public review |
-| Maela Vorr, 44, Supply Directorate commander | 6.6 | End repeated supply collapse by compelling shared infrastructure | Polite operational clarity; never wastes a movement | Detained, tried, alive, and opposed to the Compact |
+| Person | Debut | Want and pressure | Voice and physical anchor | Saga moment | Ending |
+|---|---|---|---|---|---|
+| Avel Deren, 23 | 2.1 | Stable work, not ambassadorship | Concrete questions; tape around two fingers | The speech to the logistics unit (9.3) | Access and translation cooperative |
+| Jalen Mori, 24 | 2.2 | A responder licence he can afford | Counts aloud; worn timetable | The protected roster (8.3) | Supervised instructor candidate |
+| Seiran, 31 | 3.1 | Traceable command, living responders | Formal verbs; checks shoes; palms flat before a bout | The roll call (8.3); holding alone three seconds (9.7) | A chartered academy she can be challenged under |
+| Kanna, 27 | 4.1 | A river nobody bargains over her home | Measurement before metaphor; kneels to read a level | "Every door, on the count." (9.7) | Downstream representative with a veto |
+| Iori, 49 | 4.2 | Ordinary life beyond the legend | Blunt specifics; sets tools down before refusing; cane on bad days | The spillway count with Daichi (9.7); speaking to Maela (10.2) | Selective renewed contact |
+| Elian Roe, 29 | 5.1 | Tideglass independent of the Directorate | Playful technical precision; shifts stance while listening | Holding the withdrawal lane against his former teacher (9.7) | Co-leads a Veyr civic responder school |
+| Neris Vale, 36 | 5.2 (letters from 2.6) | Reliable records, protected sources, civic control of emergency powers | Dates and careful clauses; closes a notebook to disagree; off-key singer | Authenticating the logs (9.4) | Treaty delegate under public review |
+| Tarek Sen, 38 | 5.3 | An accessible school not funded by buried risk | Warm questions that demand answers; moves a chair before welcoming | The stool count (6.1 → 9.7) | Reforms the parts guild, keeps his hall |
+| Maela Vorr, 44 | name 2.4, dispatch 4.6, person 5.6 | Never again let one country choose who drowns | Polite operational clarity; never wastes a movement; does not sweat | The solo demonstration (5.6); the names (6.4); the Junction (9.7) | Detained, tried, alive, unconverted |
 
-Lyra's exile is political and logistical, not an abrupt secret assassination. Avel and Elian are not related; no coincidence makes every new person part of one family. Kanna's connection is already seeded in Iori's letter. Local residents may be unnamed background speakers; if they drive a lasting subplot, assign them a voice before scripted production.
+**Merged:** Lyra Om (Revision 2) is folded into Neris Vale. **Background:** Grandmother Sato of Weir End (4.1), the old Tideglass fisherwoman who beats Daichi (6.5), Tarek's seated student who holds an anchor on the stool count (6.1), the White Ash junior who calls the valid stop (3.5). Name others only if they drive a lasting subplot.
+
+Elian and Avel are unrelated. Avel knowing Maela's name is not coincidence: Maela is Merrow Quay's most famous person.
+
+## Rivalries (the anime engine)
+
+- **Akari ↔ Seiran.** The two people who never stop checking. Rival (3.1) → matched (3.6, 4.4) → frightened together by Maela (5.6) → disagree about the lease (7.4) → "I'll look for you" at the roll call (8.3) → partners at the Junction (9.7).
+- **Ren ↔ Haru.** Prestige versus reliability, brothers who love each other badly. Drill stop (3.2) → match (4.4) → relief call (8.4) → Ren's count reaches Haru's anchor (9.7) → food before technique (9.8).
+- **Seiran ↔ Elian.** Disputed restart (5.4) → arm-wrestle ties → argue about it over bread in the finale.
+- **Elian ↔ Maela.** Student and teacher: "I'll hold it until you can" (6.2) → refused invitation (5.6) → the lane (9.7).
+- **Apprentice ↔ Jalen.** Friendly rookie competition; Jalen counts, the apprentice doesn't.
 
 ## Relationship continuity
 
-Keep a single optional adult player romance at a time unless a later feature is separately designed and consented to. Main plots, meaningful personal scenes, rewards, rescue attempts, and survival never depend on selecting romance. A friendship route has equal narrative specificity, disagreement, and practical affection. A player can decline or end a romance through a calm private scene; no punishment, jealousy ambush, or loss of a companion job follows.
+One optional adult player romance at a time. Main plots, rewards, rescues and survival never depend on it. A friendship route has equal specificity, disagreement and affection. A romance can be declined or ended in a calm private scene with no punishment.
 
-**Akari–Ren, if both available.** Chapter 1's walk becomes a relationship negotiated over differing work schedules. Chapters 3–5 include a dispute about public responsibility, not romantic incompetence. They pause a planned trip during Chapter 7 by mutual choice. Chapter 8's injury produces conflict about excessive care. Chapter 10 they keep different responsibilities and choose a small shared household arrangement. If either is the player's interest, preserve their strong friendship and distribute the same work conflicts through it; no longing triangulation behind the player's back.
+Romance and friendship peaks: a night walk after the rookie showing (Ch5), the Lantern Festival lantern-lighting (Ch7, choice of companion), comfort after the storm (Ch8, personal scenes), the night-before letter (Ch9), a shared future plan (Ch10).
 
-**Daichi–Mika, if Daichi available.** Their late-season step develops into asking for support explicitly. Mika's injury does not grant him a permanent caretaker identity. They negotiate which help is welcome, an independent clinical schedule, and ordinary companionship. If Daichi is the player's interest, Mika remains an adult friend with her own clinical circle, and those boundaries still exist.
+**Akari–Ren (if neither is the player's interest).** The Chapter 1 walk becomes a relationship negotiated across schedules; they argue about public responsibility (Ch3–5); after Ren's injury, conflict over Akari's excessive care (Ch8); a small shared household arrangement in Ch10. If either is the player's interest, preserve the strong friendship and the same conflicts; no triangle behind the player's back.
 
-Sora and Yuzu need not be paired with anyone to resolve their stories. Haru, Seiran, Avel, Kanna, and the foreign visitors do not become a late harem roster. New romances require a separate written proposal, adult ages, mutual interest, and enough scenes to be people first.
+**Daichi–Mika (if Daichi is not the player's interest).** Ask for support explicitly; the hand injury does not grant him a caretaker identity; they negotiate welcome help and ordinary companionship. If Daichi is the player's interest, Mika remains a friend with her own circle.
 
-Every founder receives four optional personal scenes in every future chapter: a recognizable ordinary situation, a cost or disagreement, a request with a boundary, and a later behavior seen rather than promised. Main-story essentials also appear in required episodes; optional conversations deepen meaning without hiding evidence needed to understand the ending. Romance variants alter intimacy and logistics, not critical facts.
+Sora and Yuzu need no pairing. Newcomers do not become a late harem. New romances need a separate written proposal, adult ages, mutual interest and enough scenes to be people first.
+
+## Optional scene contract
+
+Every founder has four optional personal scenes per future chapter: an ordinary situation, a cost or disagreement, a request with a boundary, and a later behaviour seen rather than promised. Every chapter has six supporting visits. Optional scenes deepen meaning; required episodes carry everything needed to understand the ending.

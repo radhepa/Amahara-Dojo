@@ -4,6 +4,8 @@
 
 The owner authorized the complete ten-chapter saga with broad creative discretion and requested no spoilers in chat. The private authoring package is `docs/saga/README.md`; it specifies future world canon, chapter treatments, character trajectories, ending, decisions, and callbacks. Read it with the writer bible before scripting later chapters. Keep every future plot detail in contributor material and out of the player roadmap, client modules, public assets, and owner-facing responses.
 
+**Revision 3 (7 October 2026) is the final canon.** Start with `docs/saga/story-audit.md`, then follow the README's reading order. `docs/saga/episode-craft.md` governs how every post-practice episode is written (weekly rhythm matched to workout load, episode types, anime grammar, things to avoid). Chapters 2–10 now run 6 or 8 weeks (68 weeks, 408 episodes in total), with 18 new decisions. The spoiler-free curriculum companion is `docs/training-architecture.md`; a chapter's story and its curriculum unlock together.
+
 The package is a narrative blueprint. Current playable chapters and curriculum gates remain as released. A chapter becomes playable only after final scripts, required curriculum and assessment, original performance art, save compatibility, and relevant checks exist. Follow the desktop workflow in `docs/desktop.md` for implementation; the archived hosted app is updated only when explicitly requested.
 
 ## First-month campaign (5 October 2026)

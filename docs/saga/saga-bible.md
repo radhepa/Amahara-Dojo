@@ -1,105 +1,117 @@
 # Dojo — saga bible
 
-**AUTHOR ONLY. Spoilers for all ten chapters. Revision 2, 6 October 2026.**
+**AUTHOR ONLY. Spoilers for all ten chapters. Revision 3 (final canon), 7 October 2026.** Supersedes Revision 2. `story-audit.md` explains every change.
 
-## Dramatic engine
+## The promise of the saga
 
-Five capable adults keep a small independent hall alive. A beginner helps them notice what their practiced habits conceal. Their repairs expose an old civic crime; proving it reveals an international system that makes prosperity in one place depend on unacknowledged danger elsewhere. The effort to change that arrangement invites allies, rival schools, internal fractures, and finally military occupation. Winning requires both spectacular trained action and the slower creation of an alternative that can survive its founders.
+A beginner walks up a hill to a hall whose door sticks. Five capable adults take them in. Over roughly eighteen months of story time the beginner learns to stand, to step, to strike the air, to hold a count; the hall uncovers a buried crime, crosses borders, loses people it loves, and finally holds a river together with a thousand strangers. The saga ends where it began: at a door, with a newcomer who needs a chair.
 
-The question grows without changing: **who gets to decide which people will bear the cost of everyone else's safety?** Each chapter supplies a plausible answer, makes it work temporarily, then tests its omitted cost. Independence without accountability fails. Central control without refusal fails. Public truth without material repair fails. Shared power without maintenance also fails. The ending earns a workable, revisable system rather than proclaiming one perfect philosophy.
+It must feel like an anime: vivid rivals, a rookie cohort, training that visibly pays off, festivals before storms, a death that rings through the whole valley, a climax where everyone the player has met stands somewhere on the same line, and quiet episodes that are a pleasure to live in. It must also stay honest: no chosen one, no magic exercise, no certification by story.
 
-Anime scale comes from vivid rivalries, changing alliances, coordinated action with readable geography, emotional reversals, motif returns, consequential defeats, and long preparations paying off. Ordinary chapters must be pleasurable to inhabit. A meal, an awkward date, a botched joke, and a difficult apology carry the same commitment as the large confrontations. Avoid consecutive speeches in which every speaker states the theme.
+## Theme
 
-## Binding opening canon
+**Who decides which people bear the cost of everyone else's safety?**
 
-The first chapter remains the published eight-week beginner season. The hall receives a year of conditional independent use. Iori is alive in the western settlements. Daichi supported Iori too late nine years ago. Natsume signed an incomplete flood report. Shigure inherited the contract afterward and conceals the redirected burden; he did not cause the old flood. Sora transported an edited report three years ago and withheld her suspicion partly because its patron funded her brother's education. Yuzu has river obligations and a negotiated return date. The repaired floor yields a missing route page, not a secret weapon. The three-note bell is a clearance signal; a missing note indicates a fault.
+Each chapter proposes an answer, lets it work, and exposes what it omits. The saga's earned answer: *nobody alone*. Costs are shared, visible and refusable.
 
-No hidden bloodline, chosen apprentice, mind-reading notes, betrayal caused by missed workouts, magical cure, or secret invincible founder. No late revelation absolves everyone by making one foreign enemy responsible for the original local choices.
+The spine that carries this into the player's own life: **"Light your own lantern first."** Amahara's halls practise alone at dawn and dusk before an unlit lantern. Solo practice is not loneliness; it is how a person becomes someone others can rely on. *Alone, together*: a thousand people who trained alone are what make an unbroken line possible. The antagonist believes the opposite and has the life to prove it: one will strong enough can carry what crowds drop.
 
-## Geography and societies
+## The practice of Amahara (ties the real workouts to the fiction)
 
-**Hoshin Commonwealth.** Amahara is an upland trading town in its eastern watershed. A loose elected river assembly controls major routes; towns retain charters for halls, clinics, and responders. The market is wealthier than the western spillway villages. White Ash Academy trains responders and benefits from centrally allocated funding. The central government is distant but real: occupation reaches one watershed, not the instantaneous conquest of an entire country.
+- **The count.** The base solo practice: stance, guard, steps in four directions, return. Every hall teaches it first. Founders still do it every morning. The phrase "light your own lantern first" was Iori's when he kept Lantern Hall; Daichi has said it every dawn for nine years without saying whose it was.
+- **The forms.** Longer solo sequences. Lantern Hall's is the **Lantern Form**, composed by Iori from the count: "a form is a letter you write to yourself every morning." Tideglass counts with moving ground (docks, boats). Cairn House in Ordan has a **stool count**, practised seated, from miners who lost legs but not timing. White Ash drills in perfect unison.
+- **Partner work** is application: pads, bounded rounds, anchor pairs. The fiction shows it among trained adults. The apprentice's own fictional progression follows the real solo curriculum, chapter by chapter, and never claims the player has gained a rank.
 
-**Veyr Republic.** A coastal country downstream and across the eastern border. Its parliamentary government has yielded emergency powers to the Supply Directorate after repeated port failures and crop losses. Civilians, independent dojos, military engineers, relief workers, and political dissidents disagree profoundly. Veyr's legal water claims are legitimate; its Directorate's invasion is not. Tideglass Hall teaches timing on changing ground and independently opposes forced route ownership.
+## World
 
-**Ordan Confederacy.** Several plateau cantons trade through the northern pass. Their Assembly of Steps is a federation of halls, not a spiritual nation outside politics. Cairn House hosts licensed practitioners and access preparation. Ordan sells neutral route parts to both neighbors and must confront the price of its neutrality. Its towns vote separately; one hall cannot commit the confederacy to war.
+**Hoshin Commonwealth.** Amahara is an upland trading town in the eastern watershed. A loose elected river assembly controls major routes; towns hold charters for halls, clinics and responders. The market is wealthier than the western spillway villages. **White Ash Academy** (half a story day away) trains responders on centrally allocated money. The central government is distant but real.
 
-**The western settlements.** Inside Hoshin, politically neglected rather than exotic. Iori and Kanna live at Weir End. Residents repaired their own bridges, recorded their own flood history, and disagree about reopening the upstream connection. Their consent is necessary; they do not exist to forgive Lantern Hall.
+**Weir End.** The largest western spillway settlement, two road days from Amahara, politically neglected. Flood marks stand at head height on doorframes. Residents rebuilt their own bridges and kept their own records. Iori and Kanna live here. Their consent is required for any reconnection.
 
-Travel distances: Amahara to the academy is half a story day; to Weir End two road days; Weir End to the Ordan pass three; the eastern border two from Amahara. Boats and dispatches take time. Chapter endings and declared intervals move the calendar; no elapsed real-world clock moves an army.
+**Veyr Republic.** Coastal, downstream across the eastern border. Parliament has yielded emergency powers to the **Supply Directorate** after port failures and crop losses. **Merrow Quay** is the harbour town where a section of quay collapsed on the flood night; a memorial wall lists thirty-one names. **Tideglass Hall** teaches timing on moving ground and refuses compulsory route registration. Veyr's claim to restitution is legitimate; the Directorate's occupation is not.
 
-## Resonance and the hidden infrastructure
+**Ordan Confederacy.** Plateau cantons trading through the northern pass. The Assembly of Steps is a federation of halls. **Cairn House** keeps hot springs, access stools and an honest budget that depends on guild revenue. Ordan sold "neutral" route parts to both neighbours and must face what its neutrality cost.
 
-Keep the original rule: trained coordinated movement can couple existing mechanical vibration through tuned stone and timber. Practitioners produce timing and alignment, not free energy. Floodwater, loaded gates, moving beams, stored counterweights, and natural structural motion supply the energy. Most actions work without resonance; the physical skill makes the fantastic extension intelligible.
+Distances: Amahara to White Ash half a day; to Weir End two road days; Weir End to the Ordan pass three; Ordan to the Veyr coast two; the eastern border two from Amahara. Story time moves only at authored intervals, never with the player's attendance.
 
-1. An operator needs physical access to a tuned anchor and a known path. A distant enemy cannot hack a bell by thinking harder.
-2. Two trained partners can interrupt a surge more safely than one strong practitioner. More bodies help only with practiced timing and explicit roles.
-3. A route signal carries timing and a few agreed codes, not voices, thoughts, memories, or arbitrary information. Written records remain necessary.
-4. Load redirected from one route arrives somewhere. A beautiful intervention can hurt an unseen settlement. Every spectacle names the destination or admits that it is unknown.
-5. Damp, cracks, missing anchors, fatigue, and timing error degrade coupling. Temporary stabilization buys seconds or minutes; conventional crews must finish the work.
-6. Cutting an isolated route is possible after manual decoupling. Cutting a loaded connected route can release pressure into another branch. No climactic button safely deletes a network.
-7. Physical injury and accumulated fatigue remain after the scene. Recovery and adaptations change later performances. Resonance cannot resurrect Natsume or restore Mika's hand.
-8. Staged training anchors are isolated. The player's movement preparation never touches live infrastructure, operates gates, or teaches real military action.
+## Resonance (unchanged rules, sharpened for set pieces)
 
-The **Wayline Accord** was a three-country agreement for interoperable mechanical routes and mutual flood response. Its original design included isolation gates, downstream vetoes, redundant witnesses, and publicly inspectable load limits. Funding decisions quietly removed costly local isolation hardware. Authorities retained a central bypass, called the **Crown Junction**, promising it would be used only in emergency conditions. The countries kept copies of different schedules, leaving each official able to prove compliance with only their own fragment.
+Trained, precise movement can couple the existing mechanical vibration of tuned stone and timber. Practitioners supply timing and alignment, never energy. Water, loaded gates, counterweights and moving beams supply the energy.
 
-The nine-year flood revealed the design's moral failure. Natsume's omission hid the downstream route diagram, while local councils preserved the market. Veyr records show subsequent shortages amplified by the upstream emergency routing. Shigure's relief purchased goodwill with money made available by avoiding the more expensive repairs. He learns more after inheriting the contract, conceals it, and becomes responsible for continuing a harm he did not originate.
+1. Coupling needs physical access to a tuned anchor and a known path.
+2. Two trained partners can interrupt a surge more safely than one strong practitioner. More bodies help only with practised timing and explicit roles.
+3. Route signals carry timing and a handful of agreed codes; never voices, thoughts or documents. Paper must still be carried.
+4. Redirected load arrives somewhere. Every spectacle names the destination or admits it is unknown.
+5. Damp, cracks, missing anchors, fatigue and timing error degrade coupling; stabilisation buys seconds or minutes; conventional crews finish the work.
+6. A loaded connected route cannot simply be cut; it releases pressure into another branch.
+7. Injury and fatigue persist. Resonance cannot heal, resurrect or restore.
+8. Staged training anchors are isolated. Real movement practice in the app never touches anything fictional; in the fiction, beginners only ever hold small, low-load door anchors, and only once the system has been designed so each share is small.
 
-The final evidence is not one miraculous document. It is the physical route survey, the omitted diagram, Hoshin's spending record, Veyr's dated load ledger, Ordan's parts manifest, and the Crown Junction operating logs, independently authenticated. Together they establish design, knowledge, repetition, and benefit. No component alone proves all four.
+**Distribution** is the saga's key mechanism. A surge split across many small anchors held on one count gives each anchor a share small enough for people who have practised the base count for a season. This is why the Chapter 7 pilot (a thousand small doors, each able to close) matters, and why the climax can include ordinary people without pretending they are warriors.
 
-## Antagonists and escalation
+## The bell
 
-**Shigure, 39.** Gives useful relief and believes discretion without central liability kills. He has good reasons to distrust uncontrolled halls and shameful reasons to hide the budget. In Chapter 5 he selectively discloses receipts to portray reformers as careless. He accepts a short emergency lease on eastern anchors in Chapter 7 to preserve supply; the Directorate turns that access into occupation in Chapter 8. He neither knowingly orders the invasion nor escapes responsibility for signing the lease. In Chapter 9 he gives evidence, surrenders his contract, and accepts prosecution. Cooperation earns no forgiveness from people he harmed. He lives and works under restricted civic authority in the ending.
+Lantern Hall's three-note bell reports route clearance from three gates downstream: Gate One (the hall's own anchor), Gate Two (the market), Gate Three (**the Old Gate**, a municipal manual gate below the market). The Old Gate jammed during the flood nine years ago. A temporary coupling let its clearance signal pass for years; that patch loosened months before the apprentice arrived, so the bell has rung two notes ever since (published: "only two for months"). Repairing the Old Gate properly is on Natsume's restitution list from Chapter 4; its parts are delayed by the lease's freight priorities in Chapter 7. Door chimes on the pilot's small anchors ring their own local three-note clearances from Chapter 7; Lantern Hall's bell itself rings three only when Natsume frees the Old Gate in Chapter 8. After that it rings three until the Chapter 9 sacrifice and the Chapter 10 reopening.
 
-**Seiran, 31, White Ash Academy's field instructor.** Lost responders under vague orders and wants a command structure in which decisions can be traced. First an imposing rival, then a licensed adversary, then an ally who still disagrees. She mistakes obedience for competence until a safe refusal exposes an incoherent order. Chapter 8 destroys the academy after her successful evacuation; what survives is a school of people, not a building. Chapter 9 she refuses Maela's demand for a prestige duel and instead contains the route she was assigned. Her ending is an academy with appeal procedures and permission to stop unsafe work, not resignation into Akari's worldview.
+## History (final canon)
 
-**Maela Vorr, 44, Veyr Supply Directorate commander.** Introduced personally in Chapter 6 after policy and consequences exist. A talented engineer and practitioner whose older brother died during a port collapse. She believes surviving regions must be compelled to share burdens and the stronger authority must enforce that fairness. She sincerely repairs occupied districts, then demands ration enrollment, seized records, compulsory responder service, and route custody. Her fairness is imposed without refusal and rewards compliant populations. She chooses occupation over a provisional mixed administration in Chapter 8. Chapter 9 defeats her operational plan by denying isolated anchor control, rescuing conscripts, and making the concealed logs independently visible. A lawful multinational detention follows. She rejects the moral settlement at trial; no friendship converts her. She remains alive, formidable, and accountable.
+**The flood, nine years ago.** The eastern river flooded. Under the Wayline Accord, the **Crown Junction**, a central bypass retained for "emergencies" after funding cuts removed local isolation gates, split the surge to protect Amahara's market: west into the spillway at Weir End, east down the main channel into Veyr. At Weir End nine people died; Iori, then Lantern Hall's caretaker, was badly injured rescuing people at the spillway (scar, a stiff leg, a cane on bad days). At Merrow Quay the quay collapsed and thirty-one people died, among them Tobin Vorr, 22, Maela's younger brother. Maela, then a Veyr route engineer and Tideglass's finest practitioner, pulled forty-two survivors out over two days and became a national hero.
 
-**Neris Vale, 36, Veyr civil treaty officer.** Pragmatic negotiator introduced in Chapter 5. Opposes invasion but helped write emergency clauses. Splits from the Directorate in Chapter 8 when it cancels local vetoes. Her evidence matters; Tideglass civilians and other Veyr officials create political space for her, so she does not single-handedly save a country.
+Before the flood, Iori had refused a council showpiece demonstration of the Accord route because the downstream gate had not been checked. Daichi supported him privately and only spoke publicly after the responders were dispatched.
 
-No secret final mastermind. Escalation comes from people trying to solve an exposed problem using arrangements that concentrate the same harm. The invasions and route crises were foreseeable consequences, not proof that all early happiness was a lie.
+**The report.** Inspector Natsume, Akari's aunt, signed a report that documented the market's protection and withheld the downstream diagram showing where the load went, both directions, under emergency secrecy. She feared exposing vulnerable routes to raiders; she also protected her own judgment and the council's account.
+
+**The contract.** Shigure inherited the ward contract after the flood, found the diagram and the ledgers, and kept using the Crown Junction to protect the market in later high water, repeatedly pushing smaller burdens onto Weir End and Merrow Quay. Savings from deferred isolation hardware funded visible, genuine relief, which also built his patronage network, including the fund that paid for Sora's brother Kei's schooling.
+
+**The courier.** Three years ago Sora, then a relief courier, delivered an edited copy of the report, noticed the missing pagination and kept her suspicion to herself while she tried to verify it.
+
+The Wayline Accord's three countries each kept a different schedule, so each official could prove compliance with only their own fragment. The final evidence is the physical survey, the omitted diagram, Hoshin's spending, Veyr's load ledger, Ordan's parts manifest and the Crown Junction operating logs, authenticated together. No single document proves design, knowledge, repetition and benefit.
+
+## Antagonists
+
+**Shigure, 39.** Useful, civic, partly right that uncontrolled halls are dangerous, wrong to hide the budget. Signs the Chapter 7 lease believing he can bound it; the Directorate turns it into occupation. In Chapter 9 he surrenders his contract, gives evidence, and holds his own estate's door in the Line with no credit asked or given. Tried in Chapter 10; restricted service doing restitution work at Weir End under Kanna's supervision. He lives; his prestige ends.
+
+**Maela Vorr, 44, Supply Directorate commander.** An engineer and the most gifted practitioner in Veyr, once Elian's teacher at Tideglass. Since Merrow Quay she believes fairness must be enforced by one authority strong enough to carry it, and that she is that authority. She repairs occupied districts sincerely and demands ration enrolment, record seizure, compulsory responder service and route custody. In Chapter 8 she holds the eastern anchor for her freight corridor during the storm and refuses release; that refusal kills Natsume, the woman whose signature hid her brother's death. When told who held the Old Gate she walks out of her own briefing for an hour. In Chapter 9 she tries to hold the Crown Junction alone as the Line drains it away; Akari pulls her out before the coupling crushes her. She is detained, tried, imprisoned, and never converted. Her final glimpse: practising her solo form at dawn in detention, pausing when three notes carry from far away.
+
+**Seiran, 31, White Ash field instructor.** Rival, not villain. Wants traceable command and living responders. Fractures, adapts, loses her academy building with every student saved, and partners Akari at the Junction.
+
+No secret mastermind. Escalation comes from people solving an exposed problem with arrangements that concentrate the same harm.
 
 ## Ten-chapter movement
 
-| Chapter | Local promise | Rupture | Irreversible result |
-|---|---|---|---|
-| 1 — Lantern Hall | A room can welcome people safely | The repair uncovers an omitted route | Independence granted with an inquiry still owed |
-| 2 — The Other Copy | Tell the truth together | Sora's patron is part of the relief economy | Evidence has witnesses; trust requires changed conduct |
-| 3 — White Ash | Better training can prevent mistakes | Natsume admits signing a misleading report | Official culpability becomes public; Seiran's authority fractures |
-| 4 — The River Remembers | Establish what physically happened | Iori refuses the story others tell about his rescue | Causation proven; restitution needs downstream consent |
-| 5 — Borrowed Ground | Cooperation across schools can repair it | Financial truth makes every invitation political | Local relief is conditional; foreign routes enter the dispute |
-| 6 — Farther Than Home | Travel can replace imagined strangers with people | Veyr losses and Ordan neutrality complicate the blame | A shared design exists; Maela offers coercive implementation |
-| 7 — A Thousand Small Doors | A distributed network can work | A lawful lease makes strategic access possible | The pilot succeeds locally while border anchor control shifts |
-| 8 — The Long Rain | Existing allies can contain an emergency | Directorate occupation weaponizes a real storm | Natsume dies; the academy is lost; injuries and displacement endure |
-| 9 — The Unbroken Line | Defeat the imposed answer without copying it | The safest tactical shortcut repeats the old sacrifice | Occupation broken, logs preserved, central authority dismantled under load |
-| 10 — What We Leave Open | Build a system ordinary people can keep | Peace exposes debts, trials, exhaustion, and unequal recovery | Shared governance operates imperfectly; the hall belongs beyond its founders |
+| Ch | Title | Weeks | Local promise | Rupture | Irreversible result |
+|---|---|---|---|---|---|
+| 1 | Lantern Hall | 8 | A room can welcome people safely | The repair uncovers a missing page | Independence for a year; an inquiry owed |
+| 2 | The Other Copy | 6 | Tell the truth together | The second copy names Merrow Quay | Sora's truth is shared; Avel's hometown is on the map |
+| 3 | White Ash | 6 | Better training prevents mistakes | Natsume confesses | Official guilt is public; a rivalry is born |
+| 4 | The River Remembers | 6 | Establish what physically happened | Iori refuses the rescue legend | Causation proven both directions; a commander asks for the survey |
+| 5 | Borrowed Ground | 8 | Schools can meet as equals | Maela demonstrates what one will can hold | The relief economy is exposed; an invitation to see Veyr |
+| 6 | Farther Than Home | 6 | Travel turns strangers into people | Natsume reads the names; Maela finishes them | A shared design exists; a coercive one is offered |
+| 7 | A Thousand Small Doors | 8 | A distributed network can work | A lawful lease grants strategic access | The festival lights every door; the rain begins |
+| 8 | The Long Rain | 6 | Allies can contain an emergency | Occupation weaponises a real storm | Natsume dies; the academy falls; Mika and Ren are injured |
+| 9 | The Unbroken Line | 8 | Defeat the imposed answer without copying it | One structure must break to hold the last count | Occupation broken; Maela saved and detained; the bell or the floor is lost |
+| 10 | What We Leave Open | 6 | Build something ordinary people can keep | Peace exposes trials, debts and grief | The hall belongs beyond its founders; a newcomer is welcomed |
 
-Each chapter has eight episode units of six beats, mapped in its own treatment. Chapter 10 spends a full season on consequences. The climactic confrontation does not consume the epilogue.
+Total: 68 story weeks, 408 post-practice episodes, 136 required openings (two per week), plus optional conversations and visits.
 
-## Time and action scale
+## Losses and recovery (fixed, never dependent on choices)
 
-The saga covers roughly eighteen months of story time: Chapter 1 two months; Chapters 2–4 roughly four; Chapters 5–7 five; Chapters 8–9 a storm and occupation interval of several weeks framed by preparation; Chapter 10 several months of recovery. Episode density differs from calendar duration. Travel or recovery intervals are explicit and chosen by authors, never inferred from a player's attendance. Toma remains a minor throughout.
+- **Natsume** dies in Chapter 8 at the Old Gate, a qualified inspector using a known manual mechanism. The Old Gate's access beam, which she warned in Chapter 4 shared the mill shaft's rotten design, fails before the tethered extraction crew reaches her. No secret survival. Her death neither erases her omission nor guarantees Akari's forgiveness.
+- **Mika** permanently loses fine dexterity in her left hand in the clinic evacuation. She adapts tools, delegates some procedures, mourns specific things, and remains a respected clinician.
+- **Ren** injures his knee in the same operation. Rehabilitation runs through Chapters 9–10. He never makes a pain-denying comeback; his last image is standing for the dawn count again, slowly.
+- **White Ash Academy's** building falls in Chapter 8 with every student and staff member accounted for.
+- **Lantern Hall** closes during the storm, reopens for the Line, and loses either its bell or its original floor in Chapter 9 (player choice; both rebuilt in Chapter 10).
 
-The apprentice is never required to duel, kill, perform dangerous resonance, enter a live flood route, or earn a narrative combat rank. They can become trusted with bounded civilian coordination through demonstrated fictional tasks. Main action is witnessed from protected routes, described by returning witnesses, or shown in clearly labeled authored external viewpoints that do not invent player actions. Any future player participation in partner practice needs actual curriculum and qualified assessment separate from story progress.
+After each crisis: practical recovery, mundane disagreement, grief without compulsory disclosure, and renewed pleasure that does not imply forgetting.
 
-Major set pieces escalate in kind: an isolated demonstration; a academy field drill halted for an invalid order; a restrained public match; a mill rescue using measured decoupling; an international rules match with a disputed restart; a plateau pass stabilization; a network pilot; three-front storm evacuation; simultaneous anchor containment and civilian refusal during the occupation's defeat. The final action combines skills already shown. It introduces no new ultimate technique.
+## The apprentice
 
-## Losses, compassion, and recovery
-
-Natsume dies in Chapter 8 while keeping a manual gate decoupled long enough for the final evacuation group to cross. She is a qualified route inspector using a known mechanism, not a suddenly discovered martial god. Equipment failure and Maela's refusal to release an anchor produce the danger. The crew attempts a tethered extraction; a supporting beam collapses before it can reach her. No player choice kills her, no secret survival, no later resurrection. Her confession and restitution began five chapters earlier. Death does not erase her omission or guarantee Akari's forgiveness.
-
-Mika sustains permanent reduced dexterity in her left hand during clinic evacuation. She changes tools, delegates some procedures, remains a respected clinician, and mourns a particular thing she cannot do. Ren suffers a knee injury in the same operation; rehabilitation lasts through Chapters 9–10. Neither loses personality, affection, dignity, or narrative usefulness. No guided exercise promises their recovery to the real player.
-
-White Ash's empty academy and the east depot are destroyed. Amahara's people save the hall's contents, but Lantern Hall closes temporarily while its compromised anchor and roof are inspected. In Chapter 9 a legible asset choice determines whether the original historic archive room or an old river landing can be preserved; the people, authenticated evidence, and basic civilian access are protected either way. The loss returns as work in Chapter 10, not an ending score.
-
-After each crisis include practical recovery, mundane disagreement, grief without compulsory disclosure, and renewed pleasure that does not imply forgetting. The occupied population are participants. Foreign practitioners help because of their own commitments. Nobody thanks the apprentice for rescuing a country.
+The player is themselves, a beginner with no portrait and no invented body. They are never chosen, never secretly gifted, never certified. Their arc: attention (Ch1), not being the newest person any more (Ch2), seeing real mastery (Ch3), being taught by a man who can no longer kick (Ch4), a first public showing (Ch5), the wider world (Ch6), learning the Lantern Form and keeping a door (Ch7), holding the hall's anchor for ninety seconds in the worst night (Ch8), holding it on the Line and choosing what breaks (Ch9), welcoming a newcomer (Ch10). Specific people thank them for specific things; nobody thanks them for saving a country.
 
 ## Final canonical state
 
-The Crown Junction bypass is mechanically isolated in stages after monitored load reduction. Ordinary water management stays functional. Local anchors are governed by a three-country **Common Routes Compact**: published load accounts, funded maintenance, local suspension rights, independent inspection, bounded emergency delegation, and civilian appeals. Safety details are shared with accountable inspectors; public decisions and burdens are visible without publishing a manual for sabotage.
+The Crown Junction is mechanically isolated. Ordinary water management works. Three countries operate a **Common Routes Compact**: published load accounts, funded maintenance, local suspension rights, independent inspection, bounded emergency delegation, civilian appeals. Hoshin pays reparations; Veyr's civic coalition removes the Directorate's unrestricted mandate through its own institutions; Ordan contributes parts and forfeits hidden profit. Shigure and Maela face distinct trials. Seiran rebuilds White Ash under a charter she can be challenged by. Kanna holds an enforceable veto at Weir End. Iori permits renewed contact with Daichi without full forgiveness. Kei's schooling continues through a transparent fund his family helps administer.
 
-Hoshin pays reparations from the former contracts and general funds; Veyr's civic coalition removes the Directorate's unrestricted emergency mandate through its own institutions; Ordan contributes parts and forfeits some profits. Maela and Shigure face distinct trials. Seiran keeps an academy under a new charter. Kanna can veto reopening a route at Weir End. Iori permits renewed contact with Daichi but does not provide complete forgiveness. Sora's brother's schooling continues through a transparent fund that the family helps administer.
+Akari can take a walk while the hall opens without her. Ren keeps a bakery schedule and adapted practice. Sora works in a record circle where others correct her map. Daichi grows a present relationship and keeps an imperfect correspondence. Yuzu tours with a real key and real home dates. Emi runs a paid welcome shift and plans her own shop; Avel runs an access and translation cooperative; Jalen begins supervised instructor training.
 
-Akari shares operational leadership and may take a day outside the hall without a crisis. Ren chooses a bakery schedule and coaches only within his available capacity. Sora joins a route-record circle where disagreement is part of the job. Daichi steps back from automatic rescue, keeps his imperfect correspondence, and grows a present relationship. Yuzu retains travel, a home base, and kept commitments. Emi runs a civilian welcome shift; Avel helps create route access across languages; Jalen undertakes supervised instructor training rather than being declared a master.
-
-Lantern Hall reopens without a private throne for its founders. The final main scene is an ordinary welcome: a newcomer asks for a chair, someone checks the available space, and the bell's complete three notes confirm a route that may also be declined. The apprentice can help at the door, share a table, write a note, or simply take their place. No final duel, mandatory romance, new threat tease, or claim of total healing replaces that ending. The world remains large enough for future stories, but this saga finishes its promises.
+The final scene is a newcomer at the gate. The apprentice welcomes them at the door or from the table. Three notes ring from an inspected route. The newcomer asks if they are a teacher here. "No. I just practice here." No final duel, no mandatory romance, no new threat, no claim of total healing.
