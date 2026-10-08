@@ -1,13 +1,17 @@
 const moods=['Neutral','Amused','Concerned','Angry','Determined','Soft'];
 // Only this explicit, spoiler-reviewed collection is shipped with the gallery.
 const characters=[
- {title:'Akari',files:['image-001.webp']},
- {title:'Ren',files:['image-002.webp']},
- {title:'Sora',files:['image-003.webp']},
- {title:'Daichi',files:['image-004.webp']},
- {title:'Yuzu',files:['image-005.webp']},
+ ...['Akari','Ren','Sora','Daichi','Yuzu'].map((title,index)=>({
+  title,
+  files:[index+1,...[0,1,2,3,4].map(pose=>50+index*5+pose)].map(n=>`image-${String(n).padStart(3,'0')}.webp`)
+ })),
  {title:'Character study A',files:[6,7,8,9,10,11].map(n=>`image-${String(n).padStart(3,'0')}.webp`)},
- {title:'Character study B',files:[12,13,14,15,16,17].map(n=>`image-${String(n).padStart(3,'0')}.webp`)}
+ {title:'Character study B',files:[12,13,14,15,16,17].map(n=>`image-${String(n).padStart(3,'0')}.webp`)},
+ ...['C','D','E','F','G','H','I'].map((letter,index)=>({
+  title:`Character study ${letter}`,
+  files:[0,1,2,3].map(pose=>`image-${String(22+index*4+pose).padStart(3,'0')}.webp`),
+  poses:['Neutral','Amused','Concerned','Determined']
+ }))
 ];
 const settings=[
  {title:'Morning light',files:['image-018.webp']},
@@ -19,13 +23,14 @@ const viewer=document.getElementById('viewer');
 const fullImage=document.getElementById('full-image');
 const controls=document.getElementById('pose-controls');
 function show(item,pose=0){
+ const poses=item.poses??moods;
  document.getElementById('viewer-title').textContent=item.title;
  fullImage.src=`assets/${item.files[pose]}`;
- fullImage.alt=item.files.length>1?`${item.title}, ${moods[pose].toLowerCase()} pose`:item.title;
+ fullImage.alt=item.files.length>1?`${item.title}, ${poses[pose].toLowerCase()} pose`:item.title;
  document.getElementById('selection').textContent=fullImage.alt;
  controls.replaceChildren();
  if(item.files.length>1)item.files.forEach((file,i)=>{
-  const button=document.createElement('button');button.type='button';button.textContent=moods[i];button.setAttribute('aria-pressed',String(i===pose));
+  const button=document.createElement('button');button.type='button';button.textContent=poses[i];button.setAttribute('aria-pressed',String(i===pose));
   button.addEventListener('click',()=>{show(item,i);controls.children[i].focus();});controls.append(button);
  });
  if(!viewer.open)viewer.showModal();
@@ -35,7 +40,7 @@ function card(item,portrait){
  const frame=document.createElement('div');frame.className=portrait?'portrait':'landscape';
  const img=document.createElement('img');img.src=`assets/${item.files[0]}`;img.alt=item.title;img.loading='lazy';img.decoding='async';frame.append(img);
  const title=document.createElement('span');title.className='art-title';title.textContent=item.title;button.append(frame,title);
- if(portrait){const meta=document.createElement('span');meta.className='art-meta';meta.textContent=item.files.length>1?'6 poses':'Founding reference';button.append(meta);}
+ if(portrait){const meta=document.createElement('span');meta.className='art-meta';meta.textContent=item.files.length>1?`${item.files.length} poses`:'Founding reference';button.append(meta);}
  button.addEventListener('click',()=>show(item));return button;
 }
 characters.forEach(item=>document.getElementById('characters').append(card(item,true)));

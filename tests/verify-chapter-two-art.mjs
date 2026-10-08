@@ -28,15 +28,16 @@ for(const asset of plan.assets){
 }
 const gallery=path.join(root,'artwork/gallery');
 const files=await fs.readdir(path.join(gallery,'assets'));
-const images=files.filter(f=>f.endsWith('.webp'));assert.equal(images.length,21);
+const images=files.filter(f=>f.endsWith('.webp'));assert.equal(images.length,74);
 assert(images.every(f=>/^image-\d{3}\.webp$/.test(f)),'Gallery paths must be neutral');
-for(let i=1;i<=21;i++)assert(images.includes(`image-${String(i).padStart(3,'0')}.webp`));
+for(let i=1;i<=74;i++)assert(images.includes(`image-${String(i).padStart(3,'0')}.webp`));
 for(const file of images){const meta=await sharp(path.join(gallery,'assets',file)).metadata();assert(!meta.exif&&!meta.xmp&&!meta.iptc,'Gallery metadata must not expose source information');}
 const html=await fs.readFile(path.join(gallery,'index.html'),'utf8');
 const js=await fs.readFile(path.join(gallery,'gallery.js'),'utf8');
 const css=await fs.readFile(path.join(gallery,'gallery.css'),'utf8');
 for(const forbidden of ['avel','jalen','natsume','raking','gate-rain','cohort-count','chapter-02','saga/','specifications.json'])assert(![html,js,css,files.join(' ')].some(s=>s.toLowerCase().includes(forbidden)),'Unreleased identity or story detail in gallery');
+for(const name of ['emi','haru','mika','riku','shigure','toma'])assert(![html,js,css,files.join(' ')].some(s=>new RegExp(`\\b${name}\\b`,'i').test(s)),'Only founders may be named');
 const specifications=JSON.parse(await fs.readFile(path.join(root,'artwork/specifications.json'),'utf8'));
 const set=specifications.sets.find(s=>s.set==='Chapter 2 production');assert(set);assert.equal(set.assets.length,18);
 for(const asset of set.assets){assert(asset.prompt);await fs.access(path.join(root,asset.source));}
-console.log('Passed: 18 chapter sources, 12 distinct transparent portraits, 6 opaque landscapes, 21 safe gallery images, and contributor-only prompts.');
+console.log('Passed: 18 chapter sources, 12 distinct transparent portraits, 6 opaque landscapes, 74 safe gallery images, and founder-only names.');
