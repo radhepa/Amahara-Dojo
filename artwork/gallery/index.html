@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Dojo · Art gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script src="gallery.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="brand"><span class="mark" aria-hidden="true">道</span><div><span class="eyebrow">AMAHARA</span><h1>Dojo art gallery</h1></div></div>
+    <p class="privacy">Spoiler-free collection</p>
+  </header>
+  <main>
+    <section aria-labelledby="characters-heading">
+      <div class="section-heading"><h2 id="characters-heading">Character studies</h2><span class="muted">Select a portrait to explore its poses</span></div>
+      <div id="characters" class="characters"></div>
+    </section>
+    <section aria-labelledby="settings-heading">
+      <div class="section-heading"><h2 id="settings-heading">Places & quiet moments</h2></div>
+      <div id="settings" class="settings"></div>
+    </section>
+  </main>
+  <footer>Designs and atmosphere only. New faces remain unnamed.</footer>
+  <dialog id="viewer" aria-labelledby="viewer-title">
+    <div class="viewer-toolbar"><h2 id="viewer-title"></h2><button id="close-viewer" type="button">Close <span aria-hidden="true">×</span></button></div>
+    <div class="viewer-image"><img id="full-image" alt=""></div>
+    <div id="pose-controls" class="pose-controls" role="group" aria-label="Portrait pose"></div>
+    <p id="selection" class="sr-only" aria-live="polite"></p>
+  </dialog>
+</body>
+</html>

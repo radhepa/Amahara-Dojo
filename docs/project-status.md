@@ -2,6 +2,14 @@
 
 Updated 7 October 2026. Owner: Radhe Patel.
 
+## Chapter 2 artwork and spoiler-free gallery
+
+On 7 October the owner requested all Chapter 2 artwork in the established founding style and a character/settings gallery that reveals no story details. The complete production set is saved: **18 PNG sources** (12 transparent whole-pose portraits and six opaque landscapes) staged under `artwork/source/chapter-02`, with full prompts, reference locks, dimensions and checksums in contributor material and `artwork/specifications.json`.
+
+The self-contained preview at `artwork/gallery/index.html` contains 21 explicitly reviewed images, including founding references. New faces use neutral labels; source names, biographies, story captions, scene sequence, plot-specific illustrations and generation metadata are excluded. `scripts/serve-art-gallery.mjs` serves only that folder on loopback; `scripts/prepare-art-gallery.mjs` uses an explicit allowlist. Sources stay outside `public`, and no story, workout, save or chapter gate was changed.
+
+Validation: `npm run typecheck`, `npm test` and `node tests/verify-chapter-two-art.mjs` pass. Both six-pose sets and the safe settings/practice illustration were visually reviewed against founder references. Laptop browser QA checked the gallery, both study viewers, pose switching, image loading and Escape dismissal. Server checks confirmed gallery assets load and contributor/source paths return 404. Plot-specific illustrations remain private and were checked for valid files, opacity and landscape framing.
+
 ## Chapters 1–10 solo curriculum — workout pass
 
 On 7 October the owner asked for the full Chapter 1–10 solo curriculum exactly as `docs/training-architecture.md` specifies, in a style that looks and feels like an anime martial artist but works in real life. **Story detail stays out of owner-facing notes and chat.**

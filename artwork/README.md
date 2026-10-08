@@ -1,6 +1,6 @@
 # Dojo art direction
 
-The selected source set contains **67 PNG images**: 58 portraits, six settings, and three event illustrations. The five original founder designs remain the identity and style references.
+The released source set contains **67 PNG images**: 58 portraits, six settings, and three event illustrations. The five original founder designs remain the identity and style references.
 
 - `source/characters/{akari,ren,sora,daichi,yuzu}-neutral.png`: the original founders.
 - Each founder also has amused, concerned, angry, determined, and soft performances.
@@ -15,3 +15,5 @@ Portraits use genuine transparent alpha with no scenery. Some image viewers show
 Earlier hall scenes retain the red beam scarf. The later hall has a sound wooden brace and no tied scarf. The first meal includes all five founders, the review includes Akari/Ren with Daichi/Sora observing and excludes Yuzu, and the season meal brings all five together. Keep important faces away from edges and above the dialogue overlay.
 
 `npm run art:prepare` makes WebP delivery copies at the original dimensions and preserves alpha. Original neutral founder PNGs remain under `public/members`; other delivery images are under `public/story`. Source PNGs are retained unchanged. Run `npm test` after changing artwork references.
+
+Chapter 2 production sources are staged separately in `source/chapter-02` until story integration. Their complete prompt and reference records remain in contributor material and `specifications.json`. The approved, spoiler-free preview is `gallery/index.html`; it has neutral labels and a strict image allowlist. Do not run a directory-wide copy of unreleased sources into `public`.

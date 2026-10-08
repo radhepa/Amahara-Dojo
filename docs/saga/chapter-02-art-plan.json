@@ -1,0 +1,217 @@
+{
+  "chapter": 2,
+  "canonRevision": 3,
+  "source": "docs/saga/art-prompts.md",
+  "tool": "built-in imagegen",
+  "notes": "Six full-pose moods per character follow the final Chapter 2 treatment. Canonical master prompts provide neutral/amused/concerned/determined; angry/soft extend the founder performance conventions. Sources stay contributor-only until story integration.",
+  "assets": [
+    {
+      "key": "avel-neutral",
+      "kind": "characters",
+      "file": "avel-neutral.png",
+      "prompt": "Use case: style-transfer. Transform the supplied Dojo founder portrait illustration style into an ORIGINAL DIFFERENT adult character design, using both inputs as style and drawing-scale references ONLY. Do not copy either founder's identity, hairstyle, outfit or pose. Asset: neutral standing anime visual-novel portrait, vertical 2:3 1024x1536, head through upper thighs, all hair and BOTH complete hands and fingers fully inside frame. Character design: 23-year-old woman, warm olive-brown skin, dark curly hair tied low with a narrow patterned cloth strip, hazel eyes, small dressmaking pins in her collar. Practical rust-and-indigo work tunic with neatly mended sleeves, dark trousers. A cream cloth tape measure wound around two fingers of her left hand. Relaxed neutral standing pose, left hand displaying the tape at waist height, right arm resting naturally beside her. Distinctive grounded adult proportions and face. Match the references' EXACT precise crisp dark anime outlines, restrained clean cel shading and natural warm palette, believable cloth folds. True transparent alpha background, clean antialiased silhouette, transparent gaps between arms/body, no hidden colored background glow or halo. No scenery, ground shadow, text, UI, logos, watermark, weapons, extra props, photorealism, chibi or fan-service. This is a design sheet, no narrative scene. Save a single portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\akari-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\ren-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "avel-amused",
+      "kind": "characters",
+      "file": "avel-amused.png",
+      "prompt": "Use case: precise-object-edit. Asset: amused standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Avel Deren, 23-year-old woman. Warm olive-brown skin, dark curly hair tied low with a strip of patterned cloth, hazel eyes, a few dressmaking pins in her collar. Practical rust-and-indigo work tunic with neatly mended sleeves, dark trousers, soft boots. Cream cloth tape measure wound around two fingers of her left hand.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Small natural amused smile; tape unwound loosely between BOTH hands, hip comfortably cocked, shoulders open. Visibly re-pose arms, hands and silhouette.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\avel-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "avel-concerned",
+      "kind": "characters",
+      "file": "avel-concerned.png",
+      "prompt": "Use case: precise-object-edit. Asset: concerned standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Avel Deren, 23-year-old woman. Warm olive-brown skin, dark curly hair tied low with a strip of patterned cloth, hazel eyes, a few dressmaking pins in her collar. Practical rust-and-indigo work tunic with neatly mended sleeves, dark trousers, soft boots. Cream cloth tape measure wound around two fingers of her left hand.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Thoughtful worried brow, tape wound tight around left fingers, arms close to body, right hand lightly supporting the left wrist at mid-torso, shoulders drawing inward.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\avel-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "avel-angry",
+      "kind": "characters",
+      "file": "avel-angry.png",
+      "prompt": "Use case: precise-object-edit. Asset: angry standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Avel Deren, 23-year-old woman. Warm olive-brown skin, dark curly hair tied low with a strip of patterned cloth, hazel eyes, a few dressmaking pins in her collar. Practical rust-and-indigo work tunic with neatly mended sleeves, dark trousers, soft boots. Cream cloth tape measure wound around two fingers of her left hand.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Controlled frustration, brow narrowed, lips firm, torso turned slightly away; left hand at hip gripping the folded tape, right palm held outward at waist in a clear boundary gesture. No violence.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\avel-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "avel-determined",
+      "kind": "characters",
+      "file": "avel-determined.png",
+      "prompt": "Use case: precise-object-edit. Asset: determined standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Avel Deren, 23-year-old woman. Warm olive-brown skin, dark curly hair tied low with a strip of patterned cloth, hazel eyes, a few dressmaking pins in her collar. Practical rust-and-indigo work tunic with neatly mended sleeves, dark trousers, soft boots. Cream cloth tape measure wound around two fingers of her left hand.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Chin up, steady focused gaze, shoulders square, tape pulled taut between hands like a ruler at waist level.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\avel-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "avel-soft",
+      "kind": "characters",
+      "file": "avel-soft.png",
+      "prompt": "Use case: precise-object-edit. Asset: soft standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Avel Deren, 23-year-old woman. Warm olive-brown skin, dark curly hair tied low with a strip of patterned cloth, hazel eyes, a few dressmaking pins in her collar. Practical rust-and-indigo work tunic with neatly mended sleeves, dark trousers, soft boots. Cream cloth tape measure wound around two fingers of her left hand.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Quiet trusting small smile, lowered shoulders, gentle forward lean; left hand loosely holding coiled tape at waist while right hand rests lightly over it. Distinct relaxed silhouette.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\avel-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "jalen-neutral",
+      "kind": "characters",
+      "file": "jalen-neutral.png",
+      "prompt": "Use case: style-transfer. Asset: neutral standing character portrait for Dojo. Transform the supplied founder portrait illustration style into an ORIGINAL DIFFERENT adult character, using inputs for style and drawing scale ONLY; do not copy founder identity or outfit.\nCharacter design lock: Jalen Mori, 24-year-old man. Medium-brown skin, short tidy black hair, earnest dark eyes, slightly too-formal posture. Clean grey training jacket with a small responder-candidate patch (abstract symbol, NO text), navy trousers, very clean shoes. Holds a worn soft-edged paper timetable with ONLY indistinct marks, NO legible writing.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Relaxed but slightly too-formal stance, holding the worn folded timetable low in left hand, right arm naturally relaxed.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\akari-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\ren-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "jalen-amused",
+      "kind": "characters",
+      "file": "jalen-amused.png",
+      "prompt": "Use case: precise-object-edit. Asset: amused standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Jalen Mori, 24-year-old man. Medium-brown skin, short tidy black hair, earnest dark eyes, slightly too-formal posture. Clean grey training jacket with a small responder-candidate patch (abstract symbol, NO text), navy trousers, very clean shoes. Holds a worn soft-edged paper timetable with ONLY indistinct marks, NO legible writing.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Open natural mid-laugh expression, weight shifted; counting on the fingers of raised right hand while left hand holds the timetable loosely at waist.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\jalen-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "jalen-concerned",
+      "kind": "characters",
+      "file": "jalen-concerned.png",
+      "prompt": "Use case: precise-object-edit. Asset: concerned standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Jalen Mori, 24-year-old man. Medium-brown skin, short tidy black hair, earnest dark eyes, slightly too-formal posture. Clean grey training jacket with a small responder-candidate patch (abstract symbol, NO text), navy trousers, very clean shoes. Holds a worn soft-edged paper timetable with ONLY indistinct marks, NO legible writing.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Thoughtful worry, shoulders rounded slightly inward, worn timetable clutched to chest with BOTH hands, slight forward lean.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\jalen-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "jalen-angry",
+      "kind": "characters",
+      "file": "jalen-angry.png",
+      "prompt": "Use case: precise-object-edit. Asset: angry standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Jalen Mori, 24-year-old man. Medium-brown skin, short tidy black hair, earnest dark eyes, slightly too-formal posture. Clean grey training jacket with a small responder-candidate patch (abstract symbol, NO text), navy trousers, very clean shoes. Holds a worn soft-edged paper timetable with ONLY indistinct marks, NO legible writing.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Contained indignation, knitted brow, feet grounded, torso straight; right hand open in a firm questioning gesture, left hand folded around timetable held low beside his hip. No aggression.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\jalen-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "jalen-determined",
+      "kind": "characters",
+      "file": "jalen-determined.png",
+      "prompt": "Use case: precise-object-edit. Asset: determined standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Jalen Mori, 24-year-old man. Medium-brown skin, short tidy black hair, earnest dark eyes, slightly too-formal posture. Clean grey training jacket with a small responder-candidate patch (abstract symbol, NO text), navy trousers, very clean shoes. Holds a worn soft-edged paper timetable with ONLY indistinct marks, NO legible writing.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Focused steady eyes, timetable safely tucked into jacket pocket with its worn edge visible, both fists relaxed at sides, feet squared, shoulders firm.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\jalen-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "jalen-soft",
+      "kind": "characters",
+      "file": "jalen-soft.png",
+      "prompt": "Use case: precise-object-edit. Asset: soft standing character portrait for Dojo. Edit the supplied exact neutral portrait. Preserve face shape, age, skin tone, eye and hair colors, hairstyle, outfit, pins/patch, accessories, body proportions and art style EXACTLY. Change BOTH facial expression and whole body language, not merely the face.\nCharacter design lock: Jalen Mori, 24-year-old man. Medium-brown skin, short tidy black hair, earnest dark eyes, slightly too-formal posture. Clean grey training jacket with a small responder-candidate patch (abstract symbol, NO text), navy trousers, very clean shoes. Holds a worn soft-edged paper timetable with ONLY indistinct marks, NO legible writing.\nMatch the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark.\nPose: Small relieved gentle smile, shoulders finally relaxed, body turned slightly; timetable folded loosely in left hand at waist, right palm open and low in a warm conversational gesture.\nVertical 2:3, 1024x1536; full head through upper thighs at the founder reference figure scale. All hair and BOTH complete hands and fingers inside canvas. True transparent alpha, clean antialiased outline, transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo new props or readable text. One single character portrait.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\jalen-neutral.png"
+      ],
+      "transparent_background": true,
+      "gallerySafe": true
+    },
+    {
+      "key": "hall-dawn-lantern",
+      "kind": "backgrounds",
+      "file": "hall-dawn-lantern.png",
+      "prompt": "Use case: lighting-weather. Edit the supplied restored Lantern Hall reference into the SAME room and camera BEFORE SUNRISE. Asset: fully opaque landscape 16:9 setting, 1792x1024 or native wide equivalent, edge to edge. Preserve the structural timber posts, tatami, plaster, low back shelf, sliding windows and doorway positions. Sound wooden brace, no tied red scarf. Blue-grey early dawn light with a restrained warm hint at the doorway. A single UNLIT paper lantern on a low wooden stand near the front of the empty floor. Empty of people. Match the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark. No readable text.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\backgrounds\\hall-restored.png"
+      ],
+      "transparent_background": false,
+      "gallerySafe": true
+    },
+    {
+      "key": "river-market",
+      "kind": "backgrounds",
+      "file": "river-market.png",
+      "prompt": "Use case: style-transfer. Reimagine the supplied Amahara town illustration as its RIVERSIDE MARKET, preserving the same grounded timber architecture, anime setting style and natural morning palette. Fully opaque landscape 16:9 1792x1024 or native wide equivalent, edge to edge, standing eye-height camera. Riverside market on timber stilts beside calm green-blue water, small boats tied alongside, plain woven cloth awnings, crates and baskets. Practical wooden railings, stone embankment, lush upland trees and distant mountains, warm morning sunlight. No foreground characters; distant stalls empty, no specific plot objects. Match the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark. No signs with readable text.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\backgrounds\\town-day.png"
+      ],
+      "transparent_background": false,
+      "gallerySafe": true
+    },
+    {
+      "key": "dawn-count",
+      "kind": "events",
+      "file": "dawn-count.png",
+      "prompt": "Use case: illustration-story. Transform the supplied character and setting references into one cohesive opaque LANDSCAPE 16:9 visual-novel event painting, 1792x1024 or native wide equivalent. Character inputs are EXACT identity and outfit locks; re-pose and integrate them naturally, never paste portraits. Setting inputs lock architecture and painting style. Match the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark. Scene: Daichi alone in Lantern Hall before sunrise, seen from the open doorway. Preserve his salt-and-pepper hair and beard, brown eyes, cream gi with brown trim, olive belt and cream hand wraps. He quietly practices a slow grounded solo count on the tatami before a single unlit paper lantern on a low stand. Low comfortable stance, one wrapped hand returning toward a modest guard, the other relaxed near the torso. Peaceful attentive mood, cool blue dawn, no supernatural effects. Sound wooden brace, no tied scarf. Composition: clear cinematic focus; important faces above the bottom dialogue-overlay zone with safe margins. NEVER SHOW THE PLAYER CHARACTER, their face, body, gender or invented hands; use implied viewpoint or leave player off frame. No text, labels or panels.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\daichi-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\backgrounds\\hall-dawn-lantern.png"
+      ],
+      "transparent_background": false,
+      "gallerySafe": true
+    },
+    {
+      "key": "cohort-count",
+      "kind": "events",
+      "file": "cohort-count.png",
+      "prompt": "Use case: illustration-story. Transform the supplied character and setting references into one cohesive opaque LANDSCAPE 16:9 visual-novel event painting, 1792x1024 or native wide equivalent. Character inputs are EXACT identity and outfit locks; re-pose and integrate them naturally, never paste portraits. Setting inputs lock architecture and painting style. Match the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark. Scene: Ren teaching Emi, Avel and Jalen a straight-strike return to guard at dawn on the Lantern Hall floor. Ren: tousled copper hair, freckles, amber eyes, rust sleeveless gi, charcoal belt, cream hand wraps. Emi, Avel and Jalen exactly match their supplied neutral references. ONLY FOUR VISIBLE PEOPLE: instructor Ren and students Emi, Avel and Jalen; the fourth COHORT participant is the unseen player OUT OF FRAME. All visible people have just returned hands to a modest safe guard on the same count, balanced feet and soft knees, no contact or opponents. Jalen has his timetable tucked into his jacket; Avel has the tape tucked into her sash for practice. A very faint concentric vibration line in the old floor stone, not a magic aura or beam. Quiet coordination and grounded teaching. Sound wooden brace, no tied scarf. Composition: clear cinematic focus; important faces above the bottom dialogue-overlay zone with safe margins. NEVER SHOW THE PLAYER CHARACTER, their face, body, gender or invented hands; use implied viewpoint or leave player off frame. No text, labels or panels.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\ren-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\emi-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\avel-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\chapter-02\\characters\\jalen-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\backgrounds\\hall-restored.png"
+      ],
+      "transparent_background": false,
+      "gallerySafe": false
+    },
+    {
+      "key": "raking-light",
+      "kind": "events",
+      "file": "raking-light.png",
+      "prompt": "Use case: illustration-story. Transform the supplied character and setting references into one cohesive opaque LANDSCAPE 16:9 visual-novel event painting, 1792x1024 or native wide equivalent. Character inputs are EXACT identity and outfit locks; re-pose and integrate them naturally, never paste portraits. Setting inputs lock architecture and painting style. Match the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark. Scene: Close-up of an old document on a timber archive table under a LOW RAKING desk light. The hands only of Sora and Riku: Sora has dark hand wraps and the cuff of her blue-grey patterned gi; Riku has the exact sleeves, skin tone and workwear from his reference. One hand steadies the paper while another angles a small safe lamp so shallow erased indentations lift under grazing light. Focus on paper texture, side lighting and hands. The erased line consists ONLY of illegible faint marks, no readable words, letters, arrows, names or plot text. No faces and no player hands. Opaque warm lamp illumination in the established painted style. Composition: clear cinematic focus; important faces above the bottom dialogue-overlay zone with safe margins. NEVER SHOW THE PLAYER CHARACTER, their face, body, gender or invented hands; use implied viewpoint or leave player off frame. No text, labels or panels.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\sora-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\riku-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\backgrounds\\hall-restored.png"
+      ],
+      "transparent_background": false,
+      "gallerySafe": false
+    },
+    {
+      "key": "gate-rain",
+      "kind": "events",
+      "file": "gate-rain.png",
+      "prompt": "Use case: illustration-story. Transform the supplied character and setting references into one cohesive opaque LANDSCAPE 16:9 visual-novel event painting, 1792x1024 or native wide equivalent. Character inputs are EXACT identity and outfit locks; re-pose and integrate them naturally, never paste portraits. Setting inputs lock architecture and painting style. Match the established Dojo references exactly: precise crisp dark anime linework, restrained clean cel shading, natural warm palette, distinctive facial designs, grounded adult body proportions, practical clothing with believable cloth folds. Settings are richly hand-painted anime timber, plaster, stone, tatami and water with restrained realistic texture. Natural coherent anatomy, correct hands, no extra limbs. No photorealism, chibi, fan-service, franchise costumes, ninja imagery, logos, UI or watermark. Scene: Natsume alone at a heavy municipal sluice gate below an old riverside market terrace at night in steady rain. Preserve her exact age, face, hairstyle, outfit and accessories from the supplied Natsume reference. She stands safely on a narrow stone service platform, one hand resting on a rusted iron lever attached to the gate mechanism. Heavy timber and iron municipal gate, shallow narrow access shaft and overhead timber beam, rain-dark stone, quiet water, lantern reflected in wet surfaces. Reflective still expression. This is ORDINARY RAIN, no violent storm, flood, collapse, injury, damage or aftermath, no supernatural spectacle. Natsume is alive and unharmed. All figure and hand inside safe margins. Composition: clear cinematic focus; important faces above the bottom dialogue-overlay zone with safe margins. NEVER SHOW THE PLAYER CHARACTER, their face, body, gender or invented hands; use implied viewpoint or leave player off frame. No text, labels or panels.",
+      "referenced_image_paths": [
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\characters\\natsume-neutral.png",
+        "C:\\Users\\minal\\.codex\\worktrees\\53e4\\Amahara-Dojo\\artwork\\source\\backgrounds\\town-evening.png"
+      ],
+      "transparent_background": false,
+      "gallerySafe": false
+    }
+  ]
+}
