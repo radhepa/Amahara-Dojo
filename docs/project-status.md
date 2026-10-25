@@ -2,6 +2,10 @@
 
 Updated 7 October 2026. Owner: Radhe Patel.
 
+## Jab demonstration — shadow fighter (25 October 2026)
+
+The drill card for `c2-fist`, `c2-jab` and `c2-still` opens with an animated shadow fighter throwing the jab (`app/jab-demo.tsx`, styles under "Shadow fighter demonstration" in `app/dojo.css`, wired in `app/drill-instructions.tsx` via `JAB_DEMO`). `lib/shadow-fighter.ts` is a small 3D rig posed with two-bone IK, so the fist travels a straight rail, the palm turns down in the last third, the elbow stays soft and the rear fist stays pinned to the jaw. It is drawn on a canvas as a shaded silhouette with a gold rim light and a cast floor shadow. The controls are play/pause, a scrubber, Real speed / Slow / Study, the Side / Angle / Front / Behind cameras plus drag-to-orbit, Left/Right lead (mirror) and the rail overlay. It pauses offscreen and waits in guard under reduced motion. At real speed the jab goes out in 0.2 s and comes home in 0.21 s, repeating about every 2.9 s. Players see it only once `STORY_READY_CHAPTERS` reaches 2.
+
 ## Chapters 1–10 solo curriculum — workout pass
 
 On 7 October the owner asked for the full Chapter 1–10 solo curriculum exactly as `docs/training-architecture.md` specifies, in a style that looks and feels like an anime martial artist but works in real life. **Story detail stays out of owner-facing notes and chat.**
