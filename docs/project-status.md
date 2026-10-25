@@ -2,9 +2,16 @@
 
 Updated 7 October 2026. Owner: Radhe Patel.
 
-## Jab demonstration — shadow fighter (25 October 2026)
+## Shadow-fighter demonstrations — every Chapter 1 drill plus the jab (25 October 2026)
 
-The drill card for `c2-fist`, `c2-jab` and `c2-still` opens with an animated shadow fighter throwing the jab (`app/jab-demo.tsx`, styles under "Shadow fighter demonstration" in `app/dojo.css`, wired in `app/drill-instructions.tsx` via `JAB_DEMO`). `lib/shadow-fighter.ts` is a small 3D rig posed with two-bone IK, so the fist travels a straight rail, the palm turns down in the last third, the elbow stays soft and the rear fist stays pinned to the jaw. It is drawn on a canvas as a shaded silhouette with a gold rim light and a cast floor shadow. The controls are play/pause, a scrubber, Real speed / Slow / Study, the Side / Angle / Front / Behind cameras plus drag-to-orbit, Left/Right lead (mirror) and the rail overlay. It pauses offscreen and waits in guard under reduced motion. At real speed the jab goes out in 0.2 s and comes home in 0.21 s, repeating about every 2.9 s. Players see it only once `STORY_READY_CHAPTERS` reaches 2.
+Each Chapter 1 drill card (`f2-warm` … `f2-review`, all 15) and the jab drills (`c2-fist`, `c2-jab`, `c2-still`) open with an animated shadow fighter, chosen in `DEMOS` in `app/drill-instructions.tsx`. Pieces:
+
+- `lib/shadow-fighter.ts` is the rig and renderer. A `Spec` of body settings (feet, weight, knee drop, hip/chest turn, guard, grip, wall, chair) is posed with two-bone IK and drawn on a canvas as a shaded silhouette, with a gold rim light, a cast floor shadow and a chair or wall when needed. Floor guides show each foot's track, the home footprints and the weight dot. A top-down foot map in the corner lights the moving foot.
+- `lib/shadow-moves.ts` scripts the moves with a keyframe builder (`to`, `wait`, `say`, `pair`, `march`), with captions paraphrased from each drill's steps. Holds stay in real seconds when slowed. Sides are written as `{L}`/`{R}` so the right-lead mirror swaps the words. Every drill that lists a chair alternative gets a supported version: footwork becomes planted shifts with the rear hand on a chair. Gentle readiness starts with support on. The cool-down includes the wall calf stretch.
+- `app/move-demo.tsx` is the player: play/pause, scrubber, speeds, five cameras (Side / Angle / Front / Behind / Above) plus drag to orbit and tilt, Left/Right lead, Guides and Chair support. It pauses offscreen and waits under reduced motion.
+- Styles are under "Shadow fighter demonstration" in `app/dojo.css`.
+
+A frame costs about 3 ms at 2× pixel density. Seated alternatives are not animated. The jab demos appear only once `STORY_READY_CHAPTERS` reaches 2.
 
 ## Chapters 1–10 solo curriculum — workout pass
 

@@ -520,22 +520,21 @@ a {color:var(--gold)} a:hover {color:#f4d08f}
 .form-checks {display:flex;flex-direction:column;gap:6px;padding:14px 16px;border-radius:12px;background:rgba(232,184,101,.06);border:1px solid rgba(232,184,101,.2)}
 
 /* Shadow fighter demonstration */
-.jab-demo {display:flex;flex-direction:column;gap:10px;margin:0}
-.jab-stage {position:relative;aspect-ratio:16/10;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--surface);cursor:grab;touch-action:pan-y;user-select:none}
-.jab-stage:active {cursor:grabbing}
-.jab-stage canvas {display:block;width:100%;height:100%}
-.jab-phase {position:absolute;left:16px;top:14px;display:flex;flex-direction:column;gap:2px;max-width:min(320px,60%);pointer-events:none}
-.jab-phase strong {font-family:var(--font-display);font-size:22px;font-weight:800;letter-spacing:.02em;color:var(--paper)}
-.jab-phase span {font-size:14px;line-height:1.45;color:var(--paper-dim)}
-.jab-phase.is-turn strong,.jab-phase.is-stop strong {color:var(--gold)}
-.jab-hint {position:absolute;right:14px;bottom:12px;font-size:12px;letter-spacing:.08em;color:var(--muted);pointer-events:none}
-.jab-bar {display:flex;flex-wrap:wrap;align-items:center;gap:10px}
-.jab-bar .segmented button {min-height:34px;padding:0 12px;font-size:13.5px}
-.jab-play {width:44px;height:44px;flex:none;display:grid;place-items:center;border-radius:12px;border:0;background:var(--vermilion);color:var(--paper)}
-.jab-play:hover {background:var(--vermilion-hover)}
-.jab-scrub {flex:1 1 160px;min-width:120px;accent-color:var(--gold)}
-.jab-rail {display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px;border-radius:12px;background:var(--surface);border:1px solid var(--line);color:var(--paper-dim);font-size:13.5px}
-.jab-rail[aria-pressed=true] {color:var(--gold);border-color:rgba(232,184,101,.5)}
+.move-demo {display:flex;flex-direction:column;gap:10px;margin:0}
+.move-stage {position:relative;aspect-ratio:16/10;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--surface);cursor:grab;touch-action:none;user-select:none}
+.move-stage:active {cursor:grabbing}
+.move-stage canvas {display:block;width:100%;height:100%}
+.move-caption {position:absolute;left:16px;top:14px;display:flex;flex-direction:column;gap:2px;max-width:min(340px,58%);pointer-events:none;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.move-caption strong {font-family:var(--font-display);font-size:22px;font-weight:800;letter-spacing:.02em;color:var(--paper)}
+.move-caption span {font-size:14px;line-height:1.45;color:var(--paper-dim)}
+.move-hint {position:absolute;right:14px;bottom:12px;font-size:12px;letter-spacing:.08em;color:var(--muted);pointer-events:none}
+.move-bar {display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+.move-bar .segmented button {min-height:34px;padding:0 11px;font-size:13.5px}
+.move-play {width:44px;height:44px;flex:none;display:grid;place-items:center;border-radius:12px;border:0;background:var(--vermilion);color:var(--paper)}
+.move-play:hover {background:var(--vermilion-hover)}
+.move-scrub {flex:1 1 160px;min-width:120px;accent-color:var(--gold)}
+.move-toggle {display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 12px;border-radius:12px;background:var(--surface);border:1px solid var(--line);color:var(--paper-dim);font-size:13.5px}
+.move-toggle[aria-pressed=true] {color:var(--gold);border-color:rgba(232,184,101,.5)}
 .form-checks strong {font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
 .form-checks p {display:flex;align-items:flex-start;gap:8px;font-size:14.5px;color:var(--paper-dim)}
 .form-checks svg {margin-top:4px;color:var(--gold)}

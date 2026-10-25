@@ -5,18 +5,25 @@ import {roundTiming} from "@/lib/week-one";
 import {drillPhase} from "@/lib/practice-timing";
 import {formatSummary} from "@/lib/blocks";
 import {SOURCES} from "@/lib/curriculum/sources";
-import {JabDemo,type DemoSpeed} from "./jab-demo";
+import type {MoveId} from "@/lib/shadow-moves";
+import {MoveDemo} from "./move-demo";
 
 const TONE_NAME={high:"High ping",low:"Low knock",double:"Double ping"} as const;
-// Drills that teach the lead straight show the shadow fighter, at the pace the drill asks for.
-const JAB_DEMO:Record<string,DemoSpeed>={"c2-fist":"study","c2-jab":"slow","c2-still":"real"};
+// Drills demonstrated by the shadow fighter; speed picks the move's starting pace (0 = full speed).
+const DEMOS:Record<string,{move:MoveId;speed?:number}>={
+ "f2-warm":{move:"warm"},"f2-stance":{move:"stance"},"f2-guard":{move:"guard"},"f2-shift":{move:"shift"},
+ "f2-forward":{move:"forward"},"f2-side":{move:"side"},"f2-flow":{move:"flow"},"f2-stop":{move:"stop"},"f2-four":{move:"four"},
+ "f2-moving-guard":{move:"movingGuard"},"f2-distance":{move:"distance"},"f2-corner":{move:"corner"},"f2-choice":{move:"choice"},
+ "f2-review":{move:"review"},"f2-cool":{move:"cool"},
+ "c2-fist":{move:"jab",speed:2},"c2-jab":{move:"jab",speed:1},"c2-still":{move:"jab"},
+};
 
 export function DrillInstructions({id,seconds,elapsed,gentle=false,rhythm=true}:{id:string;seconds?:number;elapsed?:number;gentle?:boolean;rhythm?:boolean}){
  const d=DRILLS[id];const timing=d.timedRounds&&seconds?roundTiming(seconds):null;const phase=seconds&&elapsed!==undefined?drillPhase(d,seconds,elapsed):null;
  const summary=seconds?formatSummary(d,seconds):null;
  return <div className="drill-detail">
   <p className="cue">{d.cue}</p>
-  {JAB_DEMO[id]&&<JabDemo speed={JAB_DEMO[id]}/>}
+  {DEMOS[id]&&<MoveDemo key={id} move={DEMOS[id].move} speed={DEMOS[id].speed} support={gentle}/>}
   {gentle&&<div className="tip"><Leaf size={17}/><div><strong>Gentle version · same rewards</strong><p>{d.easier} Use any practice interval for extra rest; do not add rounds later.</p></div></div>}
   {rhythm&&(timing||phase||summary)&&<div className={`practice-rhythm ${phase?.kind??""}`}>
    {phase&&<div className="round-now"><strong role="status">{phase.label}</strong><span aria-live="off">{phase.remaining}s</span></div>}
