@@ -5,14 +5,18 @@ import {roundTiming} from "@/lib/week-one";
 import {drillPhase} from "@/lib/practice-timing";
 import {formatSummary} from "@/lib/blocks";
 import {SOURCES} from "@/lib/curriculum/sources";
+import {JabDemo,type DemoSpeed} from "./jab-demo";
 
 const TONE_NAME={high:"High ping",low:"Low knock",double:"Double ping"} as const;
+// Drills that teach the lead straight show the shadow fighter, at the pace the drill asks for.
+const JAB_DEMO:Record<string,DemoSpeed>={"c2-fist":"study","c2-jab":"slow","c2-still":"real"};
 
 export function DrillInstructions({id,seconds,elapsed,gentle=false,rhythm=true}:{id:string;seconds?:number;elapsed?:number;gentle?:boolean;rhythm?:boolean}){
  const d=DRILLS[id];const timing=d.timedRounds&&seconds?roundTiming(seconds):null;const phase=seconds&&elapsed!==undefined?drillPhase(d,seconds,elapsed):null;
  const summary=seconds?formatSummary(d,seconds):null;
  return <div className="drill-detail">
   <p className="cue">{d.cue}</p>
+  {JAB_DEMO[id]&&<JabDemo speed={JAB_DEMO[id]}/>}
   {gentle&&<div className="tip"><Leaf size={17}/><div><strong>Gentle version · same rewards</strong><p>{d.easier} Use any practice interval for extra rest; do not add rounds later.</p></div></div>}
   {rhythm&&(timing||phase||summary)&&<div className={`practice-rhythm ${phase?.kind??""}`}>
    {phase&&<div className="round-now"><strong role="status">{phase.label}</strong><span aria-live="off">{phase.remaining}s</span></div>}
