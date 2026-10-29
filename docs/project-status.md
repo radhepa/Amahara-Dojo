@@ -29,7 +29,7 @@ The pieces:
   - Form One (Chapter 6) and the Lantern Form (Chapter 7) follow the drill text count by count.
   - Chapter 10's self-chosen form rounds use a short generic form section.
 - **Chair-supported versions:** a drill gets one only when its text offers a chair and the move never needs the rear hand. The chair stays beside the rear hand. Demos that turn the body have no chair version, because the prop turns with the figure.
-- **Player and styles:** unchanged. The player is `app/move-demo.tsx`; the styles are under "Shadow fighter demonstration" in `app/dojo.css`.
+- **Player and styles:** `app/move-demo.tsx` is the player. It has play/pause, a scrubber, speeds, five cameras with drag to orbit, a Left/Right lead mirror, guides and a chair-support toggle. It pauses offscreen and under reduced motion. Styles are under "Shadow fighter demonstration" in `app/dojo.css`. A frame costs about 3 ms at 2× pixel density.
 
 Known limits:
 - Kick foot positions are absolute, so a kick thrown right after a step reshapes the chamber. The scripts avoid this by pivoting or using short steps.
