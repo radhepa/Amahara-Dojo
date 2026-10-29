@@ -1,10 +1,66 @@
 # Project status
 
-Updated 7 October 2026. Owner: Radhe Patel.
+Updated 28 October 2026. Owner: Radhe Patel.
 
-## Jab demonstration — shadow fighter (25 October 2026)
+## Shadow-fighter demonstrations for every drill, Chapters 1–10 (28 October 2026)
 
-The drill card for `c2-fist`, `c2-jab` and `c2-still` opens with an animated shadow fighter throwing the jab (`app/jab-demo.tsx`, styles under "Shadow fighter demonstration" in `app/dojo.css`, wired in `app/drill-instructions.tsx` via `JAB_DEMO`). `lib/shadow-fighter.ts` is a small 3D rig posed with two-bone IK, so the fist travels a straight rail, the palm turns down in the last third, the elbow stays soft and the rear fist stays pinned to the jaw. It is drawn on a canvas as a shaded silhouette with a gold rim light and a cast floor shadow. The controls are play/pause, a scrubber, Real speed / Slow / Study, the Side / Angle / Front / Behind cameras plus drag-to-orbit, Left/Right lead (mirror) and the rail overlay. It pauses offscreen and waits in guard under reduced motion. At real speed the jab goes out in 0.2 s and comes home in 0.21 s, repeating about every 2.9 s. Players see it only once `STORY_READY_CHAPTERS` reaches 2.
+Every drill card in Chapters 1–10 opens with an animated shadow fighter.
+- Chapter 1 uses the `f2-*` scripts in `lib/shadow-moves.ts`.
+- Chapters 2–10 use one table per chapter in `lib/moves/chapter-NN.ts`, registered in `lib/moves/index.ts`. That is 151 demos, or 166 counting Chapter 1.
+- `demoFor(drill)` picks the demo.
+- A chapter's demos appear with its training, as `STORY_READY_CHAPTERS` rises.
+
+The pieces:
+
+- **The rig:** `lib/shadow-fighter.ts`.
+  - It poses a `Spec` with two-bone IK and draws a shaded silhouette, with a rim light, a floor shadow, and a chair or wall prop when needed.
+  - Newer channels add free hand targets (`lReach`/`rReach` with `lX`…`rZ`), elbow lift, palm turn, knee direction and a whole-body `turn` for forms.
+  - `pin` places the hips for floor work (lying, kneeling, plank, side-lying).
+  - A raised heel keeps the toes flat.
+  - Hanging hands never sink below the floor.
+- **The builder and shared vocabulary:** `lib/shadow-kit.ts`.
+  - Builder steps: `script` / `to` / `wait` / `say` / `breathe` / `done`.
+  - Fight stance, punches, hooks, uppercuts, elbows, parries, cover, slips and roll (`hit`).
+  - Combos, steps and pivots, and kicks with chamber and re-chamber (`kick`).
+  - Bow and ready.
+  - Exercise poses and helpers: dead bug, bird dog, bridge, plank, side plank, squat, split squat, calf raise, wall push-up, goalposts and mobility circles.
+- **The chapter files:** each one holds one looping demo per drill, showing a representative cycle with captions paraphrased from the drill's own steps.
+  - Multi-part sessions (warm-ups, cool-downs, strength and mobility) show each part briefly in order.
+  - Form One (Chapter 6) and the Lantern Form (Chapter 7) follow the drill text count by count.
+  - Chapter 10's self-chosen form rounds use a short generic form section.
+- **Chair-supported versions:** a drill gets one only when its text offers a chair and the move never needs the rear hand. The chair stays beside the rear hand. Demos that turn the body have no chair version, because the prop turns with the figure.
+- **Player and styles:** unchanged. The player is `app/move-demo.tsx`; the styles are under "Shadow fighter demonstration" in `app/dojo.css`.
+
+Known limits:
+- Kick foot positions are absolute, so a kick thrown right after a step reshapes the chamber. The scripts avoid this by pivoting or using short steps.
+- Seated alternatives are not animated.
+
+Desktop fallback: the installed app's `resources/source.json` still pointed at a removed folder, so it was running the 6 October packaged copy. On 29 October I reinstalled it from a fresh package, with `-SourceRoot C:\Users\minal\Projects\Amahara-Dojo`. The installer now writes `source.json` in a way that also works under Windows PowerShell 5.1 (PowerShell 7 is not installed).
+
+## Story review — five read-throughs (28 October 2026)
+
+The owner asked for five sequential reads of the playable story, to check it is simple, human and good, with changes only where needed. The five passes:
+1. A cold read.
+2. Human voice: 20 small line edits.
+3. Product rules and continuity: 4 fixes, including removing one line that tied the story to the owner's other exercise.
+4. Continuity and repetition where newer scenes sit beside reused older ones: 59 edits.
+5. A final cold read: 5 fixes, including one line that implied an observer during the player's solo training.
+
+Every edit rewrites text inside an existing paragraph. No scene ID, paragraph, choice or flag was added, removed, reordered or renamed, so saves and replays are unaffected.
+
+The verdict: the prose is strong and humane. The remaining roughness is mild and structural: shared core scenes between fresh and older saves occasionally make an arrival or introduction feel brisk. Fixing that would need new scenes and a save migration.
+
+## Chapter 3 artwork and spoiler-free gallery
+
+The owner then requested her expressions. Five whole-pose variants (amused, concerned, angry, determined and soft) now use the redesigned neutral portrait as their identity and outfit reference. Her gallery viewer includes all six poses. The source set and gallery counts below include these additions.
+
+Character study K was redesigned at the owner's request after its initial hair, colouring and face resembled study E too closely. The selected replacement has short black hair, a broader face and deeper skin tone in the founding style. Its source and neutral gallery image were replaced; the original reference and both prompt stages remain in contributor material. Study E and all other gallery images are unchanged.
+
+The owner requested all Chapter 3 images from the master prompt list in the founding art style, with no spoilers. The complete production set is saved: **21 PNG sources** (twelve transparent portraits, three backgrounds and six event illustrations including both authored choice variants) staged privately in `artwork/source/chapter-03`. Full prompts, reference locks, dimensions and checksums are recorded in contributor material and `artwork/specifications.json`. A lighting study retained under `artwork/references/chapter-03` records the one corrected background pass.
+
+The gallery now contains **90 explicitly reviewed images**, including sixteen new character/design, setting and quiet-practice images. Only the founding five are named; new designs use neutral study labels. Plot-specific illustrations, source filenames, biographies, scene order, story captions and generation metadata stay outside the preview. The isolated loopback gallery server exposes only the gallery folder. Chapter gates, story, workouts and saves are unchanged.
+
+Validation: `npm run typecheck`, `npm test`, `node tests/verify-chapter-two-art.mjs` and `node tests/verify-chapter-three-art.mjs` pass. The new check verifies complete coverage, distinct sources, portrait alpha, landscape opacity, provenance checksums, exact allowlisted exports, metadata stripping and server rejection of contributor/source paths. Gallery-safe art was visually reviewed against the founding references; private event art was saved without displaying it to the owner and checked for valid files, opacity, landscape framing and reference provenance. A hidden laptop browser check passed all card image loads, all pose selections in both six-pose viewers, four new setting viewers, Close and Escape, with no browser errors.
 
 ## Chapter 2 artwork and spoiler-free gallery
 

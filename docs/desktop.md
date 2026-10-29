@@ -4,7 +4,7 @@ Open **Dojo** from the desktop or Start menu. This is a native Electron applicat
 
 ## Automatic local updates
 
-The installed app reads `C:\Users\minal\Amahara-Dojo` on this machine. Saving changes to the interface, story, game rules or delivery artwork updates the open app through Vite. Native desktop shell changes restart the window automatically. Practice timers and completed reading positions stay in the database. An invalid edit may show a local development error until the edit is fixed.
+The installed app reads `C:\Users\minal\Projects\Amahara-Dojo` on this machine. Saving changes to the interface, story, game rules or delivery artwork updates the open app through Vite. Native desktop shell changes restart the window automatically. Practice timers and completed reading positions stay in the database. An invalid edit may show a local development error until the edit is fixed.
 
 Changes made in a different worktree must reach that canonical folder to appear in the installed app. This is local file watching, not a GitHub downloader or a cloud updater. There is no upload or publishing step.
 
@@ -33,10 +33,10 @@ To create the portable Windows package and install it for the current user:
 
 ```powershell
 npm run desktop:package
-pwsh -File scripts/install-desktop.ps1
+powershell -ExecutionPolicy Bypass -File scripts/install-desktop.ps1
 ```
 
-Installation creates desktop and Start menu shortcuts without administrator access. To package in a separate worktree and point the installed app at the canonical source folder, pass `-SourceRoot C:\Users\minal\Amahara-Dojo` to the installer after synchronizing the source.
+Installation creates desktop and Start menu shortcuts without administrator access. To package in a separate worktree and point the installed app at the canonical source folder, pass `-SourceRoot C:\Users\minal\Projects\Amahara-Dojo` to the installer after synchronizing the source.
 
 The package is `desktop/release/Dojo-win32-x64`. Its **Dojo.exe** can be run without Node.js, npm, the source folder or any online account. Move the entire package folder together, keeping its DLLs and `resources` directory. Deleting or reinstalling the executable folder does not remove progress from the separate save folder.
 

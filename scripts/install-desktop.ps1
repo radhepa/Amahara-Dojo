@@ -9,7 +9,7 @@ $installRoot = Join-Path $env:LOCALAPPDATA 'Programs/Dojo'
 $saveRoot = Join-Path $env:LOCALAPPDATA 'Dojo'
 New-Item -ItemType Directory -Path $installRoot -Force | Out-Null
 Get-ChildItem -LiteralPath $packageRoot | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination $installRoot -Recurse -Force }
-@{ sourceRoot = $SourceRoot } | ConvertTo-Json | Set-Content -LiteralPath (Join-Path $installRoot 'resources/source.json') -Encoding utf8NoBOM
+[IO.File]::WriteAllText((Join-Path $installRoot 'resources/source.json'), (@{ sourceRoot = $SourceRoot } | ConvertTo-Json), (New-Object Text.UTF8Encoding $false))
 $shortcutShell = New-Object -ComObject WScript.Shell
 foreach ($folder in @([Environment]::GetFolderPath('Desktop'), (Join-Path ([Environment]::GetFolderPath('StartMenu')) 'Programs'))) {
   $shortcut = $shortcutShell.CreateShortcut((Join-Path $folder 'Dojo.lnk'))
