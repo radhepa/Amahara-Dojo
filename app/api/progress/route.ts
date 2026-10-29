@@ -14,7 +14,7 @@ export async function POST(request:Request){
  const user=await getChatGPTUser();if(!user)return response({error:"Sign in to save your progress."},401);
  if(request.headers.get("Origin")&&request.headers.get("Origin")!==new URL(request.url).origin)return response({error:"Invalid request origin."},403);
  try {
-  const input=await request.json();if(!input||typeof input!=="object"||Array.isArray(input))return response({error:"Invalid entry."},400);const b=input as Record<string,unknown>;const db=database();
+  const input=await request.json().catch(()=>undefined);if(!input||typeof input!=="object"||Array.isArray(input))return response({error:"Invalid entry."},400);const b=input as Record<string,unknown>;const db=database();
   if(b.type==="weekcheck"){
    const rs=await db.prepare("SELECT date,kind,minutes,day,readiness,note FROM training_records WHERE user_id=?").bind(user.userId).all<RecordEntry>();
    const rows=await db.prepare("SELECT week,goals FROM beginner_week_checks WHERE user_id=?").bind(user.userId).all<{week:number;goals:string}>();const checks:WeekCheck[]=rows.results.map(c=>({week:c.week,goals:JSON.parse(c.goals)}));
@@ -29,5 +29,5 @@ export async function POST(request:Request){
   if(b.kind!=="rest")return response({error:"Complete the saved guided session to record practice."},400);
   if(b.kind==="rest"&&b.minutes!==0)return response({error:"Rest entries have zero practice minutes."},400);
   await db.prepare("INSERT INTO training_records (user_id,date,kind,minutes,day,readiness,note) VALUES (?,?,?,?,?,?,?) ON CONFLICT(user_id,date) DO UPDATE SET readiness=excluded.readiness,note=excluded.note WHERE training_records.kind='rest'").bind(user.userId,b.date,b.kind,b.minutes,b.day,b.readiness,b.note).run();return response({ok:true});
- }catch(e){if(e instanceof SyntaxError)return response({error:"Invalid entry."},400);console.error("Save progress",e);return response({error:"Could not save. Your entry is still here; please retry."},503);}
+ }catch(e){console.error("Save progress",e);return response({error:"Could not save. Your entry is still here; please retry."},503);}
 }

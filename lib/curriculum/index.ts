@@ -62,13 +62,14 @@ const DEFAULT_REASONS = [
 ];
 const REST:PracticeDay = {load:"Full rest",title:"Rest is your mission",focus:"Full rest",minutes:0,reason:"Wednesday has no practice or required check-in. Missed days never need making up.",blocks:[]};
 
-const list = (items:string[]) => items.length<2?items.join(""):`${items.slice(0,-1).join(", ")} and ${items[items.length-1]}`;
-// Default descriptions name the day's actual drills.
+// Drill names can contain commas, colons or "·", so each is quoted to keep a list unambiguous.
+const list = (items:string[]) => {const q=items.map(n=>`“${n}”`);return q.length<2?q.join(""):`${q.slice(0,-1).join(", ")} and ${q[q.length-1]}`;};
+// Default descriptions name the day's actual drills, and every conditioning block in it.
 function dayReason(index:number,ids:readonly string[]){
  const skills=[...new Set(ids.filter(id=>ALL[id].format!=="S"&&!/Mobility|Recovery/.test(ALL[id].category)).map(id=>ALL[id].name))];
- const conditioning=ids.map(id=>ALL[id]).find(d=>d.format==="S");
+ const conditioning=[...new Set(ids.map(id=>ALL[id]).filter(d=>d.format==="S").map(d=>d.name))];
  if(index===1&&skills.length)return `${list(skills.slice(0,3))} at low effort. Choose the supported or seated version freely; there is nothing to make up.`;
- if(index===4&&skills.length&&conditioning)return `${list(skills.slice(0,3))} first, then ${conditioning.name}. Stop each exercise two or three repetitions before it gets hard.`;
+ if(index===4&&skills.length&&conditioning.length)return `${list(skills.slice(0,3))} first, then ${list(conditioning)}. Stop each exercise two or three repetitions before it gets hard.`;
  if(index===6&&skills.length)return `Easy flow: ${list(skills.slice(0,2))}, then gentle mobility. Finish feeling better than you started.`;
  return undefined;
 }
@@ -104,10 +105,13 @@ export function playableWeeks(){return CHAPTERS.slice(0,STORY_READY_CHAPTERS).re
 // After Chapter 10: a seven-week rotation drawn from every chapter, the seventh week lighter.
 export const CONTINUING_ROTATION = [13,18,25,33,47,58,63] as const;
 export function continuingSource(week:number){return CONTINUING_ROTATION[(Math.floor(week)-PROGRAMME_WEEKS-1)%CONTINUING_ROTATION.length];}
+// Source-week reasons ("the chapter's fullest week begins") read oddly here; continuing days get neutral ones.
+const CONTINUING_REASON = "Continuing practice: a familiar day from the programme with the same guardrails: 30–40 minutes, 'short sentences' effort, and the supported or seated version whenever you like.";
+const CONTINUING_LIGHT = "Continuing practice, lighter week: everything familiar and easy. Rest is part of the plan.";
 
 export function programmeWeek(week:number):ProgrammeWeek|undefined{
  const w=Math.max(1,Math.floor(week));
- if(w>PROGRAMME_WEEKS){const source=programmeWeek(continuingSource(w));return source&&{...source,week:w,name:`Continuing practice · ${source.name}`};}
+ if(w>PROGRAMME_WEEKS){const source=programmeWeek(continuingSource(w));return source&&{...source,week:w,name:`Continuing practice · ${source.name}`,days:source.days.map(d=>d.minutes?{...d,reason:source.feel==="Recovery"?CONTINUING_LIGHT:CONTINUING_REASON}:d)};}
  return LATER.find(x=>x.week===w);
 }
 export function programmeSchedule(week:number):readonly PracticeDay[]{

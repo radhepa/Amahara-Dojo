@@ -140,7 +140,7 @@ export const CHAPTER_2:ChapterSpec = {chapter:2,warm:"c2-warm",cool:"c2-cool",dr
   goals:["I can throw a 1-1-2 with both jabs on the same line and the rear hand home, on both leads.","I can step back out after a 1-2 with my guard up and eyes forward, or the supported version.","On the tempo ladder I went back a step whenever form changed instead of forcing speed."],
   days:[["One, one, two","Double jab",["c2-onetwo","c2-double","c2-double","c2-stepjab-build","c2-still"],"The chapter's fullest week begins. More combinations, same calm quality."],
    ["Easy hands","Easy review",["f2-moving-guard","c2-jab","c2-onetwo","c2-mobility"]],
-   ["Strike and leave","Exit volume",["c2-onetwo","c2-double","c2-exit","c2-stepjab-build","c2-exit","c2-tempo"],"Longest session of the chapter: still 40 minutes, still easy-to-moderate effort."],
+   ["Strike and leave","Exit volume",["c2-onetwo","c2-double","c2-exit","c2-stepjab-build","c2-exit","c2-tempo"],"Longest session of the chapter: still 40 minutes, still an easy, talkable effort."],
    ["Crisp, not hard","Tempo & core",["c2-double","c2-exit","c2-tempo","c2-still","c2-core"]],
    ["Everything on both leads","Combination self-check",["f2-four","c2-double","c2-exit","c2-tempo","c2-stepjab-build","c2-selfcheck"],"Test-style: all the chapter's combinations, both leads."],
    ["Let it settle","Easy flow",["f2-shift","c2-onetwo","c2-double","c2-mobility"]]]},

@@ -1,16 +1,26 @@
 import { DatabaseSync } from "node:sqlite";
-import { mkdirSync, readdirSync, readFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, renameSync, unlinkSync } from "node:fs";
 import path from "node:path";
 
 // Match the D1 surface used by the existing routes. A batch is one SQLite
 // transaction, retaining compare-and-swap, journal and reward atomicity.
-export function openLocalDatabase(filename, migrationsDirectory) {
+export function openLocalDatabase(filename, migrationsDirectory, {backupDirectory} = {}) {
   mkdirSync(path.dirname(filename), {recursive: true});
   const sqlite = new DatabaseSync(filename);
   sqlite.exec("PRAGMA journal_mode=WAL; PRAGMA busy_timeout=5000; PRAGMA foreign_keys=ON;");
   sqlite.exec("CREATE TABLE IF NOT EXISTS desktop_migrations (name TEXT PRIMARY KEY NOT NULL)");
+  let protectedSave = !backupDirectory || !sqlite.prepare("SELECT name FROM desktop_migrations LIMIT 1").get();
   for (const name of readdirSync(migrationsDirectory).filter(n => n.endsWith(".sql")).sort()) {
     if (sqlite.prepare("SELECT name FROM desktop_migrations WHERE name=?").get(name)) continue;
+    // An existing save is copied once before any new schema change touches it.
+    if (!protectedSave) {
+      mkdirSync(backupDirectory, {recursive: true});
+      const target = path.join(backupDirectory, `before-${name.replace(/\.sql$/, "")}-${Date.now()}.sqlite`), temporary = target + ".partial";
+      if (existsSync(temporary)) unlinkSync(temporary);
+      sqlite.prepare("VACUUM INTO ?").run(temporary);
+      renameSync(temporary, target);
+      protectedSave = true;
+    }
     sqlite.exec("BEGIN IMMEDIATE");
     try {
       sqlite.exec(readFileSync(path.join(migrationsDirectory, name), "utf8"));

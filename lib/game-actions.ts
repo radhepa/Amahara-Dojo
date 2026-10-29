@@ -13,7 +13,7 @@ export function gameAction(g:GameState,b:Record<string,unknown>,now:number){
   const fresh=freshGame(now);for(const key of Object.keys(g))delete (g as unknown as Record<string,unknown>)[key];Object.assign(g,fresh,{resetToken:b.token});return {reset:true};
  }
  if(action==="scene"){
-  const s=SCENE_BY_ID[String(b.id)];if(!s||!sceneAvailable(g,s))throw new GameError("That scene is not available yet.");
+  const s=Object.hasOwn(SCENE_BY_ID,String(b.id))?SCENE_BY_ID[String(b.id)]:undefined;if(!s||!sceneAvailable(g,s))throw new GameError("That scene is not available yet.");
   const save=g.scenes[s.id]??{position:0,done:false,flags:{...g.flags}};g.scenes[s.id]=save;if(save.done)return;
   if(s.revision){
    save.revision=s.revision;save.choices??={};const passages=pilotLines(s,save.flags??g.flags,save.choices);

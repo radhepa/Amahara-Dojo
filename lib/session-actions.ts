@@ -17,7 +17,7 @@ export function sessionAction(g:GameState,b:Record<string,unknown>,now:number,we
   if(!companionAvailable(g,String(b.companion)))throw new GameError("Meet this companion in the story before practising together.");
   const plan=makePlan(day,String(b.readiness),week);const id=crypto.randomUUID();g.sessions[id]={id,date,day,readiness:String(b.readiness),companion:b.companion as PracticeCompanion,week,plan:plan.blocks,index:0,elapsed:0,runningSince:now,checks:plan.blocks.map(()=>false),skipped:false,status:"active",note:"",deadline:now+MAX_PRACTICE_MINUTES*60_000};return {result:{sessionId:id}};
  }
- const s=g.sessions[String(b.id)];if(!s)throw new GameError("This practice could not be found. Reload your dojo.",404);
+ const s=Object.hasOwn(g.sessions,String(b.id))?g.sessions[String(b.id)]:undefined;if(!s)throw new GameError("This practice could not be found. Reload your dojo.",404);
  if(s.status==="training"||s.status==="partial")return {result:{sessionId:s.id}};
  // A new workout has a wall-clock ceiling, including pauses and block transitions.
  // Legacy saved sessions have no deadline and retain their original behavior.
@@ -44,6 +44,9 @@ export function sessionAction(g:GameState,b:Record<string,unknown>,now:number,we
   if(b.reflection!==undefined&&!REFLECTIONS.some(r=>r.id===b.reflection))throw new GameError("Choose a valid reflection or skip it.");
   const full=!s.skipped&&s.checks.every(Boolean);const seconds=s.plan.reduce((total,p,i)=>total+(s.checks[i]?p.seconds:i===s.index?s.elapsed:0),0);
   s.note=b.note;s.reflection=typeof b.reflection==="string"?b.reflection:undefined;s.status=full?"training":"partial";s.runningSince=null;
+  // Finished sessions live on in the journal and reward ledger; drop old copies so the save stays small.
+  const cutoff=new Date(now-2*86_400_000).toISOString().slice(0,10);
+  for(const old of Object.values(g.sessions))if(old.id!==s.id&&(old.status==="training"||old.status==="partial")&&old.date<cutoff)delete g.sessions[old.id];
   if(full)award(g,`practice:${s.date}`,()=>{g.practices++;g.supplies+=20;if(s.companion!=="solo"){g.bonds[s.companion]+=10;if(s.reflection)g.bonds[s.companion]+=2;}});
   const record:RecordEntry={date:s.date,day:s.day,kind:full?"training":"partial",minutes:Math.round(seconds/60*100)/100,readiness:s.readiness,note:s.note};
   return seconds>0?{record,result:{sessionId:s.id}}:{result:{sessionId:s.id}};

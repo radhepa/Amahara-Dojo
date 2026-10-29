@@ -44,20 +44,22 @@ export function countFor(drill:Drill|undefined,offset:number){return drill?.temp
 export const COUNT_LIMITS = COUNT_TEMPO_RANGE;
 
 export function usePracticeBell({blockKey,drill,seconds,elapsed,running,limitRemaining=null,seed="",bpm=0}:{blockKey:string;drill:Drill|undefined;seconds:number;elapsed:number;running:boolean;limitRemaining?:number|null;seed?:string;bpm?:number}){
- const [enabled,setEnabled]=useState(true),[unlocked,setUnlocked]=useState(false),[message,setMessage]=useState("");
- const context=useRef<AudioContext|null>(null),used=useRef(elapsed),limit=useRef(limitRemaining),pending=useRef<Tone[]>([]);
+ const [enabled,setEnabled]=useState(true),[unlocked,setUnlocked]=useState(false),[message,setMessage]=useState(""),[resync,setResync]=useState(0);
+ const context=useRef<AudioContext|null>(null),used=useRef(elapsed),limit=useRef(limitRemaining),pending=useRef<Tone[]>([]),kept=useRef<number[]>([]);
  used.current=elapsed;limit.current=limitRemaining;
  const limitActive=limitRemaining!==null;
  useEffect(()=>{try{setEnabled(localStorage.getItem("dojo.timer-bell")!=="off");}catch{}},[]);
- const cancel=useCallback((all=false)=>{const now=context.current?.currentTime??0;for(const tone of pending.current){if(all||tone.when>now){try{tone.node.stop();}catch{}}}pending.current=[];},[]);
- const arm=useCallback(async()=>{
+ // A bell due within the next second is left to ring, so a block-end or limit bell is never
+ // cut off by the screen reaching zero a moment before the audio clock does.
+ const cancel=useCallback((all=false)=>{const now=context.current?.currentTime??0;kept.current=[];for(const tone of pending.current){if(all||tone.when>now+1){try{tone.node.stop();}catch{}}else if(tone.when>=now)kept.current.push(tone.when);}pending.current=[];},[]);
+ const arm=useCallback(async(quiet=false)=>{
   try{
    const Audio=window.AudioContext??(window as unknown as {webkitAudioContext:typeof AudioContext}).webkitAudioContext;
-   if(!context.current||context.current.state==="closed")context.current=new Audio();
+   if(!context.current||context.current.state==="closed"){context.current=new Audio();context.current.onstatechange=()=>setResync(n=>n+1);}
    await context.current.resume();
    if(context.current.state!=="running")throw new Error("Audio suspended");
    setUnlocked(true);setMessage("");return context.current;
-  }catch{setMessage("Sound could not start. Use Test bell again and check your device volume. The visual timer still works.");return null;}
+  }catch{if(!quiet)setMessage("Sound could not start. Use Test bell again and check your device volume. The visual timer still works.");return null;}
  },[]);
  const test=useCallback(async()=>{const audio=await arm();if(audio)soundBell(audio,audio.currentTime+.02,true);},[arm]);
  const toggle=useCallback(()=>{
@@ -67,21 +69,26 @@ export function usePracticeBell({blockKey,drill,seconds,elapsed,running,limitRem
  useEffect(()=>{
   cancel();
   const audio=context.current;
-  if(!enabled||!unlocked||!drill||!audio)return;
+  if(!enabled||!unlocked||!drill||!audio||audio.state!=="running")return;
   // Schedule on the audio clock, so a background tab's slow UI ticks don't delay the bell,
   // the cue calls or the steady count.
   const from=used.current;
   const ceiling=limit.current??Infinity;
   const at=(t:number)=>audio.currentTime+t-from;
-  const ahead=(t:number)=>t>from&&t-from<ceiling;
+  // Skip anything already ringing from before this reschedule.
+  const fresh=(when:number)=>!kept.current.some(w=>Math.abs(w-when)<.05);
+  const ahead=(t:number)=>t>from&&t-from<ceiling&&fresh(at(t));
   if(running){
    for(const cue of bellCues(drill,seconds))if(ahead(cue.at))pending.current.push(...soundBell(audio,at(cue.at),cue.finish));
    if(drill.cues?.length)for(const cue of cueSchedule(drill,seconds,seed))if(ahead(cue.at))pending.current.push(...soundCue(audio,at(cue.at),drill.cues[cue.cue].tone));
    if(bpm)for(const beat of countBeats(drill,seconds,bpm))if(ahead(beat.at))pending.current.push(...soundTick(audio,at(beat.at),beat.accent));
   }
-  if(ceiling>0&&Number.isFinite(ceiling))pending.current.push(...soundBell(audio,audio.currentTime+ceiling,true));
+  if(ceiling>0&&Number.isFinite(ceiling)&&fresh(audio.currentTime+ceiling))pending.current.push(...soundBell(audio,audio.currentTime+ceiling,true));
   return()=>cancel();
- },[blockKey,drill,seconds,running,enabled,unlocked,limitActive,cancel,seed,bpm]);
+ },[blockKey,drill,seconds,running,enabled,unlocked,limitActive,cancel,seed,bpm,resync]);
+ // After sleep or a hidden tab the audio clock may have paused while the practice clock ran on:
+ // wake the audio and schedule again from the true elapsed time.
+ useEffect(()=>{const wake=()=>{if(document.hidden||!context.current)return;if(context.current.state==="suspended")void context.current.resume().catch(()=>{});setResync(n=>n+1);};document.addEventListener("visibilitychange",wake);return()=>document.removeEventListener("visibilitychange",wake);},[]);
  useEffect(()=>()=>{cancel(true);void context.current?.close();},[cancel]);
  return {enabled,unlocked,message,arm,test,toggle};
 }

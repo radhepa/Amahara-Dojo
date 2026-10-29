@@ -21,8 +21,9 @@ const DOSE:Record<BlockFormat,string> = {
  S:"40 sec per exercise / 20 sec to switch · 5 min",
 };
 
-// "Seated: Seated marches…" reads twice; drop the repeated word.
-const tidy = (label:string,text:string) => {const t=text.replace(new RegExp(`^${label}\\s+`,"i"),"");return t.charAt(0).toUpperCase()+t.slice(1);};
+// "Seated: Seated marches…" reads twice; drop the repeated word, and a short leading label
+// ("Seated version:", "Seated rounds:") so the text never reads "Seated: Version: …".
+const tidy = (label:string,text:string) => {const t=text.replace(new RegExp(`^${label}(\\s+[^:.,;]{1,16}:)?\\s+`,"i"),"");return t.charAt(0).toUpperCase()+t.slice(1);};
 
 export function makeDrills(chapter:number,specs:Record<string,DrillSpec>):Record<string,Drill>{
  return Object.fromEntries(Object.entries(specs).map(([id,s])=>{

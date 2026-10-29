@@ -5,8 +5,8 @@ import {COMBINATION_MENU} from "./chapter-05";
 // own session inside guardrails, and a plan you can keep after the programme ends.
 const menu = `Menu: ${COMBINATION_MENU.join(" · ")}.`;
 export const MAINTENANCE_PLANS = [
- {days:3,plan:"Monday long (rounds and the form) · Wednesday skill and conditioning · Saturday count block and review"},
- {days:4,plan:"The three-day plan plus an easy flow day (mobility, a smooth form run, breathing)"},
+ {days:3,plan:"Monday long (rounds and the form) · Thursday skill and conditioning · Saturday count block and review; Wednesday stays a full rest day"},
+ {days:4,plan:"The three-day plan plus a Sunday easy flow day (mobility, a smooth form run, breathing)"},
  {days:6,plan:"The weekly rhythm you know: new skill, easy review, rest Wednesday, long, skill and conditioning, test-style, easy flow"},
 ] as const;
 const GUARDRAILS = "Guardrails: the preparation and cool-down stay as bookends; 4–6 blocks between them; 30–40 minutes in total; never past 'short sentences'.";
@@ -28,7 +28,7 @@ const drills = makeDrills(10,{
   steps:["Round 1: jabs from stillness, smooth tempo.","Round 2: crosses with the heel and hip turning, balance checked after each.","Round 3: the 1-2 and the 1-1-2 with a step-back exit, usual lead.","Round 4: the same on the other lead. Check the Hands trial points: guard home, soft elbows, feet apart, both leads alike."],
   checks:["My guard returned after every strike.","Both leads looked alike."],
   supported:"Half range, feet planted beside your support.",
-  seated:"Seated hands review.",
+  seated:"Sit tall in guard: jabs from stillness, crosses with a small trunk turn, then the 1-2 and 1-1-2 at chest height, guard home after each.",
   avoid:"Smooth, not maximal.",sources:["boxing-beginner"]},
  "c10-review-defense":{name:"Review: guard and defense",family:"Review",format:"B",cue:"Defense that comes home, every time.",
   steps:["Round 1: cover and parry, slowly.","Round 2: slips and rolls, slowly, both directions.","Round 3: slip-2 and parry-1, slow tempo.","Round 4: hook and uppercut with the guard returning, other lead. Check the Guard trial points."],
@@ -46,7 +46,7 @@ const drills = makeDrills(10,{
   steps:["Round 1: the set sequence, usual lead.","Round 2: the set sequence, other lead.","Round 3: punch-kick links with balance after each kick.","Round 4: three combinations of your choice from the menu, each with an angle."],
   checks:["Guard home between combinations.","Feet never crossed."],
   supported:"Half range with support for the kicks.",
-  seated:"The seated set.",
+  seated:"The set in order at chest height: strikes with small trunk turns, a slip lean for the slip, a seated knee lift for the kick.",
   avoid:"Rhythm, not speed.",sources:["boxing-beginner","kicks"]},
  "c10-selfreview-1":{name:"Self-review: foundations and hands",family:"Self-review",cue:"Look at the base you built two seasons ago.",
   steps:["Round 1: Foundations. Rebuild your stance and guard three times, then a four-direction step cycle with full stops. Compare with the Foundations checks.","Round 2: Hands. Jab, cross, 1-2 on both leads. Compare with the Hands trial checks.","Round 3: whichever of the two needed the most help, slowly.","Review minute: for each family, one thing that is solid and one to keep working on. Self-recording is optional and stays on your device."],
@@ -55,13 +55,13 @@ const drills = makeDrills(10,{
   seated:"Review the seated versions and judge posture, paths and guard.",
   avoid:"Honest, not harsh. No extra rounds.",sources:["boxing-beginner"]},
  "c10-selfreview-2":{name:"Self-review: defense and kicks",family:"Self-review",cue:"What still comes home on its own?",
-  steps:["Round 1: Guard and defense. Cover, parry, slip, roll, a defense-counter pair. Compare with the Guard trial checks.","Round 2: Kicks and balance. Chamber, front, round and side kicks, the check, both sides. Compare with the Kicks trial checks.","Round 3: the weaker family, slowly.","Review minute: one solid point and one to keep working on for each family."],
+  steps:["Round 1: Guard and defense. One cover, one parry and one slow slip-2, each returning to guard. Compare with the Guard trial checks.","Round 2: Kicks and balance. Two slow chambers and one low front kick on each leg, with your support near. Compare with the Kicks trial checks.","Round 3: the weaker family, slowly.","Review minute: one solid point and one to keep working on for each family."],
   checks:["I reviewed each family against its own checks.","I named one solid point and one to work on for each."],
   supported:"Review with your support near.",
   seated:"Review the seated versions.",
   avoid:"Slow head movement; low kicks. No extra rounds.",sources:["boxing-club","kicks"]},
  "c10-selfreview-3":{name:"Self-review: combinations, forms and the count",family:"Self-review",cue:"The long arc of your training, in three rounds.",
-  steps:["Round 1: Combinations. The set sequence and one minute of menu work with angles. Compare with the Combinations trial checks.","Round 2: Forms. Form One's section B and the Lantern Form's section 3. Compare with the Anywhere and Form trial checks.","Round 3: the count: thirty seconds of the base count with your inner rhythm, then breath work. Compare with the Endurance and Steady Count checks.","Review minute: one solid point and one to keep working on for each."],
+  steps:["Round 1: Combinations. The first two combinations of the set sequence, slowly, each ending with an angle. Compare with the Combinations trial checks.","Round 2: Forms. Form One's section A at your own pace, as far as the round allows. Compare with the Anywhere and Form trial checks.","Round 3: the count: the base count with your inner rhythm for the round, then breath work in the rest. Compare with the Endurance and Steady Count checks.","Review minute: one solid point and one to keep working on for each."],
   checks:["I reviewed each family against its own checks.","I named one solid point and one to work on for each."],
   supported:"Review with your support near.",
   seated:"Review the seated versions.",
@@ -82,7 +82,7 @@ const drills = makeDrills(10,{
   steps:["Three 2-minute rounds. Before each one, choose an intent: jab first, defend then answer, finish low, angles after everything, or one of your own.",menu,"Effort at 'short sentences'. Rests: walk, breathe out long.","In the last rest: did the rounds do what you designed them to do?"],
   checks:["Each round served the intent I chose.","Effort stayed at 'short sentences'."],
   supported:"Hands-only intents, kicks with your support.",
-  seated:"Seated rounds.",
+  seated:"Seated rounds: your intent at chest height with strikes, slip leans, parries and knee lifts for the kicks; rest whenever you need.",
   avoid:"Stop for dizziness, chest discomfort or unusual breathlessness.",sources:["imagery","talk-test"]},
  "c10-choice-strength":{name:"Your choice: conditioning",family:"Your practice",format:"S",cue:"Strength you keep is strength you use.",exercises:["Lower body","Upper body","Core","Calves or balance"],
   steps:["Lower body: squat to chair, split squat or bridge, whichever you need.","Upper body: incline push-up at the incline you trained, or wall slides.","Core: dead bug, bird dog or side plank.","Calves or balance: calf raises or a supported single-leg hold. Stop every exercise 2–3 reps before it gets hard."],
@@ -118,7 +118,7 @@ const drills = makeDrills(10,{
   steps:["Slow run: the whole Lantern Form from memory.","Review: rebuild your stance; three long breaths.","Count-tempo run on the bell's count.","If you forget a count, hold your guard and continue from the next one you remember. Mark the checks honestly."],
   checks:["The full form came from memory at both tempos.","Stance rebuilt at section ends, kicks low, elbows compact."],
   supported:"Section by section with support for the kicks.",
-  seated:"The seated Lantern Form.",
+  seated:"The seated Lantern Form from memory at both tempos: hands and elbows at chest height, foot taps and seated knee extensions.",
   avoid:"No kicks above the hip. The count is a guide.",sources:["kata-balance"]},
 });
 
