@@ -15,6 +15,7 @@ This directory is the complete blueprint, not a playable ten-chapter release. Ch
 5. `episode-craft.md` — how every episode earns its place after a workout: weekly rhythm, episode types, anime grammar, things to avoid.
 6. `choices-and-continuity.md` — the 18-decision register, Chapter 1 carry-forward, reveal ladder, motifs, production rules.
 7. `chapter-01.md` … `chapter-10.md` — treatments.
+8. `art-prompts.md` — master image-generation list: new character design sheets, condition variants, backgrounds and event illustrations in the existing style.
 
 The spoiler-free companion for curriculum work is `../training-architecture.md`. It may be shown to the owner.
 

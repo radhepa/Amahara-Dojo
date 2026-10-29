@@ -751,6 +751,393 @@
           "tool": "built-in imagegen"
         }
       ]
+    },
+    {
+      "set": "Chapter 3 production",
+      "canonRevision": 3,
+      "status": "Staged contributor sources; chapter remains closed until story integration.",
+      "assets": [
+        {
+          "key": "seiran-neutral",
+          "file": "seiran-neutral.png",
+          "source": "artwork/source/chapter-03/characters/seiran-neutral.png",
+          "kind": "characters",
+          "prompt": "Use case: style-transfer. Asset: neutral anime visual-novel portrait. Create an ORIGINAL DIFFERENT adult character from these founder style references; do not copy their identity, face, hairstyle or outfit.\nCharacter design lock: Seiran, 31-year-old woman. Pale skin, sharp jaw, straight black hair in a severe low ponytail, steel-grey eyes. White-and-ash academy instructor uniform, dark grey sash, silver cord at one shoulder, cream hand wraps, polished boots. Fully clothed, practical and disciplined; distinctive adult face. Signature palms flat at her sides.\nMatch the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark.\nPose: Relaxed but disciplined upright standing pose. Both arms straight down, hands open flat beside thighs with palms facing inward. Severe calm expression.\nSingle vertical 2:3 1024x1536 standing portrait, full head through upper thighs at the same figure scale as the founder references. All hair and BOTH complete hands and every finger comfortably inside the frame. True transparent alpha, clean antialiased outline and transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo added props except the specified plain sheet for the concerned pose.",
+          "references": [
+            "artwork/source/characters/akari-neutral.png",
+            "artwork/source/characters/ren-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "26cb68f26630bf58de4bcab9baec96ad3e7dc79371f9b978f9b1bf22f4884ea1",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "seiran-amused",
+          "file": "seiran-amused.png",
+          "source": "artwork/source/chapter-03/characters/seiran-amused.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: amused anime visual-novel portrait. Edit the exact neutral portrait. Preserve face, age, skin and eye colours, hair, uniform, sash, silver shoulder cord, wraps, body proportions and illustration style exactly. Change BOTH facial expression and whole body language, not only the face.\nCharacter design lock: Seiran, 31-year-old woman. Pale skin, sharp jaw, straight black hair in a severe low ponytail, steel-grey eyes. White-and-ash academy instructor uniform, dark grey sash, silver cord at one shoulder, cream hand wraps, polished boots. Fully clothed, practical and disciplined; distinctive adult face. Signature palms flat at her sides.\nMatch the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark.\nPose: One corner of the mouth lifted in a restrained dry half-smile, arms folded naturally across the chest, BOTH hands and fingers visible resting on the opposite upper arms; small weight shift.\nSingle vertical 2:3 1024x1536 standing portrait, full head through upper thighs at the same figure scale as the founder references. All hair and BOTH complete hands and every finger comfortably inside the frame. True transparent alpha, clean antialiased outline and transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo added props except the specified plain sheet for the concerned pose.",
+          "references": [
+            "artwork/source/chapter-03/characters/seiran-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "1616677b625860d844e6105047dc5f17460650feb7e0d822b119d31bce6f98d7",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "seiran-concerned",
+          "file": "seiran-concerned.png",
+          "source": "artwork/source/chapter-03/characters/seiran-concerned.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: concerned anime visual-novel portrait. Edit the exact neutral portrait. Preserve face, age, skin and eye colours, hair, uniform, sash, silver shoulder cord, wraps, body proportions and illustration style exactly. Change BOTH facial expression and whole body language, not only the face.\nCharacter design lock: Seiran, 31-year-old woman. Pale skin, sharp jaw, straight black hair in a severe low ponytail, steel-grey eyes. White-and-ash academy instructor uniform, dark grey sash, silver cord at one shoulder, cream hand wraps, polished boots. Fully clothed, practical and disciplined; distinctive adult face. Signature palms flat at her sides.\nMatch the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark.\nPose: Thoughtful worried expression glancing down at a plain command sheet held at mid-torso with both hands, shoulders slightly inward. The sheet has only indistinct marks, no legible text.\nSingle vertical 2:3 1024x1536 standing portrait, full head through upper thighs at the same figure scale as the founder references. All hair and BOTH complete hands and every finger comfortably inside the frame. True transparent alpha, clean antialiased outline and transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo added props except the specified plain sheet for the concerned pose.",
+          "references": [
+            "artwork/source/chapter-03/characters/seiran-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "4a76f2f4b57bffd96dddde7c5b37695c69011e74330d92b48732c2187f2af0d4",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "seiran-angry",
+          "file": "seiran-angry.png",
+          "source": "artwork/source/chapter-03/characters/seiran-angry.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: angry anime visual-novel portrait. Edit the exact neutral portrait. Preserve face, age, skin and eye colours, hair, uniform, sash, silver shoulder cord, wraps, body proportions and illustration style exactly. Change BOTH facial expression and whole body language, not only the face.\nCharacter design lock: Seiran, 31-year-old woman. Pale skin, sharp jaw, straight black hair in a severe low ponytail, steel-grey eyes. White-and-ash academy instructor uniform, dark grey sash, silver cord at one shoulder, cream hand wraps, polished boots. Fully clothed, practical and disciplined; distinctive adult face. Signature palms flat at her sides.\nMatch the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark.\nPose: Controlled anger, narrowed brows and firm lips. Very still, shoulders squared, torso turned slightly three-quarter, palms pressed flat firmly against the outside of both thighs. Deliberate tense silhouette, no aggression.\nSingle vertical 2:3 1024x1536 standing portrait, full head through upper thighs at the same figure scale as the founder references. All hair and BOTH complete hands and every finger comfortably inside the frame. True transparent alpha, clean antialiased outline and transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo added props except the specified plain sheet for the concerned pose.",
+          "references": [
+            "artwork/source/chapter-03/characters/seiran-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "6503588a080d762ce6e9b91dd5edfde1611cd245274dcae1f8f6068d91f3b98d",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "seiran-determined",
+          "file": "seiran-determined.png",
+          "source": "artwork/source/chapter-03/characters/seiran-determined.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: determined anime visual-novel portrait. Edit the exact neutral portrait. Preserve face, age, skin and eye colours, hair, uniform, sash, silver shoulder cord, wraps, body proportions and illustration style exactly. Change BOTH facial expression and whole body language, not only the face.\nCharacter design lock: Seiran, 31-year-old woman. Pale skin, sharp jaw, straight black hair in a severe low ponytail, steel-grey eyes. White-and-ash academy instructor uniform, dark grey sash, silver cord at one shoulder, cream hand wraps, polished boots. Fully clothed, practical and disciplined; distinctive adult face. Signature palms flat at her sides.\nMatch the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark.\nPose: Focused steady eyes, weight forward, one fully visible wrapped hand raised palm out in a stop signal at shoulder height, other open hand held low at her side. Strong grounded silhouette.\nSingle vertical 2:3 1024x1536 standing portrait, full head through upper thighs at the same figure scale as the founder references. All hair and BOTH complete hands and every finger comfortably inside the frame. True transparent alpha, clean antialiased outline and transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo added props except the specified plain sheet for the concerned pose.",
+          "references": [
+            "artwork/source/chapter-03/characters/seiran-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "1f48f26c2ca98631b538a3ac745c3d5cbcb86f9686c8bf92a1914c0ccae2b493",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "seiran-soft",
+          "file": "seiran-soft.png",
+          "source": "artwork/source/chapter-03/characters/seiran-soft.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: soft anime visual-novel portrait. Edit the exact neutral portrait. Preserve face, age, skin and eye colours, hair, uniform, sash, silver shoulder cord, wraps, body proportions and illustration style exactly. Change BOTH facial expression and whole body language, not only the face.\nCharacter design lock: Seiran, 31-year-old woman. Pale skin, sharp jaw, straight black hair in a severe low ponytail, steel-grey eyes. White-and-ash academy instructor uniform, dark grey sash, silver cord at one shoulder, cream hand wraps, polished boots. Fully clothed, practical and disciplined; distinctive adult face. Signature palms flat at her sides.\nMatch the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark.\nPose: Shoulders finally lowered, eyes looking away, softened private expression, slight three-quarter turn. One loosely open hand resting across her lower abdomen, the other relaxed beside her thigh. Quiet restrained warmth.\nSingle vertical 2:3 1024x1536 standing portrait, full head through upper thighs at the same figure scale as the founder references. All hair and BOTH complete hands and every finger comfortably inside the frame. True transparent alpha, clean antialiased outline and transparent arm/body gaps. No scenery, halo, glow or ground shadow.\nNo added props except the specified plain sheet for the concerned pose.",
+          "references": [
+            "artwork/source/chapter-03/characters/seiran-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "f7b3ebba4d247e9d378ac912891539eeab181ec09361fa75e4b36131ebb94fd3",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "academy-junior-neutral",
+          "file": "academy-junior-neutral.png",
+          "source": "artwork/source/chapter-03/characters/academy-junior-neutral.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: replacement Character study K portrait for the Dojo gallery. The input is the old K portrait; preserve its precise crisp dark anime outlines, restrained cel shading, grounded adult proportions and the EXACT white training jacket with ash-grey lapels/cuffs, charcoal sash and trousers and cream hand wraps. REDESIGN the woman’s head, face, hair and skin colouring to make her a clearly DIFFERENT person from the old portrait. New character design lock: 22-year-old adult woman, rich deep-brown skin, broad softly square adult face, full rounded cheeks, wider straight nose, smaller gently hooded dark-brown eyes, straight thick brows, full lips. Short INK-BLACK textured pixie crop with a slightly tousled crown, clipped sides, short diagonal fringe, BOTH ears visible. NO long hair, NO braid, NO ponytail, NO brown side locks. She must be instantly distinguishable through her short-haired silhouette, skin tone and facial structure. Subtle calm neutral expression, relaxed standing posture with both arms down and both complete wrapped hands fully visible. Keep the same practical fully clothed uniform with believable folds. Match the founding Dojo art style exactly; no chibi, photorealism, fan-service, extra props, symbols, text, logos, UI or watermark. Vertical 2:3 1024x1536, full head through upper thighs at the original figure scale, all hair and every finger safely inside the canvas. GENUINE transparent alpha background and transparent body/arm gaps, clean antialiased silhouette, no scenery, colored glow, halo or ground shadow. Change the character’s identity as specified; do not retain or merely recolour the old face or hairstyle.",
+          "references": [
+            "artwork/references/chapter-03/junior-original-design.png"
+          ],
+          "initialPrompt": "Use case: style-transfer. Original young ADULT academy junior neutral portrait, use founders only for style and drawing scale. Different character from all references. A 22-year-old woman with warm light-brown skin, rounded adult face, dark brown eyes, dark brown hair in a simple single braid over one shoulder. Plain academy white training jacket with ash-grey trim, charcoal narrow sash, charcoal trousers, cream wraps. No instructor shoulder cord, badges or status symbols. Calm neutral expression, relaxed upright stance, both arms down with fully visible open hands. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Single vertical 2:3 1024x1536 standing portrait, full head through upper thighs at the same figure scale as the founder references. All hair and BOTH complete hands and every finger comfortably inside the frame. True transparent alpha, clean antialiased outline and transparent arm/body gaps. No scenery, halo, glow or ground shadow. No props or text.",
+          "initialReferences": [
+            "artwork/source/characters/akari-neutral.png",
+            "artwork/source/characters/ren-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "763828710d7381cefeb4b5f21cb276b41f06ab5ed68498e523dff41d31fc7e45",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "whiteash-courtyard",
+          "file": "whiteash-courtyard.png",
+          "source": "artwork/source/chapter-03/backgrounds/whiteash-courtyard.png",
+          "kind": "backgrounds",
+          "prompt": "Use case: style-transfer. Asset: anime visual-novel setting, opaque landscape 16:9, native wide equivalent, edge to edge, standing eye-height camera. Use input only for painting style, material vocabulary and regional architecture; create the described different setting. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Setting: Large orderly walled academy courtyard of pale stone and white timber, clean discreet chalk-marked training lanes, wooden equipment racks and low perimeter rails, dawn light, white plaster and dark tiled roof, distant upland mountains. Calm warm dawn sunlight on cool pale stone. Empty of people and foreground characters. No legible text, symbols of plot, documents, or UI.",
+          "references": [
+            "artwork/source/backgrounds/courtyard.png"
+          ],
+          "transparent_background": false,
+          "gallerySafe": true,
+          "width": 1672,
+          "height": 941,
+          "hasAlpha": false,
+          "sha256": "78d92f549b7a38e9bcf9df39d47452c6883778f28830392dd58cc522dd6a7b2a",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "whiteash-dorm",
+          "file": "whiteash-dorm.png",
+          "source": "artwork/source/chapter-03/backgrounds/whiteash-dorm.png",
+          "kind": "backgrounds",
+          "prompt": "Use case: lighting-weather. Edit the supplied guest-room image, preserving EXACT camera, architecture, wooden bunk beds, folded uniforms, bedding, shelves, paper lamp and painting style. Change ONLY LIGHTING and time of day to NIGHT. The paper lamp beside the bed provides the main soft warm amber light. Outside the sliding window is deep cool blue night, NOT daytime. NO SUN, NO DAYLIGHT, NO DIRECT SUNBEAMS, no daylight across the floor. Cozy quiet dim lamplight with cool blue window fill and soft shadows. Match the founding Dojo hand-painted anime style. Fully opaque landscape 16:9 edge to edge, no people, text, UI or watermark.",
+          "references": [
+            "artwork/references/chapter-03/dorm-lighting-study.png"
+          ],
+          "initialPrompt": "Use case: style-transfer. Asset: anime visual-novel setting, opaque landscape 16:9, native wide equivalent, edge to edge, standing eye-height camera. Use input only for painting style, material vocabulary and regional architecture; create the described different setting. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Setting: Simple academy guest room, clean white plaster and timber, sturdy wooden bunk beds with plain cream bedding, folded white-and-ash uniforms on a low shelf, a small paper lamp casting gentle amber lamplight. Orderly intimate quiet atmosphere. Empty of people and foreground characters. No legible text, symbols of plot, documents, or UI.",
+          "initialReferences": [
+            "artwork/source/backgrounds/hall-restored.png"
+          ],
+          "transparent_background": false,
+          "gallerySafe": true,
+          "width": 1672,
+          "height": 941,
+          "hasAlpha": false,
+          "sha256": "7e7f43f1f13f2aede18d18b6f87067485a9cde25fc004bea65fb611e771574dd",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "whiteash-forum",
+          "file": "whiteash-forum.png",
+          "source": "artwork/source/chapter-03/backgrounds/whiteash-forum.png",
+          "kind": "backgrounds",
+          "prompt": "Use case: style-transfer. Asset: anime visual-novel setting, opaque landscape 16:9, native wide equivalent, edge to edge, standing eye-height camera. Use input only for painting style, material vocabulary and regional architecture; create the described different setting. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Setting: Formal academy hall with tiers of empty wooden benches, a single plain table and chairs at the front, high windows casting soft daytime light, pale stone floor and white timber beams. Spare dignified architecture. No papers, signs, lettering or emblems. Empty of people and foreground characters. No legible text, symbols of plot, documents, or UI.",
+          "references": [
+            "artwork/source/backgrounds/hall-restored.png"
+          ],
+          "transparent_background": false,
+          "gallerySafe": true,
+          "width": 1672,
+          "height": 941,
+          "hasAlpha": false,
+          "sha256": "99ceb7b39c7e865cff1f605c8618d74142010b5917578311c2cd2a62bb498659",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "academy-dawn-count",
+          "file": "academy-dawn-count.png",
+          "source": "artwork/source/chapter-03/events/academy-dawn-count.png",
+          "kind": "events",
+          "prompt": "Use case: illustration-story. One cohesive opaque landscape 16:9 visual-novel event CG, native wide equivalent, cinematic composition, never panels or pasted portraits. Character inputs lock EXACT identity and outfit; naturally re-pose and integrate them. Setting input locks architecture and painting style. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Scene: A vast academy courtyard at dawn, approximately TWO HUNDRED young ADULT students in plain white-and-ash training uniforms doing one slow solo count in perfect unison. Wide elevated establishing composition reveals many orderly rows diminishing into distance, all following the SAME open-hand guard movement at the same moment. Coherent anatomies, calm collective practice, no battle or conflict, no named foreground character. Soft sunlight and long aligned shadows on pale stone. No magical effects. Important faces safely above the bottom dialogue-overlay area and inside edge margins. NEVER SHOW THE PLAYER, their face, gender, body or invented hands. Player viewpoint implied or player absent. No text, captions or labels.",
+          "references": [
+            "artwork/source/chapter-03/backgrounds/whiteash-courtyard.png",
+            "artwork/source/characters/akari-neutral.png"
+          ],
+          "transparent_background": false,
+          "gallerySafe": true,
+          "width": 1672,
+          "height": 941,
+          "hasAlpha": false,
+          "sha256": "af7c932d464e450d55eb4529b775e6d74230a907ae569d988529be1a4e592822",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "ren-stop-drill",
+          "file": "ren-stop-drill.png",
+          "source": "artwork/source/chapter-03/events/ren-stop-drill.png",
+          "kind": "events",
+          "prompt": "Use case: illustration-story. One cohesive opaque landscape 16:9 visual-novel event CG, native wide equivalent, cinematic composition, never panels or pasted portraits. Character inputs lock EXACT identity and outfit; naturally re-pose and integrate them. Setting input locks architecture and painting style. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Scene: In a marked academy courtyard lane during an isolated-anchor training drill, Ren in his exact copper hair, freckles, rust sleeveless gi, charcoal belt and cream wraps calls a stop urgently, mouth open, one open hand extended. Haru in his EXACT reference design turns toward him mid-step with startled concern. Seiran in her exact white-and-ash uniform, steel eyes, low black ponytail, silver shoulder cord raises one open wrapped palm to halt the drill. Unnamed ADULT trainees well back behind the low rail, safely separated. A small plain stone anchor and a shifting suspended training timber show a restrained interrupted load. No injury, no chaos or invented magical explosion. Important faces safely above the bottom dialogue-overlay area and inside edge margins. NEVER SHOW THE PLAYER, their face, gender, body or invented hands. Player viewpoint implied or player absent. No text, captions or labels.",
+          "references": [
+            "artwork/source/characters/ren-neutral.png",
+            "artwork/source/characters/haru-neutral.png",
+            "artwork/source/chapter-03/characters/seiran-neutral.png",
+            "artwork/source/chapter-03/backgrounds/whiteash-courtyard.png"
+          ],
+          "transparent_background": false,
+          "gallerySafe": false,
+          "width": 1672,
+          "height": 941,
+          "hasAlpha": false,
+          "sha256": "c7b2cde649aa173a385be2da6c7332e30f5cff35e3e02d5057f97248a43de455",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "witness-family",
+          "file": "witness-family.png",
+          "source": "artwork/source/chapter-03/events/witness-family.png",
+          "kind": "events",
+          "prompt": "Use case: illustration-story. One cohesive opaque landscape 16:9 visual-novel event CG, native wide equivalent, cinematic composition, never panels or pasted portraits. Character inputs lock EXACT identity and outfit; naturally re-pose and integrate them. Setting input locks architecture and painting style. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Scene: Natsume in her exact reference design stands at the front witness table of the academy forum, facing the room with sober vulnerable composure, speaking plainly. Akari in her exact green gi, brown bun and cream wraps is seated immediately beside her, reaching one wrapped hand gently beneath the edge of the table to support Natsume. The table naturally conceals the hand contact. Do not depict Natsume seated or Akari standing. A few unnamed adult residents sit on the tiered benches, listening quietly. No written testimony or visible text. Intimate eye-height three-quarter framing, important faces readable. Important faces safely above the bottom dialogue-overlay area and inside edge margins. NEVER SHOW THE PLAYER, their face, gender, body or invented hands. Player viewpoint implied or player absent. No text, captions or labels.",
+          "references": [
+            "artwork/source/characters/natsume-neutral.png",
+            "artwork/source/characters/akari-neutral.png",
+            "artwork/source/chapter-03/backgrounds/whiteash-forum.png"
+          ],
+          "transparent_background": false,
+          "gallerySafe": false,
+          "width": 1672,
+          "height": 941,
+          "hasAlpha": false,
+          "sha256": "a13fc86484e3e4c8fe083122fae65518f965067a6a771b82b2c4ef2f4c6008d4",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "witness-residents",
+          "file": "witness-residents.png",
+          "source": "artwork/source/chapter-03/events/witness-residents.png",
+          "kind": "events",
+          "prompt": "Use case: illustration-story. One cohesive opaque landscape 16:9 visual-novel event CG, native wide equivalent, cinematic composition, never panels or pasted portraits. Character inputs lock EXACT identity and outfit; naturally re-pose and integrate them. Setting input locks architecture and painting style. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Scene: SAME academy forum, camera, lighting and moment as the supplied event reference: Natsume in her exact reference design STANDS alone at the witness table, speaking plainly with sober vulnerable composure. Change the choice variant: Akari is seated AMONG adult residents on the first bench, away from the witness table, looking steadily toward Natsume across the room with attentive care. The chair beside Natsume is empty; NO supportive hand beneath the table in this variant. Preserve architecture, palette and both identities. No text or captions. Important faces safely above the bottom dialogue-overlay area and inside edge margins. NEVER SHOW THE PLAYER, their face, gender, body or invented hands. Player viewpoint implied or player absent. No text, captions or labels.",
+          "references": [
+            "artwork/source/chapter-03/events/witness-family.png",
+            "artwork/source/characters/natsume-neutral.png",
+            "artwork/source/characters/akari-neutral.png",
+            "artwork/source/chapter-03/backgrounds/whiteash-forum.png"
+          ],
+          "transparent_background": false,
+          "gallerySafe": false,
+          "width": 1672,
+          "height": 941,
+          "hasAlpha": false,
+          "sha256": "dad34b9a6c979b6e0437a6fcfb5473cfaed5bcea17473fe74a4c37d19ceb6334",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "locked-beat",
+          "file": "locked-beat.png",
+          "source": "artwork/source/chapter-03/events/locked-beat.png",
+          "kind": "events",
+          "prompt": "Use case: illustration-story. One cohesive opaque landscape 16:9 visual-novel event CG, native wide equivalent, cinematic composition, never panels or pasted portraits. Character inputs lock EXACT identity and outfit; naturally re-pose and integrate them. Setting input locks architecture and painting style. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Scene: Akari and Seiran in their exact outfits exchange a controlled martial-arts technique in the academy courtyard. At the precise instant their timing locks: Akari in green gi and cream wraps meets Seiran in white-and-ash instructor uniform with dark sash, silver shoulder cord and cream wraps. Opposite grounded stances, clean martial foot placement and natural single forearm contact, alert rival faces, no injury. A very faint concentric disturbance rings across pale stone beneath their feet, like a quiet struck bowl, restrained rather than a glowing magic attack. Dynamic wide cinematic framing with both complete adult bodies and clean coherent anatomy; no spectators in the foreground. Important faces safely above the bottom dialogue-overlay area and inside edge margins. NEVER SHOW THE PLAYER, their face, gender, body or invented hands. Player viewpoint implied or player absent. No text, captions or labels.",
+          "references": [
+            "artwork/source/characters/akari-neutral.png",
+            "artwork/source/chapter-03/characters/seiran-neutral.png",
+            "artwork/source/chapter-03/backgrounds/whiteash-courtyard.png"
+          ],
+          "transparent_background": false,
+          "gallerySafe": false,
+          "width": 1672,
+          "height": 941,
+          "hasAlpha": false,
+          "sha256": "5504485d3533c2ac897f337c4465861b7bba804cd2ac30687ae03f356453769b",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "scarf-basin",
+          "file": "scarf-basin.png",
+          "source": "artwork/source/chapter-03/events/scarf-basin.png",
+          "kind": "events",
+          "prompt": "Use case: illustration-story. One cohesive opaque landscape 16:9 visual-novel event CG, native wide equivalent, cinematic composition, never panels or pasted portraits. Character inputs lock EXACT identity and outfit; naturally re-pose and integrate them. Setting input locks architecture and painting style. Match the supplied Dojo founding references exactly: precise crisp dark anime linework, restrained cel shading, natural warm palette, distinctive faces, grounded adult proportions, practical clothing and believable cloth folds. Backgrounds are richly hand-painted anime timber, plaster, stone and tatami with restrained realistic texture. Coherent anatomy and correct hands. No photorealism, chibi, fan-service, franchise costume, ninja imagery, text, logos, UI or watermark. Scene: Quiet wordless dusk at Lantern Hall courtyard. Daichi in his exact salt-and-pepper hair and beard, cream gi with brown trim, olive belt and cream wraps sits low beside a plain wooden basin, washing a RED cloth scarf with both broad hands. He gazes down with restrained thoughtful emotion. Warm window light, blue dusk, the setting reference architecture. A sound wooden brace visible inside the doorway and NO tied scarf on its beam. Focus on his adult face, hands, red fabric and water; no extra cast, papers or legible text. Important faces safely above the bottom dialogue-overlay area and inside edge margins. NEVER SHOW THE PLAYER, their face, gender, body or invented hands. Player viewpoint implied or player absent. No text, captions or labels.",
+          "references": [
+            "artwork/source/characters/daichi-neutral.png",
+            "artwork/source/backgrounds/courtyard.png",
+            "artwork/source/backgrounds/hall-restored.png"
+          ],
+          "transparent_background": false,
+          "gallerySafe": false,
+          "width": 1672,
+          "height": 941,
+          "hasAlpha": false,
+          "sha256": "cf5fbe8998260e1ee58f9334b5464b225b79af2531f0cf69357ede5d5ccb12a7",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "academy-junior-amused",
+          "file": "academy-junior-amused.png",
+          "source": "artwork/source/chapter-03/characters/academy-junior-amused.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: amused standing anime visual-novel portrait for Character study K. Input: this character's EXACT redesigned neutral portrait, used as the identity, outfit, drawing-scale and art-style lock. Preserve her rich deep-brown skin, broad softly square adult face, full rounded cheeks, wider straight nose, dark-brown eyes, straight thick brows, full lips and SHORT ink-black textured pixie hair with clipped sides, short diagonal fringe and visible ears. Preserve the EXACT white training jacket with ash-grey lapels and cuffs, charcoal sash and trousers, and cream hand wraps. Keep the same 22-year-old adult woman and grounded proportions. NO braid, long hair, ponytail or copying another character's face. Match precise crisp dark anime linework, restrained cel shading, warm natural palette and believable cloth folds. Change BOTH facial expression AND hands, arms, shoulders and implied standing weight to communicate the mood; never a face-only swap. Pose and expression: A natural amused smile with a little teeth showing, eyes lively; comfortably shift weight to one hip, one wrapped hand lightly touching her upper chest, the other open palm making a small relaxed conversational gesture at waist height. Shoulders open, visibly different arms and silhouette from neutral. Vertical 2:3 1024x1536, full head through upper thighs at original figure scale; all hair, BOTH complete hands and every finger safely within the frame. GENUINE transparent alpha background and arm/body gaps, clean antialiased silhouette. No background glow, halo, scenery, ground shadow, extra props, text, logos, UI, watermark, photorealism, chibi or fan-service. Single portrait only.",
+          "references": [
+            "artwork/source/chapter-03/characters/academy-junior-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "0a14fc9fd2a7d499c7686799c5898b8aa7a7c3f06947e30dd1aa85cb76437971",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "academy-junior-concerned",
+          "file": "academy-junior-concerned.png",
+          "source": "artwork/source/chapter-03/characters/academy-junior-concerned.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: concerned standing anime visual-novel portrait for Character study K. Input: this character's EXACT redesigned neutral portrait, used as the identity, outfit, drawing-scale and art-style lock. Preserve her rich deep-brown skin, broad softly square adult face, full rounded cheeks, wider straight nose, dark-brown eyes, straight thick brows, full lips and SHORT ink-black textured pixie hair with clipped sides, short diagonal fringe and visible ears. Preserve the EXACT white training jacket with ash-grey lapels and cuffs, charcoal sash and trousers, and cream hand wraps. Keep the same 22-year-old adult woman and grounded proportions. NO braid, long hair, ponytail or copying another character's face. Match precise crisp dark anime linework, restrained cel shading, warm natural palette and believable cloth folds. Change BOTH facial expression AND hands, arms, shoulders and implied standing weight to communicate the mood; never a face-only swap. Pose and expression: A worried thoughtful expression, brows lifted toward the centre and lips gently pressed; shoulders drawn slightly inward, one hand lightly holding the opposite forearm across the lower torso, the other fully visible hand resting open near the opposite elbow. A slight forward lean, both hands visible. No new props. Vertical 2:3 1024x1536, full head through upper thighs at original figure scale; all hair, BOTH complete hands and every finger safely within the frame. GENUINE transparent alpha background and arm/body gaps, clean antialiased silhouette. No background glow, halo, scenery, ground shadow, extra props, text, logos, UI, watermark, photorealism, chibi or fan-service. Single portrait only.",
+          "references": [
+            "artwork/source/chapter-03/characters/academy-junior-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "cb888549585a645bae632d3cb5f9ae7f9d8fc258095a882fb9bf0af04549bdf9",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "academy-junior-angry",
+          "file": "academy-junior-angry.png",
+          "source": "artwork/source/chapter-03/characters/academy-junior-angry.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: angry standing anime visual-novel portrait for Character study K. Input: this character's EXACT redesigned neutral portrait, used as the identity, outfit, drawing-scale and art-style lock. Preserve her rich deep-brown skin, broad softly square adult face, full rounded cheeks, wider straight nose, dark-brown eyes, straight thick brows, full lips and SHORT ink-black textured pixie hair with clipped sides, short diagonal fringe and visible ears. Preserve the EXACT white training jacket with ash-grey lapels and cuffs, charcoal sash and trousers, and cream hand wraps. Keep the same 22-year-old adult woman and grounded proportions. NO braid, long hair, ponytail or copying another character's face. Match precise crisp dark anime linework, restrained cel shading, warm natural palette and believable cloth folds. Change BOTH facial expression AND hands, arms, shoulders and implied standing weight to communicate the mood; never a face-only swap. Pose and expression: Controlled frustration, brows narrowed and mouth firm; grounded upright stance with a slight three-quarter turn, one wrapped hand resting firmly at her hip, the other held palm-out at waist height in a clear boundary gesture. Both complete hands visible. No violence or props. Vertical 2:3 1024x1536, full head through upper thighs at original figure scale; all hair, BOTH complete hands and every finger safely within the frame. GENUINE transparent alpha background and arm/body gaps, clean antialiased silhouette. No background glow, halo, scenery, ground shadow, extra props, text, logos, UI, watermark, photorealism, chibi or fan-service. Single portrait only.",
+          "references": [
+            "artwork/source/chapter-03/characters/academy-junior-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "2c7eae14570dfb1ad912e6ed1b7ee0b8a562811422b3fba0a8c00325262d551d",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "academy-junior-determined",
+          "file": "academy-junior-determined.png",
+          "source": "artwork/source/chapter-03/characters/academy-junior-determined.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: determined standing anime visual-novel portrait for Character study K. Input: this character's EXACT redesigned neutral portrait, used as the identity, outfit, drawing-scale and art-style lock. Preserve her rich deep-brown skin, broad softly square adult face, full rounded cheeks, wider straight nose, dark-brown eyes, straight thick brows, full lips and SHORT ink-black textured pixie hair with clipped sides, short diagonal fringe and visible ears. Preserve the EXACT white training jacket with ash-grey lapels and cuffs, charcoal sash and trousers, and cream hand wraps. Keep the same 22-year-old adult woman and grounded proportions. NO braid, long hair, ponytail or copying another character's face. Match precise crisp dark anime linework, restrained cel shading, warm natural palette and believable cloth folds. Change BOTH facial expression AND hands, arms, shoulders and implied standing weight to communicate the mood; never a face-only swap. Pose and expression: Steady focused gaze, chin slightly raised, squared shoulders and weight forward; one wrapped fist held close to her chest and the other open hand extended forward at mid-torso height, a grounded ready guard. Natural coherent arms, wrists and fingers, all inside the canvas. Vertical 2:3 1024x1536, full head through upper thighs at original figure scale; all hair, BOTH complete hands and every finger safely within the frame. GENUINE transparent alpha background and arm/body gaps, clean antialiased silhouette. No background glow, halo, scenery, ground shadow, extra props, text, logos, UI, watermark, photorealism, chibi or fan-service. Single portrait only.",
+          "references": [
+            "artwork/source/chapter-03/characters/academy-junior-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "a14ee008cfd9dd9a1f675ef47d3cbef9dc2e518649ef7aa92c0969b97d9fbd92",
+          "tool": "built-in imagegen"
+        },
+        {
+          "key": "academy-junior-soft",
+          "file": "academy-junior-soft.png",
+          "source": "artwork/source/chapter-03/characters/academy-junior-soft.png",
+          "kind": "characters",
+          "prompt": "Use case: precise-object-edit. Asset: soft standing anime visual-novel portrait for Character study K. Input: this character's EXACT redesigned neutral portrait, used as the identity, outfit, drawing-scale and art-style lock. Preserve her rich deep-brown skin, broad softly square adult face, full rounded cheeks, wider straight nose, dark-brown eyes, straight thick brows, full lips and SHORT ink-black textured pixie hair with clipped sides, short diagonal fringe and visible ears. Preserve the EXACT white training jacket with ash-grey lapels and cuffs, charcoal sash and trousers, and cream hand wraps. Keep the same 22-year-old adult woman and grounded proportions. NO braid, long hair, ponytail or copying another character's face. Match precise crisp dark anime linework, restrained cel shading, warm natural palette and believable cloth folds. Change BOTH facial expression AND hands, arms, shoulders and implied standing weight to communicate the mood; never a face-only swap. Pose and expression: Gentle warm small smile and softened eyes, lowered shoulders and a slight receptive head tilt; both relaxed hands loosely meeting at waist level with one resting over the other. Quiet open body language and a distinct relaxed silhouette. Vertical 2:3 1024x1536, full head through upper thighs at original figure scale; all hair, BOTH complete hands and every finger safely within the frame. GENUINE transparent alpha background and arm/body gaps, clean antialiased silhouette. No background glow, halo, scenery, ground shadow, extra props, text, logos, UI, watermark, photorealism, chibi or fan-service. Single portrait only.",
+          "references": [
+            "artwork/source/chapter-03/characters/academy-junior-neutral.png"
+          ],
+          "transparent_background": true,
+          "gallerySafe": true,
+          "width": 1024,
+          "height": 1536,
+          "hasAlpha": true,
+          "sha256": "10c424d3cabc390ce24f9ae8901bed5fcc89a893d93e287c72beb1421076fabb",
+          "tool": "built-in imagegen"
+        }
+      ]
     }
   ]
 }

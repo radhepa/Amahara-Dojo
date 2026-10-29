@@ -11,7 +11,14 @@ const approved=[...['akari','ren','sora','daichi','yuzu'].map(id=>`artwork/sourc
  'artwork/source/chapter-02/events/dawn-count.png',
  'artwork/source/backgrounds/courtyard.png',
  ...['emi','haru','mika','natsume','riku','shigure','toma'].flatMap(id=>['neutral','amused','concerned','determined'].map(mood=>`artwork/source/characters/${id}-${mood}.png`)),
- ...['akari','ren','sora','daichi','yuzu'].flatMap(id=>['amused','concerned','angry','determined','soft'].map(mood=>`artwork/source/characters/${id}-${mood}.png`))];
+ ...['akari','ren','sora','daichi','yuzu'].flatMap(id=>['amused','concerned','angry','determined','soft'].map(mood=>`artwork/source/characters/${id}-${mood}.png`)),
+ ...moods.map(mood=>`artwork/source/chapter-03/characters/seiran-${mood}.png`),
+ 'artwork/source/chapter-03/characters/academy-junior-neutral.png',
+ 'artwork/source/chapter-03/backgrounds/whiteash-courtyard.png',
+ 'artwork/source/chapter-03/backgrounds/whiteash-dorm.png',
+ 'artwork/source/chapter-03/backgrounds/whiteash-forum.png',
+ 'artwork/source/chapter-03/events/academy-dawn-count.png',
+ ...['amused','concerned','angry','determined','soft'].map(mood=>`artwork/source/chapter-03/characters/academy-junior-${mood}.png`)];
 const dest=path.join(root,'artwork/gallery/assets');await fs.mkdir(dest,{recursive:true});
 for(let i=0;i<approved.length;i++){
  const input=path.join(root,approved[i]),output=path.join(dest,`image-${String(i+1).padStart(3,'0')}.webp`);
