@@ -82,7 +82,7 @@ Natsume turns to the repair board. Your first choice is still written there, bes
 
 Daichi sits down with his cup before offering everyone else's. Mika smiles at that more than at the approval.
 
-You remember the door opening only a hand's width on your first day. Now the room behind it is full. Ren presses bread into your hand before you can help clear another cup, and Akari finally folds her list. For a moment, neither seems to know what to do with their free hands.
+You remember the door sticking on your first day. Now the room behind it is full. Ren presses bread into your hand before you can help clear another cup, and Akari finally folds her list. For a moment, neither seems to know what to do with their free hands.
 
 Outside, the repaired door opens for another neighbor. The year has already begun.
 `),

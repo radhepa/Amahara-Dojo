@@ -40,7 +40,7 @@ export function buildMonth(originals:StoryScene[]){
  const secondFinale=revised.find(s=>s.episode===2&&s.beat===6)!;
  const arrow=secondFinale.lines.find(l=>l.text.startsWith("They repaint the arrow together."));
  if(!arrow)throw new Error("Missing arrow continuity anchor");
- arrow.text="They test colors on a spare piece of wood. Ren complains that her straight lines make his tiny bread look irresponsible. Akari paints a second loaf beside it, equally crooked. The arrow itself can wait until tomorrow, at the time they agreed. He looks at her, surprised, and decides against making the joke that has reached his mouth.";
+ arrow.text="They test colors on a spare piece of wood. Ren complains that her straight lines make his tiny bread look irresponsible. Akari paints a second loaf beside it, equally crooked. The arrow itself can wait. He looks at her, surprised, and decides against making the joke that has reached his mouth.";
  return {
   main:[...PILOT_MAIN,...revised],
   openings:[...PILOT_OPENINGS,...WEEK_TWO_OPENINGS,...WEEK_THREE_OPENINGS,...WEEK_FOUR_OPENINGS],

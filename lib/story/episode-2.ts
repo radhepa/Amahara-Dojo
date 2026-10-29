@@ -1,11 +1,11 @@
 import {scene,reply} from "./types";
 export const EPISODE_2=[
 scene(2,1,"The ordinary version","hall",`
-The next visit begins with laundry. Yuzu is balancing a basket on one hip while explaining that the hall's most demanding training partner is mildew.
+Most of today's work is laundry. Yuzu is balancing a basket on one hip while explaining that the hall's most demanding training partner is mildew.
 
 akari|Clean towels prevent some problems that excellent footwork cannot.
 
-Ren has prepared a dramatic welcome for your second episode of life at the hall. Akari gives him a stack of folded cloths. He accepts them with theatrical sorrow, then sorts the sizes accurately without looking.
+Ren has prepared a dramatic welcome for your second week at the hall. Akari gives him a stack of folded cloths. He accepts them with theatrical sorrow, then sorts the sizes accurately without looking.
 
 You notice that the regulars do different work. Sora spends part of her practice watching, then asks to repeat something slowly. Daichi rests between sets. Akari receives a correction from Ren and tries it again without arguing that she is the leader.
 
@@ -32,7 +32,7 @@ ren|If you want to see skill, ask Akari for a demonstration later. If you want c
 Toma stays to help fold one towel, badly. No one makes him earn a place with a trick.
 `),
 scene(2,2,"Mika's appointment","hall",`
-Mika arrives with two bags and refuses Daichi's offer to carry both. She gives him the heavier one and keeps the one she wants to find things in.
+Mika keeps the lighter of her two bags close, the one she wants to find things in. She let Daichi carry the heavier one, and no more than that.
 
 mika|Help is easier when it doesn't rearrange my entire afternoon.
 
@@ -56,7 +56,7 @@ mika|Write what I agreed to, not what you'd enjoy imagining I agreed to.
 
 Ren looks abruptly occupied by the flyers. Sora looks at him, then helps you hang the privacy curtain. The room is beginning to contain the needs of people who do not live in it.
 
-Before leaving, Mika checks the repaired kettle. She smiles when its handle holds. Daichi looks pleased for the first time without seeming surprised.
+Between tasks, Mika checks the repaired kettle. She smiles when its handle holds. Daichi looks pleased for the first time without seeming surprised.
 `),
 scene(2,3,"Bread and a second promise","town",`
 The bakery smells of toasted grain and citrus. Ren is behind the counter in a plain apron, weighing dough with an attention you have never seen him give a repair list.
@@ -79,18 +79,18 @@ He checks the oven and admits he will miss the start of Akari's set. His first i
 
 ren|Actually, that's my promise. Can you take her a message instead? Tell her I'm late because I said yes to too many things. No heroic explanation.
 
-You agree. He writes the message himself, including the time he can be there. It is shorter than the story he was about to tell you.
+You agree. He insists on writing the message himself, with the time he can be there. It will be shorter than the story he was about to tell you.
 
 On your way out, he hands you a warm heel of bread. He does not ask you to say how brilliant he is. He asks whether the citrus is too strong. You answer honestly. He makes a note.
 
-The flyer in your pocket has the hall's new access times on it. Ren's note has a time too. You find yourself hoping both will mean what they say.
+The flyer in your pocket has the hall's new access times on it. Ren's message is meant to carry a time too. You find yourself hoping both will mean what they say.
 `),
 scene(2,4,"Someone has to say no","hall",`
-Akari reads Ren's note and sets his pads aside. She does not look angry enough for the speech you prepared on the walk back.
+Akari sets Ren's pads aside and puts his note on top of them, where he will see it.
 
-akari|Thank you for bringing an actual time. I'll work with Sora until then.
+akari|I'll work with Sora until then.
 
-Sora does not want the set Akari planned. They agree on another. You watch them negotiate a new task without either acting as though agreement is weakness.
+Sora and Akari begin the set they agreed on. You watch them adjust it as they go, without either acting as though agreement is weakness.
 
 The appointment sheet is now crowded. Toma has written a neighbor's name in the margin and added a star. Yuzu asks what the star means. Toma says especially urgent because she is especially annoyed.
 
@@ -106,7 +106,7 @@ ren|This may be the first occasion on which bread has defeated my ego.
 
 sora|The records are incomplete.
 
-You count six accessible seats and space for a small group to stand away from the closed floor. Daichi asks you to write the capacity beside the entrance. It is not an exciting job, but it prevents everyone from promising the same empty space to a different person.
+The count settles at six accessible seats and space for a small group to stand away from the closed floor. Daichi asks you to make sure the capacity by the entrance says so. It is not an exciting job, but it prevents everyone from promising the same empty space to a different person.
 
 Yuzu leaves one square on the calendar clear. Wednesday. No one adds a star to it.
 `),

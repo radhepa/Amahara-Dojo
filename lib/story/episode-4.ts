@@ -1,7 +1,7 @@
 import {scene,reply} from "./types";
 export const EPISODE_4=[
 scene(4,1,"Someone at the threshold","hall",`
-Emi arrives holding a new notebook as though she is afraid the hall might ask to grade it. Ren recognizes her from the stationery shop and starts an enthusiastic introduction. She asks him to slow down. He does.
+Emi holds her new notebook as though she is afraid the hall might ask to grade it. Ren, who knows her from the stationery shop, keeps his welcome short.
 
 emi|I know how to sell a practice journal. I'm less certain what belongs in one.
 
@@ -17,14 +17,14 @@ Emi laughs despite herself. She says her family wants her to take a secure clerk
 
 daichi|Those wants can share a person. We don't need to recruit you by making one of them foolish.
 
-You show her where the chairs are and which board lists the day's plan. She asks what the app's beginner work feels like. You can describe your experience without pretending to teach hers.
+You show her which board lists the day's plan. She asks what the hall's beginner work feels like. You can describe your experience without pretending to teach hers.
 
 Ren starts a slow demonstration with Akari, then stops to answer Emi's question about the agreed signal. She notices the stop before she notices the strike. You understand why.
 
 On leaving, Emi writes a date in her notebook but leaves the activity blank. It is a beginning she chose, not an application she submitted.
 `),
 scene(4,2,"A very organized disagreement","courtyard",`
-The hall's public afternoon needs a short presentation. Akari has written five speaking turns. Ren has written an introduction twice as long as all five. Yuzu has drawn a moth above every name. Sora has placed the papers in order of actual duration.
+The hall's public afternoon needs a short presentation. Akari has written five speaking turns. Ren's introduction is still twice as long as all five. Sora has placed the papers in order of actual duration.
 
 sora|If Ren reads his entire introduction, we can safely remove the afternoon from the title.
 
@@ -34,13 +34,13 @@ Ren finishes his introduction at nearly twice the limit. Akari holds out a hand.
 
 ren|Fine. The bread gets one sentence. But it deserves two.
 
-Riku interrupts to ask whether anyone has included repair work. The audience will be standing near the closed floor. Pretending the damage is gone would be an odd way to welcome them.
+Riku asks how much the visitors will actually hear about the repair work. The audience will be standing near the closed floor. Pretending the damage is gone would be an odd way to welcome them.
 
 akari|We can explain the boundary briefly.
 
 riku|And the work someone did inside it. Brief doesn't have to mean invisible.
 
-Yuzu removes two jokes from her turn so the repair explanation can fit. Ren notices and asks whether she minds. She says she wants the joke she kept to land, which requires an audience still able to listen.
+Yuzu offers up more of her turn so the repair explanation can fit. Ren notices and asks whether she minds. She says she wants the joke she kept to land, which requires an audience still able to listen.
 
 The rehearsal becomes less polished and more honest. Daichi explains who can answer beginner questions. Akari explains that a performance does not prove someone is ready for partner work. Sora describes the route fault without dramatizing it.
 
@@ -51,19 +51,19 @@ ren|Our harshest instructor. Completely unwilling to be distracted by snacks.
 Riku asks to try his sentence again. This time you hear how proud he is of the repaired door. It is the first part of the afternoon you are sure a neighbor will remember.
 `),
 scene(4,3,"The notebook with two columns","hall",`
-Emi stays after her visit to write in her notebook. One column says useful. The other says mine. She shuts it when you come near, then opens it again by choice.
+Emi is writing in her notebook again. One column says useful. The other says mine. She shuts it once without meaning to, then opens it again by choice.
 
 emi|I keep trying to make the second column justify itself to the first.
 
-You ask whether she wants company or quiet. She chooses company and says she does not need advice yet. It is easier to be useful when she says what useful means.
+She has asked for company rather than advice. It is easier to be useful when she says what useful means.
 
-Akari brings a repaired wrap she found under a bench. The stitching is neat, with one tiny patterned patch. Emi admires it. Akari calls the patch a material availability decision.
+Akari holds up the wrap she has been mending. The stitching is neat, with one tiny patterned patch. Emi admires it. Akari calls the patch a material availability decision.
 
 yuzu|Every enjoyable thing Akari does is an emergency procurement event.
 
 Akari considers objecting, then puts the wrap on the table and admits she liked the fabric. Emi looks at her more carefully. It seems important that someone competent can like a thing without defending its career prospects.
 
-Ren asks whether Emi wants to help with the sign for the public afternoon. She asks what would happen if she says no. He says he would make a less readable sign. She laughs, then agrees to lettering only. The invitation is not a recruitment fee.
+Ren asks whether Emi wants to help with the sign for the public afternoon. She asks what would happen if she says no. He says he would make a less readable sign. She laughs, then agrees to lettering only. Agreeing to that does not sign her up for anything else.
 
 Sora arrives with the archive's reply. It says the records are temporarily unavailable pending review. No reason is given. She writes a follow-up asking who can authorize access. Akari notices the uncertainty and asks her to keep everyone informed.
 
@@ -72,7 +72,7 @@ Emi finishes two lines in the mine column. One is the lettering she just chose. 
 Before leaving, she asks where the spare pen goes. You point to its place. She returns it, then takes her own notebook home. The hall has not claimed either her time or her questions.
 `),
 scene(4,4,"A borrowed sound","courtyard",`
-Yuzu wants a clear sound to end the public presentation. Toma suggests the old bell because everyone knows it. Ren says that would bring the town's attention to the fault. Between them, the suggestion becomes an agreement before anyone has asked the route keeper.
+While you were inside, the ending was settled. Yuzu wanted a clear sound. Toma suggested the old bell because everyone knows it. Ren said that would bring the town's attention to the fault. Between them, the suggestion became an agreement before anyone asked the route keeper.
 
 You arrive while Riku is inspecting the repaired door. A cord has been run from the bell's harmless outer signal handle to the rehearsal space. Nobody has opened the mechanism, but the borrowed signal is still part of something people depend on.
 
@@ -103,9 +103,9 @@ Ren asks whether naming the mistake publicly would teach people the wrong signal
 
 daichi|Then direct contact happens either way. What we choose is how much of the account belongs in the public afternoon.
 
-Toma has been invited to listen, not to defend the adults. He says he would like people to know he was not in charge. Yuzu promises that will be explicit. Riku asks them to write the new check procedure down before telling anyone it exists.
+Toma has been invited to listen, not to defend the adults. He says he would like people to know he was not in charge. Yuzu promises that will be explicit. Riku wants the new check procedure on paper before anyone tells people it exists.
 
-You help list it: ask the route keeper, keep civic signals distinct, name who approves props, check before public use. It sounds ordinary. It would have prevented this entire afternoon.
+You read its steps aloud: ask the route keeper, keep civic signals distinct, name who approves props, check before public use. It sounds ordinary. It would have prevented this entire afternoon.
 
 you|Could we admit we confused an attractive idea with a checked idea?
 
@@ -120,7 +120,7 @@ ren|We seem to have acquired a different ending. Let's make it a real one.
 scene(4,6,"The afternoon still happens","hall",`
 The public afternoon begins with a different sound: Ren tapping a wooden spoon on an empty tin. It is unmistakably unimportant. Yuzu bows to it as the newly appointed ceremony official.
 
-The correction is delivered as agreed. The hall names its mistake and its new check. A neighbor asks whether they can trust future signals. Sora explains which signal remains in service and who is investigating it. She says the hall's announcement will never use it again.
+A neighbor who heard the correction asks whether they can trust future signals. Sora explains which signal remains in service and who is investigating it. She says the hall's announcement will never use it again.
 
 No applause follows the explanation. That is reasonable. The neighbor nods and goes to the chair with arms.
 
@@ -128,7 +128,7 @@ Emi's sign makes the repair boundary easy to understand. Riku speaks about the w
 
 Akari and Ren demonstrate a slow exchange with their agreed stopping signal visible. Halfway through, Ren stops because a visitor has moved near the marked area. Akari thanks him, adjusts the audience boundary, and starts again. The pause becomes more useful than the polished sequence would have been.
 
-You guide two visitors toward the welcome corner. You do not correct their stances or explain a technique as though you were qualified to teach it. When one asks, you fetch Daichi. He answers, and later thanks you for knowing which question belonged to someone else.
+You guide two more visitors toward the welcome corner. You do not correct their stances or explain a technique as though you were qualified to teach it. Later, Daichi thanks you for knowing which questions belonged to someone else.
 
 Toma operates the tin once at the end, with extravagant solemnity. Ren hands him a piece of bread. Nobody calls him a future prodigy.
 
@@ -136,6 +136,6 @@ When the room empties, Yuzu sits beside you on the step.
 
 yuzu|I wanted the afternoon to feel effortless. Funny how much better it went once we admitted it needed effort.
 
-She folds a paper moth, unfolds it to fix an uneven wing, and folds it again. You help stack chairs. The hall has had a good day that includes something it did badly. For the first time, that combination feels possible.
+She folds a paper moth, unfolds it to fix an uneven wing, and folds it again. You help stack chairs. The hall has had a good day that includes something it did badly.
 `),
 ];

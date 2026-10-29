@@ -75,7 +75,7 @@ Ren carries over a chair. Shigure thanks him and checks whether taking it leaves
 
 shigure~amused|The comfortable chair has more important work. I can tolerate a stool while discussing furniture.
 
-You have expected an offer to feel like a stranger walking into the room and telling it what it lacks. This stranger already knows several things the hall needs. That makes you pay attention before the papers have even been unfolded.
+You expected an offer to feel like a stranger walking into the room and telling it what it lacks. This stranger already knows several things the hall needs. That makes you pay attention before the papers have even been unfolded.
 `),pick("month:proposal-question","Shigure asks what you would like clarified as a beginner here.",[
  {id:"room",label:"Ask whether visitors could still come without joining.",speaker:"shigure",text:"That should be possible. I can mark it as an explicit condition, rather than rely on everyone remembering that I said it.",memory:"The written questions include ordinary visitor access."},
  {id:"practice",label:"Ask who could change your beginner practice plan.",speaker:"shigure",text:"The network would set minimum requirements. Who can adapt them, and how, needs a clearer answer in the terms. It's a fair question.",memory:"The written questions include authority over beginner plans."}
@@ -139,7 +139,7 @@ sora|It settles what that batch of copies says. We can keep that without asking 
 
 She writes three headings: found, reported, unanswered. Under the last, she puts the page number. Under reported, she puts the shopkeeper's memory of the third bell note and the uncertainty about when it became difficult to hear.
 
-Toma stops outside with a parcel. He repeats a complaint he heard from the lower river and then, when Sora asks, admits he does not know the speakers' names. She thanks him for the distinction. He seems relieved that correcting his own story has not made it useless.
+Toma comes back past the shop with his empty parcel bag. He wants to know whether his lower-river complaint is now written down as true. Sora shows him the line: reported, speakers unknown. He seems relieved that correcting his own story has not made it useless.
 
 toma~concerned|I wasn't trying to make it sound more official.
 
@@ -150,7 +150,7 @@ The old bell sounds while you are packing the map. Two notes. You have heard the
  {id:"unknown",label:"'Not found in this copy.'",speaker:"sora",text:"Accurate. It doesn't claim there is no copy anywhere else.",memory:"The note records exactly what this copy lacks."},
  {id:"next",label:"'Ask the archive which copy to check next.'",speaker:"sora",text:"A useful next step. I'll put it under unanswered, with a date to request it.",memory:"The note includes a specific archive request."}
  ]),...part("Scene four · carrying an unfinished thing","courtyard",`
-On the way back, Sora holds the map sleeve under her arm where rain cannot reach it. She tells you she used to carry route records as a courier. You ask whether carrying something meant understanding it.
+On the way back, Sora holds the map sleeve under her arm where rain cannot reach it. You ask whether carrying those route records as a courier meant understanding them.
 
 sora~concerned|Sometimes it meant understanding only the address. I used to find that easier than I do now.
 
@@ -249,7 +249,7 @@ The bell keeper has marked a listening point in the courtyard. Akari checks that
 
 Sora asks whether you would like to note the order of the sounds. You can decline and simply watch. You choose the notebook, and she shows you what to write: time, number of notes, anything you actually heard. No explanation has to be invented to make the line look complete.
 
-Ren stands beside Akari. He asks her to repeat the stopping signal before they begin. She does. Their short exchange belongs to trained adults checking a fictional piece of town infrastructure. Your own beginner practice has already ended and asks for no extra work here.
+Ren stands beside Akari. He asks her to repeat the stopping signal before they begin. She does. Their short exchange is part of a check on town equipment, run by trained adults. Your own beginner practice has already ended and asks for no extra work here.
 `),pick("month:bell-note","What would make the listening note easiest to read afterward?",[
  {id:"count",label:"Number each check and leave room for the notes heard.",speaker:"sora",text:"Yes. A blank field can stay blank. We'll know which check it belongs to.",memory:"Your record numbers each listening check."},
  {id:"time",label:"Put the time first, then the exact sound count.",speaker:"riku",text:"Useful. I can match it to the keeper's record without guessing which attempt we're discussing.",memory:"Your record ties each sound count to a time."}
@@ -281,7 +281,7 @@ By the gate, Akari checks tomorrow's list. She moves one unnecessary task to ano
 
 akari|The town review happens when the preparations reach it. We don't improve this result by treating every quiet hour as a failure.
 
-The arrow Ren painted points inward. The old bell has still given two notes. One ordinary sign works better than it did. One older signal needs attention. Both facts can exist on the same visit.
+The arrow Ren painted points inward. The old bell has still given two notes. One ordinary sign works better than it did. One older signal needs attention.
 
 You go downhill with no equipment, no new rank, and the knowledge that a finding can be worth sharing before it has become a complete story. Behind you, Sora leaves the notebook open beside the map so the next person can see where the questions begin.
 `)]}
@@ -309,7 +309,7 @@ akari~amused|You are welcome.
 
 She puts the sign aside to dry. Your own practice has its usual place and its usual rests. The visitors can wait until it is finished. You are not required to impress Ren's brother, endorse a proposal, or solve the bell before beginning your ordinary movement work.
 
-On the shelf is the repaired case's empty space. By the door is the arrow somebody kept a promise to finish. You put your bag beside it, leaving room for whoever arrives next.
+On the shelf, someone has cleared a space for the travel case. By the door is the arrow Ren promised to finish, half done and drying. You put your bag beside it, leaving room for whoever arrives next.
 `)),
  opening(3,4,"The Page We Have",part("Opening · keeping the question visible","hall",`
 The map sleeve lies beside Shigure's proposal. Neither covers the other. Sora has marked the map as incomplete, and Akari has kept the repair estimate in sight of the funding terms.

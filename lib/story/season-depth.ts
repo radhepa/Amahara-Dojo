@@ -103,9 +103,9 @@ Akari is within hearing. She sits down, leaving the remaining cups where they ar
 
 akari|It would be information.
 
-Toma strikes the tin outside. The sound is too loud for the conversation. He peers through the door, sees the three of them, and muffles the next tap with his sleeve. Ren gives him a grateful nod.
+Outside, Toma drops the spoon against the tin. The clatter is too loud for the conversation. He peers through the door, sees the three of them, and holds the spoon still against his sleeve. Ren gives him a grateful nod.
 
-Emi returns the damaged sign. Tomorrow, she says, she can bring better string. It sounds like a promise she expects to keep.
+Emi returns the damaged sign. Tomorrow, she says, she can mend the torn corner. It sounds like a promise she expects to keep.
 `},
  "c1-e5-b6":{anchor:"You finish your own gentle",script:`
 Natsume asks Daichi for a short partner set before she leaves. He works with an experienced visitor while she watches from the edge. You expect the largest person in the room to look powerful. Instead he seems inconveniently difficult to move.
@@ -141,7 +141,7 @@ For a little while the hall sounds nothing like a place waiting for an important
 
 daichi|I'd like to. He hasn't invited me.
 
-She nods. Across the table, the blue bowl catches the lamplight. Daichi turns it so the chip faces him. He can say his friend's name now, but the distance beyond it remains.
+She nods. Across the table, the blue bowl catches the lamplight. Daichi turns it a little toward himself. He can say his friend's name now, but the distance beyond it remains.
 
 Yuzu's bag rests by the door. She finds you looking and promises to bring back a tune. Ren asks whether it will have fewer notes. She promises nothing.
 

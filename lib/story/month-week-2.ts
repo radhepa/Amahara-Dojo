@@ -49,7 +49,7 @@ sora~amused|Different gate?
 
 toma|Different gate. That is considerably less interesting.
 
-The parcel contains a pack of appointment cards. Each has a space for a time and a name, and too little space for Ren's preferred welcome message. Akari gives Ren one to test. He uses both sides. She slides him a second and points to the blank time field.
+The parcel contains the rest of the appointment cards. Each has a space for a time and a name, and too little space for Ren's preferred welcome message. Akari gives Ren one to test. He uses both sides. She slides him a second and points to the blank time field.
 
 ren|The front is for arriving. The back is for my ambitious literary career. I understand.
 
@@ -81,7 +81,7 @@ you|Have you worked here before?
 
 mika|With Daichi, yes. In a room containing this much labeled furniture, no. I am looking forward to seeing which labels survive use.
 
-She is forty-two, and her laugh makes Daichi's unfinished offer turn into a laugh too. Nothing about the familiarity makes her timetable less real. She takes out a folded calendar with two villages marked in the margins. The hall is one part of her week, beside other places that also expect her to arrive.
+She is forty-two. When she laughs, Daichi's unfinished offer turns into a laugh too. Nothing about the familiarity makes her timetable less real. She takes out a folded calendar with two villages marked in the margins. The hall is one part of her week, beside other places that also expect her to arrive.
 
 You lift the appointment cards so she can see their size. She tests whether the time is readable from the opposite side of the table. Ren offers his best large handwriting. Sora offers a ruler. Mika takes the ruler and asks Ren to write an ordinary number.
 `),pick("month:privacy","What would help you understand the appointment room before entering?",[
@@ -163,7 +163,7 @@ He folds it once. You ask whether four is a guess. He looks at the trays, adds t
  {id:"exact",label:"Give Akari the note exactly as it is.",speaker:"ren",text:"Please. I wrote the part I meant. You don't need to turn it into a kinder story on the walk.",memory:"You carry Ren's own words."},
  {id:"question",label:"Ask if there's anything else Akari needs to know.",speaker:"ren",text:"Tell her the pads are still by the washroom. That's useful. You can leave my tragic battle with the clock out of it.",expression:"amused",memory:"You carry the note and the location of the pads."}
  ]),...part("Scene four · a smaller basket","town",`
-The basket by the door is too full for one easy trip. Ren removes two loaves and writes a second delivery time. He asks the bakery owner whether that fits before returning to you.
+The basket by the door is too full for one easy trip. Ren removes two loaves and writes a second delivery time. The bakery owner, back from her appointment, agrees that it fits before he returns to you.
 
 ren|I keep trying to make the size of my arms into a scheduling method.
 
@@ -204,12 +204,12 @@ akari|Then the count is not enough. We need to make the route readable too.
 
 She gives you a piece of paper and asks where a visitor would look first. The hall knows what every object means. A person arriving does not. Yuzu turns the tea tray slightly so its handles are reachable from the clear side. Daichi takes his coat off the chair with arms.
 
-Ren arrives while you are still moving things. He looks at Akari, ready to explain. She points to the note and thanks him for the time. He says he is sorry anyway. She accepts it. Both parts fit in the same exchange.
+Ren helps you shift the last chair. He glances at Akari as if another apology is waiting. She nods at his note, still on top of the pads. He lets the apology go.
 `),pick("month:capacity","How should the seat count appear at the entrance?",[
  {id:"number",label:"A plain number, with the next available time below it.",speaker:"akari",text:"Clear. When we're full, we can point to something useful instead of apologizing vaguely.",memory:"The entrance shows the seat count and next time."},
  {id:"cards",label:"Move a small card for each available seat.",speaker:"sora",text:"That will show the change. I'll write the number as well, so no one has to understand our little system before coming in.",memory:"Sora makes a seat board with movable cards."}
  ]),...part("Scene four · one assigned job","hall",`
-Ren chooses refreshments and looks at the demonstration list for long enough that Yuzu pulls the bread tally underneath his gaze.
+Ren, now in charge of refreshments, looks at the demonstration list for long enough that Yuzu pulls the bread tally underneath his gaze.
 
 yuzu~amused|Your kingdom, with loaf boundaries clearly marked.
 
@@ -288,9 +288,9 @@ akari~amused|You had an entire circle. I have achieved a corner.
 
 Their hands meet briefly over the card. Neither turns it into a joke for the room. Ren holds the sign steady while she adjusts the pin. When it is done, they each continue the job they were already doing.
 
-Yuzu has a paper moth in her pocket. She puts it on the side of the notice board, clear of the information. It moves whenever the door opens. You watch it mark the first visitor's arrival without needing to be a signal anyone must interpret.
+Yuzu has a paper moth in her pocket. She puts it on the side of the notice board, clear of the information. It moves whenever the door opens. It flutters when the first visitor arrives, and nobody has to treat that as a signal.
 `)],after:[...part("Scene three · a promise small enough to keep","hall",`
-When the last visitor leaves, Ren counts the trays and puts the remaining bread into a covered container. He does not ask whether everybody enjoyed him. He asks whether they ran out when the tally said they would.
+Later, Ren counts the trays and puts the remaining bread into a covered container. He does not ask whether everybody enjoyed him. He asks whether they ran out when the tally said they would.
 
 sora|Approximately. One person took two pieces. Another took none. Your calculations have survived the public.
 
@@ -360,11 +360,11 @@ Sora has put an empty sheet beside them. Akari has written the number of availab
 
 yuzu~amused|Behold our least glamorous shared achievement. A path where somebody can actually walk.
 
-Ren's note is tucked under the appointment list. You remember carrying it from the bakery: a time, a reason, and a promise small enough to finish. The room has to learn the same trick, even if it prefers writing generous invitations.
+Ren's note is still folded in your pocket. You remember carrying it up from the bakery: a time, a reason, and a promise small enough to finish. The room has to learn the same trick, even if it prefers writing generous invitations.
 
-akari~concerned|We have all promised a version of this afternoon. That doesn't make Ren the only person who has to change one.
+akari~concerned|Every invitation in that pile promises a different afternoon. They can't all be the real one.
 
-She puts her own invitation on the pile first. Nobody celebrates the admission. It makes the work easier to begin, which is enough.
+She squares the pile without reading any of them aloud. Nobody has to defend their own yet. That makes the work easier to begin, which is enough.
 
 Daichi suggests waiting until after practice to count the chairs together. The list does not need to consume the time you came here to use. He turns it face down so it can wait without pretending it has vanished.
 

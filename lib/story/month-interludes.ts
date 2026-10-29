@@ -28,7 +28,7 @@ you|Does every little thing here become a discussion?
 
 sora~amused|Mostly the things somebody puts in a doorway.
 
-Ren lifts his basket out of the doorway. You had not noticed it there either. The four of you laugh at the same small oversight, then the room returns to work. Nobody needs to make the laugh into a lesson before it is allowed to be pleasant.
+Ren lifts his basket out of the doorway. You had not noticed it there either. The four of you laugh at the same small oversight, then the room returns to work.
 
 The cards are ready. The laundry is drying. Outside, footsteps pause near the gate. The first visitor of the day has brought something to deliver, and an expectation that somebody inside knows who can sign for it.
 `,
@@ -109,7 +109,7 @@ She moves it outside the door's arc. You try the entrance again. Daichi sits in 
 
 Yuzu has added an arrow to the washroom sign. It is small and helpful. Ren's earlier arrow wandered through the room; this one reaches its destination directly. She says she learned from an accomplished experimental artist.
 
-Ren is not there to answer the joke. She leaves it as a passing observation instead of preparing it for his arrival. You realize the room's humor keeps working because a joke is not always a debt somebody else must pay.
+Ren is not there to answer the joke. She leaves it as a passing observation instead of preparing it for his arrival. You realize the room's humor keeps working because nobody is obliged to answer every joke.
 
 Toma reads the crowded sheet and asks whether an annoyed neighbor can have the star transferred into a time. Daichi explains the next actual time available. Toma writes it down and takes the requester's name out of the margin.
 
@@ -178,7 +178,7 @@ haru~amused|You gave me instructions. I followed them. It has produced an unfair
 
 Akari asks whether the brothers want a short exchange or would rather visit first. They choose the exchange. She asks them to agree on contact and duration before clearing the space. Haru starts to give Cedar School's usual version, then turns to Ren and asks what would fit here.
 
-Ren chooses something shorter. Haru agrees without adding that he could do more. They check the stop together. You sit beyond the marked space with Yuzu, who has pinned the case's loose strap underneath its own handle so it cannot catch someone's foot.
+Ren chooses something shorter. Haru agrees without adding that he could do more. They check the stop together. You sit beyond the marked space with Yuzu, who keeps an eye on the case's loose strap so it cannot catch anyone's foot.
 
 you|Have you watched them together before?
 
@@ -292,7 +292,7 @@ Sora thanks you. She does not say you have discovered something she could never 
 
 Akari's voice comes from the courtyard. She is asking Riku where the next measurement begins. You can hear the answer clearly: at the brace, not at the wall. Sora looks toward the sound and rests her pen on the cards.
 
-sora|It is easier to share the incomplete thing when somebody else has already made room for an unfinished answer.
+sora|It is easier to share something unfinished once someone else has gone first.
 
 you|Do you want to wait until that conversation ends?
 
@@ -309,21 +309,21 @@ When Akari's outside conversation ends, Sora looks at the two cards. You are rea
  "3-6":`
 The keeper begins with an ordinary equipment inspection. Akari reads the current boundary aloud. Riku confirms that no visitor task includes the mechanism. Sora puts the listening note where you can reach it from your chair.
 
-Ren and Akari take the controlled position the keeper has requested. The fictional route check depends on experienced partners stopping together, with the keeper watching the equipment. It is separate from anything in your beginner plan. You have a clear view without being inside the check space.
+Ren and Akari take the controlled position the keeper has requested. The route check depends on experienced partners stopping together, with the keeper watching the equipment. It is separate from anything in your beginner plan. You have a clear view without being inside the check space.
 
-At the first request they make a short, restrained movement and settle. A faint vibration lasts through the timber. The keeper asks them to stop. They do, before trying a second version to make the sound more satisfying.
+At the first request they make a short, restrained movement and settle. A faint vibration lasts through the timber. The keeper asks them to stop. They stop at once, without trying a second version to make the sound more satisfying.
 
 The bell gives two notes. You write the count. It is tempting to write 'failed' beside it because a third was expected. Sora asks whether you heard a failure or two notes. You leave the count alone and put the expectation in the separate field.
 
 Ren asks the keeper if another attempt is useful. The answer is no for now. He lowers his hands and steps out after Akari has confirmed the space is clear. He seems disappointed, but nobody asks him to convert the disappointment into more effort.
 
-Haru is watching from the other side of the visitor area. He has brought the reply about a possible equipment loan, still marked as pending details. He waits until the signal check is complete before giving it to Ren. One useful task does not have to compete with another to be remembered.
+Haru is watching from the other side of the visitor area. He has brought the reply about a possible equipment loan, still marked as pending details. He waits until the signal check is complete before giving it to Ren.
 
 Daichi listens while the keeper checks the bell's ordinary striker. He asks where the absent third note would originate if the striker is sound. The keeper points to the route diagram and says that the incomplete part limits the answer.
 
 You can see the missing page field on Sora's note without seeing any secret instruction in it. The blank is a reason to seek a better record. It is not an invitation for the least experienced person in the room to try something dramatic.
 
-Akari asks the keeper to explain the count before anybody writes a notice. Riku checks your times against the equipment log. There is enough information for a limited, accurate report. The room leaves the larger explanation to work it has not done yet.
+Akari asks the keeper to explain the count before anybody writes a notice. Riku checks your times against the equipment log. There is enough information for a limited, accurate report. The larger explanation will have to wait for work nobody has done yet.
 `,
  "4-1":`
 Emi looks at the available chair and asks where her coat should go. Daichi points to the hooks and lets her keep her notebook with her. Ren begins to offer a tour of every project. She asks whether they can start with the part she would need today.
@@ -426,7 +426,7 @@ sora|Keep the intention only if it explains the choice. It can't replace the cor
 
 He changes the line. Yuzu reads the new version and asks to name the cord plainly. A listener who saw it should not have to decide whether 'temporary announcement arrangement' means the object they remember.
 
-Riku confirms the equipment facts. He signs the new prop-check procedure under the part he can verify. The keeper will sign the civic instruction. Akari will keep the visitor announcement separate. The page assigns actual responsibilities instead of giving everybody the comforting same duty.
+Riku confirms the equipment facts. He signs the new prop-check procedure under the part he can verify. The keeper will sign the civic instruction. Akari will keep the visitor announcement separate. The page assigns actual responsibilities instead of giving everybody the same comforting duty.
 
 Toma reads his own line twice. He asks whether it has to include his age. Akari says it can simply say he was not responsible for approving the equipment. The adults' duty does not depend on making him seem younger in the story.
 
@@ -447,7 +447,7 @@ Ren folds the copy intended for the first household. Akari keeps the other flat.
 There is enough information now to choose the public afternoon's version. Nobody will avoid the affected people by choosing a speech, and nobody will hide the new procedure by choosing direct repair. The decision is about how trust is repaired in a real room, with people who do not all want the same kind of conversation.
 `,
  "4-6":`
-Before the main demonstration, one visitor asks whether you will be performing too. You say you are a beginner and will be helping with the visitor route. They ask what practice here has been like. You describe the time, the support options, and the way you can take rests without making the story disappear.
+Before the main demonstration, one visitor asks whether you will be performing too. You say you are a beginner and will be helping with the visitor route. They ask what practice here has been like. You describe the time, the support options, and the way you can take rests without losing your place.
 
 You do not turn your experience into a prescription for their body. When they ask which movement they should start with, you point them toward Daichi and the written beginner information. Daichi takes the question without adding you as an assistant instructor.
 

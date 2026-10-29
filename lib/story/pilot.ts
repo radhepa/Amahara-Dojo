@@ -137,7 +137,7 @@ Ren clears the tools from half the table. Akari notices him making two piles, on
 
 You put the plan beside your cup. For a moment the room has a place where your next visit already fits.
 
-The afternoon light has shifted when you go back inside. The chair you used is still in the same place. Your things are still underneath it. You expected someone to have put the room back in order around your absence; instead it has retained one small trace of you.
+The afternoon light has shifted while you worked. The chair you used earlier is still in the same place, with your things underneath it. You expected someone to have tidied the room around you; instead it has kept one small trace of you.
 
 Akari fixes the invitation to the board with a single pin. She reads it standing back, moves the pin half an inch, and catches Ren watching. He raises his hands in surrender without saying anything. She leaves it where it is.
 
@@ -341,7 +341,7 @@ riku|It has two. Neither is useful to people carrying hot tea.
 
 Ren appears from the hall with hot tea, reads the board, and retreats three steps. The man takes his cup only after winding the tape away. He drinks with one hand and keeps the pencil in the other.
 
-Ren introduces Riku as the person who will save the hall. Riku asks him to reduce the estimate to replacing joists. Ren says he was trying to express confidence. Riku says confidence cannot fit through the sticking door either.
+Ren starts to introduce him as Riku, the carpenter. Riku points at the tape, and Ren decides the rest of the introduction can wait until the measurement is finished.
 
 The timber smells sharp and fresh. Beside it, the old board removed from the floor has a dark crack along its underside. The top looks almost ordinary. Riku turns it over so you can see the difference.
 
@@ -351,7 +351,7 @@ He is not addressing a class. He is answering the question he saw in your face. 
 `),
 ...original(3).filter(l=>!["daichi","yuzu"].includes(l.speaker)&&!l.text.includes("Yuzu")&&!l.text.includes("Daichi")),
 ...section("Scene two · An end to hold","courtyard",`
-Riku needs someone to hold the tape at a marked point while he checks a diagonal. Ren offers, but Riku asks him to carry the cleared boards to the stack instead. He asks you whether you can hold the end steady. He shows you the mark and waits until you repeat which edge he means.
+Riku needs the tape held again, this time at a marked point while he checks a diagonal. Ren offers, but Riku asks him to carry the cleared boards to the stack instead. He asks you whether you can hold the end steady. He shows you the mark and waits until you repeat which edge he means.
 
 The tape pulls harder than you expect. You shift your stance instead of bracing your arm. Riku tells you the number, asks for a second reading, and writes both. They match. He does not announce that you have discovered a hidden aptitude. He asks whether you can keep holding it for the next measurement.
 
@@ -451,13 +451,13 @@ The bell does not ring before you leave. You find yourself listening anyway.
 `)]),
 episode(4,"A Place for the Kettle",[
 ...section("Cold open · The handle","hall",`
-The kettle comes apart in a man's hands before it has any water in it. He looks at the handle, then at the kettle, then at the folded towel protecting the table beneath them.
+The kettle comes apart in Daichi's hands before it has any water in it. He looks at the handle, then at the kettle, then at the folded towel protecting the table beneath them.
 
 daichi|I hoped checking it would improve the answer.
 
-Ren arrives from the kitchen with an expression of profound betrayal. He says tea was supposed to be the reliable part of the morning. The man says it still can be; they simply need a vessel that wishes to remain one object.
+Ren arrives from the kitchen with an expression of profound betrayal. He says tea was supposed to be the reliable part of the morning. Daichi says it still can be; they simply need a vessel that wishes to remain one object.
 
-Akari brings the repair list. There is a date beside the kettle that has been crossed out twice. She does not read either date aloud. The man looks at them anyway.
+Akari brings the repair list. There is a date beside the kettle that has been crossed out twice. She does not read either date aloud. Daichi looks at them anyway.
 
 daichi|I kept finding a more urgent thing. That was true each time. Apparently it wasn't a plan.
 
@@ -739,7 +739,7 @@ decision("pilot:meal-ren","Ren offers you the bread basket. “Ready to bring th
 ...section("Scene five · The table learns a shape","hall",`
 The table wobbles. Riku puts a folded scrap beneath its leg, tests it, and sits down. Yuzu says this is his shortest repair estimate yet. He says it is a temporary measure and would appreciate not being quoted at the town review.
 
-Daichi starts handing out bowls. There are enough. The blue bowl stays on the shelf. You see Akari notice it, then turn toward the person holding out an ordinary chipped one. She asks for more soup rather than asking why this is the evening nobody has chosen to explain it.
+Daichi starts handing out bowls. There are enough. The blue bowl stays on the shelf. You see Akari notice it, then turn toward the person holding out an ordinary chipped one. She asks for more soup rather than asking why nobody has explained it yet.
 
 Sora puts her notebook under the bench. Ren asks whether that means they are allowed to forget the map until tomorrow. She says no; it means she can eat without keeping her finger on the unresolved place.
 
@@ -755,7 +755,7 @@ Daichi asks Riku whether he can come next week. Riku says he can come one aftern
 
 The table does not become a picture of perfect people. Ren interrupts Sora once and apologizes. Akari moves a bowl without asking, then moves her own instead. Yuzu makes a joke Riku does not like and lets it end. Daichi offers someone seconds before remembering he has not finished his first helping.
 
-You can recognize them better because the meal has room for these minor failures. Nobody has to turn each one into a story lesson before continuing.
+You can recognize them better because the meal has room for these minor failures. Nobody has to turn each one into a lesson before continuing.
 `),
 decision("pilot:meal-place","Daichi asks what part of the week you want to return to. You can answer in your own way.",[
 ["curious","The map. I still want to know why the route stops there.","sora","So do I. The request is on the board. When we have another fact, you can look with us."],
@@ -857,7 +857,7 @@ She shows you the back of the cloth. There is a stain near the repaired corner. 
 
 You help hold the cloth while she checks whether it fits the narrow bench. It does, if the birds face sideways. She lays it there and steps back. From the gate, it looks like a scrap of summer caught in the shade.
 
-Ren leans out of the doorway and asks whether she has seen the kettle towel. She says it is on the table. He asks which table. She looks at you, then at the cloth, then toward the room where the furniture has become a network of unfinished intentions.
+Ren leans out of the doorway and asks whether she has seen the kettle towel. She says it is on the table. He asks which table. She looks at you, then at the cloth, then toward the room, where half the furniture is still waiting for someone to decide where it goes.
 
 She goes inside to find it. You stay with the birds. One has a wing made from the green repair thread. Whoever fixed the cloth allowed the repair to become part of the pattern.
 

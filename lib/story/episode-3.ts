@@ -1,17 +1,17 @@
 import {scene,reply} from "./types";
 export const EPISODE_3=[
 scene(3,1,"An older brother's distance","courtyard",`
-Haru arrives carrying Ren's old travel case. The two brothers embrace with the particular awkwardness of people who want it to look casual and have missed each other too much for that.
+Ren's old travel case sits by the wall where Haru put it. The brothers keep greeting each other in small ways, with the particular awkwardness of people who want it to look casual and have missed each other too much for that.
 
 haru|Mother found this under the stairs. She says your belongings are not a distributed storage system.
 
 ren|Then why did she distribute them?
 
-Haru laughs, then notices the repair boundary and begins asking technical questions. Ren answers two and lets Riku answer the third. You are introduced as the new apprentice. Haru asks what you are working on, listens, and does not offer you a dramatic challenge.
+Haru laughs, then notices the repair boundary and begins asking technical questions. Ren answers two and lets Riku answer the third. Ren calls you the new apprentice. Haru asks what you are working on, listens, and does not offer you a dramatic challenge.
 
-haru|Good. Learn from someone who can see you. A movement can feel settled and still have something worth correcting.
+haru|Good. Check what you can see as well as what you feel. A movement can feel settled and still have something worth correcting.
 
-Ren invites Haru to a light exchange with Akari holding the space. They agree on touch contact and short rounds. Haru moves less than you expected. Ren's first rush does not reach him; his next attempt is slower and better placed.
+A light exchange begins, with Akari holding the space: touch contact, short rounds. Haru moves less than you expected. Ren's first rush does not reach him; his next attempt is slower and better placed.
 
 akari|Stop. What changed between those attempts?
 
@@ -55,7 +55,7 @@ yuzu|It would be convenient if difficult decisions came with an obviously unplea
 Daichi does not laugh. He is reading the line about demonstrations a second time.
 `),
 scene(3,3,"The map beneath the errands","town",`
-Sora asks you to help find an old town map. The shopkeeper has put it under calendars that expired five years ago. You carry the calendars to another shelf while Sora reads the index.
+The shopkeeper had put the old town map under calendars that expired five years ago. You carry the last of them to another shelf while Sora reads the index.
 
 sora|A very thorough record of when we should have bought a new calendar.
 

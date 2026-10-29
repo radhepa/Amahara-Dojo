@@ -8,13 +8,13 @@ ren~amused|Emi. We met at the stationery shop. I bought the paper that proved to
 
 emi~amused|You bought three sizes. The problem survived all of them.
 
-She has a notebook tucked beneath her arm. She tells you she is twenty and works at the shop. Her fingers are stained with the same blue ink as the appointment cards. She asks whether she is early. Sora checks the actual time before saying no.
+She has a notebook tucked beneath her arm. She tells you she is twenty. Her fingers are stained with the same blue ink as the appointment cards. She asks whether she is early. Sora checks the actual time before saying no.
 `),recall("access","open","emi","I came for the open time. My friend is looking at the street stalls; I said I'd meet her afterward. Is it all right if I just watch for now?","concerned"),recall("access","quiet","emi","I booked this time because I'd rather ask before the room fills. I brought several questions, and now they all seem slightly ridiculous.","concerned"),recall("month:invite","look","emi","The line about looking around helped. I wasn't ready to agree to anything when I read it."),recall("month:invite","ask","emi","You wrote that ordinary questions were welcome. I thought I should take the invitation literally."),...part("Scene one · continued","hall",`
 You point out the washroom before she has to ask. The practical information seems to help more than Ren's first enthusiastic description of the hall. He notices, shortens the description, and asks whether she wants a seat by the door or one with a view of the practice space.
 
 Emi chooses the view, then asks if the door seat will remain available. Daichi says it will. She puts her notebook down beside the chosen chair, keeping her own place without claiming the whole row.
 `),pick("month:emi-welcome","Emi asks what helped you on your first visit.",[
- {id:"practical",label:"Knowing where things were and what I could decline.",speaker:"emi",text:"That sounds useful. Could you show me the boundary before the rest? I'd like to understand the room before being interesting in it.",memory:"You give Emi a practical first tour."},
+ {id:"practical",label:"Knowing where things were and what I could decline.",speaker:"emi",text:"That sounds useful. Could you show me the boundary before the rest? I'd like to understand the room before anyone finds me interesting in it.",memory:"You give Emi a practical first tour."},
  {id:"ordinary",label:"An ordinary conversation that didn't feel like an interview.",speaker:"emi",text:"Then perhaps you can tell me whether the tea is always that hot. I have already answered my own question, unfortunately.",expression:"amused",memory:"You start with ordinary conversation beside Emi."}
  ])],after:[...part("Scene three · a first visit can finish","hall",`
 After the demonstration, Emi turns her notebook sideways and checks the date she wrote. You do not lean in to read the empty line underneath it.
@@ -34,7 +34,7 @@ Emi watches him fold a wrap twice because the first version trapped its loose en
  {id:"contact",label:"Point to the actual contact and available times.",speaker:"emi",text:"Good. Then I can choose at home instead of saying yes because everybody is looking at me.",memory:"Emi takes the visit times home."},
  {id:"card",label:"Offer a blank request card she can take away.",speaker:"sora",text:"I'll leave the time empty until Emi chooses one. A card is a way to ask, not a booking made on her behalf.",memory:"Emi takes a blank request card."}
  ]),...part("Scene four · nobody grades the doorway","courtyard",`
-Yuzu gives Emi a paper moth for the notebook. Emi asks if accepting it means anything. Yuzu says it means she is now responsible for keeping a very small moth reasonably flat. Emi accepts that precise obligation.
+Yuzu's paper moth is still tucked into the notebook. Emi asks if keeping it means anything. Yuzu says it means she is now responsible for keeping a very small moth reasonably flat. Emi accepts that precise obligation.
 
 At the gate, she pauses over the sign once more. She asks whether the public afternoon will include people who only want to see the repair work. Riku says yes, and offers to answer their questions himself. She says she might help with lettering if there is something small that actually needs doing.
 
@@ -55,12 +55,12 @@ riku~determined|The door took three people and a measurement that changed twice.
 
 Ren reads the metaphor. It is, even to him, an ambitious use of a hinge. He crosses it out. Riku does not gloat. He starts writing a sentence that someone who has never repaired a door could understand.
 
-You are given the timer. Your task is to mark the allotted speaking time. Nobody asks you to demonstrate a technique or extend your workout to make the event more impressive.
+You are given the timer. Your task is to mark the allotted speaking time, nothing more.
 `),pick("month:timer","How should you signal that a speaking turn is ending?",[
  {id:"card",label:"Lift a visible card before the limit.",speaker:"ren",text:"A card. Good. I can notice it before my sentence grows another branch.",expression:"amused",memory:"The rehearsal uses your raised card."},
  {id:"word",label:"Say 'last sentence' at the agreed point.",speaker:"akari",text:"Clear. We'll agree to stop without making you negotiate each person's final paragraph.",memory:"The rehearsal uses your spoken 'last sentence'."}
  ])],after:[...part("Scene three · the repair gets its sentence","courtyard",`
-Riku tries his explanation again. This time he says what was wrong with the door, what changed, and what remains closed. You can follow all three parts. Ren asks if he can include the joke about the hinge now. Riku says after the explanation, if it still fits.
+Now Riku's explanation says what was wrong with the door, what changed, and what remains closed. You can follow all three parts. Ren asks if he can include the joke about the hinge now. Riku says after the explanation, if it still fits.
 
 It does not fit. Ren leaves it out. The world suffers no apparent shortage of jokes about doors.
 
@@ -115,7 +115,7 @@ akari~amused|An extremely attractive one.
 
 Yuzu lets the joke end there. She does not repeat it until the admission becomes something Akari regrets making.
 
-Sora's archive reply arrives while the paint is drying. It says the records are temporarily unavailable pending review. Emi is not asked to analyze it. Sora tells Akari what it actually says and shows her the unanswered request for who can authorize access. The lettering job remains a lettering job beside the larger unresolved question.
+While the paint dries, Sora clips the archive reply to her follow-up request. Emi is not asked to analyze it. The lettering job remains a lettering job beside the larger unresolved question.
 `),recall("month:archive","card","sora","The dated card stays with the reply. I'll add the next request beside it rather than silently extending the old one."),recall("month:archive","board","sora","I've updated the task board with the reply and next request. The unanswered part won't disappear just because today's task is checked."),pick("month:patch","Akari offers a little patterned scrap for a bookmark. Which would you take?",[
  {id:"blue",label:"The blue flowers.",speaker:"akari",text:"Good choice. I will have to admit I kept enough of that fabric for more than repairs.",expression:"amused",memory:"Akari puts aside a blue-flowered bookmark."},
  {id:"stripe",label:"The striped piece.",speaker:"akari",text:"Here. The edge is already stitched. I liked how the lines changed when I folded it.",expression:"soft",memory:"Akari puts aside a striped bookmark."}
@@ -126,7 +126,7 @@ emi|I can bring string for the sign next time. Lettering and string. I am specif
 
 ren~amused|A wise precaution. My department already had an ambitious name.
 
-She smiles and leaves before he supplies it. Akari folds the remaining patterned cloth without hiding the flowers inside. You pick up the cups and leave the notebook space empty. Company has been useful without becoming a claim on what Emi wrote.
+She smiles and leaves before he supplies it. Akari folds the remaining patterned cloth without hiding the flowers inside. You pick up the cups and leave the notebook space empty.
 `)]},
  {before:[...part("Scene one · everything except an ending","courtyard",`
 The presentation has chairs, a readable sign, a clear boundary, and Ren's introduction reduced to a single page. Its ending is still under discussion. You leave your bag inside while the others carry cushions out.
@@ -234,13 +234,13 @@ Riku puts the repair diagrams away after the carpentry visitor leaves. He tells 
 
 Ren takes his unused introduction to the kitchen. He keeps the one sentence about bread. The rest goes into the paper scrap box. Yuzu removes the moth before the sheet is used for another note.
 
-Toma has made his agreed tap, with more solemnity than the tin can support. Nobody interpreted it as news about a route. Now he returns the spoon and asks for bread. Ren gives him a piece and checks whether he has a delivery to finish. He does not. For once, Toma can stay until he wants to go.
+Toma has made his agreed tap, with more solemnity than the tin can support. Nobody interpreted it as news about a route. Now he returns the spoon, still holding his bread. Ren checks whether he has a delivery to finish. He does not. For once, Toma can stay until he wants to go.
 `),recall("month:tin","end","toma","One tap. Presentation finished. I consider that an extremely successful announcement.","amused"),recall("month:tin","tea","toma","Tea ready. Nobody has asked whether the river is involved. Excellent equipment choice.","amused"),recall("month:patch","blue","akari","I finished the blue-flowered bookmark. It's on the table. That one was enjoyable from the start.","soft"),recall("month:patch","stripe","akari","The striped bookmark is on the table. I kept a piece for myself too.","soft"),...part("Scene five · one month, still beginning","courtyard",`
-You help stack the chairs after Emi leaves. Daichi keeps the one with arms near the door. The room does not return to the arrangement it had before its visitors; it has learned reasons for where some things go.
+The last chairs go back against the wall after Emi leaves. Daichi keeps the one with arms near the door. The room does not return to the arrangement it had before its visitors; it has learned reasons for where some things go.
 
 Akari brings the next review questions outside. The timber costs remain. The proposal remains unanswered. The archive still owes a clearer explanation. There is an inspector's visit to prepare for after the hall has reviewed what it has actually done.
 
-ren~concerned|Can we leave those until the next story day?
+ren~concerned|Can we leave those until tomorrow?
 
 akari~soft|Yes. Today is complete.
 

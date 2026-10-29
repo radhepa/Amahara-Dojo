@@ -110,7 +110,7 @@ Yuzu folds a paper moth for the table and places it beside the blue bowl. Its wi
 yuzu|For anyone arriving late. Including the future version of me who forgot a travel date and needs a stern reminder.
 
 The question waits in a room with enough food for more than five people. Outside, the sticking door has been repaired. Someone may knock. Someone may not. The hall needs a way to mean both welcome and we remember.
-`,{flag:"place",prompt:"What should the sixth place mean tonight?",options:[{id:"remember",label:"Keep an explicit place for Iori, and invite neighbors with additional bowls.",reply:reply("daichi","Then I'll say his name instead of leaving everyone to guess. The other places can be real invitations too. Thank you for letting both needs exist.","soft")},{id:"welcome",label:"Let whoever arrives use the blue bowl; remember Iori in the conversation.",reply:reply("mika","I'll invite the neighbor who needs dinner. Daichi can tell her whose bowl it is. A story can travel with a useful thing.","soft")}]}),
+`,{flag:"place",prompt:"What should the sixth place mean tonight?",options:[{id:"remember",label:"Keep an explicit place for Iori, and invite neighbors with additional bowls.",reply:reply("daichi","Then I'll say his name instead of leaving everyone to guess. The other places can be real invitations too. Thank you for not making me choose.","soft")},{id:"welcome",label:"Let whoever arrives use the blue bowl; remember Iori in the conversation.",reply:reply("mika","I'll invite the neighbor who needs dinner. Daichi can tell her whose bowl it is. A story can travel with a useful thing.","soft")}]}),
 scene(6,6,"Someone uses the bowl","hall",`
 The neighbor arrives apologizing for being late. Ren says the bread waited very patiently. Yuzu says Ren did not, and receives a bread heel for her accuracy.
 
@@ -122,7 +122,7 @@ Daichi says Iori would have liked Riku and irritated him immediately. Riku admit
 
 Haru takes the seat beside Ren. He compliments the bread with one specific observation about its crust. Ren does not turn it into a comparison with fighting. He explains how he gets that result, and Haru listens.
 
-Akari asks Yuzu whether she packed the repaired wrap. Yuzu says yes, then asks Akari if she chose the patterned patch. Akari admits she did. The table approves without making a ceremony of her enjoying something.
+Akari asks Yuzu whether she packed the repaired wrap. Yuzu says yes, with the patterned patch facing out. Akari looks pleased and does not pretend otherwise. The table approves without making a ceremony of her enjoying something.
 
 You notice that Mika has a seat before she offers help. Someone already set it for her. She leans back and lets the meal happen without managing it.
 

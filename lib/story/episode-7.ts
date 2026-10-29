@@ -97,7 +97,7 @@ The choice is about whose account the hall is willing to hear in front of people
 
 Ren places two versions beside the tin. Neither ends with a triumphal promise. Both include unresolved repair work and the route inquiry.
 
-You think about the first mat Yuzu cleared. You did not need to applaud it then. You may need to explain now why a place without an entrance demonstration mattered.
+You think about your first day, when somebody made room for you without asking you to prove anything. You did not need to applaud it then. You may need to explain now why that mattered.
 
 Akari waits without straightening the two pages into a perfect stack. They remain visibly separate options.
 `,{flag:"statement",prompt:"Whose account should anchor the review?",options:[{id:"founders",label:"Let the founders explain the responsibilities; include written visitor accounts.",reply:reply("akari","We'll read the visitors' words as written, including criticism. Responsibility can be ours without making every voice sound like mine.","determined")},{id:"community",label:"Let apprentices and neighbors speak alongside the founders, with a written option.",reply:reply("ren","I'll leave room for what isn't polished. You can speak, write, or decline your part. The room doesn't stop belonging to you either way.","soft")}]}),

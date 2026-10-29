@@ -133,7 +133,7 @@ You say the question matters even if its answer is unfinished. She taps the long
 
 sora|I know. I wanted to hear whether the reasoning changed outside my own head. It hasn't.
 
-She tells you she used to work as a courier. Reliable delivery was praised. Asking whether something should be delivered rarely was. Later, she treated withholding uncertain information as a correction to that old obedience.
+She tells you she used to work as a courier. Reliable delivery was praised. Asking whether something should be delivered rarely was. Later, she began holding back uncertain information, as if that corrected her old habit of obedience.
 
 sora|A different way to decide for other people without telling them I had decided.
 
@@ -163,7 +163,7 @@ sora|I used to think closeness meant someone would understand the explanation I 
 
 She asks whether the soup needs salt. When you answer, she tastes it again rather than defending the recipe.
 
-There is still something serious she owes the hall about the courier records. She names that responsibility, not the private details before she is ready. Then she returns to the soup, allowing an ordinary afternoon to contain an unfinished truth.
+There is still something serious she owes the hall about the courier records. She names that responsibility but keeps the private details until she is ready. Then she returns to the soup.
 `),
 personal("daichi",1,"The kettle repair",`
 Daichi is testing the kettle handle over a towel. He asks you to watch for movement in the pin while he applies gentle pressure.
@@ -183,7 +183,7 @@ Daichi offers to host an extra appointment. You point to his existing schedule. 
 
 daichi|I heard myself say yes before I looked. I like the feeling in the first second. The hours afterward are where other people discover what I meant.
 
-He phones Mika and revises the offer while it can still be changed without inconveniencing her. She accepts the new time and thanks him for checking.
+He sends Mika a quick note and revises the offer while it can still be changed without inconveniencing her. She accepts the new time and thanks him for checking.
 
 Afterward he tells you that being warm can become a way to avoid a disagreement. He worries that saying no will make someone feel unwanted. Yet a late absence can make them feel far less wanted than an honest limit.
 
@@ -224,7 +224,7 @@ yuzu|The rule is that you can stop whenever it gets annoying. A highly controver
 
 You find a route she did not plan. She checks it, laughs, and changes one moth rather than declaring your answer invalid.
 
-She says she likes games because a rule can make a movement interesting. She dislikes when people forget the other person agreed to the rule and may decide they are done.
+She says she likes games because a rule can make a movement interesting. She dislikes it when people forget that the other player agreed to the rule and may decide they are done.
 
 yuzu|If I tease you and it lands badly, tell me. You don't have to become more entertaining to keep up with my mouth.
 
@@ -250,7 +250,7 @@ yuzu|I do that when I want to get through the part where someone could ask me to
 
 She asks whether you think the hall will resent her leaving. You cannot know everyone's answer. You say she should ask them rather than make their imagined resentment do the talking.
 
-yuzu|Fair. I was about to argue with five fictional versions of my friends. Sora would have been extremely concise.
+yuzu|Fair. I was about to argue with five imaginary versions of my friends. Sora would have been extremely concise.
 
 The joke helps without replacing the point. Yuzu writes down which tasks she will hand over. She asks if you can remind her of the visitor sheet when the conversation happens. Your answer can be no; she will put a note beside the bag too.
 

@@ -73,7 +73,7 @@ You watch their feet and understand one small connection. Balance is not a pose 
 Ren finishes his set and lowers the pads instead of offering you a turn. He asks if you would like to see how the straps are adjusted. It is a modest invitation. You accept.
 `),
 scene(1,3,"The person with the tools","courtyard",`
-Riku is outside measuring a board. Ren introduces him as the person who can save the hall. Riku does not look up.
+Riku is still measuring a board when Ren introduces him as the person who can save the hall. Riku does not look up.
 
 riku|I can replace joists. Your roof, operating expenses, and social habits are separate estimates.
 
@@ -106,7 +106,7 @@ Yuzu tries the door from the outside. It sticks, then yields with a groan. For o
 You keep the tape steady. Riku reads the number and thanks you by name rather than calling you apprentice. Akari adds it to the list. A number, you discover, can feel like an invitation too.
 `),
 scene(1,4,"A place for the kettle","hall",`
-The kettle handle gives way while Daichi is showing you where cups belong. No one is burned; he was checking the empty kettle over a folded towel. He looks at the handle in his hand, then at Akari's list.
+The kettle handle has come off. Daichi has left it beside the kettle while he shows you where the cups belong. No one was burned; he was checking the empty kettle over a folded towel. He looks from the handle to Akari's list.
 
 daichi|People have made progress on the list. The kettle has chosen decline.
 
@@ -138,7 +138,7 @@ yuzu|A dangerously well-supervised kettle.
 
 ren|Lantern Hall. The old sign still says it. We can stop apologizing for the old sign.
 
-Daichi repeats the name softly. Riku returns the repaired kettle and asks them to test it before filling it. The old sign stays. The cups move lower. The blue bowl remains where it was.
+Daichi repeats the name softly. Riku sets the kettle and its new pin aside until he has a clear table. The old sign stays. The blue bowl remains where it was.
 `),
 scene(1,5,"What gets repaired first","courtyard",`
 The estimates are spread on a crate. There is enough money and volunteer time to start one job properly. Akari has already drawn a careful line around the floor. Ren has already drawn a much less careful picture of the welcome corner.
@@ -184,14 +184,14 @@ sora|Wednesday can remain empty. An empty square does not need defending every w
 
 Riku says he cannot attend every session. Mika will need the hall for appointments sometimes. People will leave, return, and miss meals. Daichi nods as though this is something he agrees with in theory and has not quite learned in practice.
 
-Outside, the bell sounds twice again. Sora takes a note this time. Akari asks if the town has changed its signal. Sora does not know. She says so.
+Outside, the bell sounds twice again. Sora writes down the time. Akari asks if the town has changed its signal. Sora does not know. She says so.
 
 yuzu|A rare sighting. Sora without a footnote.
 
 sora|Give me a day.
 
-You help clear the table. The sticking door lets you out after only one attempt. Riku says he adjusted it while the bread cooled; the larger job remains.
+Riku mentions that he adjusted the sticking door while the bread cooled; the larger job remains.
 
-On the way home, you realize no one called you talented. They asked you to hold something steady, listened to your preference, and made room at a table. You can imagine coming back to that.
+Nobody has called you talented. They asked you to hold something steady, listened to your preference, and made room at a table. You can imagine coming back to that.
 `),
 ];

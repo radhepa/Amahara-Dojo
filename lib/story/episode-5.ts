@@ -7,11 +7,11 @@ natsume|I can perform two functions in one visit. You needn't approve both in wr
 
 Ren enjoys Akari's momentary lack of an answer. He stops enjoying it when Natsume asks who checks the appointment capacity. He fetches the sheet immediately.
 
-The inspection is concrete. Floor boundary, exits, first-aid contacts, consent for partner work, instructor responsibilities, beginner scope. Natsume asks you what would happen if a movement hurt. You say you would stop and choose rest rather than push to complete the story reward. She nods and moves on.
+The inspection is concrete. Floor boundary, exits, first-aid contacts, consent for partner work, instructor responsibilities, beginner scope. Natsume asks you what would happen if a movement hurt. You say you would stop and choose rest rather than push on to finish. She nods and moves on.
 
 natsume|A sensible answer is not proof of future behavior. The room should make the sensible action easy.
 
-She checks whether the practice interface actually allows pausing and stopping. It does. Wednesday has no assigned drill. She approves of that, then asks why the hall's physical calendar still says possible demonstration on a day Mika reserved.
+She checks whether the practice plan actually allows pausing and stopping. It does. Wednesday has no assigned drill. She approves of that, then asks why the hall's physical calendar still says possible demonstration on a day Mika reserved.
 
 Daichi says he had hoped they could fit both. Mika, arriving behind the inspector, says no. The answer is not unfriendly. It is final.
 
@@ -55,7 +55,7 @@ riku|Here's the part you decided. Here's the part still owed. I prefer a plan yo
 
 Akari lets you introduce a visitor to the right founder. It is a real responsibility with a clear limit: you can explain the programme and find the responsible person; you cannot approve someone's readiness for contact work.
 
-Emi is there for another visit. She asks to help with the sign, then chooses to spend the second half watching rather than working. Ren starts to thank her for staying useful and catches himself.
+Emi is there for another visit. She checks that her sign is still readable, then chooses to spend the second half watching rather than working. Ren starts to thank her for staying useful and catches himself.
 
 ren|I'm glad you're staying. The sign already did its job.
 
@@ -82,7 +82,7 @@ akari|Fair. I was reaching for work before I decided what problem it solves.
 
 Ren admits he has done the same thing with his bakery promises. Yuzu says she has sometimes avoided the entire risk by refusing to promise anything. That has costs too, usually paid by people who are trying to plan around her.
 
-Nobody gives a speech about discipline. They put their commitments on the table and discover that several were never written down. Ren has a delivery. Yuzu has a travel agreement. Mika has village work. Sora has an archive appointment. You have a training schedule that already includes other demanding work.
+Nobody gives a speech about discipline. They put their commitments on the table and discover that several were never written down. Ren has a delivery. Yuzu has a travel agreement. Mika has village work. Sora has an archive appointment. You have your own practice days, and a Wednesday that stays empty.
 
 daichi|I like being the person who says yes. I have let other people carry what happens after I say it.
 
@@ -124,7 +124,7 @@ He grins, but does not tease her enough to make taking the risk feel foolish. So
 
 Natsume's preliminary note says the hall can meet the review standard if the repair schedule and responsibilities remain clear. It does not promise approval. Akari reads the qualifications aloud instead of treating the note as a victory.
 
-You finish your own gentle practice and choose whether to reflect. The story continues either way. No one has earned a rank by being reliable for an afternoon. Reliability has nevertheless made the room easier to use.
+You finish your own gentle practice and choose whether to reflect. The afternoon goes on either way. No one has earned a rank by being reliable for an afternoon. Reliability has nevertheless made the room easier to use.
 
 Daichi asks if you can stay for tea. When you cannot, he accepts that without turning the invitation into a test. He puts a cup away instead of setting it where you would have sat.
 
